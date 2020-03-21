@@ -1,0 +1,1805 @@
+assembly not taint included : sub rsp, 0x8
+assembly not taint included : jz 0x40296d
+assembly not taint included : call 0x403220
+assembly not taint included : add rsp, 0x8
+assembly not taint included : ret 
+assembly not taint included : jmp qword ptr [rip+0x203682]
+assembly not taint included : xor ebp, ebp
+assembly not taint included : and rsp, 0xfffffffffffffff0
+assembly not taint included : push rsp
+assembly not taint included : hlt 
+assembly not taint included : mov rbp, rsp
+assembly not taint included : jbe 0x403290
+assembly not taint included : pop rbp
+assembly not taint included : nop word ptr [rax+rax*1], ax
+assembly not taint included : jnz 0x4032fa
+assembly not taint included : rep stosq qword ptr [rdi]
+assembly not taint included : repne scasb byte ptr [rdi]
+assembly not taint included : not rcx
+assembly not taint included : lea rbp, ptr [rip+0x20185e]
+assembly not taint included : sar rbp, 0x3
+assembly not taint included : test rbp, rbp
+assembly not taint included : imul edx 54 56
+assembly not taint included : cld 
+assembly not taint included : jnl 0x7f7d1065fc2a
+assembly not taint included : jnb 0x7f7d1065fc15
+assembly not taint included : js 0x7f7d1065ffb9
+assembly not taint included : jns 0x7f7d1065ff98
+assembly not taint included : jle 0x7f7d106601b3
+assembly not taint included : movsxd rbp, ebp
+assembly not taint included : mul edx 54 56
+assembly not taint included : cmovnl ebp, eax
+assembly not taint included : cmp rbp, rbx
+assembly not taint included : jnbe 0x7f7d10661206
+assembly not taint included : jnle 0x7f7d106611ca
+assembly not taint included : cmovz ebp, eax
+assembly not taint included : jb 0x7f7d10661933
+assembly not taint included : sbb ebp, ebp
+assembly not taint included : movzx ebp, byte ptr [rdi+0x7c]
+assembly not taint included : cmovle ebp, r13d
+assembly not taint included : imul rbp, rbp, 0xf4240
+assembly not taint included : jl 0x7f7d10666d2e
+assembly not taint included : idiv edi 45 56
+assembly not taint included : div rcx 9 10
+thread id: 2, enter function: ThreadProc(void*)
+Not Taint 0x7f7d10661742: push rbx	mem: 0x7f7d0cbeef10	value: 0x0
+Not Taint 0x7f7d10661747: mov rbx, rdi	value: 0x7f7d08002ae0
+Not Taint 0x7f7d1066174a: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10661753: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbeef08	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1066175a: mov rsi, rsp	value: 0x7f7d0cbeef00
+thread id: 2, enter function: pthread_setcanceltype@plt
+thread id: 2, enter function: pthread_setcancelstate@plt
+Not Taint 0x7f7d1066177c: mov rax, qword ptr [rbx]	 mem: 0x7f7d08002ae0	value: 0x7f7d1087f3d8
+Not Taint 0x7f7d1066177f: mov rdi, rbx	value: 0x7f7d08002ae0
+thread id: 2, enter function: TMsgWorkerThread::Execute()
+Not Taint 0x7f7d10661264: push r12	mem: 0x7f7d0cbeeef0	value: 0x0
+Not Taint 0x7f7d10661267: push rbx	mem: 0x7f7d0cbeeee0	value: 0x7f7d08002ae0
+Not Taint 0x7f7d10661268: mov rbx, rdi	value: 0x7f7d08002ae0
+Not Taint 0x7f7d10661286: mov rax, qword ptr [rbx+0x18]	 mem: 0x7f7d08002af8	value: 0x200dc40
+Not Taint 0x7f7d10661294: mov rdi, qword ptr [rbx+0x20]	 mem: 0x7f7d08002b00	value: 0x7f7d080008c0
+Not Taint 0x7f7d10661298: mov rax, qword ptr [rdi]	 mem: 0x7f7d080008c0	value: 0x7f7d1087f768
+thread id: 2, enter function: TIsoTcpWorker::Execute()
+Not Taint 0x7f7d106652aa: push rbx	mem: 0x7f7d0cbeeed0	value: 0x7f7d08002ae0
+Not Taint 0x7f7d106652ab: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d106652ae: mov rax, qword ptr [rdi]	 mem: 0x7f7d080008c0	value: 0x7f7d1087f768
+thread id: 2, enter function: TIsoTcpWorker::ExecuteSend()
+thread id: 2, exit  function: TIsoTcpWorker::ExecuteSend()
+Not Taint 0x7f7d106652b8: mov rax, qword ptr [rbx]	 mem: 0x7f7d080008c0	value: 0x7f7d1087f768
+Not Taint 0x7f7d106652bb: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TS7Worker::ExecuteRecv()
+Not Taint 0x7f7d106653e8: mov rax, qword ptr [rdi+0x21e0]	 mem: 0x7f7d08002aa0	value: 0x200dc40
+Not Taint 0x7f7d106653ef: mov eax, dword ptr [rax+0x60dc]	 mem: 0x2013d1c	value: 0x64
+Not Taint 0x7f7d106653f5: mov dword ptr [rdi+0x68], eax	mem: 0x7f7d08000928	value: 0x64
+thread id: 2, enter function: TIsoTcpWorker::ExecuteRecv()@plt
+thread id: 2, enter function: TIsoTcpWorker::ExecuteRecv()
+Not Taint 0x7f7d106652c6: push r12	mem: 0x7f7d0cbeeeb0	value: 0x0
+Not Taint 0x7f7d106652c9: push rbx	mem: 0x7f7d0cbeeea0	value: 0x7f7d080008c0
+Not Taint 0x7f7d106652ce: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d106652d1: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d106652da: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbeee98	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d106652e1: mov esi, dword ptr [rdi+0x68]	 mem: 0x7f7d08000928	value: 0x64
+thread id: 2, enter function: TMsgSocket::CanRead(int)@plt
+thread id: 2, enter function: TMsgSocket::CanRead(int)
+Not Taint 0x7f7d1065f9b9: push rbx	mem: 0x7f7d0cbeee78	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065f9c1: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f9ca: mov qword ptr [rsp+0x98], rax	mem: 0x7f7d0cbeee68	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f9de: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065f9e6: mov eax, esi	value: 0x64
+Not Taint 0x7f7d1065f9ed: mov eax, esi	value: 0x64
+Not Taint 0x7f7d1065fa02: movsxd rsi, esi	value: 0x186a0
+Not Taint 0x7f7d1065fa05: mov qword ptr [rsp+0x8], rsi	mem: 0x7f7d0cbeedd8	value: 0x186a0
+Not Taint 0x7f7d1065fa0a: movsxd rdx, edx	value: 0x0
+Not Taint 0x7f7d1065fa0d: mov qword ptr [rsp], rdx	mem: 0x7f7d0cbeedd0	value: 0x0
+Not Taint 0x7f7d1065fa20: mov rdi, rbp	value: 0x7f7d0cbeede0
+Not Taint 0x7f7d1065fa27: movsxd rdi, dword ptr [rbx+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+thread id: 2, enter function: __fdelt_chk@plt
+Not Taint 0x7f7d1065fa30: mov edi, dword ptr [rbx+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+Not Taint 0x7f7d1065fa33: mov edx, edi	value: 0x4
+Not Taint 0x7f7d1065fa53: mov r8, rsp	value: 0x7f7d0cbeedd0
+Not Taint 0x7f7d1065fa60: mov rsi, rbp	value: 0x7f7d0cbeede0
+thread id: 2, enter function: select@plt
+Not Taint 0x7f7d1065fa68: cdqe 	value: 0x1
+Not Taint 0x7f7d1065fa83: setnle al	value: 0x202
+Not Taint 0x7f7d1065fa8d: mov rbx, qword ptr [rsp+0x98]	 mem: 0x7f7d0cbeee68	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065faac: pop rbx	 mem: 0x7f7d0cbeee78	value: 0x7f7d080008c0
+thread id: 2, exit  function: TMsgSocket::CanRead(int)
+Not Taint 0x7f7d106652ff: mov rsi, r12	value: 0x7f7d08000a44
+Not Taint 0x7f7d10665302: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)@plt
+thread id: 2, enter function: TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)
+Not Taint 0x7f7d10662df4: push r15	mem: 0x7f7d0cbeee80	value: 0x0
+Not Taint 0x7f7d10662df6: push r14	mem: 0x7f7d0cbeee78	value: 0x7f7d0cbef9c0
+Not Taint 0x7f7d10662df8: push r13	mem: 0x7f7d0cbeee70	value: 0x7f7d0de84dcf
+Not Taint 0x7f7d10662dfa: push r12	mem: 0x7f7d0cbeee68	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662dfd: push rbx	mem: 0x7f7d0cbeee58	value: 0x7f7d080008c0
+Not Taint 0x7f7d10662e02: mov r13, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d10662e05: mov qword ptr [rsp+0x18], rsi	mem: 0x7f7d0cbeee38	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662e0a: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10662e13: mov qword ptr [rsp+0x28], rax	mem: 0x7f7d0cbeee48	value: 0xf4f60b3748f98f00
+thread id: 2, enter function: TIsoTcpSocket::ClrIsoError()@plt
+thread id: 2, enter function: TIsoTcpSocket::ClrIsoError()
+thread id: 2, exit  function: TIsoTcpSocket::ClrIsoError()
+Not Taint 0x7f7d10662e48: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbeee28	value: 0x7f7d0cbeee44
+Not Taint 0x7f7d10662e4d: movsxd rax, ebp	value: 0x0
+Not Taint 0x7f7d10662e53: mov edx, r14d	value: 0x1000
+Not Taint 0x7f7d10662e5c: mov r8, r15	value: 0x7f7d0cbeee43
+Not Taint 0x7f7d10662e5f: mov rcx, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbeee28	value: 0x7f7d0cbeee44
+Not Taint 0x7f7d10662e64: mov rsi, rbx	value: 0x7f7d08000a4b
+Not Taint 0x7f7d10662e67: mov rdi, r13	value: 0x7f7d080008c0
+thread id: 2, enter function: TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)@plt
+thread id: 2, enter function: TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)
+Not Taint 0x7f7d10662cce: push r15	mem: 0x7f7d0cbeee10	value: 0x7f7d0cbeee43
+Not Taint 0x7f7d10662cd0: push r14	mem: 0x7f7d0cbeee08	value: 0x1000
+Not Taint 0x7f7d10662cd2: push r13	mem: 0x7f7d0cbeee00	value: 0x7f7d080008c0
+Not Taint 0x7f7d10662cd4: push r12	mem: 0x7f7d0cbeedf8	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662cd7: push rbx	mem: 0x7f7d0cbeede8	value: 0x7f7d08000a4b
+Not Taint 0x7f7d10662cdc: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d10662cdf: mov qword ptr [rsp+0x8], rsi	mem: 0x7f7d0cbeedd8	value: 0x7f7d08000a4b
+Not Taint 0x7f7d10662ce4: mov r15d, edx	value: 0x1000
+Not Taint 0x7f7d10662ce7: mov r14, rcx	value: 0x7f7d0cbeee44
+Not Taint 0x7f7d10662cea: mov r13, r8	value: 0x7f7d0cbeee43
+thread id: 2, enter function: TIsoTcpSocket::ClrIsoError()@plt
+thread id: 2, enter function: TIsoTcpSocket::ClrIsoError()
+thread id: 2, exit  function: TIsoTcpSocket::ClrIsoError()
+Not Taint 0x7f7d10662d08: mov rsi, r12	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662d0b: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TMsgSocket::RecvPacket(void*, int)@plt
+thread id: 2, enter function: TMsgSocket::RecvPacket(void*, int)
+Not Taint 0x7f7d1066028c: push r12	mem: 0x7f7d0cbeedc0	value: 0x7f7d08000a44
+Not Taint 0x7f7d1066028f: push rbx	mem: 0x7f7d0cbeedb0	value: 0x7f7d080008c0
+Not Taint 0x7f7d10660290: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d10660293: mov r12, rsi	value: 0x7f7d08000a44
+Not Taint 0x7f7d10660298: mov edx, dword ptr [rdi+0x70]	 mem: 0x7f7d08000930	value: 0xbb8
+Not Taint 0x7f7d1066029b: mov esi, ebp	value: 0x7
+thread id: 2, enter function: TMsgSocket::WaitForData(int, int)@plt
+thread id: 2, enter function: TMsgSocket::WaitForData(int, int)
+Not Taint 0x7f7d1065fba2: push r13	mem: 0x7f7d0cbeeda0	value: 0x7f7d0cbeee43
+Not Taint 0x7f7d1065fba4: push r12	mem: 0x7f7d0cbeed98	value: 0x7f7d08000a44
+Not Taint 0x7f7d1065fba7: push rbx	mem: 0x7f7d0cbeed88	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065fbac: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065fbb1: mov r12d, edx	value: 0xbb8
+Not Taint 0x7f7d1065fbb4: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065fbbd: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbeed78	value: 0xf4f60b3748f98f00
+thread id: 2, enter function: TMsgSocket::CanRead(int)@plt
+thread id: 2, enter function: TMsgSocket::CanRead(int)
+Not Taint 0x7f7d1065f9b9: push rbx	mem: 0x7f7d0cbeed58	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065f9c1: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f9ca: mov qword ptr [rsp+0x98], rax	mem: 0x7f7d0cbeed48	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f9de: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065f9e6: mov eax, esi	value: 0x0
+Not Taint 0x7f7d1065f9ed: mov eax, esi	value: 0x0
+Not Taint 0x7f7d1065fa02: movsxd rsi, esi	value: 0x0
+Not Taint 0x7f7d1065fa05: mov qword ptr [rsp+0x8], rsi	mem: 0x7f7d0cbeecb8	value: 0x0
+Not Taint 0x7f7d1065fa0a: movsxd rdx, edx	value: 0x0
+Not Taint 0x7f7d1065fa0d: mov qword ptr [rsp], rdx	mem: 0x7f7d0cbeecb0	value: 0x0
+Not Taint 0x7f7d1065fa20: mov rdi, rbp	value: 0x7f7d0cbeecc0
+Not Taint 0x7f7d1065fa27: movsxd rdi, dword ptr [rbx+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+thread id: 2, enter function: __fdelt_chk@plt
+Not Taint 0x7f7d1065fa30: mov edi, dword ptr [rbx+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+Not Taint 0x7f7d1065fa33: mov edx, edi	value: 0x4
+Not Taint 0x7f7d1065fa53: mov r8, rsp	value: 0x7f7d0cbeecb0
+Not Taint 0x7f7d1065fa60: mov rsi, rbp	value: 0x7f7d0cbeecc0
+thread id: 2, enter function: select@plt
+Not Taint 0x7f7d1065fa68: cdqe 	value: 0x1
+Not Taint 0x7f7d1065fa83: setnle al	value: 0x202
+Not Taint 0x7f7d1065fa8d: mov rbx, qword ptr [rsp+0x98]	 mem: 0x7f7d0cbeed48	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065faac: pop rbx	 mem: 0x7f7d0cbeed58	value: 0x7f7d080008c0
+thread id: 2, exit  function: TMsgSocket::CanRead(int)
+Not Taint 0x7f7d1065fbd2: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TMsgSocket::WaitingData()@plt
+thread id: 2, enter function: TMsgSocket::WaitingData()
+Not Taint 0x7f7d1065f77e: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f787: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbeed58	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f796: mov rdx, rsp	value: 0x7f7d0cbeed50
+Not Taint 0x7f7d1065f799: mov edi, dword ptr [rdi+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+thread id: 2, enter function: ioctl@plt
+Not Taint 0x7f7d1065f7bf: mov rcx, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbeed58	value: 0xf4f60b3748f98f00
+thread id: 2, exit  function: TMsgSocket::WaitingData()
+thread id: 2, enter function: SysGetTick()@plt
+thread id: 2, enter function: SysGetTick()
+Not Taint 0x7f7d106608c5: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d106608ce: mov qword ptr [rsp+0x18], rax	mem: 0x7f7d0cbeed58	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d106608d5: mov rsi, rsp	value: 0x7f7d0cbeed40
+thread id: 2, enter function: clock_gettime@plt
+Not Taint 0x7f7d106608e9: mov rcx, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbeed48	value: 0x3a54b0e3
+Not Taint 0x7f7d106608f8: mov rax, rcx	value: 0x3a54b0e3
+Not Taint 0x7f7d1066090c: mov rdi, qword ptr [rsp+0x18]	 mem: 0x7f7d0cbeed58	value: 0xf4f60b3748f98f00
+thread id: 2, exit  function: SysGetTick()
+Not Taint 0x7f7d1065fbf8: mov dword ptr [rsp+0x4], eax	mem: 0x7f7d0cbeed74	value: 0x980868ea
+Not Taint 0x7f7d1065fc01: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TMsgSocket::WaitingData()@plt
+thread id: 2, enter function: TMsgSocket::WaitingData()
+Not Taint 0x7f7d1065f77e: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f787: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbeed58	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f796: mov rdx, rsp	value: 0x7f7d0cbeed50
+Not Taint 0x7f7d1065f799: mov edi, dword ptr [rdi+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+thread id: 2, enter function: ioctl@plt
+Not Taint 0x7f7d1065f7bf: mov rcx, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbeed58	value: 0xf4f60b3748f98f00
+thread id: 2, exit  function: TMsgSocket::WaitingData()
+Not Taint 0x7f7d1065fc2a: mov eax, dword ptr [rbx+0x78]	 mem: 0x7f7d08000938	value: 0x0
+Not Taint 0x7f7d1065fc36: mov rcx, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbeed78	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065fc60: pop rbx	 mem: 0x7f7d0cbeed88	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065fc62: pop r12	 mem: 0x7f7d0cbeed98	value: 0x7f7d08000a44
+Not Taint 0x7f7d1065fc64: pop r13	 mem: 0x7f7d0cbeeda0	value: 0x7f7d0cbeee43
+thread id: 2, exit  function: TMsgSocket::WaitForData(int, int)
+Not Taint 0x7f7d106602a2: mov eax, dword ptr [rbx+0x78]	 mem: 0x7f7d08000938	value: 0x0
+Not Taint 0x7f7d106602a9: movsxd rdx, ebp	value: 0x7
+Not Taint 0x7f7d106602ac: mov edi, dword ptr [rbx+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+Not Taint 0x7f7d106602b4: mov rsi, r12	value: 0x7f7d08000a44
+thread id: 2, enter function: recv@plt
+[TAINT]	 0x7 bytes tainted from 0x7f7d08000a44 to 0x7f7d08000a4b (via recv socket: 4)
+taint start: 7f7d08000a44, size: 7
+Not Taint 0x7f7d106602e7: mov eax, dword ptr [rbx+0x78]	 mem: 0x7f7d08000938	value: 0x0
+Not Taint 0x7f7d106602f8: pop rbx	 mem: 0x7f7d0cbeedb0	value: 0x7f7d080008c0
+Not Taint 0x7f7d106602fa: pop r12	 mem: 0x7f7d0cbeedc0	value: 0x7f7d08000a44
+thread id: 2, exit  function: TMsgSocket::RecvPacket(void*, int)
+thread: 2 [+ Reg <- Mem]	0x7f7d10662d3d: movzx eax, byte ptr [rbx+0x18a]	 addr: 0x7f7d08000a4a value: (0x7f7d08000a4a, 0x80)
+memory  :		src: 7f7d08000a4a, size: 1, offset: 6, bigendian: 0, value: 80
+register EAX:	src: 7f7d08000a4a, size: 1, offset: 6, bigendian: 0, value: 80, shift: 0
+
+[USE RegImm]		0x7f7d10662d44: shr al, 0x7 value: 0x80, opcode: 748, imm: 7
+register AL:	src: 7f7d08000a4a, size: 1, offset: 6, bigendian: 0, value: 80, shift: 0
+
+thread: 2 [+ Mem <- Reg]	0x7f7d10662d47: mov byte ptr [r13], al	 addr: 0x7f7d0cbeee43 value: (0x7f7d08000a4a, 0x1)
+register AL:	src: 7f7d08000a4a, size: 1, offset: 6, bigendian: 0, value: 80, shift: 0
+memory  :		src: 7f7d08000a4a, size: 1, offset: 6, bigendian: 0, value: 80
+
+Not Taint 0x7f7d10662d5f: mov rsi, r12	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662d62: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TIsoTcpSocket::PDUSize(void*)@plt
+thread id: 2, enter function: TIsoTcpSocket::PDUSize(void*)
+thread: 2 [+ Reg <- Mem]	0x7f7d10662900: movzx eax, byte ptr [rsi+0x2]	 addr: 0x7f7d08000a46 value: (0x7f7d08000a46, 0x0)
+memory  :		src: 7f7d08000a46, size: 1, offset: 2, bigendian: 0, value: 0
+register EAX:	src: 7f7d08000a46, size: 1, offset: 2, bigendian: 0, value: 0, shift: 0
+
+[USE RegImm]		0x7f7d10662904: shl eax, 0x8 value: 0x0, opcode: 745, imm: 8
+register EAX:	src: 7f7d08000a46, size: 1, offset: 2, bigendian: 0, value: 0, shift: 1
+
+thread: 2 [+ Reg <- Mem]	0x7f7d10662907: movzx edx, byte ptr [rsi+0x3]	 addr: 0x7f7d08000a47 value: (0x7f7d08000a47, 0x1f)
+memory  :		src: 7f7d08000a47, size: 1, offset: 3, bigendian: 0, value: 1f
+register EDX:	src: 7f7d08000a47, size: 1, offset: 3, bigendian: 0, value: 1f, shift: 0
+
+before
+register EAX:	src: 7f7d08000a46, size: 1, offset: 2, bigendian: 0, value: 0, shift: 1
+register EAX:	src: 7f7d08000a46, size: 1, offset: 2, bigendian: 0, value: 0, shift: 1
+register EDX:	src: 7f7d08000a47, size: 1, offset: 3, bigendian: 0, value: 1f, shift: 0
+[USE RegReg]		0x7f7d1066290b: add eax, edx value: 0x0, opcode: 8
+register EAX:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+register EAX:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+
+thread id: 2, exit  function: pthread_mutex_unlock@plt
+thread: 2 [+ Reg <- Reg]	0x7f7d10662d6a: mov r13d, eax value: (0x7f7d08000a46, 0x1f)
+register EAX:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+register EAX:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+
+thread: 2 [- Reg <- Reg]	0x7f7d10662d6d: movzx edx, bpl
+register EDX:	src: 7f7d08000a47, size: 1, offset: 3, bigendian: 0, value: 1f, shift: 0
+
+Not Taint 0x7f7d10662d71: mov rsi, r12	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662d74: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TIsoTcpSocket::CheckPDU(void*, unsigned char)@plt
+thread id: 2, enter function: TIsoTcpSocket::CheckPDU(void*, unsigned char)
+Not Taint 0x7f7d1066290e: push r12	mem: 0x7f7d0cbeedc0	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662911: push rbx	mem: 0x7f7d0cbeedb0	value: 0x7f7d080008c0
+Not Taint 0x7f7d10662915: mov rbx, rsi	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662918: mov r12d, edx	value: 0xf0
+thread id: 2, enter function: TIsoTcpSocket::ClrIsoError()@plt
+thread id: 2, enter function: TIsoTcpSocket::ClrIsoError()
+thread id: 2, exit  function: TIsoTcpSocket::ClrIsoError()
+Not Taint 0x7f7d10662925: mov rsi, rbx	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662928: mov rdi, rbp	value: 0x7f7d080008c0
+thread id: 2, enter function: TIsoTcpSocket::PDUSize(void*)@plt
+thread id: 2, enter function: TIsoTcpSocket::PDUSize(void*)
+thread: 2 [+ Reg <- Mem]	0x7f7d10662900: movzx eax, byte ptr [rsi+0x2]	 addr: 0x7f7d08000a46 value: (0x7f7d08000a46, 0x0)
+memory  :		src: 7f7d08000a46, size: 1, offset: 2, bigendian: 0, value: 0
+register EAX:	src: 7f7d08000a46, size: 1, offset: 2, bigendian: 0, value: 0, shift: 0
+
+[USE RegImm]		0x7f7d10662904: shl eax, 0x8 value: 0x0, opcode: 745, imm: 8
+register EAX:	src: 7f7d08000a46, size: 1, offset: 2, bigendian: 0, value: 0, shift: 1
+
+thread: 2 [+ Reg <- Mem]	0x7f7d10662907: movzx edx, byte ptr [rsi+0x3]	 addr: 0x7f7d08000a47 value: (0x7f7d08000a47, 0x1f)
+memory  :		src: 7f7d08000a47, size: 1, offset: 3, bigendian: 0, value: 1f
+register EDX:	src: 7f7d08000a47, size: 1, offset: 3, bigendian: 0, value: 1f, shift: 0
+
+before
+register EAX:	src: 7f7d08000a46, size: 1, offset: 2, bigendian: 0, value: 0, shift: 1
+register EAX:	src: 7f7d08000a46, size: 1, offset: 2, bigendian: 0, value: 0, shift: 1
+register EDX:	src: 7f7d08000a47, size: 1, offset: 3, bigendian: 0, value: 1f, shift: 0
+[USE RegReg]		0x7f7d1066290b: add eax, edx value: 0x0, opcode: 8
+register EAX:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+register EAX:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+
+thread id: 2, exit  function: TIsoTcpSocket::PDUSize(void*)
+[USE RegImm]		0x7f7d10662930: sub eax, 0x7 value: 0x1f, opcode: 773, imm: 7
+register EAX:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+
+[USE RegImm]		0x7f7d10662933: cmp eax, 0xff9 value: 0x18, opcode: 99, imm: 4089
+register EAX:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+
+[USE MemImm]		0x7f7d1066293a: cmp byte ptr [rbx+0x4], 0x1 value: 0x2, opcode: 99
+memory  :		src: 7f7d08000a48, size: 1, offset: 4, bigendian: 0, value: 2
+
+thread: 2 [DELETE Reg]	0x7f7d10662940 : mov eax, 0x0
+register EAX:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+
+[USE RegMem]		0x7f7d10662945: cmp byte ptr [rbx+0x5], r12b value: 0xf0, opcode: 99
+memory  :		src: 7f7d08000a49, size: 1, offset: 5, bigendian: 0, value: f0
+
+Not Taint 0x7f7d10662967: pop rbx	 mem: 0x7f7d0cbeedb0	value: 0x7f7d080008c0
+Not Taint 0x7f7d10662969: pop r12	 mem: 0x7f7d0cbeedc0	value: 0x7f7d08000a44
+thread id: 2, exit  function: TIsoTcpSocket::CheckPDU(void*, unsigned char)
+[USE RegImm]		0x7f7d10662d88: sub r13d, 0x7 value: 0x1f, opcode: 773, imm: 7
+register R13D:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+
+[USE RegReg]		0x7f7d10662d8c: test r13d, r13d value: 0x18, opcode: 787
+register R13D:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+register R13D:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+
+[USE RegReg]		0x7f7d10662d91: cmp r13d, r15d value: 0x18, opcode: 99
+register R13D:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+
+thread: 2 [+ Reg <- Reg]	0x7f7d10662d96: mov edx, r13d value: (0x7f7d08000a46, 0x18)
+register R13D:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+register R13D:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+
+Not Taint 0x7f7d10662d99: mov rsi, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbeedd8	value: 0x7f7d08000a4b
+Not Taint 0x7f7d10662d9e: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TMsgSocket::RecvPacket(void*, int)@plt
+thread id: 2, enter function: TMsgSocket::RecvPacket(void*, int)
+Not Taint 0x7f7d1066028c: push r12	mem: 0x7f7d0cbeedc0	value: 0x7f7d08000a44
+Not Taint 0x7f7d1066028f: push rbx	mem: 0x7f7d0cbeedb0	value: 0x7f7d080008c0
+Not Taint 0x7f7d10660290: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d10660293: mov r12, rsi	value: 0x7f7d08000a4b
+thread: 2 [- Reg <- Mem]	0x7f7d10660298: mov edx, dword ptr [rdi+0x70]	 addr: 0x7f7d08000930
+register EDX:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+
+Not Taint 0x7f7d1066029b: mov esi, ebp	value: 0x18
+thread id: 2, enter function: TMsgSocket::WaitForData(int, int)@plt
+thread id: 2, enter function: TMsgSocket::WaitForData(int, int)
+thread: 2 [+ Mem <- Reg]	0x7f7d1065fba2: push r13	 addr: 0x7f7d0cbeeda0 value: (0x7f7d08000a46, 0x18)
+register R13:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+memory  :		src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f
+
+Not Taint 0x7f7d1065fba4: push r12	mem: 0x7f7d0cbeed98	value: 0x7f7d08000a4b
+Not Taint 0x7f7d1065fba7: push rbx	mem: 0x7f7d0cbeed88	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065fbac: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065fbb1: mov r12d, edx	value: 0xbb8
+Not Taint 0x7f7d1065fbb4: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065fbbd: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbeed78	value: 0xf4f60b3748f98f00
+thread id: 2, enter function: TMsgSocket::CanRead(int)@plt
+thread id: 2, enter function: TMsgSocket::CanRead(int)
+Not Taint 0x7f7d1065f9b9: push rbx	mem: 0x7f7d0cbeed58	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065f9c1: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f9ca: mov qword ptr [rsp+0x98], rax	mem: 0x7f7d0cbeed48	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f9de: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065f9e6: mov eax, esi	value: 0x0
+Not Taint 0x7f7d1065f9ed: mov eax, esi	value: 0x0
+Not Taint 0x7f7d1065fa02: movsxd rsi, esi	value: 0x0
+Not Taint 0x7f7d1065fa05: mov qword ptr [rsp+0x8], rsi	mem: 0x7f7d0cbeecb8	value: 0x0
+Not Taint 0x7f7d1065fa0a: movsxd rdx, edx	value: 0x0
+Not Taint 0x7f7d1065fa0d: mov qword ptr [rsp], rdx	mem: 0x7f7d0cbeecb0	value: 0x0
+Not Taint 0x7f7d1065fa20: mov rdi, rbp	value: 0x7f7d0cbeecc0
+Not Taint 0x7f7d1065fa27: movsxd rdi, dword ptr [rbx+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+thread id: 2, enter function: __fdelt_chk@plt
+Not Taint 0x7f7d1065fa30: mov edi, dword ptr [rbx+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+Not Taint 0x7f7d1065fa33: mov edx, edi	value: 0x4
+Not Taint 0x7f7d1065fa53: mov r8, rsp	value: 0x7f7d0cbeecb0
+Not Taint 0x7f7d1065fa60: mov rsi, rbp	value: 0x7f7d0cbeecc0
+thread id: 2, enter function: select@plt
+Not Taint 0x7f7d1065fa68: cdqe 	value: 0x1
+Not Taint 0x7f7d1065fa83: setnle al	value: 0x202
+Not Taint 0x7f7d1065fa8d: mov rbx, qword ptr [rsp+0x98]	 mem: 0x7f7d0cbeed48	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065faac: pop rbx	 mem: 0x7f7d0cbeed58	value: 0x7f7d080008c0
+thread id: 2, exit  function: TMsgSocket::CanRead(int)
+Not Taint 0x7f7d1065fbd2: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TMsgSocket::WaitingData()@plt
+thread id: 2, enter function: TMsgSocket::WaitingData()
+Not Taint 0x7f7d1065f77e: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f787: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbeed58	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f796: mov rdx, rsp	value: 0x7f7d0cbeed50
+Not Taint 0x7f7d1065f799: mov edi, dword ptr [rdi+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+thread id: 2, enter function: ioctl@plt
+Not Taint 0x7f7d1065f7bf: mov rcx, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbeed58	value: 0xf4f60b3748f98f00
+thread id: 2, exit  function: TMsgSocket::WaitingData()
+thread id: 2, enter function: SysGetTick()@plt
+thread id: 2, enter function: SysGetTick()
+Not Taint 0x7f7d106608c5: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d106608ce: mov qword ptr [rsp+0x18], rax	mem: 0x7f7d0cbeed58	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d106608d5: mov rsi, rsp	value: 0x7f7d0cbeed40
+thread id: 2, enter function: clock_gettime@plt
+Not Taint 0x7f7d106608e9: mov rcx, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbeed48	value: 0x1bc6d07f
+Not Taint 0x7f7d106608f8: mov rax, rcx	value: 0x1bc6d07f
+Not Taint 0x7f7d1066090c: mov rdi, qword ptr [rsp+0x18]	 mem: 0x7f7d0cbeed58	value: 0xf4f60b3748f98f00
+thread id: 2, exit  function: SysGetTick()
+Not Taint 0x7f7d1065fbf8: mov dword ptr [rsp+0x4], eax	mem: 0x7f7d0cbeed74	value: 0x98086ad2
+thread: 2 [DELETE Reg]	0x7f7d1065fbfc : lea r13, ptr [rsp+0x4]
+register R13:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+
+Not Taint 0x7f7d1065fc01: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TMsgSocket::WaitingData()@plt
+thread id: 2, enter function: TMsgSocket::WaitingData()
+Not Taint 0x7f7d1065f77e: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f787: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbeed58	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f796: mov rdx, rsp	value: 0x7f7d0cbeed50
+Not Taint 0x7f7d1065f799: mov edi, dword ptr [rdi+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+thread id: 2, enter function: ioctl@plt
+Not Taint 0x7f7d1065f7bf: mov rcx, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbeed58	value: 0xf4f60b3748f98f00
+thread id: 2, exit  function: TMsgSocket::WaitingData()
+Not Taint 0x7f7d1065fc2a: mov eax, dword ptr [rbx+0x78]	 mem: 0x7f7d08000938	value: 0x0
+Not Taint 0x7f7d1065fc36: mov rcx, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbeed78	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065fc60: pop rbx	 mem: 0x7f7d0cbeed88	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065fc62: pop r12	 mem: 0x7f7d0cbeed98	value: 0x7f7d08000a4b
+thread: 2 [+ Reg <- Mem]	0x7f7d1065fc64: pop r13	 addr: 0x7f7d0cbeeda0 value: (0x7f7d08000a46, 0x18)
+memory  :		src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f
+register R13:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+
+thread id: 2, exit  function: TMsgSocket::WaitForData(int, int)
+Not Taint 0x7f7d106602a2: mov eax, dword ptr [rbx+0x78]	 mem: 0x7f7d08000938	value: 0x0
+Not Taint 0x7f7d106602a9: movsxd rdx, ebp	value: 0x18
+Not Taint 0x7f7d106602ac: mov edi, dword ptr [rbx+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+Not Taint 0x7f7d106602b4: mov rsi, r12	value: 0x7f7d08000a4b
+thread id: 2, enter function: recv@plt
+[TAINT]	 0x18 bytes tainted from 0x7f7d08000a4b to 0x7f7d08000a63 (via recv socket: 4)
+taint start: 7f7d08000a4b, size: 18
+Not Taint 0x7f7d106602e7: mov eax, dword ptr [rbx+0x78]	 mem: 0x7f7d08000938	value: 0x0
+Not Taint 0x7f7d106602f8: pop rbx	 mem: 0x7f7d0cbeedb0	value: 0x7f7d080008c0
+Not Taint 0x7f7d106602fa: pop r12	 mem: 0x7f7d0cbeedc0	value: 0x7f7d08000a44
+thread id: 2, exit  function: TMsgSocket::RecvPacket(void*, int)
+thread: 2 [+ Mem <- Reg]	0x7f7d10662dbb: mov dword ptr [r14], r13d	 addr: 0x7f7d0cbeee44 value: (0x7f7d08000a46, 0x18)
+register R13D:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+memory  :		src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f
+
+Not Taint 0x7f7d10662dde: mov eax, dword ptr [rbx+0x1198]	 mem: 0x7f7d08001a58	value: 0x0
+Not Taint 0x7f7d10662de8: pop rbx	 mem: 0x7f7d0cbeede8	value: 0x7f7d08000a4b
+Not Taint 0x7f7d10662dea: pop r12	 mem: 0x7f7d0cbeedf8	value: 0x7f7d08000a44
+thread: 2 [- Reg <- Mem]	0x7f7d10662dec: pop r13	 addr: 0x7f7d0cbeee00
+register R13:	src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f, shift: 0
+
+Not Taint 0x7f7d10662dee: pop r14	 mem: 0x7f7d0cbeee08	value: 0x1000
+Not Taint 0x7f7d10662df0: pop r15	 mem: 0x7f7d0cbeee10	value: 0x7f7d0cbeee43
+thread id: 2, exit  function: TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)
+Not Taint 0x7f7d10662e6f: mov r12d, eax	value: 0x0
+[USE MemImm]		0x7f7d10662e76: cmp byte ptr [rsp+0x23], 0x0 value: 0x1, opcode: 99
+memory  :		src: 7f7d08000a4a, size: 1, offset: 6, bigendian: 0, value: 80
+
+Not Taint 0x7f7d10662ec6: mov edx, ebp	value: 0x0
+[USE RegMem]		0x7f7d10662ec8: add edx, dword ptr [rsp+0x24] value: 0x0, opcode: 8
+memory  :		src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f
+
+Not Taint 0x7f7d10662ecf: movzx eax, dh	value: 0x0
+thread: 2 [- Mem <- Reg]	0x7f7d10662ed2: mov byte ptr [r13+0x186], al	 addr: 0x7f7d08000a46
+memory  :		src: 7f7d08000a46, size: 1, offset: 2, bigendian: 0, value: 0
+
+thread: 2 [- Mem <- Reg]	0x7f7d10662ed9: mov byte ptr [r13+0x187], dl	 addr: 0x7f7d08000a47
+memory  :		src: 7f7d08000a47, size: 1, offset: 3, bigendian: 0, value: 1f
+
+Not Taint 0x7f7d10662ee7: mov rax, qword ptr [rsp+0x18]	 mem: 0x7f7d0cbeee38	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662f0d: mov eax, r12d	value: 0x0
+Not Taint 0x7f7d10662f10: mov rcx, qword ptr [rsp+0x28]	 mem: 0x7f7d0cbeee48	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10662f29: pop rbx	 mem: 0x7f7d0cbeee58	value: 0x7f7d080008c0
+Not Taint 0x7f7d10662f2b: pop r12	 mem: 0x7f7d0cbeee68	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662f2d: pop r13	 mem: 0x7f7d0cbeee70	value: 0x7f7d0de84dcf
+Not Taint 0x7f7d10662f2f: pop r14	 mem: 0x7f7d0cbeee78	value: 0x7f7d0cbef9c0
+Not Taint 0x7f7d10662f31: pop r15	 mem: 0x7f7d0cbeee80	value: 0x0
+thread id: 2, exit  function: TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)
+Not Taint 0x7f7d1066530a: mov eax, dword ptr [rbx+0x78]	 mem: 0x7f7d08000938	value: 0x0
+Not Taint 0x7f7d10665315: mov rdx, rsp	value: 0x7f7d0cbeee90
+Not Taint 0x7f7d10665318: mov rsi, r12	value: 0x7f7d08000a44
+Not Taint 0x7f7d1066531b: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TIsoTcpSocket::IsoPeek(void*, TPDUKind&)@plt
+thread id: 2, enter function: TIsoTcpSocket::IsoPeek(void*, TPDUKind&)
+Not Taint 0x7f7d10663009: push rbx	mem: 0x7f7d0cbeee78	value: 0x7f7d080008c0
+Not Taint 0x7f7d1066300e: mov rbx, rsi	value: 0x7f7d08000a44
+thread id: 2, enter function: TIsoTcpSocket::PDUSize(void*)@plt
+thread id: 2, enter function: TIsoTcpSocket::PDUSize(void*)
+Not Taint 0x7f7d10662900: movzx eax, byte ptr [rsi+0x2]	 mem: 0x7f7d08000a46	value: 0x0
+Not Taint 0x7f7d10662907: movzx edx, byte ptr [rsi+0x3]	 mem: 0x7f7d08000a47	value: 0x1f
+thread id: 2, exit  function: TIsoTcpSocket::PDUSize(void*)
+thread: 2 [+ Reg <- Mem]	0x7f7d10663035: movzx eax, byte ptr [rbx+0x5]	 addr: 0x7f7d08000a49 value: (0x7f7d08000a49, 0xf0)
+memory  :		src: 7f7d08000a49, size: 1, offset: 5, bigendian: 0, value: f0
+register EAX:	src: 7f7d08000a49, size: 1, offset: 5, bigendian: 0, value: f0, shift: 0
+
+[USE RegImm]		0x7f7d10663039: cmp al, 0xe0 value: 0xf0, opcode: 99, imm: -32
+register AL:	src: 7f7d08000a49, size: 1, offset: 5, bigendian: 0, value: f0, shift: 0
+
+[USE RegImm]		0x7f7d1066303d: cmp al, 0xf0 value: 0xf0, opcode: 99, imm: -16
+register AL:	src: 7f7d08000a49, size: 1, offset: 5, bigendian: 0, value: f0, shift: 0
+
+Not Taint 0x7f7d10663066: pop rbx	 mem: 0x7f7d0cbeee78	value: 0x7f7d080008c0
+thread id: 2, exit  function: TIsoTcpSocket::IsoPeek(void*, TPDUKind&)
+thread: 2 [- Reg <- Mem]	0x7f7d10665323: mov eax, dword ptr [rsp]	 addr: 0x7f7d0cbeee90
+register EAX:	src: 7f7d08000a49, size: 1, offset: 5, bigendian: 0, value: f0, shift: 0
+
+Not Taint 0x7f7d1066532b: mov rsi, r12	value: 0x7f7d08000a44
+Not Taint 0x7f7d1066532e: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TIsoTcpSocket::PDUSize(void*)@plt
+thread id: 2, enter function: TIsoTcpSocket::PDUSize(void*)
+Not Taint 0x7f7d10662900: movzx eax, byte ptr [rsi+0x2]	 mem: 0x7f7d08000a46	value: 0x0
+Not Taint 0x7f7d10662907: movzx edx, byte ptr [rsi+0x3]	 mem: 0x7f7d08000a47	value: 0x1f
+thread id: 2, exit  function: TIsoTcpSocket::PDUSize(void*)
+Not Taint 0x7f7d10665339: mov dword ptr [rsp+0x4], eax	mem: 0x7f7d0cbeee94	value: 0x18
+Not Taint 0x7f7d10665342: mov rax, qword ptr [rbx]	 mem: 0x7f7d080008c0	value: 0x7f7d1087f768
+Not Taint 0x7f7d10665345: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TS7Worker::IsoPerformCommand(int&)
+Not Taint 0x7f7d10669d1a: push r12	mem: 0x7f7d0cbeee80	value: 0x7f7d08000a44
+Not Taint 0x7f7d10669d1d: push rbx	mem: 0x7f7d0cbeee70	value: 0x7f7d080008c0
+Not Taint 0x7f7d10669d21: mov r12, rsi	value: 0x7f7d0cbeee94
+Not Taint 0x7f7d10669d24: mov esi, dword ptr [rsi]	 mem: 0x7f7d0cbeee94	value: 0x18
+thread id: 2, enter function: TS7Worker::CheckPDU_in(int)@plt
+thread id: 2, enter function: TS7Worker::CheckPDU_in(int)
+Not Taint 0x7f7d10665492: push r13	mem: 0x7f7d0cbeee60	value: 0x7f7d0de84dcf
+Not Taint 0x7f7d10665494: push r12	mem: 0x7f7d0cbeee58	value: 0x7f7d0cbeee94
+Not Taint 0x7f7d10665497: push rbx	mem: 0x7f7d0cbeee48	value: 0x7f7d080008c0
+Not Taint 0x7f7d1066549c: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d1066549f: mov r12d, esi	value: 0x18
+Not Taint 0x7f7d106654a6: mov rax, qword ptr [rdi+0x11a0]	 mem: 0x7f7d08001a60	value: 0x7f7d08000a4b
+thread: 2 [+ Reg <- Mem]	0x7f7d106654ad: movzx esi, word ptr [rax+0x6]	 addr: 0x7f7d08000a51 value: (0x7f7d08000a51, 0xe00)
+memory  :		src: 7f7d08000a51, size: 1, offset: d, bigendian: 0, value: 0
+register ESI:	src: 7f7d08000a51, size: 2, offset: d, bigendian: 0, value: e00, shift: 0
+
+Not Taint 0x7f7d106654b1: mov rdi, r13	value: 0x7f7d080008c8
+thread id: 2, enter function: TSnapBase::SwapWord(unsigned short)@plt
+thread id: 2, enter function: TSnapBase::SwapWord(unsigned short)
+thread: 2 [+ Reg <- Reg]	0x7f7d1065f56c: mov eax, esi value: (0x7f7d08000a51, 0xe00)
+register ESI:	src: 7f7d08000a51, size: 2, offset: d, bigendian: 0, value: e00, shift: 0
+register ESI:	src: 7f7d08000a51, size: 2, offset: d, bigendian: 0, value: e00, shift: 0
+
+[USE RegImm]		0x7f7d1065f56e: rol ax, 0x8 value: 0xe00, opcode: 697, imm: 8
+register AX:	src: 7f7d08000a51, size: 2, offset: d, bigendian: 0, value: e00, shift: 0
+
+thread id: 2, exit  function: TSnapBase::SwapWord(unsigned short)
+thread: 2 [- Reg <- Mem]	0x7f7d106654bb: mov rax, qword ptr [rbx+0x11a0]	 addr: 0x7f7d08001a60
+register RAX:	src: 7f7d08000a51, size: 2, offset: d, bigendian: 0, value: e00, shift: 0
+
+thread: 2 [+ Reg <- Mem]	0x7f7d106654c2: movzx esi, word ptr [rax+0x8]	 addr: 0x7f7d08000a53 value: (0x7f7d08000a53, 0x0)
+memory  :		src: 7f7d08000a53, size: 1, offset: f, bigendian: 0, value: 0
+register ESI:	src: 7f7d08000a53, size: 2, offset: f, bigendian: 0, value: 0, shift: 0
+
+Not Taint 0x7f7d106654c6: mov rdi, r13	value: 0x7f7d080008c8
+thread id: 2, enter function: TSnapBase::SwapWord(unsigned short)@plt
+thread id: 2, enter function: TSnapBase::SwapWord(unsigned short)
+thread: 2 [+ Reg <- Reg]	0x7f7d1065f56c: mov eax, esi value: (0x7f7d08000a53, 0x0)
+register ESI:	src: 7f7d08000a53, size: 2, offset: f, bigendian: 0, value: 0, shift: 0
+register ESI:	src: 7f7d08000a53, size: 2, offset: f, bigendian: 0, value: 0, shift: 0
+
+[USE RegImm]		0x7f7d1065f56e: rol ax, 0x8 value: 0x0, opcode: 697, imm: 8
+register AX:	src: 7f7d08000a53, size: 2, offset: f, bigendian: 0, value: 0, shift: 0
+
+thread id: 2, exit  function: TSnapBase::SwapWord(unsigned short)
+thread: 2 [+ Reg <- Reg]	0x7f7d106654d1: movzx edx, ax value: (0x7f7d08000a53, 0x0)
+register AX:	src: 7f7d08000a53, size: 2, offset: f, bigendian: 0, value: 0, shift: 0
+register AX:	src: 7f7d08000a53, size: 2, offset: f, bigendian: 0, value: 0, shift: 0
+
+thread: 2 [DELETE Reg]	0x7f7d106654d4 : lea edx, ptr [rbp+rdx*1+0xa]
+register EDX:	src: 7f7d08000a53, size: 2, offset: f, bigendian: 0, value: 0, shift: 0
+
+thread: 2 [DELETE Reg]	0x7f7d106654d8 : mov eax, 0x0
+register EAX:	src: 7f7d08000a53, size: 2, offset: f, bigendian: 0, value: 0, shift: 0
+
+Not Taint 0x7f7d106654e2: mov rax, qword ptr [rbx+0x11a0]	 mem: 0x7f7d08001a60	value: 0x7f7d08000a4b
+thread: 2 [+ Reg <- Mem]	0x7f7d106654e9: movzx edx, byte ptr [rax+0x1]	 addr: 0x7f7d08000a4c value: (0x7f7d08000a4c, 0x1)
+memory  :		src: 7f7d08000a4c, size: 1, offset: 8, bigendian: 0, value: 1
+register EDX:	src: 7f7d08000a4c, size: 1, offset: 8, bigendian: 0, value: 1, shift: 0
+
+[USE RegImm]		0x7f7d106654ed: cmp dl, 0x1 value: 0x1, opcode: 99, imm: 1
+register DL:	src: 7f7d08000a4c, size: 1, offset: 8, bigendian: 0, value: 1, shift: 0
+
+Not Taint 0x7f7d106654f0: setnz cl	value: 0x246
+[USE RegImm]		0x7f7d106654f3: cmp dl, 0x7 value: 0x1, opcode: 99, imm: 7
+register DL:	src: 7f7d08000a4c, size: 1, offset: 8, bigendian: 0, value: 1, shift: 0
+
+Not Taint 0x7f7d106654f6: setnz al	value: 0x297
+Not Taint 0x7f7d10665502: pop rbx	 mem: 0x7f7d0cbeee48	value: 0x7f7d080008c0
+Not Taint 0x7f7d10665504: pop r12	 mem: 0x7f7d0cbeee58	value: 0x7f7d0cbeee94
+Not Taint 0x7f7d10665506: pop r13	 mem: 0x7f7d0cbeee60	value: 0x7f7d0de84dcf
+thread id: 2, exit  function: TS7Worker::CheckPDU_in(int)
+Not Taint 0x7f7d10669d3b: mov ebx, eax	value: 0x1
+Not Taint 0x7f7d10669d41: mov rax, qword ptr [rbp+0x11a0]	 mem: 0x7f7d08001a60	value: 0x7f7d08000a4b
+thread: 2 [+ Reg <- Mem]	0x7f7d10669d48: movzx eax, byte ptr [rax+0x1]	 addr: 0x7f7d08000a4c value: (0x7f7d08000a4c, 0x1)
+memory  :		src: 7f7d08000a4c, size: 1, offset: 8, bigendian: 0, value: 1
+register EAX:	src: 7f7d08000a4c, size: 1, offset: 8, bigendian: 0, value: 1, shift: 0
+
+[USE RegImm]		0x7f7d10669d4c: cmp al, 0x1 value: 0x1, opcode: 99, imm: 1
+register AL:	src: 7f7d08000a4c, size: 1, offset: 8, bigendian: 0, value: 1, shift: 0
+
+thread: 2 [- Reg <- Reg]	0x7f7d10669d56: mov rsi, r12
+register RSI:	src: 7f7d08000a53, size: 2, offset: f, bigendian: 0, value: 0, shift: 0
+
+Not Taint 0x7f7d10669d59: mov rdi, rbp	value: 0x7f7d080008c0
+thread id: 2, enter function: TS7Worker::PerformPDURequest(int&)@plt
+thread id: 2, enter function: TS7Worker::PerformPDURequest(int&)
+thread: 2 [- Reg <- Mem]	0x7f7d10669c8c: mov rax, qword ptr [rdi+0x11a0]	 addr: 0x7f7d08001a60
+register RAX:	src: 7f7d08000a4c, size: 1, offset: 8, bigendian: 0, value: 1, shift: 0
+
+thread: 2 [+ Reg <- Mem]	0x7f7d10669c93: movzx eax, byte ptr [rax+0xa]	 addr: 0x7f7d08000a55 value: (0x7f7d08000a55, 0x4)
+memory  :		src: 7f7d08000a55, size: 1, offset: 11, bigendian: 0, value: 4
+register EAX:	src: 7f7d08000a55, size: 1, offset: 11, bigendian: 0, value: 4, shift: 0
+
+[USE RegImm]		0x7f7d10669c97: cmp al, 0x1f value: 0x4, opcode: 99, imm: 31
+register AL:	src: 7f7d08000a55, size: 1, offset: 11, bigendian: 0, value: 4, shift: 0
+
+[USE RegImm]		0x7f7d10669c9b: cmp al, 0x1d value: 0x4, opcode: 99, imm: 29
+register AL:	src: 7f7d08000a55, size: 1, offset: 11, bigendian: 0, value: 4, shift: 0
+
+[USE RegImm]		0x7f7d10669c9f: cmp al, 0x5 value: 0x4, opcode: 99, imm: 5
+register AL:	src: 7f7d08000a55, size: 1, offset: 11, bigendian: 0, value: 4, shift: 0
+
+[USE RegImm]		0x7f7d10669ca3: cmp al, 0x1a value: 0x4, opcode: 99, imm: 26
+register AL:	src: 7f7d08000a55, size: 1, offset: 11, bigendian: 0, value: 4, shift: 0
+
+[USE RegImm]		0x7f7d10669ca7: cmp al, 0x4 value: 0x4, opcode: 99, imm: 4
+register AL:	src: 7f7d08000a55, size: 1, offset: 11, bigendian: 0, value: 4, shift: 0
+
+thread id: 2, enter function: TS7Worker::PerformFunctionRead()@plt
+thread id: 2, enter function: TS7Worker::PerformFunctionRead()
+Not Taint 0x7f7d106693f2: push r15	mem: 0x7f7d0cbeee50	value: 0x0
+Not Taint 0x7f7d106693f4: push r14	mem: 0x7f7d0cbeee48	value: 0x7f7d0cbef9c0
+Not Taint 0x7f7d106693f6: push r13	mem: 0x7f7d0cbeee40	value: 0x7f7d0de84dcf
+Not Taint 0x7f7d106693f8: push r12	mem: 0x7f7d0cbeee38	value: 0x7f7d0cbeee94
+Not Taint 0x7f7d106693fb: push rbx	mem: 0x7f7d0cbeee28	value: 0x1
+Not Taint 0x7f7d10669403: mov r14, rdi	value: 0x7f7d080008c0
+thread: 2 [- Reg <- Mem]	0x7f7d10669406: mov rax, qword ptr fs:[0x28]	 addr: 0x7f7d0cbef728
+register RAX:	src: 7f7d08000a55, size: 1, offset: 11, bigendian: 0, value: 4, shift: 0
+
+Not Taint 0x7f7d1066940f: mov qword ptr [rsp+0x1048], rax	mem: 0x7f7d0cbeee18	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10669419: mov eax, dword ptr [rdi+0x21e8]	 mem: 0x7f7d08002aa8	value: 0x800
+Not Taint 0x7f7d1066941f: mov dword ptr [rsp+0x2c], eax	mem: 0x7f7d0cbeddfc	value: 0x800
+Not Taint 0x7f7d10669423: mov rax, qword ptr [rdi+0x11a0]	 mem: 0x7f7d08001a60	value: 0x7f7d08000a4b
+Not Taint 0x7f7d1066942a: mov qword ptr [rsp+0x18], rax	mem: 0x7f7d0cbedde8	value: 0x7f7d08000a4b
+thread: 2 [+ Reg <- Mem]	0x7f7d1066942f: movzx r13d, byte ptr [rax+0xb]	 addr: 0x7f7d08000a56 value: (0x7f7d08000a56, 0x1)
+memory  :		src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1
+register R13D:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+
+[USE RegImm]		0x7f7d10669434: cmp r13b, 0x14 value: 0x1, opcode: 99, imm: 20
+register R13B:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+
+thread: 2 [+ Reg <- Reg]	0x7f7d10669446: movzx r13d, r13b value: (0x7f7d08000a56, 0x1)
+register R13B:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+register R13B:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+
+[USE RegReg]		0x7f7d1066944a: test r13d, r13d value: 0x1, opcode: 787
+register R13D:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+register R13D:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+
+Not Taint 0x7f7d10669453: mov rax, qword ptr [rsp+0x18]	 mem: 0x7f7d0cbedde8	value: 0x7f7d08000a4b
+Not Taint 0x7f7d1066946b: mov qword ptr [rsp], rax	mem: 0x7f7d0cbeddd0	value: 0x7f7d0cbede00
+Not Taint 0x7f7d10669474: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbeddd8	value: 0x7f7d0cbeddfc
+Not Taint 0x7f7d10669482: mov dword ptr [rsp+0x14], eax	mem: 0x7f7d0cbedde4	value: 0x0
+Not Taint 0x7f7d1066948a: mov r8, qword ptr [rsp]	 mem: 0x7f7d0cbeddd0	value: 0x7f7d0cbede00
+Not Taint 0x7f7d1066948e: mov rcx, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbeddd8	value: 0x7f7d0cbeddfc
+thread: 2 [- Reg <- Reg]	0x7f7d10669493: mov rdx, r12
+register RDX:	src: 7f7d08000a4c, size: 1, offset: 8, bigendian: 0, value: 1, shift: 0
+
+Not Taint 0x7f7d10669496: mov rdi, r14	value: 0x7f7d080008c0
+thread id: 2, enter function: TS7Worker::ReadArea(TResFunReadItem*, TReqFunReadItem*, int&, TEv&)@plt
+thread id: 2, enter function: TS7Worker::ReadArea(TResFunReadItem*, TReqFunReadItem*, int&, TEv&)
+Not Taint 0x7f7d10668fac: push r15	mem: 0x7f7d0cbeddc0	value: 0x7f7d0cbede1c
+Not Taint 0x7f7d10668fae: push r14	mem: 0x7f7d0cbeddb8	value: 0x7f7d080008c0
+thread: 2 [+ Mem <- Reg]	0x7f7d10668fb0: push r13	 addr: 0x7f7d0cbeddb0 value: (0x7f7d08000a56, 0x1)
+register R13:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+memory  :		src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1
+
+Not Taint 0x7f7d10668fb2: push r12	mem: 0x7f7d0cbedda8	value: 0x7f7d08000a57
+Not Taint 0x7f7d10668fb5: push rbx	mem: 0x7f7d0cbedd98	value: 0x0
+Not Taint 0x7f7d10668fba: mov r12, rdi	value: 0x7f7d080008c0
+thread: 2 [- Reg <- Reg]	0x7f7d10668fbd: mov r13, rsi
+register R13:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+
+Not Taint 0x7f7d10668fc3: mov qword ptr [rsp], rcx	mem: 0x7f7d0cbedd60	value: 0x7f7d0cbeddfc
+Not Taint 0x7f7d10668fc7: mov rbx, r8	value: 0x7f7d0cbede00
+thread: 2 [+ Reg <- Mem]	0x7f7d10668fe5: movzx eax, byte ptr [rdx+0x8]	 addr: 0x7f7d08000a5f value: (0x7f7d08000a5f, 0x84)
+memory  :		src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84
+register EAX:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+
+thread: 2 [+ Mem <- Reg]	0x7f7d10668fe9: mov word ptr [r8+0x2], ax	 addr: 0x7f7d0cbede02 value: (0x7f7d08000a5f, 0x84)
+register AX:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+memory  :		src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84
+
+thread: 2 [DELETE Reg]	0x7f7d10668fee : mov eax, 0x0
+register EAX:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+
+[USE MemImm]		0x7f7d10668ff3: cmp byte ptr [rdx+0x8], 0x84 value: 0x84, opcode: 99
+memory  :		src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84
+
+thread: 2 [+ Reg <- Mem]	0x7f7d10668ff9: movzx esi, word ptr [rdx+0x6]	 addr: 0x7f7d08000a5d value: (0x7f7d08000a5d, 0x100)
+memory  :		src: 7f7d08000a5d, size: 1, offset: 19, bigendian: 0, value: 0
+register ESI:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+
+thread id: 2, enter function: TSnapBase::SwapWord(unsigned short)@plt
+thread id: 2, enter function: TSnapBase::SwapWord(unsigned short)
+thread: 2 [+ Reg <- Reg]	0x7f7d1065f56c: mov eax, esi value: (0x7f7d08000a5d, 0x100)
+register ESI:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+register ESI:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+
+[USE RegImm]		0x7f7d1065f56e: rol ax, 0x8 value: 0x100, opcode: 697, imm: 8
+register AX:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+
+thread id: 2, exit  function: TSnapBase::SwapWord(unsigned short)
+thread: 2 [+ Mem <- Reg]	0x7f7d10669006: mov word ptr [rbx+0x4], ax	 addr: 0x7f7d0cbede04 value: (0x7f7d08000a5d, 0x1)
+register AX:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+memory  :		src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100
+
+Not Taint 0x7f7d1066900a: mov rdx, qword ptr [r12+0x21e0]	 mem: 0x7f7d08002aa0	value: 0x200dc40
+thread: 2 [+ Reg <- Reg]	0x7f7d1066901b: movzx edx, ax value: (0x7f7d08000a5d, 0x1)
+register AX:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+register AX:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+
+thread: 2 [+ Reg <- Mem]	0x7f7d1066901e: movzx esi, byte ptr [rbp+0x8]	 addr: 0x7f7d08000a5f value: (0x7f7d08000a5f, 0x84)
+memory  :		src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84
+register ESI:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+
+Not Taint 0x7f7d10669022: mov rdi, r12	value: 0x7f7d080008c0
+thread id: 2, enter function: TS7Worker::GetArea(unsigned char, unsigned short)@plt
+thread id: 2, enter function: TS7Worker::GetArea(unsigned char, unsigned short)
+[USE RegImm]		0x7f7d1066849c: cmp sil, 0x81 value: 0x84, opcode: 99, imm: -127
+register SIL:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+
+[USE RegImm]		0x7f7d106684a2: cmp sil, 0x81 value: 0x84, opcode: 99, imm: -127
+register SIL:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+
+[USE RegImm]		0x7f7d106684b6: cmp sil, 0x83 value: 0x84, opcode: 99, imm: -125
+register SIL:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+
+[USE RegImm]		0x7f7d106684bc: cmp sil, 0x83 value: 0x84, opcode: 99, imm: -125
+register SIL:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+
+[USE RegImm]		0x7f7d106684c2: cmp sil, 0x84 value: 0x84, opcode: 99, imm: -124
+register SIL:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+
+thread: 2 [+ Reg <- Reg]	0x7f7d10668519: movzx esi, dx value: (0x7f7d08000a5d, 0x1)
+register DX:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+register DX:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+
+Not Taint 0x7f7d1066851c: mov rdi, qword ptr [rdi+0x21e0]	 mem: 0x7f7d08002aa0	value: 0x200dc40
+thread id: 2, enter function: TSnap7Server::FindDB(unsigned short)@plt
+thread id: 2, enter function: TSnap7Server::FindDB(unsigned short)
+thread: 2 [- Reg <- Mem]	0x7f7d1066845a: mov eax, dword ptr [rdi+0x20ac]	 addr: 0x200fcec
+register EAX:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+
+thread: 2 [DELETE Reg]	0x7f7d10668460 : lea edx, ptr [rax+0x1]
+register EDX:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+
+Not Taint 0x7f7d1066846e: mov eax, eax	value: 0x2
+Not Taint 0x7f7d10668478: mov rax, qword ptr [rdx]	 mem: 0x200fcf0	value: 0x201d650
+[USE RegMem]		0x7f7d10668480: cmp word ptr [rax], si value: 0x15, opcode: 99
+register SI:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+
+Not Taint 0x7f7d10668478: mov rax, qword ptr [rdx]	 mem: 0x200fcf8	value: 0x201d6a0
+[USE RegMem]		0x7f7d10668480: cmp word ptr [rax], si value: 0x67, opcode: 99
+register SI:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+
+Not Taint 0x7f7d10668478: mov rax, qword ptr [rdx]	 mem: 0x200fd00	value: 0x201d6f0
+[USE RegMem]		0x7f7d10668480: cmp word ptr [rax], si value: 0x3, opcode: 99
+register SI:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+
+thread id: 2, exit  function: TSnap7Server::FindDB(unsigned short)
+thread id: 2, exit  function: TS7Worker::GetArea(unsigned char, unsigned short)
+Not Taint 0x7f7d1066902a: mov r15, rax	value: 0x0
+Not Taint 0x7f7d10669032: mov rdx, rbx	value: 0x7f7d0cbede00
+thread: 2 [- Reg <- Reg]	0x7f7d10669035: mov rsi, r13
+register RSI:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+
+Not Taint 0x7f7d10669038: mov rdi, r12	value: 0x7f7d080008c0
+thread id: 2, enter function: TS7Worker::RA_NotFound(TResFunReadItem*, TEv&)@plt
+thread id: 2, enter function: TS7Worker::RA_NotFound(TResFunReadItem*, TEv&)
+Not Taint 0x7f7d10665677: push rbx	mem: 0x7f7d0cbedd48	value: 0x7f7d0cbede00
+Not Taint 0x7f7d1066567c: mov rbx, rsi	value: 0x7f7d0cbede1e
+thread id: 2, enter function: TSnapBase::SwapWord(unsigned short)@plt
+thread id: 2, enter function: TSnapBase::SwapWord(unsigned short)
+Not Taint 0x7f7d1065f56c: mov eax, esi	value: 0x4
+thread id: 2, exit  function: TSnapBase::SwapWord(unsigned short)
+Not Taint 0x7f7d10665690: mov word ptr [rbx+0x2], ax	mem: 0x7f7d0cbede20	value: 0x400
+Not Taint 0x7f7d106656aa: pop rbx	 mem: 0x7f7d0cbedd48	value: 0x7f7d0cbede00
+thread id: 2, exit  function: TS7Worker::RA_NotFound(TResFunReadItem*, TEv&)
+Not Taint 0x7f7d10669040: mov r14d, eax	value: 0x0
+Not Taint 0x7f7d106693df: mov eax, r14d	value: 0x0
+Not Taint 0x7f7d106693e6: pop rbx	 mem: 0x7f7d0cbedd98	value: 0x0
+Not Taint 0x7f7d106693e8: pop r12	 mem: 0x7f7d0cbedda8	value: 0x7f7d08000a57
+thread: 2 [+ Reg <- Mem]	0x7f7d106693ea: pop r13	 addr: 0x7f7d0cbeddb0 value: (0x7f7d08000a56, 0x1)
+memory  :		src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1
+register R13:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+
+Not Taint 0x7f7d106693ec: pop r14	 mem: 0x7f7d0cbeddb8	value: 0x7f7d080008c0
+Not Taint 0x7f7d106693ee: pop r15	 mem: 0x7f7d0cbeddc0	value: 0x7f7d0cbede1c
+thread id: 2, exit  function: TS7Worker::ReadArea(TResFunReadItem*, TReqFunReadItem*, int&, TEv&)
+Not Taint 0x7f7d106694b2: movzx eax, ax	value: 0x0
+[USE RegImm]		0x7f7d106694ba: cmp r13d, 0x1 value: 0x1, opcode: 99, imm: 1
+register R13D:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+
+[USE RegReg]		0x7f7d106694f8: cmp ebx, r13d value: 0x1, opcode: 99
+register R13D:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+
+Not Taint 0x7f7d10669515: mov rax, qword ptr [r14+0x11a0]	 mem: 0x7f7d08001a60	value: 0x7f7d08000a4b
+thread: 2 [+ Reg <- Mem]	0x7f7d1066951c: movzx eax, word ptr [rax+0x4]	 addr: 0x7f7d08000a4f value: (0x7f7d08000a4f, 0x0)
+memory  :		src: 7f7d08000a4f, size: 1, offset: b, bigendian: 0, value: 0
+register EAX:	src: 7f7d08000a4f, size: 2, offset: b, bigendian: 0, value: 0, shift: 0
+
+thread: 2 [+ Mem <- Reg]	0x7f7d10669520: mov word ptr [rsp+0x44], ax	 addr: 0x7f7d0cbede14 value: (0x7f7d08000a4f, 0x0)
+register AX:	src: 7f7d08000a4f, size: 2, offset: b, bigendian: 0, value: 0, shift: 0
+memory  :		src: 7f7d08000a4f, size: 2, offset: b, bigendian: 0, value: 0
+
+Not Taint 0x7f7d1066952e: mov rdi, rbx	value: 0x7f7d080008c8
+thread id: 2, enter function: TSnapBase::SwapWord(unsigned short)@plt
+thread id: 2, enter function: TSnapBase::SwapWord(unsigned short)
+thread: 2 [- Reg <- Reg]	0x7f7d1065f56c: mov eax, esi
+register EAX:	src: 7f7d08000a4f, size: 2, offset: b, bigendian: 0, value: 0, shift: 0
+
+thread id: 2, exit  function: TSnapBase::SwapWord(unsigned short)
+Not Taint 0x7f7d10669536: mov word ptr [rsp+0x46], ax	mem: 0x7f7d0cbede16	value: 0x200
+Not Taint 0x7f7d10669545: movzx esi, si	value: 0x4
+Not Taint 0x7f7d10669548: mov rdi, rbx	value: 0x7f7d080008c8
+thread id: 2, enter function: TSnapBase::SwapWord(unsigned short)@plt
+thread id: 2, enter function: TSnapBase::SwapWord(unsigned short)
+Not Taint 0x7f7d1065f56c: mov eax, esi	value: 0x4
+thread id: 2, exit  function: TSnapBase::SwapWord(unsigned short)
+Not Taint 0x7f7d10669550: mov word ptr [rsp+0x48], ax	mem: 0x7f7d0cbede18	value: 0x400
+Not Taint 0x7f7d10669555: mov rcx, qword ptr [rsp+0x18]	 mem: 0x7f7d0cbedde8	value: 0x7f7d08000a4b
+thread: 2 [+ Reg <- Mem]	0x7f7d1066955a: movzx eax, byte ptr [rcx+0xa]	 addr: 0x7f7d08000a55 value: (0x7f7d08000a55, 0x4)
+memory  :		src: 7f7d08000a55, size: 1, offset: 11, bigendian: 0, value: 4
+register EAX:	src: 7f7d08000a55, size: 1, offset: 11, bigendian: 0, value: 4, shift: 0
+
+thread: 2 [+ Mem <- Reg]	0x7f7d1066955e: mov byte ptr [rsp+0x4c], al	 addr: 0x7f7d0cbede1c value: (0x7f7d08000a55, 0x4)
+register AL:	src: 7f7d08000a55, size: 1, offset: 11, bigendian: 0, value: 4, shift: 0
+memory  :		src: 7f7d08000a55, size: 1, offset: 11, bigendian: 0, value: 4
+
+thread: 2 [+ Reg <- Mem]	0x7f7d10669562: movzx eax, byte ptr [rcx+0xb]	 addr: 0x7f7d08000a56 value: (0x7f7d08000a56, 0x1)
+memory  :		src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1
+register EAX:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+
+thread: 2 [+ Mem <- Reg]	0x7f7d10669566: mov byte ptr [rsp+0x4d], al	 addr: 0x7f7d0cbede1d value: (0x7f7d08000a56, 0x1)
+register AL:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+memory  :		src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1
+
+Not Taint 0x7f7d10669572: mov rdi, r14	value: 0x7f7d080008c0
+thread id: 2, enter function: TIsoTcpSocket::isoSendBuffer(void*, int)@plt
+thread id: 2, enter function: TIsoTcpSocket::isoSendBuffer(void*, int)
+thread: 2 [+ Mem <- Reg]	0x7f7d10662b04: push r13	 addr: 0x7f7d0cbeddc0 value: (0x7f7d08000a56, 0x1)
+register R13:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+memory  :		src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1
+
+Not Taint 0x7f7d10662b06: push r12	mem: 0x7f7d0cbeddb8	value: 0x7f7d08000a63
+Not Taint 0x7f7d10662b09: push rbx	mem: 0x7f7d0cbedda8	value: 0x7f7d080008c8
+Not Taint 0x7f7d10662b0e: mov rbx, rdi	value: 0x7f7d080008c0
+thread: 2 [- Reg <- Reg]	0x7f7d10662b11: mov r13, rsi
+register R13:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+
+thread id: 2, enter function: TIsoTcpSocket::ClrIsoError()@plt
+thread id: 2, enter function: TIsoTcpSocket::ClrIsoError()
+thread id: 2, exit  function: TIsoTcpSocket::ClrIsoError()
+thread: 2 [DELETE Reg]	0x7f7d10662b1b : lea eax, ptr [rbp+0x6]
+register EAX:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+
+thread: 2 [DELETE Mem]		0x7f7d10662b29: mov byte ptr [rbx+0x184], 0x3 value: 0x3
+memory  :		src: 7f7d08000a44, size: 1, offset: 0, bigendian: 0, value: 3
+
+thread: 2 [DELETE Mem]		0x7f7d10662b30: mov byte ptr [rbx+0x185], 0x0 value: 0x0
+memory  :		src: 7f7d08000a45, size: 1, offset: 1, bigendian: 0, value: 0
+
+Not Taint 0x7f7d10662b37: mov rax, r12	value: 0x19
+Not Taint 0x7f7d10662b3a: movzx eax, ah	value: 0x0
+Not Taint 0x7f7d10662b3d: mov byte ptr [rbx+0x186], al	mem: 0x7f7d08000a46	value: 0x0
+Not Taint 0x7f7d10662b43: mov byte ptr [rbx+0x187], r12b	mem: 0x7f7d08000a47	value: 0x19
+thread: 2 [DELETE Mem]		0x7f7d10662b4a: mov byte ptr [rbx+0x188], 0x2 value: 0x2
+memory  :		src: 7f7d08000a48, size: 1, offset: 4, bigendian: 0, value: 2
+
+thread: 2 [DELETE Mem]		0x7f7d10662b51: mov byte ptr [rbx+0x189], 0xf0 value: 0xf0
+memory  :		src: 7f7d08000a49, size: 1, offset: 5, bigendian: 0, value: f0
+
+thread: 2 [DELETE Mem]		0x7f7d10662b58: mov byte ptr [rbx+0x18a], 0x80 value: 0x80
+memory  :		src: 7f7d08000a4a, size: 1, offset: 6, bigendian: 0, value: 80
+
+Not Taint 0x7f7d10662b6b: movsxd rdx, ebp	value: 0x12
+Not Taint 0x7f7d10662b6e: mov rsi, r13	value: 0x7f7d0cbede10
+thread id: 2, enter function: memcpy@plt
+[COPY]	 0x1 bytes from 0x7f7d0cbede14 to 0x7f7d08000a4f (via memcpy)
+taint start: 7f7d08000a4f, size: 1
+[COPY]	 0x2 bytes from 0x7f7d0cbede1c to 0x7f7d08000a57 (via memcpy)
+taint start: 7f7d08000a57, size: 2
+Not Taint 0x7f7d10662b7d: mov edx, r12d	value: 0x19
+Not Taint 0x7f7d10662b80: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TMsgSocket::SendPacket(void*, int)@plt
+thread id: 2, enter function: TMsgSocket::SendPacket(void*, int)
+Not Taint 0x7f7d10660182: push r12	mem: 0x7f7d0cbedd90	value: 0x19
+Not Taint 0x7f7d10660185: push rbx	mem: 0x7f7d0cbedd80	value: 0x7f7d080008c0
+Not Taint 0x7f7d10660186: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d10660189: mov r12, rsi	value: 0x7f7d08000a44
+Not Taint 0x7f7d10660195: mov esi, dword ptr [rdi+0x74]	 mem: 0x7f7d08000934	value: 0xa
+thread id: 2, enter function: TMsgSocket::CanWrite(int)@plt
+thread id: 2, enter function: TMsgSocket::CanWrite(int)
+Not Taint 0x7f7d1065f8c1: push rbx	mem: 0x7f7d0cbedd68	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065f8c9: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f8d2: mov qword ptr [rsp+0x98], rax	mem: 0x7f7d0cbedd58	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f8e6: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065f8ee: mov eax, esi	value: 0xa
+Not Taint 0x7f7d1065f8f5: mov eax, esi	value: 0xa
+Not Taint 0x7f7d1065f90a: movsxd rsi, esi	value: 0x2710
+Not Taint 0x7f7d1065f90d: mov qword ptr [rsp+0x8], rsi	mem: 0x7f7d0cbedcc8	value: 0x2710
+Not Taint 0x7f7d1065f912: movsxd rdx, edx	value: 0x0
+Not Taint 0x7f7d1065f915: mov qword ptr [rsp], rdx	mem: 0x7f7d0cbedcc0	value: 0x0
+Not Taint 0x7f7d1065f928: mov rdi, rbp	value: 0x7f7d0cbedcd0
+Not Taint 0x7f7d1065f92f: movsxd rdi, dword ptr [rbx+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+thread id: 2, enter function: __fdelt_chk@plt
+Not Taint 0x7f7d1065f938: mov edi, dword ptr [rbx+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+Not Taint 0x7f7d1065f93b: mov edx, edi	value: 0x4
+Not Taint 0x7f7d1065f95b: mov r8, rsp	value: 0x7f7d0cbedcc0
+Not Taint 0x7f7d1065f963: mov rdx, rbp	value: 0x7f7d0cbedcd0
+thread id: 2, enter function: select@plt
+Not Taint 0x7f7d1065f970: cdqe 	value: 0x1
+Not Taint 0x7f7d1065f98b: setnle al	value: 0x202
+Not Taint 0x7f7d1065f995: mov rbx, qword ptr [rsp+0x98]	 mem: 0x7f7d0cbedd58	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f9b4: pop rbx	 mem: 0x7f7d0cbedd68	value: 0x7f7d080008c0
+thread id: 2, exit  function: TMsgSocket::CanWrite(int)
+Not Taint 0x7f7d106601b6: mov edi, dword ptr [rbx+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+Not Taint 0x7f7d106601be: mov rdx, rbp	value: 0x19
+Not Taint 0x7f7d106601c1: mov rsi, r12	value: 0x7f7d08000a44
+thread id: 2, enter function: send@plt
+Not Taint 0x7f7d106601c9: mov rdx, rax	value: 0x19
+Not Taint 0x7f7d106601e8: pop rbx	 mem: 0x7f7d0cbedd80	value: 0x7f7d080008c0
+Not Taint 0x7f7d106601ea: pop r12	 mem: 0x7f7d0cbedd90	value: 0x19
+thread id: 2, exit  function: TMsgSocket::SendPacket(void*, int)
+Not Taint 0x7f7d10662bb3: pop rbx	 mem: 0x7f7d0cbedda8	value: 0x7f7d080008c8
+Not Taint 0x7f7d10662bb5: pop r12	 mem: 0x7f7d0cbeddb8	value: 0x7f7d08000a63
+thread: 2 [+ Reg <- Mem]	0x7f7d10662bb7: pop r13	 addr: 0x7f7d0cbeddc0 value: (0x7f7d08000a56, 0x1)
+memory  :		src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1
+register R13:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+
+thread id: 2, exit  function: TIsoTcpSocket::isoSendBuffer(void*, int)
+[USE RegImm]		0x7f7d1066957a: cmp r13d, 0x1 value: 0x1, opcode: 99, imm: 1
+register R13D:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+
+thread: 2 [+ Reg <- Mem]	0x7f7d10669580: movzx ecx, word ptr [rsp+0x32]	 addr: 0x7f7d0cbede02 value: (0x7f7d08000a5f, 0x84)
+memory  :		src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84
+register ECX:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+
+Not Taint 0x7f7d10669585: movzx edx, word ptr [rsp+0x30]	 mem: 0x7f7d0cbede00	value: 0x7
+Not Taint 0x7f7d1066958e: movzx eax, word ptr [rsp+0x40]	 mem: 0x7f7d0cbede08	value: 0x0
+thread: 2 [- Mem <- Reg]	0x7f7d10669593: push rax	 addr: 0x7f7d0cbeddc0
+memory  :		src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1
+
+Not Taint 0x7f7d10669594: movzx r9d, word ptr [rsp+0x46]	 mem: 0x7f7d0cbede06	value: 0x0
+thread: 2 [+ Reg <- Mem]	0x7f7d1066959a: movzx r8d, word ptr [rsp+0x44]	 addr: 0x7f7d0cbede04 value: (0x7f7d08000a5d, 0x1)
+memory  :		src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100
+register R8D:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+
+Not Taint 0x7f7d106695a5: mov rdi, r14	value: 0x7f7d080008c0
+thread id: 2, enter function: TS7Worker::DoEvent(unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)@plt
+thread: 2 [DELETE Mem]		0x7f7d1065edf6: push 0x146 value: 0x6
+memory  :		src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1
+
+thread id: 2, enter function: TS7Worker::DoEvent(unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)
+Not Taint 0x7f7d106655fc: mov r11d, esi	value: 0x20000
+Not Taint 0x7f7d106655ff: mov rax, qword ptr [rdi+0x21e0]	 mem: 0x7f7d08002aa0	value: 0x200dc40
+Not Taint 0x7f7d10665606: movzx edx, dx	value: 0x7
+Not Taint 0x7f7d10665609: mov esi, dword ptr [rdi+0x3c]	 mem: 0x7f7d080008fc	value: 0x100007f
+Not Taint 0x7f7d1066560c: mov r10, qword ptr [rax]	 mem: 0x200dc40	value: 0x7f7d1087f7c0
+Not Taint 0x7f7d1066560f: movzx edi, word ptr [rsp+0x10]	 mem: 0x7f7d0cbeddc0	value: 0x0
+Not Taint 0x7f7d10665614: push rdi	mem: 0x7f7d0cbedda8	value: 0x0
+Not Taint 0x7f7d10665615: movzx r9d, r9w	value: 0x0
+Not Taint 0x7f7d10665619: push r9	mem: 0x7f7d0cbedda0	value: 0x0
+thread: 2 [+ Reg <- Reg]	0x7f7d1066561b: movzx r9d, r8w value: (0x7f7d08000a5d, 0x1)
+register R8W:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+register R8W:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+
+thread: 2 [+ Reg <- Reg]	0x7f7d1066561f: movzx r8d, cx value: (0x7f7d08000a5f, 0x84)
+register CX:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+register CX:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+
+thread: 2 [- Reg <- Reg]	0x7f7d10665623: mov ecx, edx
+register ECX:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+
+Not Taint 0x7f7d10665625: mov edx, r11d	value: 0x20000
+Not Taint 0x7f7d10665628: mov rdi, rax	value: 0x200dc40
+thread id: 2, enter function: TCustomMsgServer::DoEvent(int, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)
+Not Taint 0x7f7d10660b80: push r15	mem: 0x7f7d0cbedd90	value: 0x7f7d0cbede1c
+Not Taint 0x7f7d10660b82: push r14	mem: 0x7f7d0cbedd88	value: 0x7f7d080008c0
+thread: 2 [+ Mem <- Reg]	0x7f7d10660b84: push r13	 addr: 0x7f7d0cbedd80 value: (0x7f7d08000a56, 0x1)
+register R13:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+memory  :		src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1
+
+Not Taint 0x7f7d10660b86: push r12	mem: 0x7f7d0cbedd78	value: 0x7f7d08000a63
+Not Taint 0x7f7d10660b89: push rbx	mem: 0x7f7d0cbedd68	value: 0x7f7d080008c8
+Not Taint 0x7f7d10660b8e: mov dword ptr [rsp], esi	mem: 0x7f7d0cbedd20	value: 0x100007f
+Not Taint 0x7f7d10660b91: mov dword ptr [rsp+0x4], ecx	mem: 0x7f7d0cbedd24	value: 0x7
+thread: 2 [+ Mem <- Reg]	0x7f7d10660b95: mov dword ptr [rsp+0x8], r8d	 addr: 0x7f7d0cbedd28 value: (0x7f7d08000a5f, 0x84)
+register R8D:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+memory  :		src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84
+
+thread: 2 [+ Mem <- Reg]	0x7f7d10660b9a: mov dword ptr [rsp+0xc], r9d	 addr: 0x7f7d0cbedd2c value: (0x7f7d08000a5d, 0x1)
+register R9D:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+memory  :		src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100
+
+Not Taint 0x7f7d10660b9f: mov r14d, dword ptr [rsp+0x80]	 mem: 0x7f7d0cbedda0	value: 0x0
+thread: 2 [- Reg <- Mem]	0x7f7d10660ba7: mov r13d, dword ptr [rsp+0x88]	 addr: 0x7f7d0cbedda8
+register R13D:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+
+Not Taint 0x7f7d10660baf: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10660bb8: mov qword ptr [rsp+0x38], rax	mem: 0x7f7d0cbedd58	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10660bc9: mov rbx, rdi	value: 0x200dc40
+Not Taint 0x7f7d10660bce: mov r12d, edx	value: 0x20000
+Not Taint 0x7f7d10660bd8: mov r15d, edx	value: 0x20000
+Not Taint 0x7f7d10660bed: mov rdi, qword ptr [rbx+0x58]	 mem: 0x200dc98	value: 0x2013d60
+thread id: 2, enter function: pthread_mutex_lock@plt
+thread id: 2, enter function: time@plt
+Not Taint 0x7f7d10660c00: mov eax, dword ptr [rsp]	 mem: 0x7f7d0cbedd20	value: 0x100007f
+Not Taint 0x7f7d10660c03: mov dword ptr [rsp+0x18], eax	mem: 0x7f7d0cbedd38	value: 0x100007f
+Not Taint 0x7f7d10660c07: mov dword ptr [rsp+0x1c], ebp	mem: 0x7f7d0cbedd3c	value: 0x20000
+Not Taint 0x7f7d10660c0b: movzx eax, word ptr [rsp+0x4]	 mem: 0x7f7d0cbedd24	value: 0x7
+Not Taint 0x7f7d10660c10: mov word ptr [rsp+0x20], ax	mem: 0x7f7d0cbedd40	value: 0x7
+thread: 2 [+ Reg <- Mem]	0x7f7d10660c15: movzx eax, word ptr [rsp+0x8]	 addr: 0x7f7d0cbedd28 value: (0x7f7d08000a5f, 0x84)
+memory  :		src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84
+register EAX:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+
+thread: 2 [+ Mem <- Reg]	0x7f7d10660c1a: mov word ptr [rsp+0x22], ax	 addr: 0x7f7d0cbedd42 value: (0x7f7d08000a5f, 0x84)
+register AX:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+memory  :		src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84
+
+thread: 2 [+ Reg <- Mem]	0x7f7d10660c1f: movzx eax, word ptr [rsp+0xc]	 addr: 0x7f7d0cbedd2c value: (0x7f7d08000a5d, 0x1)
+memory  :		src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100
+register EAX:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+
+thread: 2 [+ Mem <- Reg]	0x7f7d10660c24: mov word ptr [rsp+0x24], ax	 addr: 0x7f7d0cbedd44 value: (0x7f7d08000a5d, 0x1)
+register AX:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+memory  :		src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100
+
+Not Taint 0x7f7d10660c29: mov word ptr [rsp+0x26], r14w	mem: 0x7f7d0cbedd46	value: 0x0
+Not Taint 0x7f7d10660c2f: mov word ptr [rsp+0x28], r13w	mem: 0x7f7d0cbedd48	value: 0x0
+Not Taint 0x7f7d10660c5d: mov rdi, qword ptr [rbx+0x38]	 mem: 0x200dc78	value: 0x2013d90
+thread id: 2, enter function: TMsgEventQueue::Insert(void*)@plt
+thread id: 2, enter function: TMsgEventQueue::Insert(void*)
+Not Taint 0x7f7d10660b37: push rbx	mem: 0x7f7d0cbedd08	value: 0x200dc40
+Not Taint 0x7f7d10660b3c: mov rbx, rdi	value: 0x2013d90
+thread id: 2, enter function: TMsgEventQueue::Full()@plt
+thread id: 2, enter function: TMsgEventQueue::Full()
+Not Taint 0x7f7d10660b16: mov edx, dword ptr [rdi+0x4]	 mem: 0x2013d94	value: 0x0
+thread: 2 [- Reg <- Mem]	0x7f7d10660b19: mov eax, dword ptr [rdi]	 addr: 0x2013d90
+register EAX:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+
+Not Taint 0x7f7d10660b25: setz cl	value: 0x202
+Not Taint 0x7f7d10660b2a: setz al	value: 0x246
+thread id: 2, exit  function: TMsgEventQueue::Full()
+Not Taint 0x7f7d10660b4b: mov eax, dword ptr [rbx]	 mem: 0x2013d90	value: 0x2
+Not Taint 0x7f7d10660b55: mov dword ptr [rbx], eax	mem: 0x2013d90	value: 0x3
+Not Taint 0x7f7d10660b5f: mov edx, dword ptr [rbx+0x18]	 mem: 0x2013da8	value: 0x1a
+Not Taint 0x7f7d10660b62: mov edi, edx	value: 0x1a
+Not Taint 0x7f7d10660b67: movsxd rdi, edi	value: 0x4e
+Not Taint 0x7f7d10660b6e: movsxd rdx, edx	value: 0x1a
+Not Taint 0x7f7d10660b71: mov rsi, rbp	value: 0x7f7d0cbedd30
+thread id: 2, enter function: memcpy@plt
+[COPY]	 0x1 bytes from 0x7f7d0cbedd42 to 0x2013e20 (via memcpy)
+taint start: 2013e20, size: 1
+[COPY]	 0x1 bytes from 0x7f7d0cbedd44 to 0x2013e22 (via memcpy)
+taint start: 2013e22, size: 1
+Not Taint 0x7f7d10660b7d: pop rbx	 mem: 0x7f7d0cbedd08	value: 0x200dc40
+thread id: 2, exit  function: TMsgEventQueue::Insert(void*)
+Not Taint 0x7f7d10660c66: mov rdi, qword ptr [rbx+0x58]	 mem: 0x200dc98	value: 0x2013d60
+thread id: 2, enter function: pthread_mutex_unlock@plt
+Not Taint 0x7f7d10660c80: mov rax, qword ptr [rsp+0x38]	 mem: 0x7f7d0cbedd58	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10660c99: pop rbx	 mem: 0x7f7d0cbedd68	value: 0x7f7d080008c8
+Not Taint 0x7f7d10660c9b: pop r12	 mem: 0x7f7d0cbedd78	value: 0x7f7d08000a63
+thread: 2 [+ Reg <- Mem]	0x7f7d10660c9d: pop r13	 addr: 0x7f7d0cbedd80 value: (0x7f7d08000a56, 0x1)
+memory  :		src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1
+register R13:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+
+Not Taint 0x7f7d10660c9f: pop r14	 mem: 0x7f7d0cbedd88	value: 0x7f7d080008c0
+Not Taint 0x7f7d10660ca1: pop r15	 mem: 0x7f7d0cbedd90	value: 0x7f7d0cbede1c
+thread id: 2, exit  function: TCustomMsgServer::DoEvent(int, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)
+thread id: 2, exit  function: TS7Worker::DoEvent(unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)
+Not Taint 0x7f7d106695b6: mov rcx, qword ptr [rsp+0x1048]	 mem: 0x7f7d0cbeee18	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d106695d5: pop rbx	 mem: 0x7f7d0cbeee28	value: 0x1
+Not Taint 0x7f7d106695d7: pop r12	 mem: 0x7f7d0cbeee38	value: 0x7f7d0cbeee94
+thread: 2 [- Reg <- Mem]	0x7f7d106695d9: pop r13	 addr: 0x7f7d0cbeee40
+register R13:	src: 7f7d08000a56, size: 1, offset: 12, bigendian: 0, value: 1, shift: 0
+
+Not Taint 0x7f7d106695db: pop r14	 mem: 0x7f7d0cbeee48	value: 0x7f7d0cbef9c0
+Not Taint 0x7f7d106695dd: pop r15	 mem: 0x7f7d0cbeee50	value: 0x0
+thread id: 2, exit  function: TS7Worker::PerformFunctionRead()
+thread id: 2, exit  function: TS7Worker::PerformPDURequest(int&)
+Not Taint 0x7f7d10669d61: mov ebx, eax	value: 0x1
+Not Taint 0x7f7d10669da8: mov eax, ebx	value: 0x1
+Not Taint 0x7f7d10669daa: pop rbx	 mem: 0x7f7d0cbeee70	value: 0x7f7d080008c0
+Not Taint 0x7f7d10669dac: pop r12	 mem: 0x7f7d0cbeee80	value: 0x7f7d08000a44
+thread id: 2, exit  function: TS7Worker::IsoPerformCommand(int&)
+Not Taint 0x7f7d106653c4: mov eax, ebp	value: 0x1
+Not Taint 0x7f7d106653c6: mov rcx, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbeee98	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d106653df: pop rbx	 mem: 0x7f7d0cbeeea0	value: 0x7f7d080008c0
+Not Taint 0x7f7d106653e1: pop r12	 mem: 0x7f7d0cbeeeb0	value: 0x0
+thread id: 2, exit  function: TIsoTcpWorker::ExecuteRecv()
+thread id: 2, exit  function: TS7Worker::ExecuteRecv()
+Not Taint 0x7f7d106652c1: pop rbx	 mem: 0x7f7d0cbeeed0	value: 0x7f7d08002ae0
+thread id: 2, exit  function: TIsoTcpWorker::Execute()
+Not Taint 0x7f7d10661286: mov rax, qword ptr [rbx+0x18]	 mem: 0x7f7d08002af8	value: 0x200dc40
+Not Taint 0x7f7d10661294: mov rdi, qword ptr [rbx+0x20]	 mem: 0x7f7d08002b00	value: 0x7f7d080008c0
+Not Taint 0x7f7d10661298: mov rax, qword ptr [rdi]	 mem: 0x7f7d080008c0	value: 0x7f7d1087f768
+thread id: 2, enter function: TIsoTcpWorker::Execute()
+Not Taint 0x7f7d106652aa: push rbx	mem: 0x7f7d0cbeeed0	value: 0x7f7d08002ae0
+Not Taint 0x7f7d106652ab: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d106652ae: mov rax, qword ptr [rdi]	 mem: 0x7f7d080008c0	value: 0x7f7d1087f768
+thread id: 2, enter function: TIsoTcpWorker::ExecuteSend()
+thread id: 2, exit  function: TIsoTcpWorker::ExecuteSend()
+Not Taint 0x7f7d106652b8: mov rax, qword ptr [rbx]	 mem: 0x7f7d080008c0	value: 0x7f7d1087f768
+Not Taint 0x7f7d106652bb: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TS7Worker::ExecuteRecv()
+Not Taint 0x7f7d106653e8: mov rax, qword ptr [rdi+0x21e0]	 mem: 0x7f7d08002aa0	value: 0x200dc40
+Not Taint 0x7f7d106653ef: mov eax, dword ptr [rax+0x60dc]	 mem: 0x2013d1c	value: 0x64
+Not Taint 0x7f7d106653f5: mov dword ptr [rdi+0x68], eax	mem: 0x7f7d08000928	value: 0x64
+thread id: 2, enter function: TIsoTcpWorker::ExecuteRecv()@plt
+thread id: 2, enter function: TIsoTcpWorker::ExecuteRecv()
+Not Taint 0x7f7d106652c6: push r12	mem: 0x7f7d0cbeeeb0	value: 0x0
+Not Taint 0x7f7d106652c9: push rbx	mem: 0x7f7d0cbeeea0	value: 0x7f7d080008c0
+Not Taint 0x7f7d106652ce: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d106652d1: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d106652da: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbeee98	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d106652e1: mov esi, dword ptr [rdi+0x68]	 mem: 0x7f7d08000928	value: 0x64
+thread id: 2, enter function: TMsgSocket::CanRead(int)@plt
+thread id: 2, enter function: TMsgSocket::CanRead(int)
+Not Taint 0x7f7d1065f9b9: push rbx	mem: 0x7f7d0cbeee78	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065f9c1: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f9ca: mov qword ptr [rsp+0x98], rax	mem: 0x7f7d0cbeee68	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f9de: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065f9e6: mov eax, esi	value: 0x64
+Not Taint 0x7f7d1065f9ed: mov eax, esi	value: 0x64
+Not Taint 0x7f7d1065fa02: movsxd rsi, esi	value: 0x186a0
+Not Taint 0x7f7d1065fa05: mov qword ptr [rsp+0x8], rsi	mem: 0x7f7d0cbeedd8	value: 0x186a0
+Not Taint 0x7f7d1065fa0a: movsxd rdx, edx	value: 0x0
+Not Taint 0x7f7d1065fa0d: mov qword ptr [rsp], rdx	mem: 0x7f7d0cbeedd0	value: 0x0
+Not Taint 0x7f7d1065fa20: mov rdi, rbp	value: 0x7f7d0cbeede0
+Not Taint 0x7f7d1065fa27: movsxd rdi, dword ptr [rbx+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+thread id: 2, enter function: __fdelt_chk@plt
+Not Taint 0x7f7d1065fa30: mov edi, dword ptr [rbx+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+Not Taint 0x7f7d1065fa33: mov edx, edi	value: 0x4
+thread: 2 [- Reg <- Reg]	0x7f7d1065fa53: mov r8, rsp
+register R8:	src: 7f7d08000a5f, size: 1, offset: 1b, bigendian: 0, value: 84, shift: 0
+
+Not Taint 0x7f7d1065fa60: mov rsi, rbp	value: 0x7f7d0cbeede0
+thread id: 2, enter function: select@plt
+Not Taint 0x7f7d1065fa68: cdqe 	value: 0x1
+Not Taint 0x7f7d1065fa83: setnle al	value: 0x202
+Not Taint 0x7f7d1065fa8d: mov rbx, qword ptr [rsp+0x98]	 mem: 0x7f7d0cbeee68	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065faac: pop rbx	 mem: 0x7f7d0cbeee78	value: 0x7f7d080008c0
+thread id: 2, exit  function: TMsgSocket::CanRead(int)
+Not Taint 0x7f7d106652ff: mov rsi, r12	value: 0x7f7d08000a44
+Not Taint 0x7f7d10665302: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)@plt
+thread id: 2, enter function: TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)
+Not Taint 0x7f7d10662df4: push r15	mem: 0x7f7d0cbeee80	value: 0x0
+Not Taint 0x7f7d10662df6: push r14	mem: 0x7f7d0cbeee78	value: 0x7f7d0cbef9c0
+Not Taint 0x7f7d10662df8: push r13	mem: 0x7f7d0cbeee70	value: 0x7f7d0de84dcf
+Not Taint 0x7f7d10662dfa: push r12	mem: 0x7f7d0cbeee68	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662dfd: push rbx	mem: 0x7f7d0cbeee58	value: 0x7f7d080008c0
+Not Taint 0x7f7d10662e02: mov r13, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d10662e05: mov qword ptr [rsp+0x18], rsi	mem: 0x7f7d0cbeee38	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662e0a: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10662e13: mov qword ptr [rsp+0x28], rax	mem: 0x7f7d0cbeee48	value: 0xf4f60b3748f98f00
+thread: 2 [DELETE Mem]		0x7f7d10662e1a: mov byte ptr [rsp+0x23], 0x0 value: 0x0
+memory  :		src: 7f7d08000a4a, size: 1, offset: 6, bigendian: 0, value: 80
+
+thread id: 2, enter function: TIsoTcpSocket::ClrIsoError()@plt
+thread id: 2, enter function: TIsoTcpSocket::ClrIsoError()
+thread id: 2, exit  function: TIsoTcpSocket::ClrIsoError()
+Not Taint 0x7f7d10662e48: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbeee28	value: 0x7f7d0cbeee44
+Not Taint 0x7f7d10662e4d: movsxd rax, ebp	value: 0x0
+Not Taint 0x7f7d10662e53: mov edx, r14d	value: 0x1000
+Not Taint 0x7f7d10662e5c: mov r8, r15	value: 0x7f7d0cbeee43
+Not Taint 0x7f7d10662e5f: mov rcx, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbeee28	value: 0x7f7d0cbeee44
+Not Taint 0x7f7d10662e64: mov rsi, rbx	value: 0x7f7d08000a4b
+Not Taint 0x7f7d10662e67: mov rdi, r13	value: 0x7f7d080008c0
+thread id: 2, enter function: TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)@plt
+thread id: 2, enter function: TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)
+Not Taint 0x7f7d10662cce: push r15	mem: 0x7f7d0cbeee10	value: 0x7f7d0cbeee43
+Not Taint 0x7f7d10662cd0: push r14	mem: 0x7f7d0cbeee08	value: 0x1000
+Not Taint 0x7f7d10662cd2: push r13	mem: 0x7f7d0cbeee00	value: 0x7f7d080008c0
+Not Taint 0x7f7d10662cd4: push r12	mem: 0x7f7d0cbeedf8	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662cd7: push rbx	mem: 0x7f7d0cbeede8	value: 0x7f7d08000a4b
+Not Taint 0x7f7d10662cdc: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d10662cdf: mov qword ptr [rsp+0x8], rsi	mem: 0x7f7d0cbeedd8	value: 0x7f7d08000a4b
+Not Taint 0x7f7d10662ce4: mov r15d, edx	value: 0x1000
+Not Taint 0x7f7d10662ce7: mov r14, rcx	value: 0x7f7d0cbeee44
+Not Taint 0x7f7d10662cea: mov r13, r8	value: 0x7f7d0cbeee43
+thread: 2 [DELETE Mem]		0x7f7d10662ced: mov dword ptr [rcx], 0x0 value: 0x0
+memory  :		src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f
+
+thread id: 2, enter function: TIsoTcpSocket::ClrIsoError()@plt
+thread id: 2, enter function: TIsoTcpSocket::ClrIsoError()
+thread id: 2, exit  function: TIsoTcpSocket::ClrIsoError()
+Not Taint 0x7f7d10662d08: mov rsi, r12	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662d0b: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TMsgSocket::RecvPacket(void*, int)@plt
+thread id: 2, enter function: TMsgSocket::RecvPacket(void*, int)
+Not Taint 0x7f7d1066028c: push r12	mem: 0x7f7d0cbeedc0	value: 0x7f7d08000a44
+Not Taint 0x7f7d1066028f: push rbx	mem: 0x7f7d0cbeedb0	value: 0x7f7d080008c0
+Not Taint 0x7f7d10660290: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d10660293: mov r12, rsi	value: 0x7f7d08000a44
+Not Taint 0x7f7d10660298: mov edx, dword ptr [rdi+0x70]	 mem: 0x7f7d08000930	value: 0xbb8
+Not Taint 0x7f7d1066029b: mov esi, ebp	value: 0x7
+thread id: 2, enter function: TMsgSocket::WaitForData(int, int)@plt
+thread id: 2, enter function: TMsgSocket::WaitForData(int, int)
+thread: 2 [- Mem <- Reg]	0x7f7d1065fba2: push r13	 addr: 0x7f7d0cbeeda0
+memory  :		src: 7f7d08000a46, size: 2, offset: 2, bigendian: 1, value: 1f
+
+Not Taint 0x7f7d1065fba4: push r12	mem: 0x7f7d0cbeed98	value: 0x7f7d08000a44
+Not Taint 0x7f7d1065fba7: push rbx	mem: 0x7f7d0cbeed88	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065fbac: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065fbb1: mov r12d, edx	value: 0xbb8
+Not Taint 0x7f7d1065fbb4: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065fbbd: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbeed78	value: 0xf4f60b3748f98f00
+thread id: 2, enter function: TMsgSocket::CanRead(int)@plt
+thread id: 2, enter function: TMsgSocket::CanRead(int)
+Not Taint 0x7f7d1065f9b9: push rbx	mem: 0x7f7d0cbeed58	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065f9c1: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f9ca: mov qword ptr [rsp+0x98], rax	mem: 0x7f7d0cbeed48	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f9de: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065f9e6: mov eax, esi	value: 0x0
+Not Taint 0x7f7d1065f9ed: mov eax, esi	value: 0x0
+Not Taint 0x7f7d1065fa02: movsxd rsi, esi	value: 0x0
+Not Taint 0x7f7d1065fa05: mov qword ptr [rsp+0x8], rsi	mem: 0x7f7d0cbeecb8	value: 0x0
+Not Taint 0x7f7d1065fa0a: movsxd rdx, edx	value: 0x0
+Not Taint 0x7f7d1065fa0d: mov qword ptr [rsp], rdx	mem: 0x7f7d0cbeecb0	value: 0x0
+Not Taint 0x7f7d1065fa20: mov rdi, rbp	value: 0x7f7d0cbeecc0
+Not Taint 0x7f7d1065fa27: movsxd rdi, dword ptr [rbx+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+thread id: 2, enter function: __fdelt_chk@plt
+Not Taint 0x7f7d1065fa30: mov edi, dword ptr [rbx+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+Not Taint 0x7f7d1065fa33: mov edx, edi	value: 0x4
+Not Taint 0x7f7d1065fa53: mov r8, rsp	value: 0x7f7d0cbeecb0
+Not Taint 0x7f7d1065fa60: mov rsi, rbp	value: 0x7f7d0cbeecc0
+thread id: 2, enter function: select@plt
+Not Taint 0x7f7d1065fa68: cdqe 	value: 0x1
+Not Taint 0x7f7d1065fa83: setnle al	value: 0x202
+Not Taint 0x7f7d1065fa8d: mov rbx, qword ptr [rsp+0x98]	 mem: 0x7f7d0cbeed48	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065faac: pop rbx	 mem: 0x7f7d0cbeed58	value: 0x7f7d080008c0
+thread id: 2, exit  function: TMsgSocket::CanRead(int)
+Not Taint 0x7f7d1065fbd2: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TMsgSocket::WaitingData()@plt
+thread id: 2, enter function: TMsgSocket::WaitingData()
+Not Taint 0x7f7d1065f77e: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f787: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbeed58	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065f796: mov rdx, rsp	value: 0x7f7d0cbeed50
+Not Taint 0x7f7d1065f799: mov edi, dword ptr [rdi+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+thread id: 2, enter function: ioctl@plt
+Not Taint 0x7f7d1065f7bf: mov rcx, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbeed58	value: 0xf4f60b3748f98f00
+thread id: 2, exit  function: TMsgSocket::WaitingData()
+Not Taint 0x7f7d1065fc36: mov rcx, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbeed78	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065fc60: pop rbx	 mem: 0x7f7d0cbeed88	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065fc62: pop r12	 mem: 0x7f7d0cbeed98	value: 0x7f7d08000a44
+Not Taint 0x7f7d1065fc64: pop r13	 mem: 0x7f7d0cbeeda0	value: 0x7f7d0cbeee43
+thread id: 2, exit  function: TMsgSocket::WaitForData(int, int)
+Not Taint 0x7f7d106602a2: mov eax, dword ptr [rbx+0x78]	 mem: 0x7f7d08000938	value: 0x68
+Not Taint 0x7f7d106602e7: mov eax, dword ptr [rbx+0x78]	 mem: 0x7f7d08000938	value: 0x68
+Not Taint 0x7f7d106602f8: pop rbx	 mem: 0x7f7d0cbeedb0	value: 0x7f7d080008c0
+Not Taint 0x7f7d106602fa: pop r12	 mem: 0x7f7d0cbeedc0	value: 0x7f7d08000a44
+thread id: 2, exit  function: TMsgSocket::RecvPacket(void*, int)
+Not Taint 0x7f7d10662dd4: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TIsoTcpSocket::SetIsoError(int)@plt
+thread id: 2, enter function: TIsoTcpSocket::SetIsoError(int)
+Not Taint 0x7f7d106627aa: mov eax, esi	value: 0xa0000
+Not Taint 0x7f7d106627af: mov dword ptr [rdi+0x1198], eax	mem: 0x7f7d08001a58	value: 0xa0068
+thread id: 2, exit  function: TIsoTcpSocket::SetIsoError(int)
+Not Taint 0x7f7d10662de8: pop rbx	 mem: 0x7f7d0cbeede8	value: 0x7f7d08000a4b
+Not Taint 0x7f7d10662dea: pop r12	 mem: 0x7f7d0cbeedf8	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662dec: pop r13	 mem: 0x7f7d0cbeee00	value: 0x7f7d080008c0
+Not Taint 0x7f7d10662dee: pop r14	 mem: 0x7f7d0cbeee08	value: 0x1000
+Not Taint 0x7f7d10662df0: pop r15	 mem: 0x7f7d0cbeee10	value: 0x7f7d0cbeee43
+thread id: 2, exit  function: TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)
+Not Taint 0x7f7d10662e6f: mov r12d, eax	value: 0xa0068
+Not Taint 0x7f7d10662f0d: mov eax, r12d	value: 0xa0068
+Not Taint 0x7f7d10662f10: mov rcx, qword ptr [rsp+0x28]	 mem: 0x7f7d0cbeee48	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10662f29: pop rbx	 mem: 0x7f7d0cbeee58	value: 0x7f7d080008c0
+Not Taint 0x7f7d10662f2b: pop r12	 mem: 0x7f7d0cbeee68	value: 0x7f7d08000a44
+Not Taint 0x7f7d10662f2d: pop r13	 mem: 0x7f7d0cbeee70	value: 0x7f7d0de84dcf
+Not Taint 0x7f7d10662f2f: pop r14	 mem: 0x7f7d0cbeee78	value: 0x7f7d0cbef9c0
+Not Taint 0x7f7d10662f31: pop r15	 mem: 0x7f7d0cbeee80	value: 0x0
+thread id: 2, exit  function: TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)
+Not Taint 0x7f7d1066530a: mov eax, dword ptr [rbx+0x78]	 mem: 0x7f7d08000938	value: 0x68
+Not Taint 0x7f7d106653be: setnz bpl	value: 0x246
+Not Taint 0x7f7d106653c4: mov eax, ebp	value: 0x0
+Not Taint 0x7f7d106653c6: mov rcx, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbeee98	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d106653df: pop rbx	 mem: 0x7f7d0cbeeea0	value: 0x7f7d080008c0
+Not Taint 0x7f7d106653e1: pop r12	 mem: 0x7f7d0cbeeeb0	value: 0x0
+thread id: 2, exit  function: TIsoTcpWorker::ExecuteRecv()
+thread id: 2, exit  function: TS7Worker::ExecuteRecv()
+Not Taint 0x7f7d106652c1: pop rbx	 mem: 0x7f7d0cbeeed0	value: 0x7f7d08002ae0
+thread id: 2, exit  function: TIsoTcpWorker::Execute()
+Not Taint 0x7f7d106612aa: mov rdi, qword ptr [rbx+0x18]	 mem: 0x7f7d08002af8	value: 0x200dc40
+Not Taint 0x7f7d106612fc: mov rax, qword ptr [rbx+0x20]	 mem: 0x7f7d08002b00	value: 0x7f7d080008c0
+Not Taint 0x7f7d10661300: mov esi, dword ptr [rax+0x3c]	 mem: 0x7f7d080008fc	value: 0x100007f
+Not Taint 0x7f7d10661303: mov rax, qword ptr [rdi]	 mem: 0x200dc40	value: 0x7f7d1087f7c0
+thread: 2 [DELETE Reg]	0x7f7d1066130a : mov r9d, 0x0
+register R9D:	src: 7f7d08000a5d, size: 2, offset: 19, bigendian: 0, value: 100, shift: 0
+
+thread id: 2, enter function: TCustomMsgServer::DoEvent(int, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)
+Not Taint 0x7f7d10660b80: push r15	mem: 0x7f7d0cbeeec0	value: 0x0
+Not Taint 0x7f7d10660b82: push r14	mem: 0x7f7d0cbeeeb8	value: 0x7f7d0cbef9c0
+Not Taint 0x7f7d10660b84: push r13	mem: 0x7f7d0cbeeeb0	value: 0x7f7d0de84dcf
+Not Taint 0x7f7d10660b86: push r12	mem: 0x7f7d0cbeeea8	value: 0x0
+Not Taint 0x7f7d10660b89: push rbx	mem: 0x7f7d0cbeee98	value: 0x7f7d08002ae0
+Not Taint 0x7f7d10660b8e: mov dword ptr [rsp], esi	mem: 0x7f7d0cbeee50	value: 0x100007f
+Not Taint 0x7f7d10660b91: mov dword ptr [rsp+0x4], ecx	mem: 0x7f7d0cbeee54	value: 0x0
+Not Taint 0x7f7d10660b95: mov dword ptr [rsp+0x8], r8d	mem: 0x7f7d0cbeee58	value: 0x0
+Not Taint 0x7f7d10660b9a: mov dword ptr [rsp+0xc], r9d	mem: 0x7f7d0cbeee5c	value: 0x0
+Not Taint 0x7f7d10660b9f: mov r14d, dword ptr [rsp+0x80]	 mem: 0x7f7d0cbeeed0	value: 0x0
+Not Taint 0x7f7d10660ba7: mov r13d, dword ptr [rsp+0x88]	 mem: 0x7f7d0cbeeed8	value: 0x0
+Not Taint 0x7f7d10660baf: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10660bb8: mov qword ptr [rsp+0x38], rax	mem: 0x7f7d0cbeee88	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10660bc9: mov rbx, rdi	value: 0x200dc40
+Not Taint 0x7f7d10660bce: mov r12d, edx	value: 0x80
+Not Taint 0x7f7d10660bd8: mov r15d, edx	value: 0x80
+Not Taint 0x7f7d10660bed: mov rdi, qword ptr [rbx+0x58]	 mem: 0x200dc98	value: 0x2013d60
+thread id: 2, enter function: pthread_mutex_lock@plt
+thread id: 2, enter function: time@plt
+Not Taint 0x7f7d10660c00: mov eax, dword ptr [rsp]	 mem: 0x7f7d0cbeee50	value: 0x100007f
+Not Taint 0x7f7d10660c03: mov dword ptr [rsp+0x18], eax	mem: 0x7f7d0cbeee68	value: 0x100007f
+Not Taint 0x7f7d10660c07: mov dword ptr [rsp+0x1c], ebp	mem: 0x7f7d0cbeee6c	value: 0x80
+Not Taint 0x7f7d10660c0b: movzx eax, word ptr [rsp+0x4]	 mem: 0x7f7d0cbeee54	value: 0x0
+Not Taint 0x7f7d10660c10: mov word ptr [rsp+0x20], ax	mem: 0x7f7d0cbeee70	value: 0x0
+Not Taint 0x7f7d10660c15: movzx eax, word ptr [rsp+0x8]	 mem: 0x7f7d0cbeee58	value: 0x0
+Not Taint 0x7f7d10660c1a: mov word ptr [rsp+0x22], ax	mem: 0x7f7d0cbeee72	value: 0x0
+Not Taint 0x7f7d10660c1f: movzx eax, word ptr [rsp+0xc]	 mem: 0x7f7d0cbeee5c	value: 0x0
+Not Taint 0x7f7d10660c24: mov word ptr [rsp+0x24], ax	mem: 0x7f7d0cbeee74	value: 0x0
+Not Taint 0x7f7d10660c29: mov word ptr [rsp+0x26], r14w	mem: 0x7f7d0cbeee76	value: 0x0
+Not Taint 0x7f7d10660c2f: mov word ptr [rsp+0x28], r13w	mem: 0x7f7d0cbeee78	value: 0x0
+Not Taint 0x7f7d10660c3a: mov rax, qword ptr [rbx+0x40]	 mem: 0x200dc80	value: 0x403326
+Not Taint 0x7f7d10660c48: mov rdi, qword ptr [rbx+0x48]	 mem: 0x200dc88	value: 0x0
+thread id: 2, enter function: EventCallBack(void*, TSrvEvent*, int)
+Not Taint 0x403326: push rbx	mem: 0x7f7d0cbeee40	value: 0x200dc40
+Not Taint 0x40332b: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x403334: mov qword ptr [rsp+0x28], rax	mem: 0x7f7d0cbeee38	value: 0xf4f60b3748f98f00
+Not Taint 0x40333b: mov rdi, rsp	value: 0x7f7d0cbeee10
+thread id: 2, enter function: _Z12SrvEventTextB5cxx11P9TSrvEvent
+Not Taint 0x404312: push rbx	mem: 0x7f7d0cbeedf8	value: 0x200dc40
+Not Taint 0x40431a: mov rbx, rdi	value: 0x7f7d0cbeee10
+Not Taint 0x40431d: mov rdi, rsi	value: 0x7f7d0cbeee60
+Not Taint 0x404320: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x404329: mov qword ptr [rsp+0x408], rax	mem: 0x7f7d0cbeede8	value: 0xf4f60b3748f98f00
+Not Taint 0x40433b: mov rsi, rsp	value: 0x7f7d0cbee9e0
+thread id: 2, enter function: Srv_EventText@plt
+thread id: 2, enter function: Srv_EventText
+Not Taint 0x7f7d10675fc3: push r12	mem: 0x7f7d0cbee9d0	value: 0x80
+Not Taint 0x7f7d10675fc6: push rbx	mem: 0x7f7d0cbee9c0	value: 0x7f7d0cbeee10
+Not Taint 0x7f7d10675fcb: mov rax, rdi	value: 0x7f7d0cbeee60
+Not Taint 0x7f7d10675fce: mov r12, rsi	value: 0x7f7d0cbee9e0
+Not Taint 0x7f7d10675fd1: mov rcx, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10675fda: mov qword ptr [rsp+0x28], rcx	mem: 0x7f7d0cbee9b8	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10675fe1: movsxd rbx, edx	value: 0x400
+Not Taint 0x7f7d10675fe4: mov rdi, rsp	value: 0x7f7d0cbee990
+Not Taint 0x7f7d10675fe7: mov rsi, rax	value: 0x7f7d0cbeee60
+thread id: 2, enter function: _Z10EvtSrvTextB5cxx11R9TSrvEvent@plt
+thread id: 2, enter function: _Z10EvtSrvTextB5cxx11R9TSrvEvent
+Not Taint 0x7f7d1066bc9b: push r14	mem: 0x7f7d0cbee978	value: 0x0
+Not Taint 0x7f7d1066bc9d: push r12	mem: 0x7f7d0cbee970	value: 0x7f7d0cbee9e0
+Not Taint 0x7f7d1066bc9f: push rbx	mem: 0x7f7d0cbee968	value: 0x400
+Not Taint 0x7f7d1066bca7: mov r14, rdi	value: 0x7f7d0cbee990
+Not Taint 0x7f7d1066bcaa: mov rbx, rsi	value: 0x7f7d0cbeee60
+Not Taint 0x7f7d1066bcad: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1066bcb6: mov qword ptr [rbp-0x28], rax	mem: 0x7f7d0cbee958	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1066bcc3: mov qword ptr [rbp-0x890], rax	mem: 0x7f7d0cbee0f0	value: 0x7f7d0cbee100
+Not Taint 0x7f7d1066bcdc: mov esi, dword ptr [rsi+0xc]	 mem: 0x7f7d0cbeee6c	value: 0x80
+Not Taint 0x7f7d1066dc09: mov qword ptr [rbp-0x150], rax	mem: 0x7f7d0cbee830	value: 0x7f7d0cbee840
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@plt
+Not Taint 0x7f7d1066e045: mov rsi, rbx	value: 0x7f7d0cbeee60
+thread id: 2, enter function: SenderText(TSrvEvent&)
+Not Taint 0x7f7d1066a350: push r14	mem: 0x7f7d0cbee0d8	value: 0x7f7d0cbee990
+Not Taint 0x7f7d1066a352: push r12	mem: 0x7f7d0cbee0d0	value: 0x7f7d0cbee9e0
+Not Taint 0x7f7d1066a354: push rbx	mem: 0x7f7d0cbee0c8	value: 0x7f7d0cbeee60
+Not Taint 0x7f7d1066a35c: mov rbx, rdi	value: 0x7f7d0cbee850
+Not Taint 0x7f7d1066a35f: mov r12, rsi	value: 0x7f7d0cbeee60
+Not Taint 0x7f7d1066a362: mov rcx, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1066a36b: mov qword ptr [rbp-0x28], rcx	mem: 0x7f7d0cbee0b8	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1066a371: mov esi, dword ptr [rsi+0x8]	 mem: 0x7f7d0cbeee68	value: 0x100007f
+thread id: 2, enter function: _Z17IpAddressToStringB5cxx11i@plt
+thread id: 2, enter function: _Z17IpAddressToStringB5cxx11i
+Not Taint 0x7f7d10669e2b: push r12	mem: 0x7f7d0cbee020	value: 0x7f7d0cbeee60
+Not Taint 0x7f7d10669e2e: push rbx	mem: 0x7f7d0cbee010	value: 0x7f7d0cbee850
+Not Taint 0x7f7d10669e2f: mov rbx, rdi	value: 0x7f7d0cbee070
+Not Taint 0x7f7d10669e36: mov qword ptr [rdi], rbp	mem: 0x7f7d0cbee070	value: 0x7f7d0cbee080
+Not Taint 0x7f7d10669e45: mov edi, esi	value: 0x100007f
+thread id: 2, enter function: inet_ntoa@plt
+Not Taint 0x7f7d10669e4c: mov rsi, rax	value: 0x7f7d0cbef6b8
+Not Taint 0x7f7d10669e5b: mov rdi, rsi	value: 0x7f7d0cbef6b8
+Not Taint 0x7f7d10669e63: mov rdx, qword ptr [rbx+0x8]	 mem: 0x7f7d0cbee078	value: 0x0
+Not Taint 0x7f7d10669e6b: mov rcx, rsi	value: 0x7f7d0cbef6b8
+Not Taint 0x7f7d10669e73: mov rdi, rbx	value: 0x7f7d0cbee070
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@plt
+Not Taint 0x7f7d10669e95: mov rax, rbx	value: 0x7f7d0cbee070
+Not Taint 0x7f7d10669e98: pop rbx	 mem: 0x7f7d0cbee010	value: 0x7f7d0cbee850
+Not Taint 0x7f7d10669e9a: pop r12	 mem: 0x7f7d0cbee020	value: 0x7f7d0cbeee60
+thread id: 2, exit  function: _Z17IpAddressToStringB5cxx11i
+Not Taint 0x7f7d1066a38c: mov rsi, qword ptr [r12]	 mem: 0x7f7d0cbeee60	value: 0x5cc5a8ad
+thread id: 2, enter function: _Z12TimeToStringB5cxx11l@plt
+thread id: 2, enter function: _Z12TimeToStringB5cxx11l
+Not Taint 0x7f7d1066a227: push r14	mem: 0x7f7d0cbee018	value: 0x7f7d0cbee990
+Not Taint 0x7f7d1066a229: push rbx	mem: 0x7f7d0cbee010	value: 0x7f7d0cbee850
+Not Taint 0x7f7d1066a22e: mov rbx, rdi	value: 0x7f7d0cbee030
+Not Taint 0x7f7d1066a231: mov qword ptr [rbp-0x78], rsi	mem: 0x7f7d0cbedfa8	value: 0x5cc5a8ad
+Not Taint 0x7f7d1066a235: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1066a23e: mov qword ptr [rbp-0x18], rax	mem: 0x7f7d0cbee008	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1066a248: mov qword ptr [rbp-0x70], rax	mem: 0x7f7d0cbedfb0	value: 0x7f7d0cbedfc0
+thread id: 2, enter function: localtime@plt
+Not Taint 0x7f7d1066a26a: mov r14, rdi	value: 0x7f7d0cbedfd0
+Not Taint 0x7f7d1066a26d: mov rcx, rax	value: 0x7f7d1006c4a0
+thread id: 2, enter function: strftime@plt
+Not Taint 0x7f7d1066a28d: mov qword ptr [rbp-0x80], r14	mem: 0x7f7d0cbedfa0	value: 0x7f7d0cbedfd0
+Not Taint 0x7f7d1066a291: mov rdi, r14	value: 0x7f7d0cbedfd0
+Not Taint 0x7f7d1066a2a1: mov rcx, r14	value: 0x7f7d0cbedfd0
+Not Taint 0x7f7d1066a2a4: mov rdx, qword ptr [rbp-0x68]	 mem: 0x7f7d0cbedfb8	value: 0x0
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@plt
+Not Taint 0x7f7d1066a2b6: mov qword ptr [rbx], rax	mem: 0x7f7d0cbee030	value: 0x7f7d0cbee040
+Not Taint 0x7f7d1066a2b9: mov rsi, qword ptr [rbp-0x70]	 mem: 0x7f7d0cbedfb0	value: 0x7f7d00000940
+Not Taint 0x7f7d1066a2bd: mov rdx, rsi	value: 0x7f7d00000940
+Not Taint 0x7f7d1066a2ca: mov rdi, rbx	value: 0x7f7d0cbee030
+thread id: 2, enter function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)@plt
+thread id: 2, enter function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+Not Taint 0x7f7d10670180: push r12	mem: 0x7f7d0cbedf80	value: 0x7f7d0cbeee60
+Not Taint 0x7f7d10670183: push rbx	mem: 0x7f7d0cbedf70	value: 0x7f7d0cbee030
+Not Taint 0x7f7d1067018b: mov r12, rsi	value: 0x7f7d00000940
+Not Taint 0x7f7d1067018e: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10670197: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbedf68	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d106701b4: mov rbx, rdx	value: 0x7f7d00000953
+Not Taint 0x7f7d106701ba: mov qword ptr [rsp], rbx	mem: 0x7f7d0cbedf60	value: 0x13
+Not Taint 0x7f7d106701c4: mov rsi, rsp	value: 0x7f7d0cbedf60
+Not Taint 0x7f7d106701cc: mov rdi, rbp	value: 0x7f7d0cbee030
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@plt
+Not Taint 0x7f7d106701d4: mov qword ptr [rbp], rax	mem: 0x7f7d0cbee030	value: 0x7f7d00000970
+Not Taint 0x7f7d106701d8: mov rax, qword ptr [rsp]	 mem: 0x7f7d0cbedf60	value: 0x13
+Not Taint 0x7f7d106701dc: mov qword ptr [rbp+0x10], rax	mem: 0x7f7d0cbee040	value: 0x13
+Not Taint 0x7f7d106701e0: mov rdi, qword ptr [rbp]	 mem: 0x7f7d0cbee030	value: 0x7f7d00000970
+Not Taint 0x7f7d106701f8: mov rdx, rbx	value: 0x13
+Not Taint 0x7f7d106701fb: mov rsi, r12	value: 0x7f7d00000940
+thread id: 2, enter function: memcpy@plt
+Not Taint 0x7f7d10670203: mov rax, qword ptr [rsp]	 mem: 0x7f7d0cbedf60	value: 0x13
+Not Taint 0x7f7d10670207: mov qword ptr [rbp+0x8], rax	mem: 0x7f7d0cbee038	value: 0x13
+Not Taint 0x7f7d1067020b: mov rdx, qword ptr [rbp]	 mem: 0x7f7d0cbee030	value: 0x7f7d00000970
+Not Taint 0x7f7d10670213: mov rax, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbedf68	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1067022c: pop rbx	 mem: 0x7f7d0cbedf70	value: 0x7f7d0cbee030
+Not Taint 0x7f7d1067022e: pop r12	 mem: 0x7f7d0cbedf80	value: 0x7f7d0cbeee60
+thread id: 2, exit  function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+Not Taint 0x7f7d1066a2fb: mov rdi, qword ptr [rbp-0x70]	 mem: 0x7f7d0cbedfb0	value: 0x7f7d00000940
+thread id: 2, enter function: operator delete(void*)@plt
+Not Taint 0x7f7d1066a32c: mov rax, rbx	value: 0x7f7d0cbee030
+Not Taint 0x7f7d1066a32f: mov rbx, qword ptr [rbp-0x18]	 mem: 0x7f7d0cbee008	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1066a347: pop rbx	 mem: 0x7f7d0cbee010	value: 0x7f7d0cbee850
+Not Taint 0x7f7d1066a348: pop r14	 mem: 0x7f7d0cbee018	value: 0x7f7d0cbee990
+thread id: 2, exit  function: _Z12TimeToStringB5cxx11l
+Not Taint 0x7f7d1066a3a0: mov qword ptr [rbp-0x90], rax	mem: 0x7f7d0cbee050	value: 0x7f7d0cbee060
+Not Taint 0x7f7d1066a3a7: mov rsi, qword ptr [rbp-0xb0]	 mem: 0x7f7d0cbee030	value: 0x7f7d00000970
+Not Taint 0x7f7d1066a3ae: mov rdx, rsi	value: 0x7f7d00000970
+thread id: 2, enter function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)@plt
+thread id: 2, enter function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+Not Taint 0x7f7d10670180: push r12	mem: 0x7f7d0cbee010	value: 0x7f7d0cbeee60
+Not Taint 0x7f7d10670183: push rbx	mem: 0x7f7d0cbee000	value: 0x7f7d0cbee850
+Not Taint 0x7f7d1067018b: mov r12, rsi	value: 0x7f7d00000970
+Not Taint 0x7f7d1067018e: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10670197: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbedff8	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d106701b4: mov rbx, rdx	value: 0x7f7d00000983
+Not Taint 0x7f7d106701ba: mov qword ptr [rsp], rbx	mem: 0x7f7d0cbedff0	value: 0x13
+Not Taint 0x7f7d106701c4: mov rsi, rsp	value: 0x7f7d0cbedff0
+Not Taint 0x7f7d106701cc: mov rdi, rbp	value: 0x7f7d0cbee050
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@plt
+Not Taint 0x7f7d106701d4: mov qword ptr [rbp], rax	mem: 0x7f7d0cbee050	value: 0x7f7d00000990
+Not Taint 0x7f7d106701d8: mov rax, qword ptr [rsp]	 mem: 0x7f7d0cbedff0	value: 0x13
+Not Taint 0x7f7d106701dc: mov qword ptr [rbp+0x10], rax	mem: 0x7f7d0cbee060	value: 0x13
+Not Taint 0x7f7d106701e0: mov rdi, qword ptr [rbp]	 mem: 0x7f7d0cbee050	value: 0x7f7d00000990
+Not Taint 0x7f7d106701f8: mov rdx, rbx	value: 0x13
+Not Taint 0x7f7d106701fb: mov rsi, r12	value: 0x7f7d00000970
+thread id: 2, enter function: memcpy@plt
+Not Taint 0x7f7d10670203: mov rax, qword ptr [rsp]	 mem: 0x7f7d0cbedff0	value: 0x13
+Not Taint 0x7f7d10670207: mov qword ptr [rbp+0x8], rax	mem: 0x7f7d0cbee058	value: 0x13
+Not Taint 0x7f7d1067020b: mov rdx, qword ptr [rbp]	 mem: 0x7f7d0cbee050	value: 0x7f7d00000990
+Not Taint 0x7f7d10670213: mov rax, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbedff8	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1067022c: pop rbx	 mem: 0x7f7d0cbee000	value: 0x7f7d0cbee850
+Not Taint 0x7f7d1067022e: pop r12	 mem: 0x7f7d0cbee010	value: 0x7f7d0cbeee60
+thread id: 2, exit  function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long)@plt
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@plt
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+Not Taint 0x7f7d10670231: push r12	mem: 0x7f7d0cbee020	value: 0x7f7d0cbeee60
+Not Taint 0x7f7d10670234: push rbx	mem: 0x7f7d0cbee010	value: 0x7f7d0cbee850
+Not Taint 0x7f7d10670235: mov rbx, rdi	value: 0x7f7d0cbee090
+Not Taint 0x7f7d1067023f: mov qword ptr [rdi], r12	mem: 0x7f7d0cbee090	value: 0x7f7d0cbee0a0
+Not Taint 0x7f7d10670242: mov rax, qword ptr [rsi]	 mem: 0x7f7d0cbee050	value: 0x7f7d00000940
+Not Taint 0x7f7d10670245: mov rdx, rax	value: 0x7f7d00000940
+Not Taint 0x7f7d10670252: mov rsi, rax	value: 0x7f7d00000940
+thread id: 2, enter function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)@plt
+thread id: 2, enter function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+Not Taint 0x7f7d10670180: push r12	mem: 0x7f7d0cbedff0	value: 0x7f7d0cbee0a0
+Not Taint 0x7f7d10670183: push rbx	mem: 0x7f7d0cbedfe0	value: 0x7f7d0cbee090
+Not Taint 0x7f7d1067018b: mov r12, rsi	value: 0x7f7d00000940
+Not Taint 0x7f7d1067018e: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10670197: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbedfd8	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d106701b4: mov rbx, rdx	value: 0x7f7d00000955
+Not Taint 0x7f7d106701ba: mov qword ptr [rsp], rbx	mem: 0x7f7d0cbedfd0	value: 0x15
+Not Taint 0x7f7d106701c4: mov rsi, rsp	value: 0x7f7d0cbedfd0
+Not Taint 0x7f7d106701cc: mov rdi, rbp	value: 0x7f7d0cbee090
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@plt
+Not Taint 0x7f7d106701d4: mov qword ptr [rbp], rax	mem: 0x7f7d0cbee090	value: 0x7f7d00000990
+Not Taint 0x7f7d106701d8: mov rax, qword ptr [rsp]	 mem: 0x7f7d0cbedfd0	value: 0x15
+Not Taint 0x7f7d106701dc: mov qword ptr [rbp+0x10], rax	mem: 0x7f7d0cbee0a0	value: 0x15
+Not Taint 0x7f7d106701e0: mov rdi, qword ptr [rbp]	 mem: 0x7f7d0cbee090	value: 0x7f7d00000990
+Not Taint 0x7f7d106701f8: mov rdx, rbx	value: 0x15
+Not Taint 0x7f7d106701fb: mov rsi, r12	value: 0x7f7d00000940
+thread id: 2, enter function: memcpy@plt
+Not Taint 0x7f7d10670203: mov rax, qword ptr [rsp]	 mem: 0x7f7d0cbedfd0	value: 0x15
+Not Taint 0x7f7d10670207: mov qword ptr [rbp+0x8], rax	mem: 0x7f7d0cbee098	value: 0x15
+Not Taint 0x7f7d1067020b: mov rdx, qword ptr [rbp]	 mem: 0x7f7d0cbee090	value: 0x7f7d00000990
+Not Taint 0x7f7d10670213: mov rax, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbedfd8	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1067022c: pop rbx	 mem: 0x7f7d0cbedfe0	value: 0x7f7d0cbee090
+Not Taint 0x7f7d1067022e: pop r12	 mem: 0x7f7d0cbedff0	value: 0x7f7d0cbee0a0
+thread id: 2, exit  function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+Not Taint 0x7f7d1067025e: mov rdx, qword ptr [rbp+0x8]	 mem: 0x7f7d0cbee078	value: 0x9
+Not Taint 0x7f7d10670262: mov rsi, qword ptr [rbp]	 mem: 0x7f7d0cbee070	value: 0x7f7d0cbee080
+Not Taint 0x7f7d10670266: mov rdi, rbx	value: 0x7f7d0cbee090
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long)@plt
+Not Taint 0x7f7d10670288: mov rax, rbx	value: 0x7f7d0cbee090
+Not Taint 0x7f7d1067028b: pop rbx	 mem: 0x7f7d0cbee010	value: 0x7f7d0cbee850
+Not Taint 0x7f7d1067028d: pop r12	 mem: 0x7f7d0cbee020	value: 0x7f7d0cbeee60
+thread id: 2, exit  function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+Not Taint 0x7f7d1066a43d: mov r14, rax	value: 0x7f7d0cbee860
+Not Taint 0x7f7d1066a440: mov qword ptr [rbx], rax	mem: 0x7f7d0cbee850	value: 0x7f7d0cbee860
+Not Taint 0x7f7d1066a443: mov rsi, qword ptr [rbp-0x50]	 mem: 0x7f7d0cbee090	value: 0x7f7d000009b0
+Not Taint 0x7f7d1066a447: mov rdx, rsi	value: 0x7f7d000009b0
+Not Taint 0x7f7d1066a454: mov rdi, rbx	value: 0x7f7d0cbee850
+thread id: 2, enter function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)@plt
+thread id: 2, enter function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+Not Taint 0x7f7d10670180: push r12	mem: 0x7f7d0cbee010	value: 0x7f7d0cbeee60
+Not Taint 0x7f7d10670183: push rbx	mem: 0x7f7d0cbee000	value: 0x7f7d0cbee850
+Not Taint 0x7f7d1067018b: mov r12, rsi	value: 0x7f7d000009b0
+Not Taint 0x7f7d1067018e: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10670197: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbedff8	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d106701b4: mov rbx, rdx	value: 0x7f7d000009ce
+Not Taint 0x7f7d106701ba: mov qword ptr [rsp], rbx	mem: 0x7f7d0cbedff0	value: 0x1e
+Not Taint 0x7f7d106701c4: mov rsi, rsp	value: 0x7f7d0cbedff0
+Not Taint 0x7f7d106701cc: mov rdi, rbp	value: 0x7f7d0cbee850
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@plt
+Not Taint 0x7f7d106701d4: mov qword ptr [rbp], rax	mem: 0x7f7d0cbee850	value: 0x7f7d000009f0
+Not Taint 0x7f7d106701d8: mov rax, qword ptr [rsp]	 mem: 0x7f7d0cbedff0	value: 0x1e
+Not Taint 0x7f7d106701dc: mov qword ptr [rbp+0x10], rax	mem: 0x7f7d0cbee860	value: 0x1e
+Not Taint 0x7f7d106701e0: mov rdi, qword ptr [rbp]	 mem: 0x7f7d0cbee850	value: 0x7f7d000009f0
+Not Taint 0x7f7d106701f8: mov rdx, rbx	value: 0x1e
+Not Taint 0x7f7d106701fb: mov rsi, r12	value: 0x7f7d000009b0
+thread id: 2, enter function: memcpy@plt
+Not Taint 0x7f7d10670203: mov rax, qword ptr [rsp]	 mem: 0x7f7d0cbedff0	value: 0x1e
+Not Taint 0x7f7d10670207: mov qword ptr [rbp+0x8], rax	mem: 0x7f7d0cbee858	value: 0x1e
+Not Taint 0x7f7d1067020b: mov rdx, qword ptr [rbp]	 mem: 0x7f7d0cbee850	value: 0x7f7d000009f0
+Not Taint 0x7f7d10670213: mov rax, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbedff8	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1067022c: pop rbx	 mem: 0x7f7d0cbee000	value: 0x7f7d0cbee850
+Not Taint 0x7f7d1067022e: pop r12	 mem: 0x7f7d0cbee010	value: 0x7f7d0cbeee60
+thread id: 2, exit  function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+Not Taint 0x7f7d1066a48c: mov rdi, rbx	value: 0x7f7d0cbee850
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long)@plt
+Not Taint 0x7f7d1066a494: mov rdi, qword ptr [rbp-0x50]	 mem: 0x7f7d0cbee090	value: 0x7f7d000009b0
+thread id: 2, enter function: operator delete(void*)@plt
+Not Taint 0x7f7d1066a4c0: mov rdi, qword ptr [rbp-0x90]	 mem: 0x7f7d0cbee050	value: 0x7f7d00000940
+thread id: 2, enter function: operator delete(void*)@plt
+Not Taint 0x7f7d1066a4d5: mov rdi, qword ptr [rbp-0xb0]	 mem: 0x7f7d0cbee030	value: 0x7f7d00000970
+thread id: 2, enter function: operator delete(void*)@plt
+Not Taint 0x7f7d1066a4ed: mov rdi, qword ptr [rbp-0x70]	 mem: 0x7f7d0cbee070	value: 0x7f7d0cbee080
+Not Taint 0x7f7d1066a629: mov rax, rbx	value: 0x7f7d0cbee850
+Not Taint 0x7f7d1066a62c: mov rcx, qword ptr [rbp-0x28]	 mem: 0x7f7d0cbee0b8	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1066a644: pop rbx	 mem: 0x7f7d0cbee0c8	value: 0x7f7d0cbeee60
+Not Taint 0x7f7d1066a645: pop r12	 mem: 0x7f7d0cbee0d0	value: 0x7f7d0cbee9e0
+Not Taint 0x7f7d1066a647: pop r14	 mem: 0x7f7d0cbee0d8	value: 0x7f7d0cbee990
+thread id: 2, exit  function: SenderText(TSrvEvent&)
+Not Taint 0x7f7d1066e05b: mov rdi, r14	value: 0x7f7d0cbee990
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@plt
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+Not Taint 0x7f7d10670231: push r12	mem: 0x7f7d0cbee0e0	value: 0x7f7d0cbee9e0
+Not Taint 0x7f7d10670234: push rbx	mem: 0x7f7d0cbee0d0	value: 0x7f7d0cbeee60
+Not Taint 0x7f7d10670235: mov rbx, rdi	value: 0x7f7d0cbee990
+Not Taint 0x7f7d1067023f: mov qword ptr [rdi], r12	mem: 0x7f7d0cbee990	value: 0x7f7d0cbee9a0
+Not Taint 0x7f7d10670242: mov rax, qword ptr [rsi]	 mem: 0x7f7d0cbee850	value: 0x7f7d00000a20
+Not Taint 0x7f7d10670245: mov rdx, rax	value: 0x7f7d00000a20
+Not Taint 0x7f7d10670252: mov rsi, rax	value: 0x7f7d00000a20
+thread id: 2, enter function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)@plt
+thread id: 2, enter function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+Not Taint 0x7f7d10670180: push r12	mem: 0x7f7d0cbee0b0	value: 0x7f7d0cbee9a0
+Not Taint 0x7f7d10670183: push rbx	mem: 0x7f7d0cbee0a0	value: 0x7f7d0cbee990
+Not Taint 0x7f7d1067018b: mov r12, rsi	value: 0x7f7d00000a20
+Not Taint 0x7f7d1067018e: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10670197: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbee098	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d106701b4: mov rbx, rdx	value: 0x7f7d00000a40
+Not Taint 0x7f7d106701ba: mov qword ptr [rsp], rbx	mem: 0x7f7d0cbee090	value: 0x20
+Not Taint 0x7f7d106701c4: mov rsi, rsp	value: 0x7f7d0cbee090
+Not Taint 0x7f7d106701cc: mov rdi, rbp	value: 0x7f7d0cbee990
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@plt
+Not Taint 0x7f7d106701d4: mov qword ptr [rbp], rax	mem: 0x7f7d0cbee990	value: 0x7f7d00000940
+Not Taint 0x7f7d106701d8: mov rax, qword ptr [rsp]	 mem: 0x7f7d0cbee090	value: 0x20
+Not Taint 0x7f7d106701dc: mov qword ptr [rbp+0x10], rax	mem: 0x7f7d0cbee9a0	value: 0x20
+Not Taint 0x7f7d106701e0: mov rdi, qword ptr [rbp]	 mem: 0x7f7d0cbee990	value: 0x7f7d00000940
+Not Taint 0x7f7d106701f8: mov rdx, rbx	value: 0x20
+Not Taint 0x7f7d106701fb: mov rsi, r12	value: 0x7f7d00000a20
+thread id: 2, enter function: memcpy@plt
+Not Taint 0x7f7d10670203: mov rax, qword ptr [rsp]	 mem: 0x7f7d0cbee090	value: 0x20
+Not Taint 0x7f7d10670207: mov qword ptr [rbp+0x8], rax	mem: 0x7f7d0cbee998	value: 0x20
+Not Taint 0x7f7d1067020b: mov rdx, qword ptr [rbp]	 mem: 0x7f7d0cbee990	value: 0x7f7d00000940
+Not Taint 0x7f7d10670213: mov rax, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbee098	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1067022c: pop rbx	 mem: 0x7f7d0cbee0a0	value: 0x7f7d0cbee990
+Not Taint 0x7f7d1067022e: pop r12	 mem: 0x7f7d0cbee0b0	value: 0x7f7d0cbee9a0
+thread id: 2, exit  function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+Not Taint 0x7f7d1067025e: mov rdx, qword ptr [rbp+0x8]	 mem: 0x7f7d0cbee838	value: 0x1b
+Not Taint 0x7f7d10670262: mov rsi, qword ptr [rbp]	 mem: 0x7f7d0cbee830	value: 0x7f7d000008f0
+Not Taint 0x7f7d10670266: mov rdi, rbx	value: 0x7f7d0cbee990
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long)@plt
+Not Taint 0x7f7d10670288: mov rax, rbx	value: 0x7f7d0cbee990
+Not Taint 0x7f7d1067028b: pop rbx	 mem: 0x7f7d0cbee0d0	value: 0x7f7d0cbeee60
+Not Taint 0x7f7d1067028d: pop r12	 mem: 0x7f7d0cbee0e0	value: 0x7f7d0cbee9e0
+thread id: 2, exit  function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+Not Taint 0x7f7d1066e063: mov rdi, qword ptr [rbp-0x130]	 mem: 0x7f7d0cbee850	value: 0x7f7d00000a20
+thread id: 2, enter function: operator delete(void*)@plt
+Not Taint 0x7f7d1066e07b: mov rdi, qword ptr [rbp-0x150]	 mem: 0x7f7d0cbee830	value: 0x7f7d000008f0
+thread id: 2, enter function: operator delete(void*)@plt
+Not Taint 0x7f7d1066e1a0: mov rdi, qword ptr [rbp-0x890]	 mem: 0x7f7d0cbee0f0	value: 0x7f7d0cbee100
+Not Taint 0x7f7d1066e556: mov rax, r14	value: 0x7f7d0cbee990
+Not Taint 0x7f7d1066e559: mov rcx, qword ptr [rbp-0x28]	 mem: 0x7f7d0cbee958	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1066e571: pop rbx	 mem: 0x7f7d0cbee968	value: 0x400
+Not Taint 0x7f7d1066e572: pop r12	 mem: 0x7f7d0cbee970	value: 0x7f7d0cbee9e0
+Not Taint 0x7f7d1066e574: pop r14	 mem: 0x7f7d0cbee978	value: 0x0
+thread id: 2, exit  function: _Z10EvtSrvTextB5cxx11R9TSrvEvent
+Not Taint 0x7f7d10675ff3: mov rdx, rbx	value: 0x400
+Not Taint 0x7f7d10675ff6: mov rsi, rbp	value: 0x7f7d00000a70
+Not Taint 0x7f7d10675ff9: mov rdi, r12	value: 0x7f7d0cbee9e0
+thread id: 2, enter function: strncpy@plt
+Not Taint 0x7f7d1067600b: mov rdi, rbp	value: 0x7f7d00000a70
+thread id: 2, enter function: operator delete(void*)@plt
+Not Taint 0x7f7d10676018: mov rcx, qword ptr [rsp+0x28]	 mem: 0x7f7d0cbee9b8	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10676047: pop rbx	 mem: 0x7f7d0cbee9c0	value: 0x7f7d0cbeee10
+Not Taint 0x7f7d10676049: pop r12	 mem: 0x7f7d0cbee9d0	value: 0x80
+thread id: 2, exit  function: Srv_EventText
+Not Taint 0x404347: mov qword ptr [rbx], rax	mem: 0x7f7d0cbeee10	value: 0x7f7d0cbeee20
+Not Taint 0x404356: mov rdi, rsp	value: 0x7f7d0cbee9e0
+Not Taint 0x404369: mov rsi, rbp	value: 0x7f7d0cbee9e0
+Not Taint 0x40436c: mov rdi, rbx	value: 0x7f7d0cbeee10
+thread id: 2, enter function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+Not Taint 0x4044b4: push r12	mem: 0x7f7d0cbee9c0	value: 0x80
+Not Taint 0x4044b7: push rbx	mem: 0x7f7d0cbee9b0	value: 0x7f7d0cbeee10
+Not Taint 0x4044bf: mov r12, rsi	value: 0x7f7d0cbee9e0
+Not Taint 0x4044c2: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x4044cb: mov qword ptr [rsp+0x8], rax	mem: 0x7f7d0cbee9a8	value: 0xf4f60b3748f98f00
+Not Taint 0x4044e6: mov rbx, rdx	value: 0x7f7d0cbeea1b
+Not Taint 0x4044ec: mov qword ptr [rsp], rbx	mem: 0x7f7d0cbee9a0	value: 0x3b
+Not Taint 0x4044fb: mov rsi, rsp	value: 0x7f7d0cbee9a0
+Not Taint 0x4044fe: mov rdi, rbp	value: 0x7f7d0cbeee10
+thread id: 2, enter function: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@plt
+Not Taint 0x404506: mov qword ptr [rbp], rax	mem: 0x7f7d0cbeee10	value: 0x7f7d00000a70
+Not Taint 0x40450a: mov rax, qword ptr [rsp]	 mem: 0x7f7d0cbee9a0	value: 0x3b
+Not Taint 0x40450e: mov qword ptr [rbp+0x10], rax	mem: 0x7f7d0cbeee20	value: 0x3b
+Not Taint 0x404512: mov rdi, qword ptr [rbp]	 mem: 0x7f7d0cbeee10	value: 0x7f7d00000a70
+Not Taint 0x40452a: mov rdx, rbx	value: 0x3b
+Not Taint 0x40452d: mov rsi, r12	value: 0x7f7d0cbee9e0
+thread id: 2, enter function: memcpy@plt
+Not Taint 0x404535: mov rax, qword ptr [rsp]	 mem: 0x7f7d0cbee9a0	value: 0x3b
+Not Taint 0x404539: mov qword ptr [rbp+0x8], rax	mem: 0x7f7d0cbeee18	value: 0x3b
+Not Taint 0x40453d: mov rdx, qword ptr [rbp]	 mem: 0x7f7d0cbeee10	value: 0x7f7d00000a70
+Not Taint 0x404545: mov rax, qword ptr [rsp+0x8]	 mem: 0x7f7d0cbee9a8	value: 0xf4f60b3748f98f00
+Not Taint 0x40455e: pop rbx	 mem: 0x7f7d0cbee9b0	value: 0x7f7d0cbeee10
+Not Taint 0x404560: pop r12	 mem: 0x7f7d0cbee9c0	value: 0x80
+thread id: 2, exit  function: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+Not Taint 0x404378: mov rsi, qword ptr [rsp+0x408]	 mem: 0x7f7d0cbeede8	value: 0xf4f60b3748f98f00
+Not Taint 0x404390: mov rax, rbx	value: 0x7f7d0cbeee10
+Not Taint 0x40439a: pop rbx	 mem: 0x7f7d0cbeedf8	value: 0x200dc40
+thread id: 2, exit  function: _Z12SrvEventTextB5cxx11P9TSrvEvent
+Not Taint 0x403343: mov rdi, qword ptr [rsp]	 mem: 0x7f7d0cbeee10	value: 0x7f7d00000a70
+thread id: 2, enter function: puts@plt
+Not Taint 0x40334c: mov rdi, qword ptr [rsp]	 mem: 0x7f7d0cbeee10	value: 0x7f7d00000a70
+thread id: 2, enter function: operator delete(void*)@plt
+Not Taint 0x40337f: mov rax, qword ptr [rsp+0x28]	 mem: 0x7f7d0cbeee38	value: 0xf4f60b3748f98f00
+Not Taint 0x403398: pop rbx	 mem: 0x7f7d0cbeee40	value: 0x200dc40
+thread id: 2, exit  function: EventCallBack(void*, TSrvEvent*, int)
+Not Taint 0x7f7d10660c5d: mov rdi, qword ptr [rbx+0x38]	 mem: 0x200dc78	value: 0x2013d90
+thread id: 2, enter function: TMsgEventQueue::Insert(void*)@plt
+thread id: 2, enter function: TMsgEventQueue::Insert(void*)
+Not Taint 0x7f7d10660b37: push rbx	mem: 0x7f7d0cbeee38	value: 0x200dc40
+Not Taint 0x7f7d10660b3c: mov rbx, rdi	value: 0x2013d90
+thread id: 2, enter function: TMsgEventQueue::Full()@plt
+thread id: 2, enter function: TMsgEventQueue::Full()
+Not Taint 0x7f7d10660b16: mov edx, dword ptr [rdi+0x4]	 mem: 0x2013d94	value: 0x0
+Not Taint 0x7f7d10660b19: mov eax, dword ptr [rdi]	 mem: 0x2013d90	value: 0x3
+Not Taint 0x7f7d10660b25: setz cl	value: 0x206
+Not Taint 0x7f7d10660b2a: setz al	value: 0x246
+thread id: 2, exit  function: TMsgEventQueue::Full()
+Not Taint 0x7f7d10660b4b: mov eax, dword ptr [rbx]	 mem: 0x2013d90	value: 0x3
+Not Taint 0x7f7d10660b55: mov dword ptr [rbx], eax	mem: 0x2013d90	value: 0x4
+Not Taint 0x7f7d10660b5f: mov edx, dword ptr [rbx+0x18]	 mem: 0x2013da8	value: 0x1a
+Not Taint 0x7f7d10660b62: mov edi, edx	value: 0x1a
+Not Taint 0x7f7d10660b67: movsxd rdi, edi	value: 0x68
+Not Taint 0x7f7d10660b6e: movsxd rdx, edx	value: 0x1a
+Not Taint 0x7f7d10660b71: mov rsi, rbp	value: 0x7f7d0cbeee60
+thread id: 2, enter function: memcpy@plt
+Not Taint 0x7f7d10660b7d: pop rbx	 mem: 0x7f7d0cbeee38	value: 0x200dc40
+thread id: 2, exit  function: TMsgEventQueue::Insert(void*)
+Not Taint 0x7f7d10660c66: mov rdi, qword ptr [rbx+0x58]	 mem: 0x200dc98	value: 0x2013d60
+thread id: 2, enter function: pthread_mutex_unlock@plt
+Not Taint 0x7f7d10660c80: mov rax, qword ptr [rsp+0x38]	 mem: 0x7f7d0cbeee88	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d10660c99: pop rbx	 mem: 0x7f7d0cbeee98	value: 0x7f7d08002ae0
+Not Taint 0x7f7d10660c9b: pop r12	 mem: 0x7f7d0cbeeea8	value: 0x0
+Not Taint 0x7f7d10660c9d: pop r13	 mem: 0x7f7d0cbeeeb0	value: 0x7f7d0de84dcf
+Not Taint 0x7f7d10660c9f: pop r14	 mem: 0x7f7d0cbeeeb8	value: 0x7f7d0cbef9c0
+Not Taint 0x7f7d10660ca1: pop r15	 mem: 0x7f7d0cbeeec0	value: 0x0
+thread id: 2, exit  function: TCustomMsgServer::DoEvent(int, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)
+Not Taint 0x7f7d10661354: mov rdi, qword ptr [rbx+0x20]	 mem: 0x7f7d08002b00	value: 0x7f7d080008c0
+Not Taint 0x7f7d1066135d: mov rax, qword ptr [rdi]	 mem: 0x7f7d080008c0	value: 0x7f7d1087f768
+thread id: 2, enter function: TS7Worker::~TS7Worker()
+Not Taint 0x7f7d10669e0a: push rbx	mem: 0x7f7d0cbeeed0	value: 0x7f7d08002ae0
+Not Taint 0x7f7d10669e0b: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d10669e0e: mov rax, qword ptr [rip+0x215cb3]	 mem: 0x7f7d1087fac8	value: 0x7f7d1087f700
+Not Taint 0x7f7d10669e19: mov qword ptr [rdi], rax	mem: 0x7f7d080008c0	value: 0x7f7d1087f710
+thread id: 2, enter function: TIsoTcpSocket::~TIsoTcpSocket()@plt
+thread id: 2, enter function: TIsoTcpSocket::~TIsoTcpSocket()
+Not Taint 0x7f7d10662728: mov rax, qword ptr [rip+0x21d6c9]	 mem: 0x7f7d1087fdf8	value: 0x7f7d1087f548
+Not Taint 0x7f7d10662733: mov qword ptr [rdi], rax	mem: 0x7f7d080008c0	value: 0x7f7d1087f558
+thread id: 2, enter function: TMsgSocket::~TMsgSocket()@plt
+thread id: 2, enter function: TMsgSocket::~TMsgSocket()
+Not Taint 0x7f7d1066072a: push rbx	mem: 0x7f7d0cbeeeb0	value: 0x7f7d080008c0
+Not Taint 0x7f7d1066072b: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d1066072e: mov rax, qword ptr [rip+0x21f60b]	 mem: 0x7f7d1087fd40	value: 0x7f7d1087f320
+Not Taint 0x7f7d10660739: mov qword ptr [rdi], rax	mem: 0x7f7d080008c0	value: 0x7f7d1087f330
+thread id: 2, enter function: TMsgSocket::DestroySocket()@plt
+thread id: 2, enter function: TMsgSocket::DestroySocket()
+Not Taint 0x7f7d1065fb24: push rbx	mem: 0x7f7d0cbeeea0	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065fb25: mov rbx, rdi	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065fb28: mov edi, dword ptr [rdi+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+thread id: 2, enter function: shutdown@plt
+Not Taint 0x7f7d1065fb3e: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: TMsgSocket::Purge()@plt
+thread id: 2, enter function: TMsgSocket::Purge()
+Not Taint 0x7f7d1065fab1: push rbx	mem: 0x7f7d0cbeee88	value: 0x7f7d080008c0
+Not Taint 0x7f7d1065fab9: mov rax, qword ptr fs:[0x28]	 mem: 0x7f7d0cbef728	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065fac2: mov qword ptr [rsp+0x208], rax	mem: 0x7f7d0cbeee78	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065fb02: mov rax, qword ptr [rsp+0x208]	 mem: 0x7f7d0cbeee78	value: 0xf4f60b3748f98f00
+Not Taint 0x7f7d1065fb21: pop rbx	 mem: 0x7f7d0cbeee88	value: 0x7f7d080008c0
+thread id: 2, exit  function: TMsgSocket::Purge()
+Not Taint 0x7f7d1065fb46: mov edi, dword ptr [rbx+0x18]	 mem: 0x7f7d080008d8	value: 0x4
+thread id: 2, enter function: close@plt
+Not Taint 0x7f7d1065fb5c: pop rbx	 mem: 0x7f7d0cbeeea0	value: 0x7f7d080008c0
+thread id: 2, exit  function: TMsgSocket::DestroySocket()
+Not Taint 0x7f7d10660741: mov rbx, qword ptr [rbx+0x10]	 mem: 0x7f7d080008d0	value: 0x7f7d08002ac0
+Not Taint 0x7f7d1066074a: mov rdi, rbx	value: 0x7f7d08002ac0
+thread id: 2, enter function: TPinger::~TPinger()@plt
+thread id: 2, enter function: TPinger::~TPinger()
+thread id: 2, exit  function: TPinger::~TPinger()
+Not Taint 0x7f7d10660752: mov rdi, rbx	value: 0x7f7d08002ac0
+thread id: 2, enter function: operator delete(void*)@plt
+Not Taint 0x7f7d1066075a: pop rbx	 mem: 0x7f7d0cbeeeb0	value: 0x7f7d080008c0
+thread id: 2, exit  function: TMsgSocket::~TMsgSocket()
+thread id: 2, exit  function: TIsoTcpSocket::~TIsoTcpSocket()
+Not Taint 0x7f7d10669e21: mov rdi, rbx	value: 0x7f7d080008c0
+thread id: 2, enter function: operator delete(void*)@plt
+Not Taint 0x7f7d10669e29: pop rbx	 mem: 0x7f7d0cbeeed0	value: 0x7f7d08002ae0
+thread id: 2, exit  function: TS7Worker::~TS7Worker()
+Not Taint 0x7f7d10661363: mov esi, dword ptr [rbx+0x28]	 mem: 0x7f7d08002b08	value: 0x0
+Not Taint 0x7f7d10661366: mov rdi, qword ptr [rbx+0x18]	 mem: 0x7f7d08002af8	value: 0x200dc40
+thread id: 2, enter function: TCustomMsgServer::Delete(int)@plt
+thread id: 2, enter function: TCustomMsgServer::Delete(int)
+Not Taint 0x7f7d10661233: push rbx	mem: 0x7f7d0cbeeec8	value: 0x7f7d08002ae0
+Not Taint 0x7f7d10661238: mov rbx, rdi	value: 0x200dc40
+thread id: 2, enter function: TCustomMsgServer::LockList()@plt
+thread id: 2, enter function: TCustomMsgServer::LockList()
+Not Taint 0x7f7d10660e4e: mov rdi, qword ptr [rdi+0x30]	 mem: 0x200dc70	value: 0x2013d30
+thread id: 2, enter function: pthread_mutex_lock@plt
+thread id: 2, exit  function: TCustomMsgServer::LockList()
+Not Taint 0x7f7d10661255: mov rdi, rbx	value: 0x200dc40
+thread id: 2, enter function: TCustomMsgServer::UnlockList()@plt
+thread id: 2, enter function: TCustomMsgServer::UnlockList()
+Not Taint 0x7f7d10660e60: mov rdi, qword ptr [rdi+0x30]	 mem: 0x200dc70	value: 0x2013d30
+thread id: 2, enter function: pthread_mutex_unlock@plt
+thread id: 2, exit  function: TCustomMsgServer::UnlockList()
+Not Taint 0x7f7d10661261: pop rbx	 mem: 0x7f7d0cbeeec8	value: 0x7f7d08002ae0
+thread id: 2, exit  function: TCustomMsgServer::Delete(int)
+Not Taint 0x7f7d10661389: pop rbx	 mem: 0x7f7d0cbeeee0	value: 0x7f7d08002ae0
+Not Taint 0x7f7d1066138b: pop r12	 mem: 0x7f7d0cbeeef0	value: 0x0
+thread id: 2, exit  function: TMsgWorkerThread::Execute()
+Not Taint 0x7f7d10661794: mov rax, qword ptr [rbx]	 mem: 0x7f7d08002ae0	value: 0x7f7d1087f3d8
+Not Taint 0x7f7d10661797: mov rdi, rbx	value: 0x7f7d08002ae0
+thread id: 2, enter function: TMsgWorkerThread::~TMsgWorkerThread()
+Not Taint 0x7f7d10661720: push rbx	mem: 0x7f7d0cbeeef0	value: 0x7f7d08002ae0
+Not Taint 0x7f7d10661721: mov rbx, rdi	value: 0x7f7d08002ae0
+Not Taint 0x7f7d10661724: mov rax, qword ptr [rip+0x21e4ad]	 mem: 0x7f7d1087fbd8	value: 0x7f7d1087f3c8
+Not Taint 0x7f7d1066172f: mov qword ptr [rdi], rax	mem: 0x7f7d08002ae0	value: 0x7f7d1087f3d8
+thread id: 2, enter function: TSnapThread::~TSnapThread()@plt
+thread id: 2, enter function: TSnapThread::~TSnapThread()
+Not Taint 0x7f7d10661898: mov rax, qword ptr [rip+0x21e1e9]	 mem: 0x7f7d1087fa88	value: 0x7f7d1087f470
+Not Taint 0x7f7d106618a3: mov qword ptr [rdi], rax	mem: 0x7f7d08002ae0	value: 0x7f7d1087f480
+thread id: 2, exit  function: TSnapThread::~TSnapThread()
+Not Taint 0x7f7d10661737: mov rdi, rbx	value: 0x7f7d08002ae0
+thread id: 2, enter function: operator delete(void*)@plt
+Not Taint 0x7f7d1066173f: pop rbx	 mem: 0x7f7d0cbeeef0	value: 0x7f7d08002ae0
+thread id: 2, exit  function: TMsgWorkerThread::~TMsgWorkerThread()
+thread id: 2, enter function: pthread_exit@plt
+thread id: 2, enter function: __gxx_personality_v0@plt

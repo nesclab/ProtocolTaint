@@ -1,0 +1,904 @@
+Trace Copy:	7ffd5f796570	7f7d10676eef	7
+Trace Copy:	201d9a0	7ffd5f795d00	19
+Trace Copy:	201d9d0	201d9a0	19
+Trace Copy:	201d9f0	201d9d0	19
+Trace Copy:	201d9a0	201d9f0	19
+Trace Copy:	201d9b3	7f7d106768cf	8
+Function	2	enter	ThreadProc(void*)	(7f7d10661742,7f7d106617b4,7f7d0f8856ba)
+Trace 0x7f7d10661742: push rbx	7f7d0cbeef10	8	0	-1
+Trace 0x7f7d10661753: mov qword ptr [rsp+0x8], rax	7f7d0cbeef08	8	f4f60b3748f98f00	-1
+Function	2	enter	pthread_setcanceltype@plt	(7f7d1065e5d0,7f7d1065e5db,7f7d10661767)
+Trace Copy:	201da10	201d9a0	27
+Function	2	enter	pthread_setcancelstate@plt	(7f7d1065d9f0,7f7d1065d9fb,7f7d10661776)
+Function	2	enter	TMsgWorkerThread::Execute()	(7f7d10661264,7f7d1066138d,7f7d10661785)
+Trace 0x7f7d10661264: push r12	7f7d0cbeeef0	8	0	-1
+Trace 0x7f7d10661267: push rbx	7f7d0cbeeee0	8	7f7d08002ae0	-1
+Trace Copy:	201da40	201da10	27
+Trace Copy:	201da5b	7ffd5f796570	7
+Function	2	enter	TIsoTcpWorker::Execute()	(7f7d106652aa,7f7d106652c2,7f7d1066129e)
+Trace 0x7f7d106652aa: push rbx	7f7d0cbeeed0	8	7f7d08002ae0	-1
+Function	2	enter	TIsoTcpWorker::ExecuteSend()	(7f7d106652a4,7f7d106652a9,7f7d106652b4)
+Function	2	exit 	TIsoTcpWorker::ExecuteSend()
+Function	2	enter	TS7Worker::ExecuteRecv()	(7f7d106653e4,7f7d10665401,7f7d106652c1)
+Trace 0x7f7d106653f5: mov dword ptr [rdi+0x68], eax	7f7d08000928	4	64	-1
+Function	2	enter	TIsoTcpWorker::ExecuteRecv()@plt	(7f7d1065eb10,7f7d1065eb1b,7f7d106653fd)
+Trace 0x7f7d1065eb16: push 0x118	7f7d0cbeeeb0	8	-2
+Function	2	enter	TIsoTcpWorker::ExecuteRecv()	(7f7d106652c6,7f7d106653e3,7f7d106653fd)
+Trace 0x7f7d106652c6: push r12	7f7d0cbeeeb0	8	0	-1
+Trace 0x7f7d106652c9: push rbx	7f7d0cbeeea0	8	7f7d080008c0	-1
+Trace 0x7f7d106652da: mov qword ptr [rsp+0x8], rax	7f7d0cbeee98	8	f4f60b3748f98f00	-1
+Function	2	enter	TMsgSocket::CanRead(int)@plt	(7f7d1065ee80,7f7d1065ee8b,7f7d106652e9)
+Function	2	enter	TMsgSocket::CanRead(int)	(7f7d1065f9b8,7f7d1065faae,7f7d106652e9)
+Trace 0x7f7d1065f9b9: push rbx	7f7d0cbeee78	8	7f7d080008c0	-1
+Trace 0x7f7d1065f9ca: mov qword ptr [rsp+0x98], rax	7f7d0cbeee68	8	f4f60b3748f98f00	-1
+Trace 0x7f7d1065fa05: mov qword ptr [rsp+0x8], rsi	7f7d0cbeedd8	8	186a0	-1
+Trace 0x7f7d1065fa0d: mov qword ptr [rsp], rdx	7f7d0cbeedd0	8	0	-1
+Function	2	enter	__fdelt_chk@plt	(7f7d1065f390,7f7d1065f39b,7f7d1065fa30)
+Function	2	enter	select@plt	(7f7d1065dda0,7f7d1065ddab,7f7d1065fa68)
+Trace Copy:	201d9a0	7ffd5f796710	34
+Function	2	exit 	TMsgSocket::CanRead(int)
+Function	2	enter	TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)@plt	(7f7d1065f0f0,7f7d1065f0fb,7f7d1066530a)
+Trace 0x7f7d1065f0f6: push 0x176	7f7d0cbeee80	8	-2
+Function	2	enter	TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)	(7f7d10662df4,7f7d10662f33,7f7d1066530a)
+Trace 0x7f7d10662df4: push r15	7f7d0cbeee80	8	0	-1
+Trace 0x7f7d10662df6: push r14	7f7d0cbeee78	8	7f7d0cbef9c0	-1
+Trace 0x7f7d10662df8: push r13	7f7d0cbeee70	8	7f7d0de84dcf	-1
+Trace 0x7f7d10662dfa: push r12	7f7d0cbeee68	8	7f7d08000a44	-1
+Trace 0x7f7d10662dfd: push rbx	7f7d0cbeee58	8	7f7d080008c0	-1
+Trace 0x7f7d10662e05: mov qword ptr [rsp+0x18], rsi	7f7d0cbeee38	8	7f7d08000a44	-1
+Trace 0x7f7d10662e13: mov qword ptr [rsp+0x28], rax	7f7d0cbeee48	8	f4f60b3748f98f00	-1
+Trace 0x7f7d10662e1a: mov byte ptr [rsp+0x23], 0x0	7f7d0cbeee43	1	-2
+Function	2	enter	TIsoTcpSocket::ClrIsoError()@plt	(7f7d1065e1b0,7f7d1065e1bb,7f7d10662e24)
+Trace 0x7f7d1065e1b6: push 0x82	7f7d0cbeee10	8	-2
+Function	2	enter	TIsoTcpSocket::ClrIsoError()	(7f7d106627b6,7f7d106627c7,7f7d10662e24)
+Trace 0x7f7d106627b6: mov dword ptr [rdi+0x1198], 0x0	7f7d08001a58	4	-2
+Trace 0x7f7d106627c0: mov dword ptr [rdi+0x78], 0x0	7f7d08000938	4	-2
+Function	2	exit 	TIsoTcpSocket::ClrIsoError()
+Trace 0x7f7d10662e2b: mov dword ptr [rsp+0x14], 0x1	7f7d0cbeee34	4	-2
+Trace 0x7f7d10662e48: mov qword ptr [rsp+0x8], rax	7f7d0cbeee28	8	7f7d0cbeee44	-1
+Function	2	enter	TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)@plt	(7f7d1065e0b0,7f7d1065e0bb,7f7d10662e6f)
+Trace 0x7f7d1065e0b6: push 0x72	7f7d0cbeee10	8	-2
+Function	2	enter	TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)	(7f7d10662cce,7f7d10662df2,7f7d10662e6f)
+Trace 0x7f7d10662cce: push r15	7f7d0cbeee10	8	7f7d0cbeee43	-1
+Trace 0x7f7d10662cd0: push r14	7f7d0cbeee08	8	1000	-1
+Trace 0x7f7d10662cd2: push r13	7f7d0cbeee00	8	7f7d080008c0	-1
+Trace 0x7f7d10662cd4: push r12	7f7d0cbeedf8	8	7f7d08000a44	-1
+Trace 0x7f7d10662cd7: push rbx	7f7d0cbeede8	8	7f7d08000a4b	-1
+Trace 0x7f7d10662cdf: mov qword ptr [rsp+0x8], rsi	7f7d0cbeedd8	8	7f7d08000a4b	-1
+Trace 0x7f7d10662ced: mov dword ptr [rcx], 0x0	7f7d0cbeee44	4	-2
+Trace 0x7f7d10662cf3: mov byte ptr [r8], 0x0	7f7d0cbeee43	1	-2
+Function	2	enter	TIsoTcpSocket::ClrIsoError()@plt	(7f7d1065e1b0,7f7d1065e1bb,7f7d10662cfc)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()	(7f7d106627b6,7f7d106627c7,7f7d10662cfc)
+Trace 0x7f7d106627b6: mov dword ptr [rdi+0x1198], 0x0	7f7d08001a58	4	-2
+Trace 0x7f7d106627c0: mov dword ptr [rdi+0x78], 0x0	7f7d08000938	4	-2
+Function	2	exit 	TIsoTcpSocket::ClrIsoError()
+Trace Copy:	2013dda	7ffd5f796b90	26
+Function	2	enter	TMsgSocket::RecvPacket(void*, int)@plt	(7f7d1065f220,7f7d1065f22b,7f7d10662d13)
+Trace 0x7f7d1065f226: push 0x189	7f7d0cbeedc0	8	-2
+Function	2	enter	TMsgSocket::RecvPacket(void*, int)	(7f7d1066028c,7f7d106602fc,7f7d10662d13)
+Trace 0x7f7d1066028c: push r12	7f7d0cbeedc0	8	7f7d08000a44	-1
+Trace 0x7f7d1066028f: push rbx	7f7d0cbeedb0	8	7f7d080008c0	-1
+Function	2	enter	TMsgSocket::WaitForData(int, int)@plt	(7f7d1065f310,7f7d1065f31b,7f7d106602a2)
+Trace 0x7f7d1065f316: push 0x198	7f7d0cbeeda0	8	-2
+Function	2	enter	TMsgSocket::WaitForData(int, int)	(7f7d1065fba2,7f7d1065fc66,7f7d106602a2)
+Trace 0x7f7d1065fba2: push r13	7f7d0cbeeda0	8	7f7d0cbeee43	-1
+Trace 0x7f7d1065fba4: push r12	7f7d0cbeed98	8	7f7d08000a44	-1
+Trace Copy:	7f7d0de84820	7f7d10676eff	12
+Trace 0x7f7d1065fba7: push rbx	7f7d0cbeed88	8	7f7d080008c0	-1
+Trace 0x7f7d1065fbbd: mov qword ptr [rsp+0x8], rax	7f7d0cbeed78	8	f4f60b3748f98f00	-1
+Function	2	enter	TMsgSocket::CanRead(int)@plt	(7f7d1065ee80,7f7d1065ee8b,7f7d1065fbce)
+Function	2	enter	TMsgSocket::CanRead(int)	(7f7d1065f9b8,7f7d1065faae,7f7d1065fbce)
+Trace 0x7f7d1065f9b9: push rbx	7f7d0cbeed58	8	7f7d080008c0	-1
+Trace 0x7f7d1065f9ca: mov qword ptr [rsp+0x98], rax	7f7d0cbeed48	8	f4f60b3748f98f00	-1
+Trace 0x7f7d1065fa05: mov qword ptr [rsp+0x8], rsi	7f7d0cbeecb8	8	0	-1
+Trace 0x7f7d1065fa0d: mov qword ptr [rsp], rdx	7f7d0cbeecb0	8	0	-1
+Function	2	enter	__fdelt_chk@plt	(7f7d1065f390,7f7d1065f39b,7f7d1065fa30)
+Trace Copy:	7f7d0de84060	7f7d0de856b8	9
+Function	2	enter	select@plt	(7f7d1065dda0,7f7d1065ddab,7f7d1065fa68)
+Function	2	exit 	TMsgSocket::CanRead(int)
+Function	2	enter	TMsgSocket::WaitingData()@plt	(7f7d1065de40,7f7d1065de4b,7f7d1065fbda)
+Trace 0x7f7d1065de46: push 0x4b	7f7d0cbeed60	8	-2
+Function	2	enter	TMsgSocket::WaitingData()	(7f7d1065f77a,7f7d1065f7d8,7f7d1065fbda)
+Trace 0x7f7d1065f787: mov qword ptr [rsp+0x8], rax	7f7d0cbeed58	8	f4f60b3748f98f00	-1
+Trace 0x7f7d1065f78e: mov qword ptr [rsp], 0x0	7f7d0cbeed50	8	-2
+Trace Copy:	7f7d08002ca0	7f7d0de83fb0	19
+Trace Copy:	7f7d08002cd0	7f7d08002ca0	19
+Function	2	enter	ioctl@plt	(7f7d1065dbd0,7f7d1065dbdb,7f7d1065f7a6)
+Trace 0x7f7d1065dbd6: push 0x24	7f7d0cbeed40	8	-2
+Function	2	exit 	TMsgSocket::WaitingData()
+Trace Copy:	7f7d08002cf0	7f7d08002cd0	19
+Trace 0x7f7d1065fbec: mov dword ptr [rbx+0x78], 0x0	7f7d08000938	4	-2
+Function	2	enter	SysGetTick()@plt	(7f7d1065e9f0,7f7d1065e9fb,7f7d1065fbf8)
+Trace 0x7f7d1065e9f6: push 0x106	7f7d0cbeed60	8	-2
+Trace Copy:	7f7d08002ca0	7f7d08002cf0	19
+Trace Copy:	7f7d08002cb3	7f7d106768c9	2
+Function	2	enter	SysGetTick()	(7f7d106608c1,7f7d10660925,7f7d1065fbf8)
+Trace 0x7f7d106608ce: mov qword ptr [rsp+0x18], rax	7f7d0cbeed58	8	f4f60b3748f98f00	-1
+Function	2	enter	clock_gettime@plt	(7f7d1065f210,7f7d1065f21b,7f7d106608e2)
+Trace 0x7f7d1065f216: push 0x188	7f7d0cbeed30	8	-2
+Trace Copy:	7f7d08002cf0	7f7d08002ca0	21
+Trace Copy:	7f7d08002d10	7f7d08002cf0	21
+Trace Copy:	7f7d08002d25	7f7d0de84060	9
+Function	2	exit 	SysGetTick()
+Trace 0x7f7d1065fbf8: mov dword ptr [rsp+0x4], eax	7f7d0cbeed74	4	980868ea	-1
+Function	2	enter	TMsgSocket::WaitingData()@plt	(7f7d1065de40,7f7d1065de4b,7f7d1065fc09)
+Function	2	enter	TMsgSocket::WaitingData()	(7f7d1065f77a,7f7d1065f7d8,7f7d1065fc09)
+Trace Copy:	7f7d08002d50	7f7d08002d10	30
+Trace 0x7f7d1065f787: mov qword ptr [rsp+0x8], rax	7f7d0cbeed58	8	f4f60b3748f98f00	-1
+Trace 0x7f7d1065f78e: mov qword ptr [rsp], 0x0	7f7d0cbeed50	8	-2
+Function	2	enter	ioctl@plt	(7f7d1065dbd0,7f7d1065dbdb,7f7d1065f7a6)
+Trace Copy:	7f7d08002d80	7f7d08002d50	30
+Trace Copy:	7f7d08002d9e	7f7d106768cc	2
+Function	2	exit 	TMsgSocket::WaitingData()
+Function	2	exit 	TMsgSocket::WaitForData(int, int)
+Trace Copy:	7f7d08002ca0	7f7d08002d80	32
+Function	2	enter	dlsym@plt	(7f7d1065df50,7f7d1065df5b,7f7d106602bc)
+Trace Copy:	7f7d08002dd0	7f7d08002ca0	32
+Trace Copy:	7f7d08002df0	7f7d0de84820	12
+Trace 0x7f7d1065df56: push 0x5c	7f7d0cbeeda0	8	-2
+Trace Copy:	7f7d08002d10	7f7d0de849c0	44
+Taint	(0x7f7d08000a44, 7)
+Function	2	exit 	TMsgSocket::RecvPacket(void*, int)
+Trace Copy:	2013df4	7f7d0de84e40	26
+Instruction 0x7f7d10662d3d: movzx eax, byte ptr [rbx+0x18a]	2	6	0x7f7d08000a4a	0x80
+Instruction 0x7f7d10662d44: shr al, 0x7	2	6	0x80
+Trace 0x7f7d10662d47: mov byte ptr [r13], al	7f7d0cbeee43	1	1	6
+Memory:	Taint	addr:7f7d0cbeee43	src:7f7d08000a4a	offset:6	size:1	bigendian:0
+Instruction 0x7f7d10662d47: mov byte ptr [r13], al	2	6	0x7f7d08000a4a	0x1
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)@plt	(7f7d1065e890,7f7d1065e89b,7f7d10662d6a)
+Trace 0x7f7d1065e896: push 0xf0	7f7d0cbeedc0	8	-2
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)	(7f7d10662900,7f7d1066290d,7f7d10662d6a)
+Instruction 0x7f7d10662900: movzx eax, byte ptr [rsi+0x2]	2	2	0x7f7d08000a46	0x0
+Instruction 0x7f7d10662904: shl eax, 0x8	2	2	0x0
+Instruction 0x7f7d10662907: movzx edx, byte ptr [rsi+0x3]	2	3	0x7f7d08000a47	0x1f
+Instruction 0x7f7d1066290b: add eax, edx	2	2	0x0
+Instruction 0x7f7d1066290b: add eax, edx	2	3	0x1f
+Instruction 0x7f7d1066290b: add eax, edx	2	2,3	0x0
+Function	2	exit 	TIsoTcpSocket::PDUSize(void*)
+Instruction 0x7f7d10662d6a: mov r13d, eax	2	2,3	0x7f7d08000a46	0x1f
+Function	2	enter	TIsoTcpSocket::CheckPDU(void*, unsigned char)@plt	(7f7d1065e810,7f7d1065e81b,7f7d10662d7c)
+Trace 0x7f7d1065e816: push 0xe8	7f7d0cbeedc0	8	-2
+Function	2	enter	TIsoTcpSocket::CheckPDU(void*, unsigned char)	(7f7d1066290e,7f7d1066296b,7f7d10662d7c)
+Trace 0x7f7d1066290e: push r12	7f7d0cbeedc0	8	7f7d08000a44	-1
+Trace 0x7f7d10662911: push rbx	7f7d0cbeedb0	8	7f7d080008c0	-1
+Function	2	enter	TIsoTcpSocket::ClrIsoError()@plt	(7f7d1065e1b0,7f7d1065e1bb,7f7d10662920)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()	(7f7d106627b6,7f7d106627c7,7f7d10662920)
+Trace 0x7f7d106627b6: mov dword ptr [rdi+0x1198], 0x0	7f7d08001a58	4	-2
+Trace 0x7f7d106627c0: mov dword ptr [rdi+0x78], 0x0	7f7d08000938	4	-2
+Function	2	exit 	TIsoTcpSocket::ClrIsoError()
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)@plt	(7f7d1065e890,7f7d1065e89b,7f7d10662930)
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)	(7f7d10662900,7f7d1066290d,7f7d10662930)
+Instruction 0x7f7d10662900: movzx eax, byte ptr [rsi+0x2]	2	2	0x7f7d08000a46	0x0
+Instruction 0x7f7d10662904: shl eax, 0x8	2	2	0x0
+Instruction 0x7f7d10662907: movzx edx, byte ptr [rsi+0x3]	2	3	0x7f7d08000a47	0x1f
+Instruction 0x7f7d1066290b: add eax, edx	2	2	0x0
+Instruction 0x7f7d1066290b: add eax, edx	2	3	0x1f
+Instruction 0x7f7d1066290b: add eax, edx	2	2,3	0x0
+Function	2	exit 	TIsoTcpSocket::PDUSize(void*)
+Instruction 0x7f7d10662930: sub eax, 0x7	2	2,3	0x1f
+Instruction 0x7f7d10662933: cmp eax, 0xff9	2	2,3	0x18
+Instruction 0x7f7d1066293a: cmp byte ptr [rbx+0x4], 0x1	2	4	0x2
+Instruction 0x7f7d10662945: cmp byte ptr [rbx+0x5], r12b	2	5	0xf0
+Function	2	exit 	TIsoTcpSocket::CheckPDU(void*, unsigned char)
+Instruction 0x7f7d10662d88: sub r13d, 0x7	2	2,3	0x1f
+Instruction 0x7f7d10662d8c: test r13d, r13d	2	2,3	0x18
+Instruction 0x7f7d10662d8c: test r13d, r13d	2	2,3	0x18
+Instruction 0x7f7d10662d91: cmp r13d, r15d	2	2,3	0x18
+Instruction 0x7f7d10662d96: mov edx, r13d	2	2,3	0x7f7d08000a46	0x18
+Function	2	enter	TMsgSocket::RecvPacket(void*, int)@plt	(7f7d1065f220,7f7d1065f22b,7f7d10662da6)
+Function	2	enter	TMsgSocket::RecvPacket(void*, int)	(7f7d1066028c,7f7d106602fc,7f7d10662da6)
+Trace 0x7f7d1066028c: push r12	7f7d0cbeedc0	8	7f7d08000a44	-1
+Trace 0x7f7d1066028f: push rbx	7f7d0cbeedb0	8	7f7d080008c0	-1
+Function	2	enter	TMsgSocket::WaitForData(int, int)@plt	(7f7d1065f310,7f7d1065f31b,7f7d106602a2)
+Function	2	enter	TMsgSocket::WaitForData(int, int)	(7f7d1065fba2,7f7d1065fc66,7f7d106602a2)
+Trace 0x7f7d1065fba2: push r13	7f7d0cbeeda0	8	18	2
+Memory:	Taint	addr:7f7d0cbeeda0	src:7f7d08000a46	offset:2	size:2	bigendian:1
+Instruction 0x7f7d1065fba2: push r13	2	2,3	0x7f7d08000a46	0x18
+Trace 0x7f7d1065fba4: push r12	7f7d0cbeed98	8	7f7d08000a4b	-1
+Trace 0x7f7d1065fba7: push rbx	7f7d0cbeed88	8	7f7d080008c0	-1
+Trace 0x7f7d1065fbbd: mov qword ptr [rsp+0x8], rax	7f7d0cbeed78	8	f4f60b3748f98f00	-1
+Function	2	enter	TMsgSocket::CanRead(int)@plt	(7f7d1065ee80,7f7d1065ee8b,7f7d1065fbce)
+Function	2	enter	TMsgSocket::CanRead(int)	(7f7d1065f9b8,7f7d1065faae,7f7d1065fbce)
+Trace 0x7f7d1065f9b9: push rbx	7f7d0cbeed58	8	7f7d080008c0	-1
+Trace 0x7f7d1065f9ca: mov qword ptr [rsp+0x98], rax	7f7d0cbeed48	8	f4f60b3748f98f00	-1
+Trace 0x7f7d1065fa05: mov qword ptr [rsp+0x8], rsi	7f7d0cbeecb8	8	0	-1
+Trace 0x7f7d1065fa0d: mov qword ptr [rsp], rdx	7f7d0cbeecb0	8	0	-1
+Function	2	enter	__fdelt_chk@plt	(7f7d1065f390,7f7d1065f39b,7f7d1065fa30)
+Function	2	enter	select@plt	(7f7d1065dda0,7f7d1065ddab,7f7d1065fa68)
+Function	2	exit 	TMsgSocket::CanRead(int)
+Function	2	enter	TMsgSocket::WaitingData()@plt	(7f7d1065de40,7f7d1065de4b,7f7d1065fbda)
+Function	2	enter	TMsgSocket::WaitingData()	(7f7d1065f77a,7f7d1065f7d8,7f7d1065fbda)
+Trace 0x7f7d1065f787: mov qword ptr [rsp+0x8], rax	7f7d0cbeed58	8	f4f60b3748f98f00	-1
+Trace 0x7f7d1065f78e: mov qword ptr [rsp], 0x0	7f7d0cbeed50	8	-2
+Function	2	enter	ioctl@plt	(7f7d1065dbd0,7f7d1065dbdb,7f7d1065f7a6)
+Function	2	exit 	TMsgSocket::WaitingData()
+Trace 0x7f7d1065fbec: mov dword ptr [rbx+0x78], 0x0	7f7d08000938	4	-2
+Function	2	enter	SysGetTick()@plt	(7f7d1065e9f0,7f7d1065e9fb,7f7d1065fbf8)
+Function	2	enter	SysGetTick()	(7f7d106608c1,7f7d10660925,7f7d1065fbf8)
+Trace 0x7f7d106608ce: mov qword ptr [rsp+0x18], rax	7f7d0cbeed58	8	f4f60b3748f98f00	-1
+Function	2	enter	clock_gettime@plt	(7f7d1065f210,7f7d1065f21b,7f7d106608e2)
+Function	2	exit 	SysGetTick()
+Trace 0x7f7d1065fbf8: mov dword ptr [rsp+0x4], eax	7f7d0cbeed74	4	98086ad2	-1
+Function	2	enter	TMsgSocket::WaitingData()@plt	(7f7d1065de40,7f7d1065de4b,7f7d1065fc09)
+Function	2	enter	TMsgSocket::WaitingData()	(7f7d1065f77a,7f7d1065f7d8,7f7d1065fc09)
+Trace 0x7f7d1065f787: mov qword ptr [rsp+0x8], rax	7f7d0cbeed58	8	f4f60b3748f98f00	-1
+Trace 0x7f7d1065f78e: mov qword ptr [rsp], 0x0	7f7d0cbeed50	8	-2
+Function	2	enter	ioctl@plt	(7f7d1065dbd0,7f7d1065dbdb,7f7d1065f7a6)
+Function	2	exit 	TMsgSocket::WaitingData()
+Instruction 0x7f7d1065fc64: pop r13	2	2,3	0x7f7d08000a46	0x18
+Function	2	exit 	TMsgSocket::WaitForData(int, int)
+Function	2	enter	recv@plt	(7f7d1065df50,7f7d1065df5b,7f7d106602bc)
+Taint	(0x7f7d08000a4b, 18)
+Function	2	exit 	TMsgSocket::RecvPacket(void*, int)
+Trace 0x7f7d10662dbb: mov dword ptr [r14], r13d	7f7d0cbeee44	4	18	2
+Memory:	Taint	addr:7f7d0cbeee44	src:7f7d08000a46	offset:2	size:2	bigendian:1
+Instruction 0x7f7d10662dbb: mov dword ptr [r14], r13d	2	2,3	0x7f7d08000a46	0x18
+Function	2	exit 	TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)
+Instruction 0x7f7d10662e76: cmp byte ptr [rsp+0x23], 0x0	2	6	0x1
+Instruction 0x7f7d10662ec8: add edx, dword ptr [rsp+0x24]	2	2,3	0x18
+Trace 0x7f7d10662ed2: mov byte ptr [r13+0x186], al	7f7d08000a46	1	0	-1
+Memory:	Untaint	addr:7f7d08000a46	src:7f7d08000a46	offset:2	size:1	bigendian:0
+Trace 0x7f7d10662ed9: mov byte ptr [r13+0x187], dl	7f7d08000a47	1	1f	-1
+Memory:	Untaint	addr:7f7d08000a47	src:7f7d08000a47	offset:3	size:1	bigendian:0
+Function	2	exit 	TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)
+Function	2	enter	TIsoTcpSocket::IsoPeek(void*, TPDUKind&)@plt	(7f7d1065ed40,7f7d1065ed4b,7f7d10665323)
+Trace 0x7f7d1065ed46: push 0x13b	7f7d0cbeee80	8	-2
+Function	2	enter	TIsoTcpSocket::IsoPeek(void*, TPDUKind&)	(7f7d10663008,7f7d10663068,7f7d10665323)
+Trace 0x7f7d10663009: push rbx	7f7d0cbeee78	8	7f7d080008c0	-1
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)@plt	(7f7d1065e890,7f7d1065e89b,7f7d10663019)
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)	(7f7d10662900,7f7d1066290d,7f7d10663019)
+Function	2	exit 	TIsoTcpSocket::PDUSize(void*)
+Instruction 0x7f7d10663035: movzx eax, byte ptr [rbx+0x5]	2	5	0x7f7d08000a49	0xf0
+Instruction 0x7f7d10663039: cmp al, 0xe0	2	5	0xf0
+Instruction 0x7f7d1066303d: cmp al, 0xf0	2	5	0xf0
+Trace 0x7f7d1066305b: mov dword ptr [rbp], 0x5	7f7d0cbeee90	4	-2
+Function	2	exit 	TIsoTcpSocket::IsoPeek(void*, TPDUKind&)
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)@plt	(7f7d1065e890,7f7d1065e89b,7f7d10665336)
+Function	2	enter	TIsoTcpSocket::PDUSize(void*)	(7f7d10662900,7f7d1066290d,7f7d10665336)
+Function	2	exit 	TIsoTcpSocket::PDUSize(void*)
+Trace 0x7f7d10665339: mov dword ptr [rsp+0x4], eax	7f7d0cbeee94	4	18	-1
+Function	2	enter	TS7Worker::IsoPerformCommand(int&)	(7f7d10669d1a,7f7d10669dae,7f7d1066534b)
+Trace 0x7f7d10669d1a: push r12	7f7d0cbeee80	8	7f7d08000a44	-1
+Trace 0x7f7d10669d1d: push rbx	7f7d0cbeee70	8	7f7d080008c0	-1
+Function	2	enter	TS7Worker::CheckPDU_in(int)@plt	(7f7d1065df70,7f7d1065df7b,7f7d10669d3b)
+Trace 0x7f7d1065df76: push 0x5e	7f7d0cbeee60	8	-2
+Function	2	enter	TS7Worker::CheckPDU_in(int)	(7f7d10665492,7f7d10665508,7f7d10669d3b)
+Trace 0x7f7d10665492: push r13	7f7d0cbeee60	8	7f7d0de84dcf	-1
+Trace 0x7f7d10665494: push r12	7f7d0cbeee58	8	7f7d0cbeee94	-1
+Trace 0x7f7d10665497: push rbx	7f7d0cbeee48	8	7f7d080008c0	-1
+Instruction 0x7f7d106654ad: movzx esi, word ptr [rax+0x6]	2	13	0x7f7d08000a51	0xe00
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(7f7d1065e8a0,7f7d1065e8ab,7f7d106654b9)
+Trace 0x7f7d1065e8a6: push 0xf1	7f7d0cbeee30	8	-2
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(7f7d1065f56c,7f7d1065f578,7f7d106654b9)
+Instruction 0x7f7d1065f56c: mov eax, esi	2	13,14	0x7f7d08000a51	0xe00
+Instruction 0x7f7d1065f56e: rol ax, 0x8	2	13,14	0xe00
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Instruction 0x7f7d106654c2: movzx esi, word ptr [rax+0x8]	2	15	0x7f7d08000a53	0x0
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(7f7d1065e8a0,7f7d1065e8ab,7f7d106654ce)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(7f7d1065f56c,7f7d1065f578,7f7d106654ce)
+Instruction 0x7f7d1065f56c: mov eax, esi	2	15,16	0x7f7d08000a53	0x0
+Instruction 0x7f7d1065f56e: rol ax, 0x8	2	15,16	0x0
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Instruction 0x7f7d106654d1: movzx edx, ax	2	15,16	0x7f7d08000a53	0x0
+Instruction 0x7f7d106654e9: movzx edx, byte ptr [rax+0x1]	2	8	0x7f7d08000a4c	0x1
+Instruction 0x7f7d106654ed: cmp dl, 0x1	2	8	0x1
+Instruction 0x7f7d106654f3: cmp dl, 0x7	2	8	0x1
+Function	2	exit 	TS7Worker::CheckPDU_in(int)
+Instruction 0x7f7d10669d48: movzx eax, byte ptr [rax+0x1]	2	8	0x7f7d08000a4c	0x1
+Instruction 0x7f7d10669d4c: cmp al, 0x1	2	8	0x1
+Function	2	enter	TS7Worker::PerformPDURequest(int&)@plt	(7f7d1065e2f0,7f7d1065e2fb,7f7d10669d61)
+Trace 0x7f7d1065e2f6: push 0x96	7f7d0cbeee60	8	-2
+Function	2	enter	TS7Worker::PerformPDURequest(int&)	(7f7d10669c88,7f7d10669d19,7f7d10669d61)
+Instruction 0x7f7d10669c93: movzx eax, byte ptr [rax+0xa]	2	17	0x7f7d08000a55	0x4
+Instruction 0x7f7d10669c97: cmp al, 0x1f	2	17	0x4
+Instruction 0x7f7d10669c9b: cmp al, 0x1d	2	17	0x4
+Instruction 0x7f7d10669c9f: cmp al, 0x5	2	17	0x4
+Instruction 0x7f7d10669ca3: cmp al, 0x1a	2	17	0x4
+Instruction 0x7f7d10669ca7: cmp al, 0x4	2	17	0x4
+Function	2	enter	TS7Worker::PerformFunctionRead()@plt	(7f7d1065db20,7f7d1065db2b,7f7d10669cc0)
+Trace 0x7f7d1065db26: push 0x19	7f7d0cbeee50	8	-2
+Function	2	enter	TS7Worker::PerformFunctionRead()	(7f7d106693f2,7f7d106695df,7f7d10669cc0)
+Trace 0x7f7d106693f2: push r15	7f7d0cbeee50	8	0	-1
+Trace 0x7f7d106693f4: push r14	7f7d0cbeee48	8	7f7d0cbef9c0	-1
+Trace 0x7f7d106693f6: push r13	7f7d0cbeee40	8	7f7d0de84dcf	-1
+Trace 0x7f7d106693f8: push r12	7f7d0cbeee38	8	7f7d0cbeee94	-1
+Trace 0x7f7d106693fb: push rbx	7f7d0cbeee28	8	1	-1
+Trace 0x7f7d1066940f: mov qword ptr [rsp+0x1048], rax	7f7d0cbeee18	8	f4f60b3748f98f00	-1
+Trace 0x7f7d1066941f: mov dword ptr [rsp+0x2c], eax	7f7d0cbeddfc	4	800	-1
+Trace 0x7f7d1066942a: mov qword ptr [rsp+0x18], rax	7f7d0cbedde8	8	7f7d08000a4b	-1
+Instruction 0x7f7d1066942f: movzx r13d, byte ptr [rax+0xb]	2	18	0x7f7d08000a56	0x1
+Instruction 0x7f7d10669434: cmp r13b, 0x14	2	18	0x1
+Instruction 0x7f7d10669446: movzx r13d, r13b	2	18	0x7f7d08000a56	0x1
+Instruction 0x7f7d1066944a: test r13d, r13d	2	18	0x1
+Instruction 0x7f7d1066944a: test r13d, r13d	2	18	0x1
+Trace 0x7f7d1066946b: mov qword ptr [rsp], rax	7f7d0cbeddd0	8	7f7d0cbede00	-1
+Trace 0x7f7d10669474: mov qword ptr [rsp+0x8], rax	7f7d0cbeddd8	8	7f7d0cbeddfc	-1
+Trace 0x7f7d10669482: mov dword ptr [rsp+0x14], eax	7f7d0cbedde4	4	0	-1
+Function	2	enter	TS7Worker::ReadArea(TResFunReadItem*, TReqFunReadItem*, int&, TEv&)@plt	(7f7d1065e2b0,7f7d1065e2bb,7f7d1066949e)
+Trace 0x7f7d1065e2b6: push 0x92	7f7d0cbeddc0	8	-2
+Function	2	enter	TS7Worker::ReadArea(TResFunReadItem*, TReqFunReadItem*, int&, TEv&)	(7f7d10668fac,7f7d106693f0,7f7d1066949e)
+Trace 0x7f7d10668fac: push r15	7f7d0cbeddc0	8	7f7d0cbede1c	-1
+Trace 0x7f7d10668fae: push r14	7f7d0cbeddb8	8	7f7d080008c0	-1
+Trace 0x7f7d10668fb0: push r13	7f7d0cbeddb0	8	1	18
+Memory:	Taint	addr:7f7d0cbeddb0	src:7f7d08000a56	offset:12	size:1	bigendian:0
+Instruction 0x7f7d10668fb0: push r13	2	18	0x7f7d08000a56	0x1
+Trace 0x7f7d10668fb2: push r12	7f7d0cbedda8	8	7f7d08000a57	-1
+Trace 0x7f7d10668fb5: push rbx	7f7d0cbedd98	8	0	-1
+Trace 0x7f7d10668fc3: mov qword ptr [rsp], rcx	7f7d0cbedd60	8	7f7d0cbeddfc	-1
+Trace 0x7f7d10668fca: mov word ptr [r8+0x6], 0x0	7f7d0cbede06	2	-2
+Trace 0x7f7d10668fd1: mov word ptr [r8+0x8], 0x0	7f7d0cbede08	2	-2
+Trace 0x7f7d10668fd8: mov word ptr [r8], 0x0	7f7d0cbede00	2	-2
+Trace 0x7f7d10668fde: mov word ptr [r8+0x4], 0x0	7f7d0cbede04	2	-2
+Instruction 0x7f7d10668fe5: movzx eax, byte ptr [rdx+0x8]	2	27	0x7f7d08000a5f	0x84
+Trace 0x7f7d10668fe9: mov word ptr [r8+0x2], ax	7f7d0cbede02	2	84	27
+Memory:	Taint	addr:7f7d0cbede02	src:7f7d08000a5f	offset:1b	size:1	bigendian:0
+Instruction 0x7f7d10668fe9: mov word ptr [r8+0x2], ax	2	27	0x7f7d08000a5f	0x84
+Instruction 0x7f7d10668ff3: cmp byte ptr [rdx+0x8], 0x84	2	27	0x84
+Instruction 0x7f7d10668ff9: movzx esi, word ptr [rdx+0x6]	2	25	0x7f7d08000a5d	0x100
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(7f7d1065e8a0,7f7d1065e8ab,7f7d10669006)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(7f7d1065f56c,7f7d1065f578,7f7d10669006)
+Instruction 0x7f7d1065f56c: mov eax, esi	2	25,26	0x7f7d08000a5d	0x100
+Instruction 0x7f7d1065f56e: rol ax, 0x8	2	25,26	0x100
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Trace 0x7f7d10669006: mov word ptr [rbx+0x4], ax	7f7d0cbede04	2	1	25
+Memory:	Taint	addr:7f7d0cbede04	src:7f7d08000a5d	offset:19	size:2	bigendian:0
+Instruction 0x7f7d10669006: mov word ptr [rbx+0x4], ax	2	25,26	0x7f7d08000a5d	0x1
+Instruction 0x7f7d1066901b: movzx edx, ax	2	25,26	0x7f7d08000a5d	0x1
+Instruction 0x7f7d1066901e: movzx esi, byte ptr [rbp+0x8]	2	27	0x7f7d08000a5f	0x84
+Function	2	enter	TS7Worker::GetArea(unsigned char, unsigned short)@plt	(7f7d1065e600,7f7d1065e60b,7f7d1066902a)
+Trace 0x7f7d1065e606: push 0xc7	7f7d0cbedd50	8	-2
+Function	2	enter	TS7Worker::GetArea(unsigned char, unsigned short)	(7f7d1066849c,7f7d10668534,7f7d1066902a)
+Instruction 0x7f7d1066849c: cmp sil, 0x81	2	27	0x84
+Instruction 0x7f7d106684a2: cmp sil, 0x81	2	27	0x84
+Instruction 0x7f7d106684b6: cmp sil, 0x83	2	27	0x84
+Instruction 0x7f7d106684bc: cmp sil, 0x83	2	27	0x84
+Instruction 0x7f7d106684c2: cmp sil, 0x84	2	27	0x84
+Instruction 0x7f7d10668519: movzx esi, dx	2	25,26	0x7f7d08000a5d	0x1
+Function	2	enter	TSnap7Server::FindDB(unsigned short)@plt	(7f7d1065deb0,7f7d1065debb,7f7d10668528)
+Function	2	enter	TSnap7Server::FindDB(unsigned short)	(7f7d1066845a,7f7d10668499,7f7d10668528)
+Instruction 0x7f7d10668480: cmp word ptr [rax], si	2	25,26	0x1
+Instruction 0x7f7d10668480: cmp word ptr [rax], si	2	25,26	0x1
+Instruction 0x7f7d10668480: cmp word ptr [rax], si	2	25,26	0x1
+Function	2	exit 	TSnap7Server::FindDB(unsigned short)
+Function	2	exit 	TS7Worker::GetArea(unsigned char, unsigned short)
+Function	2	enter	TS7Worker::RA_NotFound(TResFunReadItem*, TEv&)@plt	(7f7d1065e250,7f7d1065e25b,7f7d10669040)
+Trace 0x7f7d1065e256: push 0x8c	7f7d0cbedd50	8	-2
+Function	2	enter	TS7Worker::RA_NotFound(TResFunReadItem*, TEv&)	(7f7d10665676,7f7d106656ac,7f7d10669040)
+Trace 0x7f7d10665677: push rbx	7f7d0cbedd48	8	7f7d0cbede00	-1
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(7f7d1065e8a0,7f7d1065e8ab,7f7d10665690)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(7f7d1065f56c,7f7d1065f578,7f7d10665690)
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Trace 0x7f7d10665690: mov word ptr [rbx+0x2], ax	7f7d0cbede20	2	400	-1
+Trace 0x7f7d10665694: mov byte ptr [rbx], 0xa	7f7d0cbede1e	1	-2
+Trace 0x7f7d10665697: mov byte ptr [rbx+0x1], 0x0	7f7d0cbede1f	1	-2
+Trace 0x7f7d1066569b: mov word ptr [rbp], 0x7	7f7d0cbede00	2	-2
+Function	2	exit 	TS7Worker::RA_NotFound(TResFunReadItem*, TEv&)
+Instruction 0x7f7d106693ea: pop r13	2	18	0x7f7d08000a56	0x1
+Function	2	exit 	TS7Worker::ReadArea(TResFunReadItem*, TReqFunReadItem*, int&, TEv&)
+Instruction 0x7f7d106694ba: cmp r13d, 0x1	2	18	0x1
+Instruction 0x7f7d106694f8: cmp ebx, r13d	2	18	0x1
+Trace 0x7f7d10669504: mov byte ptr [rsp+0x40], 0x32	7f7d0cbede10	1	-2
+Trace 0x7f7d10669509: mov byte ptr [rsp+0x41], 0x3	7f7d0cbede11	1	-2
+Trace 0x7f7d1066950e: mov word ptr [rsp+0x42], 0x0	7f7d0cbede12	2	-2
+Instruction 0x7f7d1066951c: movzx eax, word ptr [rax+0x4]	2	11	0x7f7d08000a4f	0x0
+Trace 0x7f7d10669520: mov word ptr [rsp+0x44], ax	7f7d0cbede14	2	0	11
+Memory:	Taint	addr:7f7d0cbede14	src:7f7d08000a4f	offset:b	size:2	bigendian:0
+Instruction 0x7f7d10669520: mov word ptr [rsp+0x44], ax	2	11,12	0x7f7d08000a4f	0x0
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(7f7d1065e8a0,7f7d1065e8ab,7f7d10669536)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(7f7d1065f56c,7f7d1065f578,7f7d10669536)
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Trace 0x7f7d10669536: mov word ptr [rsp+0x46], ax	7f7d0cbede16	2	200	-1
+Trace 0x7f7d1066953b: mov word ptr [rsp+0x4a], 0x0	7f7d0cbede1a	2	-2
+Function	2	enter	TSnapBase::SwapWord(unsigned short)@plt	(7f7d1065e8a0,7f7d1065e8ab,7f7d10669550)
+Function	2	enter	TSnapBase::SwapWord(unsigned short)	(7f7d1065f56c,7f7d1065f578,7f7d10669550)
+Function	2	exit 	TSnapBase::SwapWord(unsigned short)
+Trace 0x7f7d10669550: mov word ptr [rsp+0x48], ax	7f7d0cbede18	2	400	-1
+Instruction 0x7f7d1066955a: movzx eax, byte ptr [rcx+0xa]	2	17	0x7f7d08000a55	0x4
+Trace 0x7f7d1066955e: mov byte ptr [rsp+0x4c], al	7f7d0cbede1c	1	4	17
+Memory:	Taint	addr:7f7d0cbede1c	src:7f7d08000a55	offset:11	size:1	bigendian:0
+Instruction 0x7f7d1066955e: mov byte ptr [rsp+0x4c], al	2	17	0x7f7d08000a55	0x4
+Instruction 0x7f7d10669562: movzx eax, byte ptr [rcx+0xb]	2	18	0x7f7d08000a56	0x1
+Trace 0x7f7d10669566: mov byte ptr [rsp+0x4d], al	7f7d0cbede1d	1	1	18
+Memory:	Taint	addr:7f7d0cbede1d	src:7f7d08000a56	offset:12	size:1	bigendian:0
+Instruction 0x7f7d10669566: mov byte ptr [rsp+0x4d], al	2	18	0x7f7d08000a56	0x1
+Function	2	enter	TIsoTcpSocket::isoSendBuffer(void*, int)@plt	(7f7d1065ef20,7f7d1065ef2b,7f7d1066957a)
+Trace 0x7f7d1065ef26: push 0x159	7f7d0cbeddc0	8	-2
+Function	2	enter	TIsoTcpSocket::isoSendBuffer(void*, int)	(7f7d10662b04,7f7d10662bb9,7f7d1066957a)
+Trace 0x7f7d10662b04: push r13	7f7d0cbeddc0	8	1	18
+Memory:	Taint	addr:7f7d0cbeddc0	src:7f7d08000a56	offset:12	size:1	bigendian:0
+Instruction 0x7f7d10662b04: push r13	2	18	0x7f7d08000a56	0x1
+Trace 0x7f7d10662b06: push r12	7f7d0cbeddb8	8	7f7d08000a63	-1
+Trace 0x7f7d10662b09: push rbx	7f7d0cbedda8	8	7f7d080008c8	-1
+Function	2	enter	TIsoTcpSocket::ClrIsoError()@plt	(7f7d1065e1b0,7f7d1065e1bb,7f7d10662b1b)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()	(7f7d106627b6,7f7d106627c7,7f7d10662b1b)
+Trace 0x7f7d106627b6: mov dword ptr [rdi+0x1198], 0x0	7f7d08001a58	4	-2
+Trace 0x7f7d106627c0: mov dword ptr [rdi+0x78], 0x0	7f7d08000938	4	-2
+Function	2	exit 	TIsoTcpSocket::ClrIsoError()
+Trace 0x7f7d10662b29: mov byte ptr [rbx+0x184], 0x3	7f7d08000a44	1	-2
+Memory:	Untaint	addr:7f7d08000a44	src:7f7d08000a44	offset:0	size:1	bigendian:0
+Trace 0x7f7d10662b30: mov byte ptr [rbx+0x185], 0x0	7f7d08000a45	1	-2
+Memory:	Untaint	addr:7f7d08000a45	src:7f7d08000a45	offset:1	size:1	bigendian:0
+Trace 0x7f7d10662b3d: mov byte ptr [rbx+0x186], al	7f7d08000a46	1	0	-1
+Trace 0x7f7d10662b43: mov byte ptr [rbx+0x187], r12b	7f7d08000a47	1	19	-1
+Trace 0x7f7d10662b4a: mov byte ptr [rbx+0x188], 0x2	7f7d08000a48	1	-2
+Memory:	Untaint	addr:7f7d08000a48	src:7f7d08000a48	offset:4	size:1	bigendian:0
+Trace 0x7f7d10662b51: mov byte ptr [rbx+0x189], 0xf0	7f7d08000a49	1	-2
+Memory:	Untaint	addr:7f7d08000a49	src:7f7d08000a49	offset:5	size:1	bigendian:0
+Trace 0x7f7d10662b58: mov byte ptr [rbx+0x18a], 0x80	7f7d08000a4a	1	-2
+Memory:	Untaint	addr:7f7d08000a4a	src:7f7d08000a4a	offset:6	size:1	bigendian:0
+Function	2	enter	memcpy@plt	(7f7d1065f2a0,7f7d1065f2ab,7f7d10662b76)
+Trace Copy:	7f7d08000a4b	7f7d0cbede10	18
+Taint	(0x7f7d08000a4f, 1)
+Taint	(0x7f7d08000a57, 2)
+Function	2	enter	TMsgSocket::SendPacket(void*, int)@plt	(7f7d1065dc70,7f7d1065dc7b,7f7d10662b88)
+Trace 0x7f7d1065dc76: push 0x2e	7f7d0cbedd90	8	-2
+Function	2	enter	TMsgSocket::SendPacket(void*, int)	(7f7d10660182,7f7d106601ec,7f7d10662b88)
+Trace 0x7f7d10660182: push r12	7f7d0cbedd90	8	19	-1
+Trace 0x7f7d10660185: push rbx	7f7d0cbedd80	8	7f7d080008c0	-1
+Trace 0x7f7d1066018e: mov dword ptr [rdi+0x78], 0x0	7f7d08000938	4	-2
+Function	2	enter	TMsgSocket::CanWrite(int)@plt	(7f7d1065f1d0,7f7d1065f1db,7f7d106601a1)
+Trace 0x7f7d1065f1d6: push 0x184	7f7d0cbedd70	8	-2
+Function	2	enter	TMsgSocket::CanWrite(int)	(7f7d1065f8c0,7f7d1065f9b6,7f7d106601a1)
+Trace 0x7f7d1065f8c1: push rbx	7f7d0cbedd68	8	7f7d080008c0	-1
+Trace 0x7f7d1065f8d2: mov qword ptr [rsp+0x98], rax	7f7d0cbedd58	8	f4f60b3748f98f00	-1
+Trace 0x7f7d1065f90d: mov qword ptr [rsp+0x8], rsi	7f7d0cbedcc8	8	2710	-1
+Trace 0x7f7d1065f915: mov qword ptr [rsp], rdx	7f7d0cbedcc0	8	0	-1
+Function	2	enter	__fdelt_chk@plt	(7f7d1065f390,7f7d1065f39b,7f7d1065f938)
+Function	2	enter	select@plt	(7f7d1065dda0,7f7d1065ddab,7f7d1065f970)
+Function	2	exit 	TMsgSocket::CanWrite(int)
+Function	2	enter	send@plt	(7f7d1065eb90,7f7d1065eb9b,7f7d106601c9)
+Trace 0x7f7d1065eb96: push 0x120	7f7d0cbedd70	8	-2
+Trace Address (send) :	7f7d08000a44	25	25
+Function	2	exit 	TMsgSocket::SendPacket(void*, int)
+Instruction 0x7f7d10662bb7: pop r13	2	18	0x7f7d08000a56	0x1
+Function	2	exit 	TIsoTcpSocket::isoSendBuffer(void*, int)
+Instruction 0x7f7d1066957a: cmp r13d, 0x1	2	18	0x1
+Instruction 0x7f7d10669580: movzx ecx, word ptr [rsp+0x32]	2	27	0x7f7d08000a5f	0x84
+Trace 0x7f7d10669593: push rax	7f7d0cbeddc0	8	0	-1
+Memory:	Untaint	addr:7f7d0cbeddc0	src:7f7d08000a56	offset:12	size:1	bigendian:0
+Instruction 0x7f7d1066959a: movzx r8d, word ptr [rsp+0x44]	2	25,26	0x7f7d08000a5d	0x1
+Function	2	enter	TS7Worker::DoEvent(unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)@plt	(7f7d1065edf0,7f7d1065edfb,7f7d106695ad)
+Trace 0x7f7d1065edf6: push 0x146	7f7d0cbeddb0	8	-2
+Memory:	Untaint	addr:7f7d0cbeddb0	src:7f7d08000a56	offset:12	size:1	bigendian:0
+Function	2	enter	TS7Worker::DoEvent(unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)	(7f7d106655f8,7f7d10665633,7f7d106695ad)
+Trace 0x7f7d10665614: push rdi	7f7d0cbedda8	8	0	-1
+Trace 0x7f7d10665619: push r9	7f7d0cbedda0	8	0	-1
+Instruction 0x7f7d1066561b: movzx r9d, r8w	2	25,26	0x7f7d08000a5d	0x1
+Instruction 0x7f7d1066561f: movzx r8d, cx	2	27	0x7f7d08000a5f	0x84
+Function	2	enter	TCustomMsgServer::DoEvent(int, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)	(7f7d10660b80,7f7d10660ca3,7f7d1066562f)
+Trace 0x7f7d10660b80: push r15	7f7d0cbedd90	8	7f7d0cbede1c	-1
+Trace 0x7f7d10660b82: push r14	7f7d0cbedd88	8	7f7d080008c0	-1
+Trace 0x7f7d10660b84: push r13	7f7d0cbedd80	8	1	18
+Memory:	Taint	addr:7f7d0cbedd80	src:7f7d08000a56	offset:12	size:1	bigendian:0
+Instruction 0x7f7d10660b84: push r13	2	18	0x7f7d08000a56	0x1
+Trace 0x7f7d10660b86: push r12	7f7d0cbedd78	8	7f7d08000a63	-1
+Trace 0x7f7d10660b89: push rbx	7f7d0cbedd68	8	7f7d080008c8	-1
+Trace 0x7f7d10660b8e: mov dword ptr [rsp], esi	7f7d0cbedd20	4	100007f	-1
+Trace 0x7f7d10660b91: mov dword ptr [rsp+0x4], ecx	7f7d0cbedd24	4	7	-1
+Trace 0x7f7d10660b95: mov dword ptr [rsp+0x8], r8d	7f7d0cbedd28	4	84	27
+Memory:	Taint	addr:7f7d0cbedd28	src:7f7d08000a5f	offset:1b	size:1	bigendian:0
+Instruction 0x7f7d10660b95: mov dword ptr [rsp+0x8], r8d	2	27	0x7f7d08000a5f	0x84
+Trace 0x7f7d10660b9a: mov dword ptr [rsp+0xc], r9d	7f7d0cbedd2c	4	1	25
+Memory:	Taint	addr:7f7d0cbedd2c	src:7f7d08000a5d	offset:19	size:2	bigendian:0
+Instruction 0x7f7d10660b9a: mov dword ptr [rsp+0xc], r9d	2	25,26	0x7f7d08000a5d	0x1
+Trace 0x7f7d10660bb8: mov qword ptr [rsp+0x38], rax	7f7d0cbedd58	8	f4f60b3748f98f00	-1
+Function	2	enter	pthread_mutex_lock@plt	(7f7d1065f050,7f7d1065f05b,7f7d10660bf6)
+Function	2	enter	time@plt	(7f7d1065f3a0,7f7d1065f3ab,7f7d10660c00)
+Trace 0x7f7d10660c03: mov dword ptr [rsp+0x18], eax	7f7d0cbedd38	4	100007f	-1
+Trace 0x7f7d10660c07: mov dword ptr [rsp+0x1c], ebp	7f7d0cbedd3c	4	20000	-1
+Trace 0x7f7d10660c10: mov word ptr [rsp+0x20], ax	7f7d0cbedd40	2	7	-1
+Instruction 0x7f7d10660c15: movzx eax, word ptr [rsp+0x8]	2	27	0x7f7d08000a5f	0x84
+Trace 0x7f7d10660c1a: mov word ptr [rsp+0x22], ax	7f7d0cbedd42	2	84	27
+Memory:	Taint	addr:7f7d0cbedd42	src:7f7d08000a5f	offset:1b	size:1	bigendian:0
+Instruction 0x7f7d10660c1a: mov word ptr [rsp+0x22], ax	2	27	0x7f7d08000a5f	0x84
+Instruction 0x7f7d10660c1f: movzx eax, word ptr [rsp+0xc]	2	25,26	0x7f7d08000a5d	0x1
+Trace 0x7f7d10660c24: mov word ptr [rsp+0x24], ax	7f7d0cbedd44	2	1	25
+Memory:	Taint	addr:7f7d0cbedd44	src:7f7d08000a5d	offset:19	size:2	bigendian:0
+Instruction 0x7f7d10660c24: mov word ptr [rsp+0x24], ax	2	25,26	0x7f7d08000a5d	0x1
+Trace 0x7f7d10660c29: mov word ptr [rsp+0x26], r14w	7f7d0cbedd46	2	0	-1
+Trace 0x7f7d10660c2f: mov word ptr [rsp+0x28], r13w	7f7d0cbedd48	2	0	-1
+Function	2	enter	TMsgEventQueue::Insert(void*)@plt	(7f7d1065e1a0,7f7d1065e1ab,7f7d10660c66)
+Function	2	enter	TMsgEventQueue::Insert(void*)	(7f7d10660b36,7f7d10660b7f,7f7d10660c66)
+Trace 0x7f7d10660b37: push rbx	7f7d0cbedd08	8	200dc40	-1
+Function	2	enter	TMsgEventQueue::Full()@plt	(7f7d1065dfb0,7f7d1065dfbb,7f7d10660b47)
+Function	2	enter	TMsgEventQueue::Full()	(7f7d10660b16,7f7d10660b35,7f7d10660b47)
+Function	2	exit 	TMsgEventQueue::Full()
+Trace 0x7f7d10660b55: mov dword ptr [rbx], eax	2013d90	4	3	-1
+Function	2	enter	memcpy@plt	(7f7d1065f2a0,7f7d1065f2ab,7f7d10660b79)
+Trace Copy:	2013e0e	7f7d0cbedd30	26
+Taint	(0x2013e20, 1)
+Taint	(0x2013e22, 1)
+Function	2	exit 	TMsgEventQueue::Insert(void*)
+Function	2	enter	pthread_mutex_unlock@plt	(7f7d1065f270,7f7d1065f27b,7f7d10660c6f)
+Instruction 0x7f7d10660c9d: pop r13	2	18	0x7f7d08000a56	0x1
+Function	2	exit 	TCustomMsgServer::DoEvent(int, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)
+Function	2	exit 	TS7Worker::DoEvent(unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)
+Function	2	exit 	TS7Worker::PerformFunctionRead()
+Function	2	exit 	TS7Worker::PerformPDURequest(int&)
+Function	2	exit 	TS7Worker::IsoPerformCommand(int&)
+Function	2	exit 	TIsoTcpWorker::ExecuteRecv()
+Function	2	exit 	TS7Worker::ExecuteRecv()
+Function	2	exit 	TIsoTcpWorker::Execute()
+Function	2	enter	TIsoTcpWorker::Execute()	(7f7d106652aa,7f7d106652c2,7f7d1066129e)
+Trace 0x7f7d106652aa: push rbx	7f7d0cbeeed0	8	7f7d08002ae0	-1
+Function	2	enter	TIsoTcpWorker::ExecuteSend()	(7f7d106652a4,7f7d106652a9,7f7d106652b4)
+Function	2	exit 	TIsoTcpWorker::ExecuteSend()
+Function	2	enter	TS7Worker::ExecuteRecv()	(7f7d106653e4,7f7d10665401,7f7d106652c1)
+Trace 0x7f7d106653f5: mov dword ptr [rdi+0x68], eax	7f7d08000928	4	64	-1
+Function	2	enter	TIsoTcpWorker::ExecuteRecv()@plt	(7f7d1065eb10,7f7d1065eb1b,7f7d106653fd)
+Function	2	enter	TIsoTcpWorker::ExecuteRecv()	(7f7d106652c6,7f7d106653e3,7f7d106653fd)
+Trace 0x7f7d106652c6: push r12	7f7d0cbeeeb0	8	0	-1
+Trace 0x7f7d106652c9: push rbx	7f7d0cbeeea0	8	7f7d080008c0	-1
+Trace 0x7f7d106652da: mov qword ptr [rsp+0x8], rax	7f7d0cbeee98	8	f4f60b3748f98f00	-1
+Function	2	enter	TMsgSocket::CanRead(int)@plt	(7f7d1065ee80,7f7d1065ee8b,7f7d106652e9)
+Function	2	enter	TMsgSocket::CanRead(int)	(7f7d1065f9b8,7f7d1065faae,7f7d106652e9)
+Trace 0x7f7d1065f9b9: push rbx	7f7d0cbeee78	8	7f7d080008c0	-1
+Trace 0x7f7d1065f9ca: mov qword ptr [rsp+0x98], rax	7f7d0cbeee68	8	f4f60b3748f98f00	-1
+Trace 0x7f7d1065fa05: mov qword ptr [rsp+0x8], rsi	7f7d0cbeedd8	8	186a0	-1
+Trace 0x7f7d1065fa0d: mov qword ptr [rsp], rdx	7f7d0cbeedd0	8	0	-1
+Function	2	enter	__fdelt_chk@plt	(7f7d1065f390,7f7d1065f39b,7f7d1065fa30)
+Function	2	enter	select@plt	(7f7d1065dda0,7f7d1065ddab,7f7d1065fa68)
+Function	2	exit 	TMsgSocket::CanRead(int)
+Function	2	enter	TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)@plt	(7f7d1065f0f0,7f7d1065f0fb,7f7d1066530a)
+Function	2	enter	TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)	(7f7d10662df4,7f7d10662f33,7f7d1066530a)
+Trace 0x7f7d10662df4: push r15	7f7d0cbeee80	8	0	-1
+Trace 0x7f7d10662df6: push r14	7f7d0cbeee78	8	7f7d0cbef9c0	-1
+Trace 0x7f7d10662df8: push r13	7f7d0cbeee70	8	7f7d0de84dcf	-1
+Trace 0x7f7d10662dfa: push r12	7f7d0cbeee68	8	7f7d08000a44	-1
+Trace 0x7f7d10662dfd: push rbx	7f7d0cbeee58	8	7f7d080008c0	-1
+Trace 0x7f7d10662e05: mov qword ptr [rsp+0x18], rsi	7f7d0cbeee38	8	7f7d08000a44	-1
+Trace 0x7f7d10662e13: mov qword ptr [rsp+0x28], rax	7f7d0cbeee48	8	f4f60b3748f98f00	-1
+Trace 0x7f7d10662e1a: mov byte ptr [rsp+0x23], 0x0	7f7d0cbeee43	1	-2
+Memory:	Untaint	addr:7f7d0cbeee43	src:7f7d08000a4a	offset:6	size:1	bigendian:0
+Function	2	enter	TIsoTcpSocket::ClrIsoError()@plt	(7f7d1065e1b0,7f7d1065e1bb,7f7d10662e24)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()	(7f7d106627b6,7f7d106627c7,7f7d10662e24)
+Trace 0x7f7d106627b6: mov dword ptr [rdi+0x1198], 0x0	7f7d08001a58	4	-2
+Trace 0x7f7d106627c0: mov dword ptr [rdi+0x78], 0x0	7f7d08000938	4	-2
+Function	2	exit 	TIsoTcpSocket::ClrIsoError()
+Trace 0x7f7d10662e2b: mov dword ptr [rsp+0x14], 0x1	7f7d0cbeee34	4	-2
+Trace 0x7f7d10662e48: mov qword ptr [rsp+0x8], rax	7f7d0cbeee28	8	7f7d0cbeee44	-1
+Function	2	enter	TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)@plt	(7f7d1065e0b0,7f7d1065e0bb,7f7d10662e6f)
+Function	2	enter	TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)	(7f7d10662cce,7f7d10662df2,7f7d10662e6f)
+Trace 0x7f7d10662cce: push r15	7f7d0cbeee10	8	7f7d0cbeee43	-1
+Trace 0x7f7d10662cd0: push r14	7f7d0cbeee08	8	1000	-1
+Trace 0x7f7d10662cd2: push r13	7f7d0cbeee00	8	7f7d080008c0	-1
+Trace 0x7f7d10662cd4: push r12	7f7d0cbeedf8	8	7f7d08000a44	-1
+Trace 0x7f7d10662cd7: push rbx	7f7d0cbeede8	8	7f7d08000a4b	-1
+Trace 0x7f7d10662cdf: mov qword ptr [rsp+0x8], rsi	7f7d0cbeedd8	8	7f7d08000a4b	-1
+Trace 0x7f7d10662ced: mov dword ptr [rcx], 0x0	7f7d0cbeee44	4	-2
+Memory:	Untaint	addr:7f7d0cbeee44	src:7f7d08000a46	offset:2	size:2	bigendian:1
+Trace 0x7f7d10662cf3: mov byte ptr [r8], 0x0	7f7d0cbeee43	1	-2
+Function	2	enter	TIsoTcpSocket::ClrIsoError()@plt	(7f7d1065e1b0,7f7d1065e1bb,7f7d10662cfc)
+Function	2	enter	TIsoTcpSocket::ClrIsoError()	(7f7d106627b6,7f7d106627c7,7f7d10662cfc)
+Trace 0x7f7d106627b6: mov dword ptr [rdi+0x1198], 0x0	7f7d08001a58	4	-2
+Trace 0x7f7d106627c0: mov dword ptr [rdi+0x78], 0x0	7f7d08000938	4	-2
+Function	2	exit 	TIsoTcpSocket::ClrIsoError()
+Function	2	enter	TMsgSocket::RecvPacket(void*, int)@plt	(7f7d1065f220,7f7d1065f22b,7f7d10662d13)
+Function	2	enter	TMsgSocket::RecvPacket(void*, int)	(7f7d1066028c,7f7d106602fc,7f7d10662d13)
+Trace 0x7f7d1066028c: push r12	7f7d0cbeedc0	8	7f7d08000a44	-1
+Trace 0x7f7d1066028f: push rbx	7f7d0cbeedb0	8	7f7d080008c0	-1
+Function	2	enter	TMsgSocket::WaitForData(int, int)@plt	(7f7d1065f310,7f7d1065f31b,7f7d106602a2)
+Function	2	enter	TMsgSocket::WaitForData(int, int)	(7f7d1065fba2,7f7d1065fc66,7f7d106602a2)
+Trace 0x7f7d1065fba2: push r13	7f7d0cbeeda0	8	7f7d0cbeee43	-1
+Memory:	Untaint	addr:7f7d0cbeeda0	src:7f7d08000a46	offset:2	size:2	bigendian:1
+Trace 0x7f7d1065fba4: push r12	7f7d0cbeed98	8	7f7d08000a44	-1
+Trace 0x7f7d1065fba7: push rbx	7f7d0cbeed88	8	7f7d080008c0	-1
+Trace 0x7f7d1065fbbd: mov qword ptr [rsp+0x8], rax	7f7d0cbeed78	8	f4f60b3748f98f00	-1
+Function	2	enter	TMsgSocket::CanRead(int)@plt	(7f7d1065ee80,7f7d1065ee8b,7f7d1065fbce)
+Function	2	enter	TMsgSocket::CanRead(int)	(7f7d1065f9b8,7f7d1065faae,7f7d1065fbce)
+Trace 0x7f7d1065f9b9: push rbx	7f7d0cbeed58	8	7f7d080008c0	-1
+Trace 0x7f7d1065f9ca: mov qword ptr [rsp+0x98], rax	7f7d0cbeed48	8	f4f60b3748f98f00	-1
+Trace 0x7f7d1065fa05: mov qword ptr [rsp+0x8], rsi	7f7d0cbeecb8	8	0	-1
+Trace 0x7f7d1065fa0d: mov qword ptr [rsp], rdx	7f7d0cbeecb0	8	0	-1
+Function	2	enter	__fdelt_chk@plt	(7f7d1065f390,7f7d1065f39b,7f7d1065fa30)
+Function	2	enter	select@plt	(7f7d1065dda0,7f7d1065ddab,7f7d1065fa68)
+Function	2	exit 	TMsgSocket::CanRead(int)
+Function	2	enter	TMsgSocket::WaitingData()@plt	(7f7d1065de40,7f7d1065de4b,7f7d1065fbda)
+Function	2	enter	TMsgSocket::WaitingData()	(7f7d1065f77a,7f7d1065f7d8,7f7d1065fbda)
+Trace 0x7f7d1065f787: mov qword ptr [rsp+0x8], rax	7f7d0cbeed58	8	f4f60b3748f98f00	-1
+Trace 0x7f7d1065f78e: mov qword ptr [rsp], 0x0	7f7d0cbeed50	8	-2
+Function	2	enter	ioctl@plt	(7f7d1065dbd0,7f7d1065dbdb,7f7d1065f7a6)
+Function	2	exit 	TMsgSocket::WaitingData()
+Trace 0x7f7d1065fbde: mov dword ptr [rbx+0x78], 0x68	7f7d08000938	4	-2
+Trace 0x7f7d1065fc32: mov byte ptr [rbx+0x7c], 0x0	7f7d0800093c	1	-2
+Function	2	exit 	TMsgSocket::WaitForData(int, int)
+Trace 0x7f7d106602ef: mov byte ptr [rbx+0x7c], 0x0	7f7d0800093c	1	-2
+Function	2	exit 	TMsgSocket::RecvPacket(void*, int)
+Function	2	enter	TIsoTcpSocket::SetIsoError(int)@plt	(7f7d1065e5e0,7f7d1065e5eb,7f7d10662ddc)
+Trace 0x7f7d1065e5e6: push 0xc5	7f7d0cbeedc0	8	-2
+Function	2	enter	TIsoTcpSocket::SetIsoError(int)	(7f7d106627aa,7f7d106627b5,7f7d10662ddc)
+Trace 0x7f7d106627af: mov dword ptr [rdi+0x1198], eax	7f7d08001a58	4	a0068	-1
+Function	2	exit 	TIsoTcpSocket::SetIsoError(int)
+Function	2	exit 	TIsoTcpSocket::isoRecvFragment(void*, int, int&, bool&)
+Function	2	exit 	TIsoTcpSocket::isoRecvPDU(TIsoDataPDU*)
+Function	2	exit 	TIsoTcpWorker::ExecuteRecv()
+Function	2	exit 	TS7Worker::ExecuteRecv()
+Function	2	exit 	TIsoTcpWorker::Execute()
+Trace 0x7f7d10661306: push 0x0	7f7d0cbeeed8	8	-2
+Trace 0x7f7d10661308: push 0x0	7f7d0cbeeed0	8	-2
+Function	2	enter	TCustomMsgServer::DoEvent(int, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)	(7f7d10660b80,7f7d10660ca3,7f7d10661323)
+Trace 0x7f7d10660b80: push r15	7f7d0cbeeec0	8	0	-1
+Trace 0x7f7d10660b82: push r14	7f7d0cbeeeb8	8	7f7d0cbef9c0	-1
+Trace 0x7f7d10660b84: push r13	7f7d0cbeeeb0	8	7f7d0de84dcf	-1
+Trace 0x7f7d10660b86: push r12	7f7d0cbeeea8	8	0	-1
+Trace 0x7f7d10660b89: push rbx	7f7d0cbeee98	8	7f7d08002ae0	-1
+Trace 0x7f7d10660b8e: mov dword ptr [rsp], esi	7f7d0cbeee50	4	100007f	-1
+Trace 0x7f7d10660b91: mov dword ptr [rsp+0x4], ecx	7f7d0cbeee54	4	0	-1
+Trace 0x7f7d10660b95: mov dword ptr [rsp+0x8], r8d	7f7d0cbeee58	4	0	-1
+Trace 0x7f7d10660b9a: mov dword ptr [rsp+0xc], r9d	7f7d0cbeee5c	4	0	-1
+Trace 0x7f7d10660bb8: mov qword ptr [rsp+0x38], rax	7f7d0cbeee88	8	f4f60b3748f98f00	-1
+Function	2	enter	pthread_mutex_lock@plt	(7f7d1065f050,7f7d1065f05b,7f7d10660bf6)
+Function	2	enter	time@plt	(7f7d1065f3a0,7f7d1065f3ab,7f7d10660c00)
+Trace 0x7f7d10660c03: mov dword ptr [rsp+0x18], eax	7f7d0cbeee68	4	100007f	-1
+Trace 0x7f7d10660c07: mov dword ptr [rsp+0x1c], ebp	7f7d0cbeee6c	4	80	-1
+Trace 0x7f7d10660c10: mov word ptr [rsp+0x20], ax	7f7d0cbeee70	2	0	-1
+Trace 0x7f7d10660c1a: mov word ptr [rsp+0x22], ax	7f7d0cbeee72	2	0	-1
+Trace 0x7f7d10660c24: mov word ptr [rsp+0x24], ax	7f7d0cbeee74	2	0	-1
+Trace 0x7f7d10660c29: mov word ptr [rsp+0x26], r14w	7f7d0cbeee76	2	0	-1
+Trace 0x7f7d10660c2f: mov word ptr [rsp+0x28], r13w	7f7d0cbeee78	2	0	-1
+Function	2	enter	EventCallBack(void*, TSrvEvent*, int)	(403326,403399,7f7d10660c53)
+Trace 0x403326: push rbx	7f7d0cbeee40	8	200dc40	-1
+Trace 0x403334: mov qword ptr [rsp+0x28], rax	7f7d0cbeee38	8	f4f60b3748f98f00	-1
+Function	2	enter	_Z12SrvEventTextB5cxx11P9TSrvEvent	(404311,40439c,403343)
+Trace 0x404312: push rbx	7f7d0cbeedf8	8	200dc40	-1
+Trace 0x404329: mov qword ptr [rsp+0x408], rax	7f7d0cbeede8	8	f4f60b3748f98f00	-1
+Function	2	enter	Srv_EventText@plt	(402a00,402a0b,404343)
+Function	2	enter	Srv_EventText	(7f7d10675fc3,7f7d1067604b,404343)
+Trace 0x7f7d10675fc3: push r12	7f7d0cbee9d0	8	80	-1
+Trace 0x7f7d10675fc6: push rbx	7f7d0cbee9c0	8	7f7d0cbeee10	-1
+Trace 0x7f7d10675fda: mov qword ptr [rsp+0x28], rcx	7f7d0cbee9b8	8	f4f60b3748f98f00	-1
+Function	2	enter	_Z10EvtSrvTextB5cxx11R9TSrvEvent@plt	(7f7d1065df40,7f7d1065df4b,7f7d10675fef)
+Function	2	enter	_Z10EvtSrvTextB5cxx11R9TSrvEvent	(7f7d1066bc97,7f7d1066e577,7f7d10675fef)
+Trace 0x7f7d1066bc9b: push r14	7f7d0cbee978	8	0	-1
+Trace 0x7f7d1066bc9d: push r12	7f7d0cbee970	8	7f7d0cbee9e0	-1
+Trace 0x7f7d1066bc9f: push rbx	7f7d0cbee968	8	400	-1
+Trace 0x7f7d1066bcb6: mov qword ptr [rbp-0x28], rax	7f7d0cbee958	8	f4f60b3748f98f00	-1
+Trace 0x7f7d1066bcc3: mov qword ptr [rbp-0x890], rax	7f7d0cbee0f0	8	7f7d0cbee100	-1
+Trace 0x7f7d1066bcca: mov qword ptr [rbp-0x888], 0x0	7f7d0cbee0f8	8	-2
+Trace 0x7f7d1066bcd5: mov byte ptr [rbp-0x880], 0x0	7f7d0cbee100	1	-2
+Trace 0x7f7d1066dc09: mov qword ptr [rbp-0x150], rax	7f7d0cbee830	8	7f7d0cbee840	-1
+Trace 0x7f7d1066dc10: mov qword ptr [rbp-0x148], 0x0	7f7d0cbee838	8	-2
+Trace 0x7f7d1066dc1b: mov byte ptr [rbp-0x140], 0x0	7f7d0cbee840	1	-2
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@plt	(7f7d1065e190,7f7d1065e19b,7f7d1066de18)
+Trace Copy:	7f7d000008f0	7f7d10676f2c	27
+Function	2	enter	SenderText(TSrvEvent&)	(7f7d1066a34c,7f7d1066a64a,7f7d1066e04d)
+Trace 0x7f7d1066a350: push r14	7f7d0cbee0d8	8	7f7d0cbee990	-1
+Trace 0x7f7d1066a352: push r12	7f7d0cbee0d0	8	7f7d0cbee9e0	-1
+Trace 0x7f7d1066a354: push rbx	7f7d0cbee0c8	8	7f7d0cbeee60	-1
+Trace 0x7f7d1066a36b: mov qword ptr [rbp-0x28], rcx	7f7d0cbee0b8	8	f4f60b3748f98f00	-1
+Function	2	enter	_Z17IpAddressToStringB5cxx11i@plt	(7f7d1065dae0,7f7d1065daeb,7f7d1066a385)
+Function	2	enter	_Z17IpAddressToStringB5cxx11i	(7f7d10669e2b,7f7d10669e9c,7f7d1066a385)
+Trace 0x7f7d10669e2b: push r12	7f7d0cbee020	8	7f7d0cbeee60	-1
+Trace 0x7f7d10669e2e: push rbx	7f7d0cbee010	8	7f7d0cbee850	-1
+Trace 0x7f7d10669e36: mov qword ptr [rdi], rbp	7f7d0cbee070	8	7f7d0cbee080	-1
+Trace 0x7f7d10669e39: mov qword ptr [rdi+0x8], 0x0	7f7d0cbee078	8	-2
+Trace 0x7f7d10669e41: mov byte ptr [rdi+0x10], 0x0	7f7d0cbee080	1	-2
+Function	2	enter	inet_ntoa@plt	(7f7d1065e960,7f7d1065e96b,7f7d10669e4c)
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@plt	(7f7d1065e190,7f7d1065e19b,7f7d10669e7b)
+Trace Copy:	7f7d0cbee080	7f7d0cbef6b8	9
+Function	2	exit 	_Z17IpAddressToStringB5cxx11i
+Function	2	enter	_Z12TimeToStringB5cxx11l@plt	(7f7d1065f000,7f7d1065f00b,7f7d1066a395)
+Function	2	enter	_Z12TimeToStringB5cxx11l	(7f7d1066a223,7f7d1066a34b,7f7d1066a395)
+Trace 0x7f7d1066a227: push r14	7f7d0cbee018	8	7f7d0cbee990	-1
+Trace 0x7f7d1066a229: push rbx	7f7d0cbee010	8	7f7d0cbee850	-1
+Trace 0x7f7d1066a231: mov qword ptr [rbp-0x78], rsi	7f7d0cbedfa8	8	5cc5a8ad	-1
+Trace 0x7f7d1066a23e: mov qword ptr [rbp-0x18], rax	7f7d0cbee008	8	f4f60b3748f98f00	-1
+Trace 0x7f7d1066a248: mov qword ptr [rbp-0x70], rax	7f7d0cbedfb0	8	7f7d0cbedfc0	-1
+Trace 0x7f7d1066a24c: mov qword ptr [rbp-0x68], 0x0	7f7d0cbedfb8	8	-2
+Trace 0x7f7d1066a254: mov byte ptr [rbp-0x60], 0x0	7f7d0cbedfc0	1	-2
+Function	2	enter	localtime@plt	(7f7d1065f0d0,7f7d1065f0db,7f7d1066a261)
+Function	2	enter	strftime@plt	(7f7d1065f1a0,7f7d1065f1ab,7f7d1066a281)
+Trace 0x7f7d1066a28d: mov qword ptr [rbp-0x80], r14	7f7d0cbedfa0	8	7f7d0cbedfd0	-1
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@plt	(7f7d1065e190,7f7d1065e19b,7f7d1066a2b2)
+Trace Copy:	7f7d00000940	7f7d0cbedfd0	19
+Trace 0x7f7d1066a2b6: mov qword ptr [rbx], rax	7f7d0cbee030	8	7f7d0cbee040	-1
+Trace 0x7f7d1066a2c8: push 0x0	7f7d0cbedf90	8	-2
+Function	2	enter	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)@plt	(7f7d1065e020,7f7d1065e02b,7f7d1066a2d2)
+Function	2	enter	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)	(7f7d10670180,7f7d10670230,7f7d1066a2d2)
+Trace 0x7f7d10670180: push r12	7f7d0cbedf80	8	7f7d0cbeee60	-1
+Trace 0x7f7d10670183: push rbx	7f7d0cbedf70	8	7f7d0cbee030	-1
+Trace 0x7f7d10670197: mov qword ptr [rsp+0x8], rax	7f7d0cbedf68	8	f4f60b3748f98f00	-1
+Trace 0x7f7d106701ba: mov qword ptr [rsp], rbx	7f7d0cbedf60	8	13	-1
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@plt	(7f7d1065de10,7f7d1065de1b,7f7d106701d4)
+Trace 0x7f7d106701d4: mov qword ptr [rbp], rax	7f7d0cbee030	8	7f7d00000970	-1
+Trace 0x7f7d106701dc: mov qword ptr [rbp+0x10], rax	7f7d0cbee040	8	13	-1
+Function	2	enter	memcpy@plt	(7f7d1065f2a0,7f7d1065f2ab,7f7d10670203)
+Trace Copy:	7f7d00000970	7f7d00000940	19
+Trace 0x7f7d10670207: mov qword ptr [rbp+0x8], rax	7f7d0cbee038	8	13	-1
+Trace 0x7f7d1067020f: mov byte ptr [rdx+rax*1], 0x0	7f7d00000983	1	-2
+Function	2	exit 	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+Function	2	enter	operator delete(void*)@plt	(7f7d1065dd80,7f7d1065dd8b,7f7d1066a30d)
+Function	2	exit 	_Z12TimeToStringB5cxx11l
+Trace 0x7f7d1066a3a0: mov qword ptr [rbp-0x90], rax	7f7d0cbee050	8	7f7d0cbee060	-1
+Trace 0x7f7d1066a3bc: push 0x0	7f7d0cbee020	8	-2
+Function	2	enter	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)@plt	(7f7d1065e020,7f7d1065e02b,7f7d1066a3c3)
+Function	2	enter	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)	(7f7d10670180,7f7d10670230,7f7d1066a3c3)
+Trace 0x7f7d10670180: push r12	7f7d0cbee010	8	7f7d0cbeee60	-1
+Trace 0x7f7d10670183: push rbx	7f7d0cbee000	8	7f7d0cbee850	-1
+Trace 0x7f7d10670197: mov qword ptr [rsp+0x8], rax	7f7d0cbedff8	8	f4f60b3748f98f00	-1
+Trace 0x7f7d106701ba: mov qword ptr [rsp], rbx	7f7d0cbedff0	8	13	-1
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@plt	(7f7d1065de10,7f7d1065de1b,7f7d106701d4)
+Trace 0x7f7d106701d4: mov qword ptr [rbp], rax	7f7d0cbee050	8	7f7d00000990	-1
+Trace 0x7f7d106701dc: mov qword ptr [rbp+0x10], rax	7f7d0cbee060	8	13	-1
+Function	2	enter	memcpy@plt	(7f7d1065f2a0,7f7d1065f2ab,7f7d10670203)
+Trace Copy:	7f7d00000990	7f7d00000970	19
+Trace 0x7f7d10670207: mov qword ptr [rbp+0x8], rax	7f7d0cbee058	8	13	-1
+Trace 0x7f7d1067020f: mov byte ptr [rdx+rax*1], 0x0	7f7d000009a3	1	-2
+Function	2	exit 	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long)@plt	(7f7d1065edb0,7f7d1065edbb,7f7d1066a402)
+Trace Copy:	7f7d00000940	7f7d00000990	19
+Trace Copy:	7f7d00000953	7f7d106768c9	2
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@plt	(7f7d1065de70,7f7d1065de7b,7f7d1066a416)
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)	(7f7d10670231,7f7d1067028f,7f7d1066a416)
+Trace 0x7f7d10670231: push r12	7f7d0cbee020	8	7f7d0cbeee60	-1
+Trace 0x7f7d10670234: push rbx	7f7d0cbee010	8	7f7d0cbee850	-1
+Trace 0x7f7d1067023f: mov qword ptr [rdi], r12	7f7d0cbee090	8	7f7d0cbee0a0	-1
+Trace 0x7f7d10670250: push 0x0	7f7d0cbee000	8	-2
+Function	2	enter	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)@plt	(7f7d1065e020,7f7d1065e02b,7f7d1067025a)
+Function	2	enter	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)	(7f7d10670180,7f7d10670230,7f7d1067025a)
+Trace 0x7f7d10670180: push r12	7f7d0cbedff0	8	7f7d0cbee0a0	-1
+Trace 0x7f7d10670183: push rbx	7f7d0cbedfe0	8	7f7d0cbee090	-1
+Trace 0x7f7d10670197: mov qword ptr [rsp+0x8], rax	7f7d0cbedfd8	8	f4f60b3748f98f00	-1
+Trace 0x7f7d106701ba: mov qword ptr [rsp], rbx	7f7d0cbedfd0	8	15	-1
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@plt	(7f7d1065de10,7f7d1065de1b,7f7d106701d4)
+Trace 0x7f7d106701d4: mov qword ptr [rbp], rax	7f7d0cbee090	8	7f7d00000990	-1
+Trace 0x7f7d106701dc: mov qword ptr [rbp+0x10], rax	7f7d0cbee0a0	8	15	-1
+Function	2	enter	memcpy@plt	(7f7d1065f2a0,7f7d1065f2ab,7f7d10670203)
+Trace Copy:	7f7d00000990	7f7d00000940	21
+Trace 0x7f7d10670207: mov qword ptr [rbp+0x8], rax	7f7d0cbee098	8	15	-1
+Trace 0x7f7d1067020f: mov byte ptr [rdx+rax*1], 0x0	7f7d000009a5	1	-2
+Function	2	exit 	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long)@plt	(7f7d1065edb0,7f7d1065edbb,7f7d1067026e)
+Trace Copy:	7f7d000009b0	7f7d00000990	21
+Trace Copy:	7f7d000009c5	7f7d0cbee080	9
+Function	2	exit 	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+Trace 0x7f7d1066a440: mov qword ptr [rbx], rax	7f7d0cbee850	8	7f7d0cbee860	-1
+Trace 0x7f7d1066a452: push 0x0	7f7d0cbee020	8	-2
+Function	2	enter	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)@plt	(7f7d1065e020,7f7d1065e02b,7f7d1066a45c)
+Function	2	enter	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)	(7f7d10670180,7f7d10670230,7f7d1066a45c)
+Trace 0x7f7d10670180: push r12	7f7d0cbee010	8	7f7d0cbeee60	-1
+Trace 0x7f7d10670183: push rbx	7f7d0cbee000	8	7f7d0cbee850	-1
+Trace 0x7f7d10670197: mov qword ptr [rsp+0x8], rax	7f7d0cbedff8	8	f4f60b3748f98f00	-1
+Trace 0x7f7d106701ba: mov qword ptr [rsp], rbx	7f7d0cbedff0	8	1e	-1
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@plt	(7f7d1065de10,7f7d1065de1b,7f7d106701d4)
+Trace 0x7f7d106701d4: mov qword ptr [rbp], rax	7f7d0cbee850	8	7f7d000009f0	-1
+Trace 0x7f7d106701dc: mov qword ptr [rbp+0x10], rax	7f7d0cbee860	8	1e	-1
+Function	2	enter	memcpy@plt	(7f7d1065f2a0,7f7d1065f2ab,7f7d10670203)
+Trace Copy:	7f7d000009f0	7f7d000009b0	30
+Trace 0x7f7d10670207: mov qword ptr [rbp+0x8], rax	7f7d0cbee858	8	1e	-1
+Trace 0x7f7d1067020f: mov byte ptr [rdx+rax*1], 0x0	7f7d00000a0e	1	-2
+Function	2	exit 	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long)@plt	(7f7d1065edb0,7f7d1065edbb,7f7d1066a494)
+Trace Copy:	7f7d00000a20	7f7d000009f0	30
+Trace Copy:	7f7d00000a3e	7f7d106768cc	2
+Function	2	enter	operator delete(void*)@plt	(7f7d1065dd80,7f7d1065dd8b,7f7d1066a4c0)
+Function	2	enter	operator delete(void*)@plt	(7f7d1065dd80,7f7d1065dd8b,7f7d1066a4d5)
+Function	2	enter	operator delete(void*)@plt	(7f7d1065dd80,7f7d1065dd8b,7f7d1066a4ed)
+Function	2	exit 	SenderText(TSrvEvent&)
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@plt	(7f7d1065de70,7f7d1065de7b,7f7d1066e063)
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)	(7f7d10670231,7f7d1067028f,7f7d1066e063)
+Trace 0x7f7d10670231: push r12	7f7d0cbee0e0	8	7f7d0cbee9e0	-1
+Trace 0x7f7d10670234: push rbx	7f7d0cbee0d0	8	7f7d0cbeee60	-1
+Trace 0x7f7d1067023f: mov qword ptr [rdi], r12	7f7d0cbee990	8	7f7d0cbee9a0	-1
+Trace 0x7f7d10670250: push 0x0	7f7d0cbee0c0	8	-2
+Function	2	enter	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)@plt	(7f7d1065e020,7f7d1065e02b,7f7d1067025a)
+Function	2	enter	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)	(7f7d10670180,7f7d10670230,7f7d1067025a)
+Trace 0x7f7d10670180: push r12	7f7d0cbee0b0	8	7f7d0cbee9a0	-1
+Trace 0x7f7d10670183: push rbx	7f7d0cbee0a0	8	7f7d0cbee990	-1
+Trace 0x7f7d10670197: mov qword ptr [rsp+0x8], rax	7f7d0cbee098	8	f4f60b3748f98f00	-1
+Trace 0x7f7d106701ba: mov qword ptr [rsp], rbx	7f7d0cbee090	8	20	-1
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@plt	(7f7d1065de10,7f7d1065de1b,7f7d106701d4)
+Trace 0x7f7d106701d4: mov qword ptr [rbp], rax	7f7d0cbee990	8	7f7d00000940	-1
+Trace 0x7f7d106701dc: mov qword ptr [rbp+0x10], rax	7f7d0cbee9a0	8	20	-1
+Function	2	enter	memcpy@plt	(7f7d1065f2a0,7f7d1065f2ab,7f7d10670203)
+Trace Copy:	7f7d00000940	7f7d00000a20	32
+Trace 0x7f7d10670207: mov qword ptr [rbp+0x8], rax	7f7d0cbee998	8	20	-1
+Trace 0x7f7d1067020f: mov byte ptr [rdx+rax*1], 0x0	7f7d00000960	1	-2
+Function	2	exit 	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long)@plt	(7f7d1065edb0,7f7d1065edbb,7f7d1067026e)
+Trace Copy:	7f7d00000a70	7f7d00000940	32
+Trace Copy:	7f7d00000a90	7f7d000008f0	27
+Function	2	exit 	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+Function	2	enter	operator delete(void*)@plt	(7f7d1065dd80,7f7d1065dd8b,7f7d1066e07b)
+Function	2	enter	operator delete(void*)@plt	(7f7d1065dd80,7f7d1065dd8b,7f7d1066e097)
+Function	2	exit 	_Z10EvtSrvTextB5cxx11R9TSrvEvent
+Function	2	enter	strncpy@plt	(7f7d1065ee30,7f7d1065ee3b,7f7d10676001)
+Function	2	enter	operator delete(void*)@plt	(7f7d1065dd80,7f7d1065dd8b,7f7d10676013)
+Function	2	exit 	Srv_EventText
+Trace 0x404347: mov qword ptr [rbx], rax	7f7d0cbeee10	8	7f7d0cbeee20	-1
+Trace 0x404367: push 0x0	7f7d0cbee9d0	8	-2
+Function	2	enter	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)	(4044b4,404562,404374)
+Trace 0x4044b4: push r12	7f7d0cbee9c0	8	80	-1
+Trace 0x4044b7: push rbx	7f7d0cbee9b0	8	7f7d0cbeee10	-1
+Trace 0x4044cb: mov qword ptr [rsp+0x8], rax	7f7d0cbee9a8	8	f4f60b3748f98f00	-1
+Trace 0x4044ec: mov qword ptr [rsp], rbx	7f7d0cbee9a0	8	3b	-1
+Function	2	enter	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@plt	(403100,40310b,404506)
+Trace 0x404506: mov qword ptr [rbp], rax	7f7d0cbeee10	8	7f7d00000a70	-1
+Trace 0x40450e: mov qword ptr [rbp+0x10], rax	7f7d0cbeee20	8	3b	-1
+Function	2	enter	memcpy@plt	(402c30,402c3b,404535)
+Trace Copy:	7f7d00000a70	7f7d0cbee9e0	59
+Trace 0x404539: mov qword ptr [rbp+0x8], rax	7f7d0cbeee18	8	3b	-1
+Trace 0x404541: mov byte ptr [rdx+rax*1], 0x0	7f7d00000aab	1	-2
+Function	2	exit 	void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+Function	2	exit 	_Z12SrvEventTextB5cxx11P9TSrvEvent
+Function	2	enter	puts@plt	(402f90,402f9b,40334c)
+Function	2	enter	operator delete(void*)@plt	(402d10,402d1b,40335f)
+Function	2	exit 	EventCallBack(void*, TSrvEvent*, int)
+Function	2	enter	TMsgEventQueue::Insert(void*)@plt	(7f7d1065e1a0,7f7d1065e1ab,7f7d10660c66)
+Function	2	enter	TMsgEventQueue::Insert(void*)	(7f7d10660b36,7f7d10660b7f,7f7d10660c66)
+Trace 0x7f7d10660b37: push rbx	7f7d0cbeee38	8	200dc40	-1
+Function	2	enter	TMsgEventQueue::Full()@plt	(7f7d1065dfb0,7f7d1065dfbb,7f7d10660b47)
+Function	2	enter	TMsgEventQueue::Full()	(7f7d10660b16,7f7d10660b35,7f7d10660b47)
+Function	2	exit 	TMsgEventQueue::Full()
+Trace 0x7f7d10660b55: mov dword ptr [rbx], eax	2013d90	4	4	-1
+Function	2	enter	memcpy@plt	(7f7d1065f2a0,7f7d1065f2ab,7f7d10660b79)
+Trace Copy:	2013e28	7f7d0cbeee60	26
+Function	2	exit 	TMsgEventQueue::Insert(void*)
+Function	2	enter	pthread_mutex_unlock@plt	(7f7d1065f270,7f7d1065f27b,7f7d10660c6f)
+Function	2	exit 	TCustomMsgServer::DoEvent(int, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short)
+Function	2	enter	TS7Worker::~TS7Worker()	(7f7d10669e0a,7f7d10669e2a,7f7d10661363)
+Trace 0x7f7d10669e0a: push rbx	7f7d0cbeeed0	8	7f7d08002ae0	-1
+Trace 0x7f7d10669e19: mov qword ptr [rdi], rax	7f7d080008c0	8	7f7d1087f710	-1
+Function	2	enter	TIsoTcpSocket::~TIsoTcpSocket()@plt	(7f7d1065e5a0,7f7d1065e5ab,7f7d10669e21)
+Trace 0x7f7d1065e5a6: push 0xc1	7f7d0cbeeec0	8	-2
+Function	2	enter	TIsoTcpSocket::~TIsoTcpSocket()	(7f7d10662724,7f7d1066273f,7f7d10669e21)
+Trace 0x7f7d10662733: mov qword ptr [rdi], rax	7f7d080008c0	8	7f7d1087f558	-1
+Function	2	enter	TMsgSocket::~TMsgSocket()@plt	(7f7d1065e370,7f7d1065e37b,7f7d1066273b)
+Trace 0x7f7d1065e376: push 0x9e	7f7d0cbeeeb0	8	-2
+Function	2	enter	TMsgSocket::~TMsgSocket()	(7f7d1066072a,7f7d1066075b,7f7d1066273b)
+Trace 0x7f7d1066072a: push rbx	7f7d0cbeeeb0	8	7f7d080008c0	-1
+Trace 0x7f7d10660739: mov qword ptr [rdi], rax	7f7d080008c0	8	7f7d1087f330	-1
+Function	2	enter	TMsgSocket::DestroySocket()@plt	(7f7d1065f040,7f7d1065f04b,7f7d10660741)
+Function	2	enter	TMsgSocket::DestroySocket()	(7f7d1065fb24,7f7d1065fb5d,7f7d10660741)
+Trace 0x7f7d1065fb24: push rbx	7f7d0cbeeea0	8	7f7d080008c0	-1
+Function	2	enter	shutdown@plt	(7f7d1065db40,7f7d1065db4b,7f7d1065fb3a)
+Trace 0x7f7d1065db46: push 0x1b	7f7d0cbeee90	8	-2
+Function	2	enter	TMsgSocket::Purge()@plt	(7f7d1065e070,7f7d1065e07b,7f7d1065fb46)
+Trace 0x7f7d1065e076: push 0x6e	7f7d0cbeee90	8	-2
+Function	2	enter	TMsgSocket::Purge()	(7f7d1065fab0,7f7d1065fb23,7f7d1065fb46)
+Trace 0x7f7d1065fab1: push rbx	7f7d0cbeee88	8	7f7d080008c0	-1
+Trace 0x7f7d1065fac2: mov qword ptr [rsp+0x208], rax	7f7d0cbeee78	8	f4f60b3748f98f00	-1
+Function	2	exit 	TMsgSocket::Purge()
+Function	2	enter	close@plt	(7f7d1065dbb0,7f7d1065dbbb,7f7d1065fb4e)
+Trace 0x7f7d1065fb4e: mov dword ptr [rbx+0x18], 0xffffffff	7f7d080008d8	4	-2
+Trace 0x7f7d1065fb55: mov dword ptr [rbx+0x78], 0x0	7f7d08000938	4	-2
+Function	2	exit 	TMsgSocket::DestroySocket()
+Function	2	enter	TPinger::~TPinger()@plt	(7f7d1065e030,7f7d1065e03b,7f7d10660752)
+Trace 0x7f7d1065e036: push 0x6a	7f7d0cbeeea0	8	-2
+Function	2	enter	TPinger::~TPinger()	(7f7d10660728,7f7d10660728,7f7d10660752)
+Function	2	exit 	TPinger::~TPinger()
+Function	2	enter	operator delete(void*)@plt	(7f7d1065dd80,7f7d1065dd8b,7f7d1066075a)
+Function	2	exit 	TMsgSocket::~TMsgSocket()
+Function	2	exit 	TIsoTcpSocket::~TIsoTcpSocket()
+Function	2	enter	operator delete(void*)@plt	(7f7d1065dd80,7f7d1065dd8b,7f7d10669e29)
+Function	2	exit 	TS7Worker::~TS7Worker()
+Function	2	enter	TCustomMsgServer::Delete(int)@plt	(7f7d1065e350,7f7d1065e35b,7f7d1066136f)
+Trace 0x7f7d1065e356: push 0x9c	7f7d0cbeeed0	8	-2
+Function	2	enter	TCustomMsgServer::Delete(int)	(7f7d10661232,7f7d10661263,7f7d1066136f)
+Trace 0x7f7d10661233: push rbx	7f7d0cbeeec8	8	7f7d08002ae0	-1
+Function	2	enter	TCustomMsgServer::LockList()@plt	(7f7d1065f2f0,7f7d1065f2fb,7f7d10661242)
+Function	2	enter	TCustomMsgServer::LockList()	(7f7d10660e4a,7f7d10660e5b,7f7d10661242)
+Function	2	enter	pthread_mutex_lock@plt	(7f7d1065f050,7f7d1065f05b,7f7d10660e57)
+Function	2	exit 	TCustomMsgServer::LockList()
+Trace 0x7f7d10661245: mov qword ptr [rbx+rbp*8+0x60], 0x0	200dca0	8	-2
+Function	2	enter	TCustomMsgServer::UnlockList()@plt	(7f7d1065eb80,7f7d1065eb8b,7f7d1066125d)
+Function	2	enter	TCustomMsgServer::UnlockList()	(7f7d10660e5c,7f7d10660e6d,7f7d1066125d)
+Function	2	enter	pthread_mutex_unlock@plt	(7f7d1065f270,7f7d1065f27b,7f7d10660e69)
+Function	2	exit 	TCustomMsgServer::UnlockList()
+Function	2	exit 	TCustomMsgServer::Delete(int)
+Function	2	exit 	TMsgWorkerThread::Execute()
+Trace 0x7f7d10661785: mov byte ptr [rbx+0x13], 0x1	7f7d08002af3	1	-2
+Function	2	enter	TMsgWorkerThread::~TMsgWorkerThread()	(7f7d10661720,7f7d10661740,7f7d1066179d)
+Trace 0x7f7d10661720: push rbx	7f7d0cbeeef0	8	7f7d08002ae0	-1
+Trace 0x7f7d1066172f: mov qword ptr [rdi], rax	7f7d08002ae0	8	7f7d1087f3d8	-1
+Function	2	enter	TSnapThread::~TSnapThread()@plt	(7f7d1065eee0,7f7d1065eeeb,7f7d10661737)
+Trace 0x7f7d1065eee6: push 0x155	7f7d0cbeeee0	8	-2
+Function	2	enter	TSnapThread::~TSnapThread()	(7f7d10661898,7f7d106618c4,7f7d10661737)
+Trace 0x7f7d106618a3: mov qword ptr [rdi], rax	7f7d08002ae0	8	7f7d1087f480	-1
+Function	2	exit 	TSnapThread::~TSnapThread()
+Function	2	enter	operator delete(void*)@plt	(7f7d1065dd80,7f7d1065dd8b,7f7d1066173f)
+Function	2	exit 	TMsgWorkerThread::~TMsgWorkerThread()
+Function	2	enter	pthread_exit@plt	(7f7d1065e6a0,7f7d1065e6ab,7f7d106617a7)
+Trace 0x7f7d1065e6a6: push 0xd1	7f7d0cbeeef0	8	-2
+Function	2	enter	__gxx_personality_v0@plt	(403020,40302b,7f7d1008d059)
+Trace 0x403026: push 0x69	7f7d0cbeead0	8	-2

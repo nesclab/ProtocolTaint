@@ -1,0 +1,1575 @@
+assembly not taint included : sub rsp, 0x8
+assembly not taint included : jz 0x401505
+assembly not taint included : call 0x4019c0
+assembly not taint included : add rsp, 0x8
+assembly not taint included : ret 
+assembly not taint included : jmp qword ptr [rip+0x210af2]
+assembly not taint included : xor ebp, ebp
+assembly not taint included : and rsp, 0xfffffffffffffff0
+assembly not taint included : push rsp
+assembly not taint included : hlt 
+assembly not taint included : mov rbp, rsp
+assembly not taint included : jbe 0x401a30
+assembly not taint included : pop rbp
+assembly not taint included : nop word ptr [rax+rax*1], ax
+assembly not taint included : jnz 0x401a9a
+assembly not taint included : jle 0x401adf
+assembly not taint included : jnbe 0x401b36
+assembly not taint included : jb 0x401be3
+assembly not taint included : leave  0 0
+assembly not taint included : movss xmm0, dword ptr [rbp-0x10]
+assembly not taint included : bswap eax
+assembly not taint included : imul rsi, rsi, 0x3e8 4 4
+assembly not taint included : movaps xmmword ptr [rsp+0x60], xmm0
+assembly not taint included : jnle 0x402520
+assembly not taint included : test ebp, ebp
+assembly not taint included : cmp ebp, eax
+assembly not taint included : jnb 0x402c10
+assembly not taint included : rep movsq qword ptr [rdi], qword ptr [rsi]
+assembly not taint included : movsxd rbp, dword ptr [rax+0x4]
+assembly not taint included : js 0x402f00
+assembly not taint included : jnl 0x403158
+assembly not taint included : lea ebp, ptr [rdx+rbx*1]
+assembly not taint included : jl 0x4033c0
+assembly not taint included : not edx
+assembly not taint included : cld 
+assembly not taint included : rep stosq qword ptr [rdi]
+assembly not taint included : jns 0x4057d4
+assembly not taint included : repne scasb byte ptr [rdi]
+assembly not taint included : pxor xmm0, xmm0
+assembly not taint included : movsd qword ptr [rbp-0x58], xmm0
+assembly not taint included : movq rax, xmm0
+assembly not taint included : ucomisd xmm0, qword ptr [rip+0x7961]
+assembly not taint included : cvttsd2si edx, xmm0
+assembly not taint included : mulsd xmm0, xmm1
+assembly not taint included : jp 0x4074cd
+assembly not taint included : cvtsi2sd xmm0, eax
+assembly not taint included : cvtss2sd xmm0, xmm0
+assembly not taint included : div rcx 9 10
+assembly not taint included : idiv dword ptr [rbp-0x1c] 0 56
+assembly not taint included : sar rbp, 0x3
+thread id: 0, enter function: main
+Not Taint 0x40ad0a: push r15	mem: 0x7ffeaf7c7d68	value: 0x0
+Not Taint 0x40ad0c: push r14	mem: 0x7ffeaf7c7d60	value: 0x0
+Not Taint 0x40ad0e: push r13	mem: 0x7ffeaf7c7d58	value: 0x7ffeaf7c7e50
+Not Taint 0x40ad10: push r12	mem: 0x7ffeaf7c7d50	value: 0x4019d0
+Not Taint 0x40ad12: push rbx	mem: 0x7ffeaf7c7d48	value: 0x0
+Not Taint 0x40ad1a: mov dword ptr [rbp-0x194], edi	mem: 0x7ffeaf7c7bdc	value: 0x1
+Not Taint 0x40ad20: mov qword ptr [rbp-0x1a0], rsi	mem: 0x7ffeaf7c7bd0	value: 0x7ffeaf7c7e58
+Not Taint 0x40ad27: mov rax, qword ptr fs:[0x28]	 mem: 0x7fd1e8310728	value: 0xba7b3145de915900
+Not Taint 0x40ad30: mov qword ptr [rbp-0x38], rax	mem: 0x7ffeaf7c7d38	value: 0xba7b3145de915900
+Not Taint 0x40ad36: mov rax, rsp	value: 0x7ffeaf7c7bd0
+Not Taint 0x40ad39: mov rbx, rax	value: 0x7ffeaf7c7bd0
+thread id: 0, enter function: modbus_new_tcp
+Not Taint 0x40d410: push r13	mem: 0x7ffeaf7c7bc0	value: 0x7ffeaf7c7e50
+Not Taint 0x40d412: push r12	mem: 0x7ffeaf7c7bb8	value: 0x4019d0
+Not Taint 0x40d414: mov r12, rdi	value: 0x40ea80
+Not Taint 0x40d418: push rbx	mem: 0x7ffeaf7c7ba8	value: 0x7ffeaf7c7bd0
+Not Taint 0x40d41e: mov r13d, esi	value: 0x1f6
+thread id: 0, enter function: malloc@plt
+Not Taint 0x40d433: mov rbx, rax	value: 0x1abc010
+Not Taint 0x40d436: mov rdi, rax	value: 0x1abc010
+thread id: 0, enter function: _modbus_init_common
+thread id: 0, exit  function: _modbus_init_common
+thread id: 0, enter function: malloc@plt
+Not Taint 0x40d45c: mov qword ptr [rbx+0x38], rax	mem: 0x1abc048	value: 0x1abc060
+Not Taint 0x40d474: mov rsi, r12	value: 0x40ea80
+thread id: 0, enter function: strlcpy
+Not Taint 0x404b33: mov rax, rsi	value: 0x40ea80
+Not Taint 0x404b44: movzx ecx, byte ptr [rax-0x1]	 mem: 0x40ea80	value: 0x30
+Not Taint 0x404b4e: mov byte ptr [rdi-0x1], cl	mem: 0x1abc068	value: 0x30
+Not Taint 0x404b44: movzx ecx, byte ptr [rax-0x1]	 mem: 0x40ea81	value: 0x2e
+Not Taint 0x404b4e: mov byte ptr [rdi-0x1], cl	mem: 0x1abc069	value: 0x2e
+Not Taint 0x404b44: movzx ecx, byte ptr [rax-0x1]	 mem: 0x40ea82	value: 0x30
+Not Taint 0x404b4e: mov byte ptr [rdi-0x1], cl	mem: 0x1abc06a	value: 0x30
+Not Taint 0x404b44: movzx ecx, byte ptr [rax-0x1]	 mem: 0x40ea83	value: 0x2e
+Not Taint 0x404b4e: mov byte ptr [rdi-0x1], cl	mem: 0x1abc06b	value: 0x2e
+Not Taint 0x404b44: movzx ecx, byte ptr [rax-0x1]	 mem: 0x40ea84	value: 0x30
+Not Taint 0x404b4e: mov byte ptr [rdi-0x1], cl	mem: 0x1abc06c	value: 0x30
+Not Taint 0x404b44: movzx ecx, byte ptr [rax-0x1]	 mem: 0x40ea85	value: 0x2e
+Not Taint 0x404b4e: mov byte ptr [rdi-0x1], cl	mem: 0x1abc06d	value: 0x2e
+Not Taint 0x404b44: movzx ecx, byte ptr [rax-0x1]	 mem: 0x40ea86	value: 0x30
+Not Taint 0x404b4e: mov byte ptr [rdi-0x1], cl	mem: 0x1abc06e	value: 0x30
+Not Taint 0x404b44: movzx ecx, byte ptr [rax-0x1]	 mem: 0x40ea87	value: 0x0
+Not Taint 0x404b4e: mov byte ptr [rdi-0x1], cl	mem: 0x1abc06f	value: 0x0
+thread id: 0, exit  function: strlcpy
+Not Taint 0x40d489: mov dword ptr [rbp+0x4], r13d	mem: 0x1abc064	value: 0x1f6
+Not Taint 0x40d48d: mov word ptr [rbp], ax	mem: 0x1abc060	value: 0x0
+Not Taint 0x40d491: mov rax, rbx	value: 0x1abc010
+Not Taint 0x40d498: pop rbx	 mem: 0x7ffeaf7c7ba8	value: 0x7ffeaf7c7bd0
+Not Taint 0x40d49a: pop r12	 mem: 0x7ffeaf7c7bb8	value: 0x4019d0
+Not Taint 0x40d49c: pop r13	 mem: 0x7ffeaf7c7bc0	value: 0x7ffeaf7c7e50
+thread id: 0, exit  function: modbus_new_tcp
+Not Taint 0x40ad4b: mov qword ptr [rbp-0x168], rax	mem: 0x7ffeaf7c7c08	value: 0x1abc010
+thread id: 0, enter function: malloc@plt
+Not Taint 0x40ad5c: mov qword ptr [rbp-0x160], rax	mem: 0x7ffeaf7c7c10	value: 0x1abc080
+Not Taint 0x40ad63: mov rax, qword ptr [rbp-0x168]	 mem: 0x7ffeaf7c7c08	value: 0x1abc010
+Not Taint 0x40ad6f: mov rdi, rax	value: 0x1abc010
+thread id: 0, enter function: modbus_set_debug
+Not Taint 0x404915: mov dword ptr [rdi+0x8], esi	mem: 0x1abc018	value: 0x1
+thread id: 0, exit  function: modbus_set_debug
+thread id: 0, enter function: modbus_mapping_new_start_address
+Not Taint 0x404940: push r15	mem: 0x7ffeaf7c7bb0	value: 0x0
+Not Taint 0x404942: push r14	mem: 0x7ffeaf7c7ba8	value: 0x0
+Not Taint 0x404944: mov r14d, edi	value: 0x0
+Not Taint 0x404947: push r13	mem: 0x7ffeaf7c7ba0	value: 0x7ffeaf7c7e50
+Not Taint 0x404949: push r12	mem: 0x7ffeaf7c7b98	value: 0x4019d0
+Not Taint 0x404951: push rbx	mem: 0x7ffeaf7c7b88	value: 0x7ffeaf7c7bd0
+Not Taint 0x404952: mov r13d, esi	value: 0xffff
+Not Taint 0x404957: mov r15d, r8d	value: 0x0
+Not Taint 0x40495a: mov r12d, r9d	value: 0xffff
+Not Taint 0x404961: mov dword ptr [rsp+0xc], edx	mem: 0x7ffeaf7c7b7c	value: 0x0
+thread id: 0, enter function: malloc@plt
+Not Taint 0x404976: mov rbx, rax	value: 0x1abc190
+Not Taint 0x404979: mov dword ptr [rax], r13d	mem: 0x1abc190	value: 0xffff
+Not Taint 0x40497c: mov dword ptr [rax+0x4], r14d	mem: 0x1abc194	value: 0x0
+Not Taint 0x404980: mov edx, dword ptr [rsp+0xc]	 mem: 0x7ffeaf7c7b7c	value: 0x0
+Not Taint 0x404a30: mov edi, r13d	value: 0xffff
+Not Taint 0x404a38: mov dword ptr [rsp+0xc], edx	mem: 0x7ffeaf7c7b7c	value: 0x0
+thread id: 0, enter function: calloc@plt
+Not Taint 0x404a44: mov qword ptr [rbx+0x20], rax	mem: 0x1abc1b0	value: 0x1abc1e0
+Not Taint 0x404a48: mov edx, dword ptr [rsp+0xc]	 mem: 0x7ffeaf7c7b7c	value: 0x0
+Not Taint 0x404994: mov dword ptr [rbx+0x8], ebp	mem: 0x1abc198	value: 0xffff
+Not Taint 0x404997: mov dword ptr [rbx+0xc], edx	mem: 0x1abc19c	value: 0x0
+Not Taint 0x404a60: mov edi, ebp	value: 0xffff
+thread id: 0, enter function: calloc@plt
+Not Taint 0x404a6f: mov qword ptr [rbx+0x28], rax	mem: 0x1abc1b8	value: 0x1acc1f0
+Not Taint 0x4049ab: mov dword ptr [rbx+0x18], r12d	mem: 0x1abc1a8	value: 0xffff
+Not Taint 0x4049af: mov dword ptr [rbx+0x1c], r15d	mem: 0x1abc1ac	value: 0x0
+Not Taint 0x404a88: mov edi, r12d	value: 0xffff
+thread id: 0, enter function: calloc@plt
+Not Taint 0x404a9b: mov qword ptr [rbx+0x38], rax	mem: 0x1abc1c8	value: 0x7fd1e8092010
+Not Taint 0x4049c1: mov eax, dword ptr [rsp+0x58]	 mem: 0x7ffeaf7c7bc8	value: 0xffff
+Not Taint 0x4049c5: mov dword ptr [rbx+0x10], eax	mem: 0x1abc1a0	value: 0xffff
+Not Taint 0x4049c8: mov eax, dword ptr [rsp+0x50]	 mem: 0x7ffeaf7c7bc0	value: 0x0
+Not Taint 0x4049cc: mov dword ptr [rbx+0x14], eax	mem: 0x1abc1a4	value: 0x0
+Not Taint 0x4049cf: mov eax, dword ptr [rsp+0x58]	 mem: 0x7ffeaf7c7bc8	value: 0xffff
+Not Taint 0x4049f8: mov edi, dword ptr [rsp+0x58]	 mem: 0x7ffeaf7c7bc8	value: 0xffff
+thread id: 0, enter function: calloc@plt
+Not Taint 0x404a0c: mov qword ptr [rbx+0x30], rax	mem: 0x1abc1c0	value: 0x7fd1e7df1010
+Not Taint 0x404a1a: mov rax, rbx	value: 0x1abc190
+Not Taint 0x404a1d: pop rbx	 mem: 0x7ffeaf7c7b88	value: 0x7ffeaf7c7bd0
+Not Taint 0x404a1f: pop r12	 mem: 0x7ffeaf7c7b98	value: 0x4019d0
+Not Taint 0x404a21: pop r13	 mem: 0x7ffeaf7c7ba0	value: 0x7ffeaf7c7e50
+Not Taint 0x404a23: pop r14	 mem: 0x7ffeaf7c7ba8	value: 0x0
+Not Taint 0x404a25: pop r15	 mem: 0x7ffeaf7c7bb0	value: 0x0
+thread id: 0, exit  function: modbus_mapping_new_start_address
+Not Taint 0x40ada7: mov qword ptr [rbp-0x158], rax	mem: 0x7ffeaf7c7c18	value: 0x1abc190
+Not Taint 0x40ae05: mov eax, dword ptr [rbp-0x180]	 mem: 0x7ffeaf7c7bf0	value: 0x2
+Not Taint 0x40ae0b: cdqe 	value: 0x2
+Not Taint 0x40ae11: mov qword ptr [rbp-0x150], rax	mem: 0x7ffeaf7c7c20	value: 0x1
+Not Taint 0x40ae18: mov eax, dword ptr [rbp-0x180]	 mem: 0x7ffeaf7c7bf0	value: 0x2
+Not Taint 0x40ae1e: cdqe 	value: 0x2
+Not Taint 0x40ae20: mov r14, rax	value: 0x2
+Not Taint 0x40ae29: mov eax, dword ptr [rbp-0x180]	 mem: 0x7ffeaf7c7bf0	value: 0x2
+Not Taint 0x40ae2f: cdqe 	value: 0x2
+Not Taint 0x40ae31: mov r12, rax	value: 0x2
+Not Taint 0x40ae3a: mov eax, dword ptr [rbp-0x180]	 mem: 0x7ffeaf7c7bf0	value: 0x2
+Not Taint 0x40ae40: cdqe 	value: 0x2
+Not Taint 0x40ae6a: mov rax, rsp	value: 0x7ffeaf7c7bc0
+Not Taint 0x40ae79: mov qword ptr [rbp-0x148], rax	mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40ae80: mov edx, dword ptr [rbp-0x180]	 mem: 0x7ffeaf7c7bf0	value: 0x2
+Not Taint 0x40ae86: mov rax, qword ptr [rbp-0x168]	 mem: 0x7ffeaf7c7c08	value: 0x1abc010
+Not Taint 0x40ae8d: mov esi, edx	value: 0x2
+Not Taint 0x40ae8f: mov rdi, rax	value: 0x1abc010
+thread id: 0, enter function: modbus_tcp_listen
+Not Taint 0x40cf50: push r13	mem: 0x7ffeaf7c7bb0	value: 0x0
+Not Taint 0x40cf52: push r12	mem: 0x7ffeaf7c7ba8	value: 0x2
+Not Taint 0x40cf55: push rbx	mem: 0x7ffeaf7c7b98	value: 0x7ffeaf7c7bd0
+Not Taint 0x40cf5a: mov rax, qword ptr fs:[0x28]	 mem: 0x7fd1e8310728	value: 0xba7b3145de915900
+Not Taint 0x40cf63: mov qword ptr [rsp+0x28], rax	mem: 0x7ffeaf7c7b88	value: 0xba7b3145de915900
+Not Taint 0x40cf73: mov r12, qword ptr [rdi+0x38]	 mem: 0x1abc048	value: 0x1abc060
+Not Taint 0x40cf77: mov r13d, esi	value: 0x2
+thread id: 0, enter function: socket@plt
+Not Taint 0x40cfb6: mov edi, eax	value: 0x3
+thread id: 0, enter function: setsockopt@plt
+Not Taint 0x40cfc0: mov ebx, eax	value: 0x0
+Not Taint 0x40cfdf: mov word ptr [rsp+0x10], ax	mem: 0x7ffeaf7c7b70	value: 0x2
+Not Taint 0x40cfe4: movzx eax, word ptr [r12+0x4]	 mem: 0x1abc064	value: 0x1f6
+Not Taint 0x40cfee: mov word ptr [rsp+0x12], ax	mem: 0x7ffeaf7c7b72	value: 0xf601
+Not Taint 0x40d011: mov edi, ebp	value: 0x3
+Not Taint 0x40d013: mov dword ptr [rsp+0x14], eax	mem: 0x7ffeaf7c7b74	value: 0x0
+thread id: 0, enter function: bind@plt
+Not Taint 0x40d01f: mov ebx, eax	value: 0x0
+Not Taint 0x40d023: mov esi, r13d	value: 0x2
+Not Taint 0x40d026: mov edi, ebp	value: 0x3
+thread id: 0, enter function: listen@plt
+Not Taint 0x40d030: mov ebx, eax	value: 0x0
+Not Taint 0x40d034: mov ebx, ebp	value: 0x3
+Not Taint 0x40d036: mov rcx, qword ptr [rsp+0x28]	 mem: 0x7ffeaf7c7b88	value: 0xba7b3145de915900
+Not Taint 0x40d044: mov eax, ebx	value: 0x3
+Not Taint 0x40d04c: pop rbx	 mem: 0x7ffeaf7c7b98	value: 0x7ffeaf7c7bd0
+Not Taint 0x40d04e: pop r12	 mem: 0x7ffeaf7c7ba8	value: 0x2
+Not Taint 0x40d050: pop r13	 mem: 0x7ffeaf7c7bb0	value: 0x0
+thread id: 0, exit  function: modbus_tcp_listen
+Not Taint 0x40ae97: mov dword ptr [rbp-0x18c], eax	mem: 0x7ffeaf7c7be4	value: 0x3
+Not Taint 0x40ae9d: mov eax, dword ptr [rbp-0x18c]	 mem: 0x7ffeaf7c7be4	value: 0x3
+Not Taint 0x40aee6: mov eax, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40aec8: mov rax, qword ptr [rbp-0x148]	 mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40aecf: mov edx, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40aed5: movsxd rdx, edx	value: 0x0
+Not Taint 0x40aee6: mov eax, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x1
+Not Taint 0x40aec8: mov rax, qword ptr [rbp-0x148]	 mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40aecf: mov edx, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x1
+Not Taint 0x40aed5: movsxd rdx, edx	value: 0x1
+Not Taint 0x40aee6: mov eax, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x2
+Not Taint 0x40af05: mov rdi, rdx	value: 0x7ffeaf7c7c30
+Not Taint 0x40af0c: mov eax, edi	value: 0xaf7c7cb0
+Not Taint 0x40af0e: mov edx, ecx	value: 0x0
+Not Taint 0x40af10: mov dword ptr [rbp-0x17c], edx	mem: 0x7ffeaf7c7bf4	value: 0x0
+Not Taint 0x40af16: mov dword ptr [rbp-0x178], eax	mem: 0x7ffeaf7c7bf8	value: 0xaf7c7cb0
+Not Taint 0x40af1c: mov eax, dword ptr [rbp-0x18c]	 mem: 0x7ffeaf7c7be4	value: 0x3
+Not Taint 0x40af2d: mov esi, eax	value: 0x0
+Not Taint 0x40af2f: movsxd rax, esi	value: 0x0
+Not Taint 0x40af32: mov rdi, qword ptr [rbp+rax*8-0x140]	 mem: 0x7ffeaf7c7c30	value: 0x0
+Not Taint 0x40af3a: mov eax, dword ptr [rbp-0x18c]	 mem: 0x7ffeaf7c7be4	value: 0x3
+Not Taint 0x40af40: cdq 	value: 0x3
+Not Taint 0x40af50: mov ecx, eax	value: 0x3
+Not Taint 0x40af55: mov rax, rdx	value: 0x8
+Not Taint 0x40af5b: mov rdx, rdi	value: 0x8
+Not Taint 0x40af5e: movsxd rax, esi	value: 0x0
+Not Taint 0x40af61: mov qword ptr [rbp+rax*8-0x140], rdx	mem: 0x7ffeaf7c7c30	value: 0x8
+Not Taint 0x40af69: mov eax, dword ptr [rbp-0x18c]	 mem: 0x7ffeaf7c7be4	value: 0x3
+Not Taint 0x40af6f: mov dword ptr [rbp-0x184], eax	mem: 0x7ffeaf7c7bec	value: 0x3
+Not Taint 0x40af75: mov rax, qword ptr [rbp-0x140]	 mem: 0x7ffeaf7c7c30	value: 0x8
+Not Taint 0x40af7c: mov qword ptr [rbp-0xc0], rax	mem: 0x7ffeaf7c7cb0	value: 0x8
+Not Taint 0x40af83: mov rax, qword ptr [rbp-0x138]	 mem: 0x7ffeaf7c7c38	value: 0x0
+Not Taint 0x40af8a: mov qword ptr [rbp-0xb8], rax	mem: 0x7ffeaf7c7cb8	value: 0x0
+Not Taint 0x40af91: mov rax, qword ptr [rbp-0x130]	 mem: 0x7ffeaf7c7c40	value: 0x0
+Not Taint 0x40af98: mov qword ptr [rbp-0xb0], rax	mem: 0x7ffeaf7c7cc0	value: 0x0
+Not Taint 0x40af9f: mov rax, qword ptr [rbp-0x128]	 mem: 0x7ffeaf7c7c48	value: 0x0
+Not Taint 0x40afa6: mov qword ptr [rbp-0xa8], rax	mem: 0x7ffeaf7c7cc8	value: 0x0
+Not Taint 0x40afad: mov rax, qword ptr [rbp-0x120]	 mem: 0x7ffeaf7c7c50	value: 0x0
+Not Taint 0x40afb4: mov qword ptr [rbp-0xa0], rax	mem: 0x7ffeaf7c7cd0	value: 0x0
+Not Taint 0x40afbb: mov rax, qword ptr [rbp-0x118]	 mem: 0x7ffeaf7c7c58	value: 0x0
+Not Taint 0x40afc2: mov qword ptr [rbp-0x98], rax	mem: 0x7ffeaf7c7cd8	value: 0x0
+Not Taint 0x40afc9: mov rax, qword ptr [rbp-0x110]	 mem: 0x7ffeaf7c7c60	value: 0x0
+Not Taint 0x40afd0: mov qword ptr [rbp-0x90], rax	mem: 0x7ffeaf7c7ce0	value: 0x0
+Not Taint 0x40afd7: mov rax, qword ptr [rbp-0x108]	 mem: 0x7ffeaf7c7c68	value: 0x0
+Not Taint 0x40afde: mov qword ptr [rbp-0x88], rax	mem: 0x7ffeaf7c7ce8	value: 0x0
+Not Taint 0x40afe5: mov rax, qword ptr [rbp-0x100]	 mem: 0x7ffeaf7c7c70	value: 0x0
+Not Taint 0x40afec: mov qword ptr [rbp-0x80], rax	mem: 0x7ffeaf7c7cf0	value: 0x0
+Not Taint 0x40aff0: mov rax, qword ptr [rbp-0xf8]	 mem: 0x7ffeaf7c7c78	value: 0x0
+Not Taint 0x40aff7: mov qword ptr [rbp-0x78], rax	mem: 0x7ffeaf7c7cf8	value: 0x0
+Not Taint 0x40affb: mov rax, qword ptr [rbp-0xf0]	 mem: 0x7ffeaf7c7c80	value: 0x0
+Not Taint 0x40b002: mov qword ptr [rbp-0x70], rax	mem: 0x7ffeaf7c7d00	value: 0x0
+Not Taint 0x40b006: mov rax, qword ptr [rbp-0xe8]	 mem: 0x7ffeaf7c7c88	value: 0x0
+Not Taint 0x40b00d: mov qword ptr [rbp-0x68], rax	mem: 0x7ffeaf7c7d08	value: 0x0
+Not Taint 0x40b011: mov rax, qword ptr [rbp-0xe0]	 mem: 0x7ffeaf7c7c90	value: 0x0
+Not Taint 0x40b018: mov qword ptr [rbp-0x60], rax	mem: 0x7ffeaf7c7d10	value: 0x0
+Not Taint 0x40b01c: mov rax, qword ptr [rbp-0xd8]	 mem: 0x7ffeaf7c7c98	value: 0x0
+Not Taint 0x40b023: mov qword ptr [rbp-0x58], rax	mem: 0x7ffeaf7c7d18	value: 0x0
+Not Taint 0x40b027: mov rax, qword ptr [rbp-0xd0]	 mem: 0x7ffeaf7c7ca0	value: 0x0
+Not Taint 0x40b02e: mov qword ptr [rbp-0x50], rax	mem: 0x7ffeaf7c7d20	value: 0x0
+Not Taint 0x40b032: mov rax, qword ptr [rbp-0xc8]	 mem: 0x7ffeaf7c7ca8	value: 0x0
+Not Taint 0x40b039: mov qword ptr [rbp-0x48], rax	mem: 0x7ffeaf7c7d28	value: 0x0
+Not Taint 0x40b03d: mov eax, dword ptr [rbp-0x184]	 mem: 0x7ffeaf7c7bec	value: 0x3
+Not Taint 0x40b05d: mov rsi, rax	value: 0x7ffeaf7c7cb0
+thread id: 0, enter function: select@plt
+Not Taint 0x40b065: mov dword ptr [rbp-0x174], eax	mem: 0x7ffeaf7c7bfc	value: 0x1
+Not Taint 0x40b083: mov eax, dword ptr [rbp-0x18c]	 mem: 0x7ffeaf7c7be4	value: 0x3
+Not Taint 0x40b094: cdqe 	value: 0x0
+Not Taint 0x40b096: mov rsi, qword ptr [rbp+rax*8-0xc0]	 mem: 0x7ffeaf7c7cb0	value: 0x8
+Not Taint 0x40b09e: mov eax, dword ptr [rbp-0x18c]	 mem: 0x7ffeaf7c7be4	value: 0x3
+Not Taint 0x40b0a4: cdq 	value: 0x3
+Not Taint 0x40b0b4: mov ecx, eax	value: 0x3
+Not Taint 0x40b0b9: mov rax, rdx	value: 0x8
+Not Taint 0x40b0cf: mov rax, qword ptr [rbp-0x168]	 mem: 0x7ffeaf7c7c08	value: 0x1abc010
+Not Taint 0x40b0d6: mov rsi, rdx	value: 0x7ffeaf7c7be4
+Not Taint 0x40b0d9: mov rdi, rax	value: 0x1abc010
+thread id: 0, enter function: modbus_tcp_accept
+Not Taint 0x40d2d0: push rbx	mem: 0x7ffeaf7c7bb0	value: 0x7ffeaf7c7bd0
+Not Taint 0x40d2d5: mov rcx, qword ptr fs:[0x28]	 mem: 0x7fd1e8310728	value: 0xba7b3145de915900
+Not Taint 0x40d2de: mov qword ptr [rsp+0x28], rcx	mem: 0x7ffeaf7c7ba8	value: 0xba7b3145de915900
+Not Taint 0x40d2ea: mov rax, rsi	value: 0x7ffeaf7c7be4
+Not Taint 0x40d2ed: mov rbx, rdi	value: 0x1abc010
+Not Taint 0x40d2f5: mov edi, dword ptr [rax]	 mem: 0x7ffeaf7c7be4	value: 0x3
+thread id: 0, enter function: accept@plt
+Not Taint 0x40d30c: mov dword ptr [rbx+0x4], eax	mem: 0x1abc014	value: 0x4
+Not Taint 0x40d311: mov edx, dword ptr [rbx+0x8]	 mem: 0x1abc018	value: 0x1
+Not Taint 0x40d330: mov edi, dword ptr [rsp+0x14]	 mem: 0x7ffeaf7c7b94	value: 0x100007f
+thread id: 0, enter function: inet_ntoa@plt
+Not Taint 0x40d33e: mov rdx, rax	value: 0x7fd1e83106d8
+thread id: 0, enter function: __printf_chk@plt
+thread id: 0, enter function: malloc@plt
+Not Taint 0x40d34d: mov eax, dword ptr [rbx+0x4]	 mem: 0x1abc014	value: 0x4
+Not Taint 0x40d318: mov rcx, qword ptr [rsp+0x28]	 mem: 0x7ffeaf7c7ba8	value: 0xba7b3145de915900
+Not Taint 0x40d32c: pop rbx	 mem: 0x7ffeaf7c7bb0	value: 0x7ffeaf7c7bd0
+thread id: 0, exit  function: modbus_tcp_accept
+Not Taint 0x40b0e1: mov dword ptr [rbp-0x170], eax	mem: 0x7ffeaf7c7c00	value: 0x4
+Not Taint 0x40b145: mov eax, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40b10b: mov rax, qword ptr [rbp-0x148]	 mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40b112: mov edx, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40b118: movsxd rdx, edx	value: 0x0
+Not Taint 0x40b11b: mov eax, dword ptr [rax+rdx*4]	 mem: 0x7ffeaf7c7bc0	value: 0xffffffff
+Not Taint 0x40b123: mov rax, qword ptr [rbp-0x148]	 mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40b12a: mov edx, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40b130: movsxd rdx, edx	value: 0x0
+Not Taint 0x40b133: mov ecx, dword ptr [rbp-0x170]	 mem: 0x7ffeaf7c7c00	value: 0x4
+Not Taint 0x40b139: mov dword ptr [rax+rdx*4], ecx	mem: 0x7ffeaf7c7bc0	value: 0x4
+Not Taint 0x40b153: mov eax, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40b192: mov eax, dword ptr [rbp-0x170]	 mem: 0x7ffeaf7c7c00	value: 0x4
+Not Taint 0x40b1a0: mov eax, dword ptr [rbp-0x170]	 mem: 0x7ffeaf7c7c00	value: 0x4
+Not Taint 0x40b1a6: mov dword ptr [rbp-0x184], eax	mem: 0x7ffeaf7c7bec	value: 0x4
+Not Taint 0x40b1ac: mov eax, dword ptr [rbp-0x170]	 mem: 0x7ffeaf7c7c00	value: 0x4
+Not Taint 0x40b1bd: mov esi, eax	value: 0x0
+Not Taint 0x40b1bf: movsxd rax, esi	value: 0x0
+Not Taint 0x40b1c2: mov rdi, qword ptr [rbp+rax*8-0x140]	 mem: 0x7ffeaf7c7c30	value: 0x8
+Not Taint 0x40b1ca: mov eax, dword ptr [rbp-0x170]	 mem: 0x7ffeaf7c7c00	value: 0x4
+Not Taint 0x40b1d0: cdq 	value: 0x4
+Not Taint 0x40b1e0: mov ecx, eax	value: 0x4
+Not Taint 0x40b1e5: mov rax, rdx	value: 0x10
+Not Taint 0x40b1eb: mov rdx, rdi	value: 0x18
+Not Taint 0x40b1ee: movsxd rax, esi	value: 0x0
+Not Taint 0x40b1f1: mov qword ptr [rbp+rax*8-0x140], rdx	mem: 0x7ffeaf7c7c30	value: 0x18
+Not Taint 0x40af75: mov rax, qword ptr [rbp-0x140]	 mem: 0x7ffeaf7c7c30	value: 0x18
+Not Taint 0x40af7c: mov qword ptr [rbp-0xc0], rax	mem: 0x7ffeaf7c7cb0	value: 0x18
+Not Taint 0x40af83: mov rax, qword ptr [rbp-0x138]	 mem: 0x7ffeaf7c7c38	value: 0x0
+Not Taint 0x40af8a: mov qword ptr [rbp-0xb8], rax	mem: 0x7ffeaf7c7cb8	value: 0x0
+Not Taint 0x40af91: mov rax, qword ptr [rbp-0x130]	 mem: 0x7ffeaf7c7c40	value: 0x0
+Not Taint 0x40af98: mov qword ptr [rbp-0xb0], rax	mem: 0x7ffeaf7c7cc0	value: 0x0
+Not Taint 0x40af9f: mov rax, qword ptr [rbp-0x128]	 mem: 0x7ffeaf7c7c48	value: 0x0
+Not Taint 0x40afa6: mov qword ptr [rbp-0xa8], rax	mem: 0x7ffeaf7c7cc8	value: 0x0
+Not Taint 0x40afad: mov rax, qword ptr [rbp-0x120]	 mem: 0x7ffeaf7c7c50	value: 0x0
+Not Taint 0x40afb4: mov qword ptr [rbp-0xa0], rax	mem: 0x7ffeaf7c7cd0	value: 0x0
+Not Taint 0x40afbb: mov rax, qword ptr [rbp-0x118]	 mem: 0x7ffeaf7c7c58	value: 0x0
+Not Taint 0x40afc2: mov qword ptr [rbp-0x98], rax	mem: 0x7ffeaf7c7cd8	value: 0x0
+Not Taint 0x40afc9: mov rax, qword ptr [rbp-0x110]	 mem: 0x7ffeaf7c7c60	value: 0x0
+Not Taint 0x40afd0: mov qword ptr [rbp-0x90], rax	mem: 0x7ffeaf7c7ce0	value: 0x0
+Not Taint 0x40afd7: mov rax, qword ptr [rbp-0x108]	 mem: 0x7ffeaf7c7c68	value: 0x0
+Not Taint 0x40afde: mov qword ptr [rbp-0x88], rax	mem: 0x7ffeaf7c7ce8	value: 0x0
+Not Taint 0x40afe5: mov rax, qword ptr [rbp-0x100]	 mem: 0x7ffeaf7c7c70	value: 0x0
+Not Taint 0x40afec: mov qword ptr [rbp-0x80], rax	mem: 0x7ffeaf7c7cf0	value: 0x0
+Not Taint 0x40aff0: mov rax, qword ptr [rbp-0xf8]	 mem: 0x7ffeaf7c7c78	value: 0x0
+Not Taint 0x40aff7: mov qword ptr [rbp-0x78], rax	mem: 0x7ffeaf7c7cf8	value: 0x0
+Not Taint 0x40affb: mov rax, qword ptr [rbp-0xf0]	 mem: 0x7ffeaf7c7c80	value: 0x0
+Not Taint 0x40b002: mov qword ptr [rbp-0x70], rax	mem: 0x7ffeaf7c7d00	value: 0x0
+Not Taint 0x40b006: mov rax, qword ptr [rbp-0xe8]	 mem: 0x7ffeaf7c7c88	value: 0x0
+Not Taint 0x40b00d: mov qword ptr [rbp-0x68], rax	mem: 0x7ffeaf7c7d08	value: 0x0
+Not Taint 0x40b011: mov rax, qword ptr [rbp-0xe0]	 mem: 0x7ffeaf7c7c90	value: 0x0
+Not Taint 0x40b018: mov qword ptr [rbp-0x60], rax	mem: 0x7ffeaf7c7d10	value: 0x0
+Not Taint 0x40b01c: mov rax, qword ptr [rbp-0xd8]	 mem: 0x7ffeaf7c7c98	value: 0x0
+Not Taint 0x40b023: mov qword ptr [rbp-0x58], rax	mem: 0x7ffeaf7c7d18	value: 0x0
+Not Taint 0x40b027: mov rax, qword ptr [rbp-0xd0]	 mem: 0x7ffeaf7c7ca0	value: 0x0
+Not Taint 0x40b02e: mov qword ptr [rbp-0x50], rax	mem: 0x7ffeaf7c7d20	value: 0x0
+Not Taint 0x40b032: mov rax, qword ptr [rbp-0xc8]	 mem: 0x7ffeaf7c7ca8	value: 0x0
+Not Taint 0x40b039: mov qword ptr [rbp-0x48], rax	mem: 0x7ffeaf7c7d28	value: 0x0
+Not Taint 0x40b03d: mov eax, dword ptr [rbp-0x184]	 mem: 0x7ffeaf7c7bec	value: 0x4
+Not Taint 0x40b05d: mov rsi, rax	value: 0x7ffeaf7c7cb0
+thread id: 0, enter function: select@plt
+Not Taint 0x40b065: mov dword ptr [rbp-0x174], eax	mem: 0x7ffeaf7c7bfc	value: 0x1
+Not Taint 0x40b083: mov eax, dword ptr [rbp-0x18c]	 mem: 0x7ffeaf7c7be4	value: 0x3
+Not Taint 0x40b094: cdqe 	value: 0x0
+Not Taint 0x40b096: mov rsi, qword ptr [rbp+rax*8-0xc0]	 mem: 0x7ffeaf7c7cb0	value: 0x10
+Not Taint 0x40b09e: mov eax, dword ptr [rbp-0x18c]	 mem: 0x7ffeaf7c7be4	value: 0x3
+Not Taint 0x40b0a4: cdq 	value: 0x3
+Not Taint 0x40b0b4: mov ecx, eax	value: 0x3
+Not Taint 0x40b0b9: mov rax, rdx	value: 0x8
+Not Taint 0x40b3ac: mov eax, dword ptr [rbp-0x18c]	 mem: 0x7ffeaf7c7be4	value: 0x3
+Not Taint 0x40b3b2: mov edx, dword ptr [rbp-0x184]	 mem: 0x7ffeaf7c7bec	value: 0x4
+Not Taint 0x40b3ba: mov eax, edx	value: 0x1
+Not Taint 0x40b21c: mov rax, qword ptr [rbp-0x148]	 mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40b223: mov edx, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40b229: movsxd rdx, edx	value: 0x0
+Not Taint 0x40b22c: mov eax, dword ptr [rax+rdx*4]	 mem: 0x7ffeaf7c7bc0	value: 0x4
+Not Taint 0x40b238: mov rax, qword ptr [rbp-0x148]	 mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40b23f: mov edx, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40b245: movsxd rdx, edx	value: 0x0
+Not Taint 0x40b248: mov eax, dword ptr [rax+rdx*4]	 mem: 0x7ffeaf7c7bc0	value: 0x4
+Not Taint 0x40b256: cdqe 	value: 0x0
+Not Taint 0x40b258: mov rsi, qword ptr [rbp+rax*8-0xc0]	 mem: 0x7ffeaf7c7cb0	value: 0x10
+Not Taint 0x40b260: mov rax, qword ptr [rbp-0x148]	 mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40b267: mov edx, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40b26d: movsxd rdx, edx	value: 0x0
+Not Taint 0x40b270: mov eax, dword ptr [rax+rdx*4]	 mem: 0x7ffeaf7c7bc0	value: 0x4
+Not Taint 0x40b273: cdq 	value: 0x4
+Not Taint 0x40b283: mov ecx, eax	value: 0x4
+Not Taint 0x40b288: mov rax, rdx	value: 0x10
+Not Taint 0x40b297: mov rax, qword ptr [rbp-0x148]	 mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40b29e: mov edx, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40b2a4: movsxd rdx, edx	value: 0x0
+Not Taint 0x40b2a7: mov edx, dword ptr [rax+rdx*4]	 mem: 0x7ffeaf7c7bc0	value: 0x4
+Not Taint 0x40b2aa: mov rax, qword ptr [rbp-0x168]	 mem: 0x7ffeaf7c7c08	value: 0x1abc010
+Not Taint 0x40b2b1: mov dword ptr [rax+0x4], edx	mem: 0x1abc014	value: 0x4
+Not Taint 0x40b2b4: mov rdx, qword ptr [rbp-0x160]	 mem: 0x7ffeaf7c7c10	value: 0x1abc080
+Not Taint 0x40b2bb: mov rax, qword ptr [rbp-0x168]	 mem: 0x7ffeaf7c7c08	value: 0x1abc010
+Not Taint 0x40b2c2: mov rsi, rdx	value: 0x1abc080
+Not Taint 0x40b2c5: mov rdi, rax	value: 0x1abc010
+thread id: 0, enter function: modbus_receive
+Not Taint 0x402735: mov rax, qword ptr [rdi+0x30]	 mem: 0x1abc040	value: 0x40f2a0
+Not Taint 0x402739: mov rax, qword ptr [rax+0x40]	 mem: 0x40f2e0	value: 0x40cd30
+thread id: 0, enter function: _modbus_tcp_receive
+thread id: 0, enter function: _modbus_receive_msg
+Not Taint 0x4036f0: push r15	mem: 0x7ffeaf7c7bb0	value: 0x0
+Not Taint 0x4036f2: push r14	mem: 0x7ffeaf7c7ba8	value: 0x2
+Not Taint 0x4036f4: push r13	mem: 0x7ffeaf7c7ba0	value: 0x0
+Not Taint 0x4036f6: push r12	mem: 0x7ffeaf7c7b98	value: 0x2
+Not Taint 0x4036f8: mov r12, rdi	value: 0x1abc010
+Not Taint 0x4036fc: push rbx	mem: 0x7ffeaf7c7b88	value: 0x7ffeaf7c7bd0
+Not Taint 0x403704: mov r10d, dword ptr [rdi+0x8]	 mem: 0x1abc018	value: 0x1
+Not Taint 0x403708: mov rax, qword ptr fs:[0x28]	 mem: 0x7fd1e8310728	value: 0xba7b3145de915900
+Not Taint 0x403711: mov qword ptr [rsp+0xb8], rax	mem: 0x7ffeaf7c7b78	value: 0xba7b3145de915900
+Not Taint 0x40371b: mov qword ptr [rsp+0x10], rsi	mem: 0x7ffeaf7c7ad0	value: 0x1abc080
+Not Taint 0x403720: mov dword ptr [rsp+0x1c], edx	mem: 0x7ffeaf7c7adc	value: 0x0
+thread id: 0, enter function: puts@plt
+Not Taint 0x40374b: movsxd rdi, dword ptr [r12+0x4]	 mem: 0x1abc014	value: 0x4
+thread id: 0, enter function: __fdelt_chk@plt
+Not Taint 0x403755: mov edx, dword ptr [r12+0x4]	 mem: 0x1abc014	value: 0x4
+Not Taint 0x40375a: mov r9d, dword ptr [rsp+0x1c]	 mem: 0x7ffeaf7c7adc	value: 0x0
+Not Taint 0x403768: mov esi, edx	value: 0x4
+Not Taint 0x403785: mov rax, qword ptr [r12+0x30]	 mem: 0x1abc040	value: 0x40f2a0
+Not Taint 0x40378d: mov ecx, dword ptr [rax+0x4]	 mem: 0x40f2a4	value: 0x7
+Not Taint 0x4037d0: mov ecx, r13d	value: 0x8
+Not Taint 0x4037d3: mov rdx, qword ptr [rsp+0x8]	 mem: 0x7ffeaf7c7ac8	value: 0x0
+Not Taint 0x4037dd: mov rdi, r12	value: 0x1abc010
+thread id: 0, enter function: _modbus_tcp_select
+Not Taint 0x40c980: push r14	mem: 0x7ffeaf7c7ab0	value: 0x0
+Not Taint 0x40c982: push r13	mem: 0x7ffeaf7c7aa8	value: 0x8
+Not Taint 0x40c984: mov r13, rdx	value: 0x0
+Not Taint 0x40c987: push r12	mem: 0x7ffeaf7c7aa0	value: 0x1abc010
+Not Taint 0x40c990: push rbx	mem: 0x7ffeaf7c7a90	value: 0x7ffeaf7c7bd0
+Not Taint 0x40c991: mov rbx, rsi	value: 0x7ffeaf7c7af0
+Not Taint 0x40c994: mov edi, dword ptr [rdi+0x4]	 mem: 0x1abc014	value: 0x4
+Not Taint 0x40c9de: mov r8, r13	value: 0x0
+Not Taint 0x40c9e1: mov rsi, rbx	value: 0x7ffeaf7c7af0
+thread id: 0, enter function: select@plt
+Not Taint 0x40c9ec: mov r14d, eax	value: 0x1
+Not Taint 0x40ca24: pop rbx	 mem: 0x7ffeaf7c7a90	value: 0x7ffeaf7c7bd0
+Not Taint 0x40ca26: pop r12	 mem: 0x7ffeaf7c7aa0	value: 0x1abc010
+Not Taint 0x40ca28: pop r13	 mem: 0x7ffeaf7c7aa8	value: 0x8
+Not Taint 0x40ca2a: pop r14	 mem: 0x7ffeaf7c7ab0	value: 0x0
+thread id: 0, exit  function: _modbus_tcp_select
+Not Taint 0x4037ec: movsxd rbx, r14d	value: 0x0
+Not Taint 0x4037f4: mov rax, qword ptr [r12+0x30]	 mem: 0x1abc040	value: 0x40f2a0
+Not Taint 0x4037f9: mov edx, r13d	value: 0x8
+Not Taint 0x4037fc: mov rdi, r12	value: 0x1abc010
+Not Taint 0x4037ff: mov rsi, rbx	value: 0x1abc080
+thread id: 0, enter function: _modbus_tcp_recv
+Not Taint 0x40ca50: mov edi, dword ptr [rdi+0x4]	 mem: 0x1abc014	value: 0x4
+Not Taint 0x40ca53: movsxd rdx, edx	value: 0x8
+thread id: 0, enter function: recv@plt
+[TAINT]	 0x8 bytes tainted from 0x1abc080 to 0x1abc088 (via recv socket: 4)
+taint start: 1abc080, size: 8
+Not Taint 0x403885: mov r8d, dword ptr [r12+0x8]	 mem: 0x1abc018	value: 0x1
+thread: 0 [+ Reg <- Mem]	0x4038a0: movzx edx, byte ptr [rbx+r15*1]	 addr: 0x1abc080 value: (0x1abc080, 0x1)
+memory  :		src: 1abc080, size: 1, offset: 0, bigendian: 0, value: 1
+register EDX:	src: 1abc080, size: 1, offset: 0, bigendian: 0, value: 1, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+thread: 0 [+ Reg <- Mem]	0x4038a0: movzx edx, byte ptr [rbx+r15*1]	 addr: 0x1abc081 value: (0x1abc081, 0x11)
+memory  :		src: 1abc081, size: 1, offset: 1, bigendian: 0, value: 11
+register EDX:	src: 1abc081, size: 1, offset: 1, bigendian: 0, value: 11, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+thread: 0 [+ Reg <- Mem]	0x4038a0: movzx edx, byte ptr [rbx+r15*1]	 addr: 0x1abc082 value: (0x1abc082, 0x0)
+memory  :		src: 1abc082, size: 1, offset: 2, bigendian: 0, value: 0
+register EDX:	src: 1abc082, size: 1, offset: 2, bigendian: 0, value: 0, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+thread: 0 [+ Reg <- Mem]	0x4038a0: movzx edx, byte ptr [rbx+r15*1]	 addr: 0x1abc083 value: (0x1abc083, 0x0)
+memory  :		src: 1abc083, size: 1, offset: 3, bigendian: 0, value: 0
+register EDX:	src: 1abc083, size: 1, offset: 3, bigendian: 0, value: 0, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+thread: 0 [+ Reg <- Mem]	0x4038a0: movzx edx, byte ptr [rbx+r15*1]	 addr: 0x1abc084 value: (0x1abc084, 0x0)
+memory  :		src: 1abc084, size: 1, offset: 4, bigendian: 0, value: 0
+register EDX:	src: 1abc084, size: 1, offset: 4, bigendian: 0, value: 0, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+thread: 0 [+ Reg <- Mem]	0x4038a0: movzx edx, byte ptr [rbx+r15*1]	 addr: 0x1abc085 value: (0x1abc085, 0x6)
+memory  :		src: 1abc085, size: 1, offset: 5, bigendian: 0, value: 6
+register EDX:	src: 1abc085, size: 1, offset: 5, bigendian: 0, value: 6, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+thread: 0 [+ Reg <- Mem]	0x4038a0: movzx edx, byte ptr [rbx+r15*1]	 addr: 0x1abc086 value: (0x1abc086, 0x1)
+memory  :		src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1
+register EDX:	src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+thread: 0 [+ Reg <- Mem]	0x4038a0: movzx edx, byte ptr [rbx+r15*1]	 addr: 0x1abc087 value: (0x1abc087, 0x3)
+memory  :		src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3
+register EDX:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x4038cb: mov eax, dword ptr [rsp+0x18]	 mem: 0x7ffeaf7c7ad8	value: 0x0
+Not Taint 0x403a20: mov rax, qword ptr [r12+0x30]	 mem: 0x1abc040	value: 0x40f2a0
+Not Taint 0x403a25: mov rdi, qword ptr [rsp+0x10]	 mem: 0x7ffeaf7c7ad0	value: 0x1abc080
+Not Taint 0x403a2a: mov ecx, dword ptr [rax+0x4]	 mem: 0x40f2a4	value: 0x7
+thread: 0 [- Reg <- Reg]	0x403a2d: mov rdx, rcx
+register RDX:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+thread: 0 [+ Reg <- Mem]	0x403a30: movzx ecx, byte ptr [rdi+rcx*1]	 addr: 0x1abc087 value: (0x1abc087, 0x3)
+memory  :		src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3
+register ECX:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+Not Taint 0x403a34: mov edi, dword ptr [rsp+0x1c]	 mem: 0x7ffeaf7c7adc	value: 0x0
+thread: 0 [+ Reg <- Reg]	0x403a3c: movzx esi, cl value: (0x1abc087, 0x3)
+register CL:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+register CL:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+[USE RegImm]		0x403a3f: cmp esi, 0x6 value: 0x3, opcode: 99, imm: 6
+register ESI:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+Not Taint 0x4039e5: mov rax, qword ptr [r12+0x20]	 mem: 0x1abc030	value: 0x0
+Not Taint 0x4039ea: mov rdx, qword ptr [r12+0x28]	 mem: 0x1abc038	value: 0x7a120
+Not Taint 0x4039f4: mov qword ptr [rsp+0x20], rax	mem: 0x7ffeaf7c7ae0	value: 0x0
+Not Taint 0x4039fe: mov qword ptr [rsp+0x28], rdx	mem: 0x7ffeaf7c7ae8	value: 0x7a120
+Not Taint 0x403a03: mov qword ptr [rsp+0x8], rax	mem: 0x7ffeaf7c7ac8	value: 0x7ffeaf7c7ae0
+Not Taint 0x403a08: mov rax, qword ptr [r12+0x30]	 mem: 0x1abc040	value: 0x40f2a0
+thread: 0 [- Reg <- Reg]	0x4037d0: mov ecx, r13d
+register ECX:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+Not Taint 0x4037d3: mov rdx, qword ptr [rsp+0x8]	 mem: 0x7ffeaf7c7ac8	value: 0x7ffeaf7c7ae0
+thread: 0 [DELETE Reg]	0x4037d8 : lea rsi, ptr [rsp+0x30]
+register RSI:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+Not Taint 0x4037dd: mov rdi, r12	value: 0x1abc010
+thread id: 0, enter function: _modbus_tcp_select
+Not Taint 0x40c980: push r14	mem: 0x7ffeaf7c7ab0	value: 0x8
+Not Taint 0x40c982: push r13	mem: 0x7ffeaf7c7aa8	value: 0x4
+Not Taint 0x40c984: mov r13, rdx	value: 0x7ffeaf7c7ae0
+Not Taint 0x40c987: push r12	mem: 0x7ffeaf7c7aa0	value: 0x1abc010
+Not Taint 0x40c990: push rbx	mem: 0x7ffeaf7c7a90	value: 0x1abc080
+Not Taint 0x40c991: mov rbx, rsi	value: 0x7ffeaf7c7af0
+Not Taint 0x40c994: mov edi, dword ptr [rdi+0x4]	 mem: 0x1abc014	value: 0x4
+Not Taint 0x40c9de: mov r8, r13	value: 0x7ffeaf7c7ae0
+Not Taint 0x40c9e1: mov rsi, rbx	value: 0x7ffeaf7c7af0
+thread id: 0, enter function: select@plt
+Not Taint 0x40c9ec: mov r14d, eax	value: 0x1
+Not Taint 0x40ca24: pop rbx	 mem: 0x7ffeaf7c7a90	value: 0x1abc080
+Not Taint 0x40ca26: pop r12	 mem: 0x7ffeaf7c7aa0	value: 0x1abc010
+Not Taint 0x40ca28: pop r13	 mem: 0x7ffeaf7c7aa8	value: 0x4
+Not Taint 0x40ca2a: pop r14	 mem: 0x7ffeaf7c7ab0	value: 0x8
+thread id: 0, exit  function: _modbus_tcp_select
+Not Taint 0x4037ec: movsxd rbx, r14d	value: 0x8
+Not Taint 0x4037f4: mov rax, qword ptr [r12+0x30]	 mem: 0x1abc040	value: 0x40f2a0
+Not Taint 0x4037f9: mov edx, r13d	value: 0x4
+Not Taint 0x4037fc: mov rdi, r12	value: 0x1abc010
+Not Taint 0x4037ff: mov rsi, rbx	value: 0x1abc088
+thread id: 0, enter function: _modbus_tcp_recv
+Not Taint 0x40ca50: mov edi, dword ptr [rdi+0x4]	 mem: 0x1abc014	value: 0x4
+Not Taint 0x40ca53: movsxd rdx, edx	value: 0x4
+thread id: 0, enter function: recv@plt
+[TAINT]	 0x4 bytes tainted from 0x1abc088 to 0x1abc08c (via recv socket: 4)
+taint start: 1abc088, size: 4
+Not Taint 0x403885: mov r8d, dword ptr [r12+0x8]	 mem: 0x1abc018	value: 0x1
+thread: 0 [+ Reg <- Mem]	0x4038a0: movzx edx, byte ptr [rbx+r15*1]	 addr: 0x1abc088 value: (0x1abc088, 0x0)
+memory  :		src: 1abc088, size: 1, offset: 8, bigendian: 0, value: 0
+register EDX:	src: 1abc088, size: 1, offset: 8, bigendian: 0, value: 0, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+thread: 0 [+ Reg <- Mem]	0x4038a0: movzx edx, byte ptr [rbx+r15*1]	 addr: 0x1abc089 value: (0x1abc089, 0x2)
+memory  :		src: 1abc089, size: 1, offset: 9, bigendian: 0, value: 2
+register EDX:	src: 1abc089, size: 1, offset: 9, bigendian: 0, value: 2, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+thread: 0 [+ Reg <- Mem]	0x4038a0: movzx edx, byte ptr [rbx+r15*1]	 addr: 0x1abc08a value: (0x1abc08a, 0x0)
+memory  :		src: 1abc08a, size: 1, offset: a, bigendian: 0, value: 0
+register EDX:	src: 1abc08a, size: 1, offset: a, bigendian: 0, value: 0, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+thread: 0 [+ Reg <- Mem]	0x4038a0: movzx edx, byte ptr [rbx+r15*1]	 addr: 0x1abc08b value: (0x1abc08b, 0x8)
+memory  :		src: 1abc08b, size: 1, offset: b, bigendian: 0, value: 8
+register EDX:	src: 1abc08b, size: 1, offset: b, bigendian: 0, value: 8, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x4038cb: mov eax, dword ptr [rsp+0x18]	 mem: 0x7ffeaf7c7ad8	value: 0x1
+Not Taint 0x403908: mov rax, qword ptr [r12+0x30]	 mem: 0x1abc040	value: 0x40f2a0
+Not Taint 0x40390d: mov esi, dword ptr [rsp+0x1c]	 mem: 0x7ffeaf7c7adc	value: 0x0
+Not Taint 0x403911: mov rdi, qword ptr [rsp+0x10]	 mem: 0x7ffeaf7c7ad0	value: 0x1abc080
+Not Taint 0x403916: mov ecx, dword ptr [rax+0x4]	 mem: 0x40f2a4	value: 0x7
+thread: 0 [- Reg <- Reg]	0x40391b: mov rdx, rcx
+register RDX:	src: 1abc08b, size: 1, offset: b, bigendian: 0, value: 8, shift: 0
+
+thread: 0 [+ Reg <- Mem]	0x40391e: movzx ecx, byte ptr [rdi+rcx*1]	 addr: 0x1abc087 value: (0x1abc087, 0x3)
+memory  :		src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3
+register ECX:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+[USE RegImm]		0x403a70: cmp cl, 0xf value: 0x3, opcode: 99, imm: 15
+register CL:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+Not Taint 0x4038dc: mov eax, dword ptr [r12+0x8]	 mem: 0x1abc018	value: 0x1
+thread id: 0, enter function: putchar@plt
+Not Taint 0x4038e9: mov rax, qword ptr [r12+0x30]	 mem: 0x1abc040	value: 0x40f2a0
+Not Taint 0x4038ee: mov edx, r14d	value: 0xc
+Not Taint 0x4038f1: mov rsi, qword ptr [rsp+0x10]	 mem: 0x7ffeaf7c7ad0	value: 0x1abc080
+Not Taint 0x4038f6: mov rdi, r12	value: 0x1abc010
+thread id: 0, enter function: _modbus_tcp_check_integrity
+Not Taint 0x40c810: mov eax, edx	value: 0xc
+thread id: 0, exit  function: _modbus_tcp_check_integrity
+thread: 0 [- Reg <- Mem]	0x403857: mov rcx, qword ptr [rsp+0xb8]	 addr: 0x7ffeaf7c7b78
+register RCX:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+Not Taint 0x403875: pop rbx	 mem: 0x7ffeaf7c7b88	value: 0x7ffeaf7c7bd0
+Not Taint 0x403877: pop r12	 mem: 0x7ffeaf7c7b98	value: 0x2
+Not Taint 0x403879: pop r13	 mem: 0x7ffeaf7c7ba0	value: 0x0
+Not Taint 0x40387b: pop r14	 mem: 0x7ffeaf7c7ba8	value: 0x2
+Not Taint 0x40387d: pop r15	 mem: 0x7ffeaf7c7bb0	value: 0x0
+thread id: 0, exit  function: _modbus_receive_msg
+Not Taint 0x40b2cd: mov dword ptr [rbp-0x16c], eax	mem: 0x7ffeaf7c7c04	value: 0xc
+Not Taint 0x40b2dc: mov rcx, qword ptr [rbp-0x158]	 mem: 0x7ffeaf7c7c18	value: 0x1abc190
+Not Taint 0x40b2e3: mov edx, dword ptr [rbp-0x16c]	 mem: 0x7ffeaf7c7c04	value: 0xc
+Not Taint 0x40b2e9: mov rsi, qword ptr [rbp-0x160]	 mem: 0x7ffeaf7c7c10	value: 0x1abc080
+Not Taint 0x40b2f0: mov rax, qword ptr [rbp-0x168]	 mem: 0x7ffeaf7c7c08	value: 0x1abc010
+Not Taint 0x40b2f7: mov rdi, rax	value: 0x1abc010
+thread id: 0, enter function: modbus_reply
+Not Taint 0x402c80: push r15	mem: 0x7ffeaf7c7bb0	value: 0x0
+Not Taint 0x402c82: push r14	mem: 0x7ffeaf7c7ba8	value: 0x2
+Not Taint 0x402c84: push r13	mem: 0x7ffeaf7c7ba0	value: 0x0
+Not Taint 0x402c86: push r12	mem: 0x7ffeaf7c7b98	value: 0x2
+Not Taint 0x402c89: push rbx	mem: 0x7ffeaf7c7b88	value: 0x7ffeaf7c7bd0
+Not Taint 0x402c91: mov rax, qword ptr fs:[0x28]	 mem: 0x7fd1e8310728	value: 0xba7b3145de915900
+Not Taint 0x402c9a: mov qword ptr [rsp+0x148], rax	mem: 0x7ffeaf7c7b78	value: 0xba7b3145de915900
+Not Taint 0x402ca7: mov dword ptr [rsp+0x2c], edx	mem: 0x7ffeaf7c7a5c	value: 0xc
+Not Taint 0x402cb1: mov rax, qword ptr [rdi+0x30]	 mem: 0x1abc040	value: 0x40f2a0
+Not Taint 0x402cb5: mov r14, rdi	value: 0x1abc010
+Not Taint 0x402cb8: mov rbx, rsi	value: 0x1abc080
+Not Taint 0x402cbb: mov qword ptr [rsp+0x10], rcx	mem: 0x7ffeaf7c7a40	value: 0x1abc190
+thread: 0 [+ Reg <- Mem]	0x402cc4: movzx edi, byte ptr [rsi+rbp*1+0x1]	 addr: 0x1abc088 value: (0x1abc088, 0x0)
+memory  :		src: 1abc088, size: 1, offset: 8, bigendian: 0, value: 0
+register EDI:	src: 1abc088, size: 1, offset: 8, bigendian: 0, value: 0, shift: 0
+
+thread: 0 [+ Reg <- Mem]	0x402ccd: movzx r13d, byte ptr [rsi+rbp*1-0x1]	 addr: 0x1abc086 value: (0x1abc086, 0x1)
+memory  :		src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1
+register R13D:	src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1, shift: 0
+
+thread: 0 [+ Reg <- Mem]	0x402cd3: movzx edx, byte ptr [r12]	 addr: 0x1abc087 value: (0x1abc087, 0x3)
+memory  :		src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3
+register EDX:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+thread: 0 [+ Mem <- Reg]	0x402cd8: mov byte ptr [rsp+0x1c], dil	 addr: 0x7ffeaf7c7a4c value: (0x1abc088, 0x0)
+register DIL:	src: 1abc088, size: 1, offset: 8, bigendian: 0, value: 0, shift: 0
+memory  :		src: 1abc088, size: 1, offset: 8, bigendian: 0, value: 0
+
+thread: 0 [+ Reg <- Mem]	0x402cdd: movzx edi, byte ptr [rsi+rbp*1+0x2]	 addr: 0x1abc089 value: (0x1abc089, 0x2)
+memory  :		src: 1abc089, size: 1, offset: 9, bigendian: 0, value: 2
+register EDI:	src: 1abc089, size: 1, offset: 9, bigendian: 0, value: 2, shift: 0
+
+thread: 0 [+ Mem <- Reg]	0x402ce7: mov dword ptr [rsp+0x30], r13d	 addr: 0x7ffeaf7c7a60 value: (0x1abc086, 0x1)
+register R13D:	src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1, shift: 0
+memory  :		src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1
+
+thread: 0 [+ Mem <- Reg]	0x402cec: mov byte ptr [rsp+0x8], dl	 addr: 0x7ffeaf7c7a38 value: (0x1abc087, 0x3)
+register DL:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+memory  :		src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3
+
+thread: 0 [+ Mem <- Reg]	0x402cf0: mov dword ptr [rsp+0x34], edx	 addr: 0x7ffeaf7c7a64 value: (0x1abc087, 0x3)
+register EDX:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+memory  :		src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3
+
+thread: 0 [+ Mem <- Reg]	0x402cf4: mov dword ptr [rsp], edx	 addr: 0x7ffeaf7c7a30 value: (0x1abc087, 0x3)
+register EDX:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+memory  :		src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3
+
+thread: 0 [+ Mem <- Reg]	0x402cf7: mov byte ptr [rsp+0x28], dil	 addr: 0x7ffeaf7c7a58 value: (0x1abc089, 0x2)
+register DIL:	src: 1abc089, size: 1, offset: 9, bigendian: 0, value: 2, shift: 0
+memory  :		src: 1abc089, size: 1, offset: 9, bigendian: 0, value: 2
+
+thread: 0 [- Reg <- Reg]	0x402cfc: mov rdi, rbx
+register RDI:	src: 1abc089, size: 1, offset: 9, bigendian: 0, value: 2, shift: 0
+
+thread id: 0, enter function: _modbus_tcp_prepare_response_tid
+thread: 0 [+ Reg <- Mem]	0x40c7e0: movzx eax, byte ptr [rdi]	 addr: 0x1abc080 value: (0x1abc080, 0x1)
+memory  :		src: 1abc080, size: 1, offset: 0, bigendian: 0, value: 1
+register EAX:	src: 1abc080, size: 1, offset: 0, bigendian: 0, value: 1, shift: 0
+
+thread: 0 [+ Reg <- Mem]	0x40c7e3: movzx edx, byte ptr [rdi+0x1]	 addr: 0x1abc081 value: (0x1abc081, 0x11)
+memory  :		src: 1abc081, size: 1, offset: 1, bigendian: 0, value: 11
+register EDX:	src: 1abc081, size: 1, offset: 1, bigendian: 0, value: 11, shift: 0
+
+[USE RegImm]		0x40c7e7: shl eax, 0x8 value: 0x1, opcode: 745, imm: 8
+register EAX:	src: 1abc080, size: 1, offset: 0, bigendian: 0, value: 100, shift: 1
+
+before
+register EAX:	src: 1abc080, size: 1, offset: 0, bigendian: 0, value: 100, shift: 1
+register EAX:	src: 1abc080, size: 1, offset: 0, bigendian: 0, value: 100, shift: 1
+register EDX:	src: 1abc081, size: 1, offset: 1, bigendian: 0, value: 11, shift: 0
+[USE RegReg]		0x40c7ea: add eax, edx value: 0x100, opcode: 8
+register EAX:	src: 1abc080, size: 2, offset: 0, bigendian: 1, value: 111, shift: 0
+register EAX:	src: 1abc080, size: 2, offset: 0, bigendian: 1, value: 111, shift: 0
+
+thread id: 0, exit  function: _modbus_tcp_prepare_response_tid
+Not Taint 0x402d02: mov esi, dword ptr [rsp+0x2c]	 mem: 0x7ffeaf7c7a5c	value: 0xc
+Not Taint 0x402d06: mov rdi, r12	value: 0x1abc087
+thread: 0 [+ Mem <- Reg]	0x402d09: mov dword ptr [rsp+0x38], eax	 addr: 0x7ffeaf7c7a68 value: (0x1abc080, 0x111)
+register EAX:	src: 1abc080, size: 2, offset: 0, bigendian: 1, value: 111, shift: 0
+memory  :		src: 1abc080, size: 2, offset: 0, bigendian: 1, value: 111
+
+thread id: 0, enter function: validate
+Not Taint 0x406865: push r12	mem: 0x7ffeaf7c7a18	value: 0x1abc087
+Not Taint 0x406867: push rbx	mem: 0x7ffeaf7c7a10	value: 0x1abc080
+Not Taint 0x40686c: mov qword ptr [rbp-0x28], rdi	mem: 0x7ffeaf7c79f8	value: 0x1abc087
+Not Taint 0x406870: mov dword ptr [rbp-0x2c], esi	mem: 0x7ffeaf7c79f4	value: 0x5
+thread: 0 [DELETE Reg]	0x406873 : mov eax, 0x0
+register EAX:	src: 1abc080, size: 2, offset: 0, bigendian: 1, value: 111, shift: 0
+
+thread id: 0, enter function: validate_init
+Not Taint 0x406705: mov eax, dword ptr [rip+0x20bbb1]	 mem: 0x6122bc	value: 0x1
+thread id: 0, enter function: init_func_mem
+thread: 0 [DELETE Reg]	0x404bd7 : mov edx, 0x1e0
+register EDX:	src: 1abc081, size: 1, offset: 1, bigendian: 0, value: 11, shift: 0
+
+thread id: 0, enter function: memset@plt
+thread id: 0, enter function: memset@plt
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x0
+Not Taint 0x404c0b: cdqe 	value: 0x0
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x612290	value: 0x0
+Not Taint 0x404c14: mov ecx, eax	value: 0x0
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x0
+Not Taint 0x404c19: movsxd rdx, eax	value: 0x0
+Not Taint 0x404c1c: mov rax, rdx	value: 0x0
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x612300	value: 0x0
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x0
+Not Taint 0x404c34: movsxd rdx, eax	value: 0x0
+Not Taint 0x404c37: mov rax, rdx	value: 0x0
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x1
+Not Taint 0x404c0b: cdqe 	value: 0x1
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x612291	value: 0x1
+Not Taint 0x404c14: mov ecx, eax	value: 0x1
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x1
+Not Taint 0x404c19: movsxd rdx, eax	value: 0x1
+Not Taint 0x404c1c: mov rax, rdx	value: 0x1
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x612318	value: 0x1
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x1
+Not Taint 0x404c34: movsxd rdx, eax	value: 0x1
+Not Taint 0x404c37: mov rax, rdx	value: 0x1
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x2
+Not Taint 0x404c0b: cdqe 	value: 0x2
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x612292	value: 0x2
+Not Taint 0x404c14: mov ecx, eax	value: 0x2
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x2
+Not Taint 0x404c19: movsxd rdx, eax	value: 0x2
+Not Taint 0x404c1c: mov rax, rdx	value: 0x2
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x612330	value: 0x2
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x2
+Not Taint 0x404c34: movsxd rdx, eax	value: 0x2
+Not Taint 0x404c37: mov rax, rdx	value: 0x2
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x3
+Not Taint 0x404c0b: cdqe 	value: 0x3
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x612293	value: 0x3
+Not Taint 0x404c14: mov ecx, eax	value: 0x3
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x3
+Not Taint 0x404c19: movsxd rdx, eax	value: 0x3
+Not Taint 0x404c1c: mov rax, rdx	value: 0x3
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x612348	value: 0x3
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x3
+Not Taint 0x404c34: movsxd rdx, eax	value: 0x3
+Not Taint 0x404c37: mov rax, rdx	value: 0x3
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x4
+Not Taint 0x404c0b: cdqe 	value: 0x4
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x612294	value: 0x4
+Not Taint 0x404c14: mov ecx, eax	value: 0x4
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x4
+Not Taint 0x404c19: movsxd rdx, eax	value: 0x4
+Not Taint 0x404c1c: mov rax, rdx	value: 0x4
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x612360	value: 0x4
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x4
+Not Taint 0x404c34: movsxd rdx, eax	value: 0x4
+Not Taint 0x404c37: mov rax, rdx	value: 0x4
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x5
+Not Taint 0x404c0b: cdqe 	value: 0x5
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x612295	value: 0x5
+Not Taint 0x404c14: mov ecx, eax	value: 0x5
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x5
+Not Taint 0x404c19: movsxd rdx, eax	value: 0x5
+Not Taint 0x404c1c: mov rax, rdx	value: 0x5
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x612378	value: 0x5
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x5
+Not Taint 0x404c34: movsxd rdx, eax	value: 0x5
+Not Taint 0x404c37: mov rax, rdx	value: 0x5
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x6
+Not Taint 0x404c0b: cdqe 	value: 0x6
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x612296	value: 0x6
+Not Taint 0x404c14: mov ecx, eax	value: 0x6
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x6
+Not Taint 0x404c19: movsxd rdx, eax	value: 0x6
+Not Taint 0x404c1c: mov rax, rdx	value: 0x6
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x612390	value: 0x6
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x6
+Not Taint 0x404c34: movsxd rdx, eax	value: 0x6
+Not Taint 0x404c37: mov rax, rdx	value: 0x6
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x7
+Not Taint 0x404c0b: cdqe 	value: 0x7
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x612297	value: 0x7
+Not Taint 0x404c14: mov ecx, eax	value: 0x7
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x7
+Not Taint 0x404c19: movsxd rdx, eax	value: 0x7
+Not Taint 0x404c1c: mov rax, rdx	value: 0x7
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x6123a8	value: 0x7
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x7
+Not Taint 0x404c34: movsxd rdx, eax	value: 0x7
+Not Taint 0x404c37: mov rax, rdx	value: 0x7
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x8
+Not Taint 0x404c0b: cdqe 	value: 0x8
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x612298	value: 0x8
+Not Taint 0x404c14: mov ecx, eax	value: 0x8
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x8
+Not Taint 0x404c19: movsxd rdx, eax	value: 0x8
+Not Taint 0x404c1c: mov rax, rdx	value: 0x8
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x6123c0	value: 0x8
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x8
+Not Taint 0x404c34: movsxd rdx, eax	value: 0x8
+Not Taint 0x404c37: mov rax, rdx	value: 0x8
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x9
+Not Taint 0x404c0b: cdqe 	value: 0x9
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x612299	value: 0xb
+Not Taint 0x404c14: mov ecx, eax	value: 0xb
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x9
+Not Taint 0x404c19: movsxd rdx, eax	value: 0x9
+Not Taint 0x404c1c: mov rax, rdx	value: 0x9
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x6123d8	value: 0xb
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x9
+Not Taint 0x404c34: movsxd rdx, eax	value: 0x9
+Not Taint 0x404c37: mov rax, rdx	value: 0x9
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xa
+Not Taint 0x404c0b: cdqe 	value: 0xa
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x61229a	value: 0xc
+Not Taint 0x404c14: mov ecx, eax	value: 0xc
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xa
+Not Taint 0x404c19: movsxd rdx, eax	value: 0xa
+Not Taint 0x404c1c: mov rax, rdx	value: 0xa
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x6123f0	value: 0xc
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xa
+Not Taint 0x404c34: movsxd rdx, eax	value: 0xa
+Not Taint 0x404c37: mov rax, rdx	value: 0xa
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xb
+Not Taint 0x404c0b: cdqe 	value: 0xb
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x61229b	value: 0xf
+Not Taint 0x404c14: mov ecx, eax	value: 0xf
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xb
+Not Taint 0x404c19: movsxd rdx, eax	value: 0xb
+Not Taint 0x404c1c: mov rax, rdx	value: 0xb
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x612408	value: 0xf
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xb
+Not Taint 0x404c34: movsxd rdx, eax	value: 0xb
+Not Taint 0x404c37: mov rax, rdx	value: 0xb
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xc
+Not Taint 0x404c0b: cdqe 	value: 0xc
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x61229c	value: 0x10
+Not Taint 0x404c14: mov ecx, eax	value: 0x10
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xc
+Not Taint 0x404c19: movsxd rdx, eax	value: 0xc
+Not Taint 0x404c1c: mov rax, rdx	value: 0xc
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x612420	value: 0x10
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xc
+Not Taint 0x404c34: movsxd rdx, eax	value: 0xc
+Not Taint 0x404c37: mov rax, rdx	value: 0xc
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xd
+Not Taint 0x404c0b: cdqe 	value: 0xd
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x61229d	value: 0x11
+Not Taint 0x404c14: mov ecx, eax	value: 0x11
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xd
+Not Taint 0x404c19: movsxd rdx, eax	value: 0xd
+Not Taint 0x404c1c: mov rax, rdx	value: 0xd
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x612438	value: 0x11
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xd
+Not Taint 0x404c34: movsxd rdx, eax	value: 0xd
+Not Taint 0x404c37: mov rax, rdx	value: 0xd
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xe
+Not Taint 0x404c0b: cdqe 	value: 0xe
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x61229e	value: 0x14
+Not Taint 0x404c14: mov ecx, eax	value: 0x14
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xe
+Not Taint 0x404c19: movsxd rdx, eax	value: 0xe
+Not Taint 0x404c1c: mov rax, rdx	value: 0xe
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x612450	value: 0x14
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xe
+Not Taint 0x404c34: movsxd rdx, eax	value: 0xe
+Not Taint 0x404c37: mov rax, rdx	value: 0xe
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xf
+Not Taint 0x404c0b: cdqe 	value: 0xf
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x61229f	value: 0x15
+Not Taint 0x404c14: mov ecx, eax	value: 0x15
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xf
+Not Taint 0x404c19: movsxd rdx, eax	value: 0xf
+Not Taint 0x404c1c: mov rax, rdx	value: 0xf
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x612468	value: 0x15
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0xf
+Not Taint 0x404c34: movsxd rdx, eax	value: 0xf
+Not Taint 0x404c37: mov rax, rdx	value: 0xf
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x10
+Not Taint 0x404c0b: cdqe 	value: 0x10
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x6122a0	value: 0x16
+Not Taint 0x404c14: mov ecx, eax	value: 0x16
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x10
+Not Taint 0x404c19: movsxd rdx, eax	value: 0x10
+Not Taint 0x404c1c: mov rax, rdx	value: 0x10
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x612480	value: 0x16
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x10
+Not Taint 0x404c34: movsxd rdx, eax	value: 0x10
+Not Taint 0x404c37: mov rax, rdx	value: 0x10
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x11
+Not Taint 0x404c0b: cdqe 	value: 0x11
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x6122a1	value: 0x17
+Not Taint 0x404c14: mov ecx, eax	value: 0x17
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x11
+Not Taint 0x404c19: movsxd rdx, eax	value: 0x11
+Not Taint 0x404c1c: mov rax, rdx	value: 0x11
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x612498	value: 0x17
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x11
+Not Taint 0x404c34: movsxd rdx, eax	value: 0x11
+Not Taint 0x404c37: mov rax, rdx	value: 0x11
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x12
+Not Taint 0x404c0b: cdqe 	value: 0x12
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x6122a2	value: 0x18
+Not Taint 0x404c14: mov ecx, eax	value: 0x18
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x12
+Not Taint 0x404c19: movsxd rdx, eax	value: 0x12
+Not Taint 0x404c1c: mov rax, rdx	value: 0x12
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x6124b0	value: 0x18
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x12
+Not Taint 0x404c34: movsxd rdx, eax	value: 0x12
+Not Taint 0x404c37: mov rax, rdx	value: 0x12
+Not Taint 0x404c08: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x13
+Not Taint 0x404c0b: cdqe 	value: 0x13
+Not Taint 0x404c0d: movzx eax, byte ptr [rax+0x612290]	 mem: 0x6122a3	value: 0x2b
+Not Taint 0x404c14: mov ecx, eax	value: 0x2b
+Not Taint 0x404c16: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x13
+Not Taint 0x404c19: movsxd rdx, eax	value: 0x13
+Not Taint 0x404c1c: mov rax, rdx	value: 0x13
+Not Taint 0x404c2f: mov byte ptr [rax], cl	mem: 0x6124c8	value: 0x2b
+Not Taint 0x404c31: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x13
+Not Taint 0x404c34: movsxd rdx, eax	value: 0x13
+Not Taint 0x404c37: mov rax, rdx	value: 0x13
+Not Taint 0x404c60: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x0
+Not Taint 0x404c63: cdqe 	value: 0x0
+Not Taint 0x404c65: movzx eax, byte ptr [rax+0x6122a4]	 mem: 0x6122a4	value: 0x0
+Not Taint 0x404c6c: mov ecx, eax	value: 0x0
+Not Taint 0x404c6e: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x0
+Not Taint 0x404c71: movsxd rdx, eax	value: 0x0
+Not Taint 0x404c74: mov rax, rdx	value: 0x0
+Not Taint 0x404c87: mov byte ptr [rax], cl	mem: 0x6124e0	value: 0x0
+Not Taint 0x404c89: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x0
+Not Taint 0x404c8c: movsxd rdx, eax	value: 0x0
+Not Taint 0x404c8f: mov rax, rdx	value: 0x0
+Not Taint 0x404c60: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x1
+Not Taint 0x404c63: cdqe 	value: 0x1
+Not Taint 0x404c65: movzx eax, byte ptr [rax+0x6122a4]	 mem: 0x6122a5	value: 0x1
+Not Taint 0x404c6c: mov ecx, eax	value: 0x1
+Not Taint 0x404c6e: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x1
+Not Taint 0x404c71: movsxd rdx, eax	value: 0x1
+Not Taint 0x404c74: mov rax, rdx	value: 0x1
+Not Taint 0x404c87: mov byte ptr [rax], cl	mem: 0x6124f8	value: 0x1
+Not Taint 0x404c89: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x1
+Not Taint 0x404c8c: movsxd rdx, eax	value: 0x1
+Not Taint 0x404c8f: mov rax, rdx	value: 0x1
+Not Taint 0x404c60: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x2
+Not Taint 0x404c63: cdqe 	value: 0x2
+Not Taint 0x404c65: movzx eax, byte ptr [rax+0x6122a4]	 mem: 0x6122a6	value: 0x2
+Not Taint 0x404c6c: mov ecx, eax	value: 0x2
+Not Taint 0x404c6e: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x2
+Not Taint 0x404c71: movsxd rdx, eax	value: 0x2
+Not Taint 0x404c74: mov rax, rdx	value: 0x2
+Not Taint 0x404c87: mov byte ptr [rax], cl	mem: 0x612510	value: 0x2
+Not Taint 0x404c89: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x2
+Not Taint 0x404c8c: movsxd rdx, eax	value: 0x2
+Not Taint 0x404c8f: mov rax, rdx	value: 0x2
+Not Taint 0x404c60: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x3
+Not Taint 0x404c63: cdqe 	value: 0x3
+Not Taint 0x404c65: movzx eax, byte ptr [rax+0x6122a4]	 mem: 0x6122a7	value: 0x3
+Not Taint 0x404c6c: mov ecx, eax	value: 0x3
+Not Taint 0x404c6e: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x3
+Not Taint 0x404c71: movsxd rdx, eax	value: 0x3
+Not Taint 0x404c74: mov rax, rdx	value: 0x3
+Not Taint 0x404c87: mov byte ptr [rax], cl	mem: 0x612528	value: 0x3
+Not Taint 0x404c89: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x3
+Not Taint 0x404c8c: movsxd rdx, eax	value: 0x3
+Not Taint 0x404c8f: mov rax, rdx	value: 0x3
+Not Taint 0x404c60: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x4
+Not Taint 0x404c63: cdqe 	value: 0x4
+Not Taint 0x404c65: movzx eax, byte ptr [rax+0x6122a4]	 mem: 0x6122a8	value: 0x4
+Not Taint 0x404c6c: mov ecx, eax	value: 0x4
+Not Taint 0x404c6e: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x4
+Not Taint 0x404c71: movsxd rdx, eax	value: 0x4
+Not Taint 0x404c74: mov rax, rdx	value: 0x4
+Not Taint 0x404c87: mov byte ptr [rax], cl	mem: 0x612540	value: 0x4
+Not Taint 0x404c89: mov eax, dword ptr [rbp-0x4]	 mem: 0x7ffeaf7c79cc	value: 0x4
+Not Taint 0x404c8c: movsxd rdx, eax	value: 0x4
+Not Taint 0x404c8f: mov rax, rdx	value: 0x4
+thread id: 0, exit  function: init_func_mem
+thread id: 0, exit  function: validate_init
+thread id: 0, enter function: check_update
+Not Taint 0x406732: mov rax, qword ptr [rip+0x20be37]	 mem: 0x612570	value: 0x0
+Not Taint 0x40673e: mov rax, qword ptr [rip+0x20bb3b]	 mem: 0x612280	value: 0x40e1a8
+Not Taint 0x40674a: mov rdi, rax	value: 0x40e1a8
+thread id: 0, enter function: fopen@plt
+thread id: 0, enter function: malloc@plt
+thread id: 0, enter function: free@plt
+Not Taint 0x406752: mov qword ptr [rip+0x20be17], rax	mem: 0x612570	value: 0x0
+Not Taint 0x406759: mov rax, qword ptr [rip+0x20be10]	 mem: 0x612570	value: 0x0
+thread id: 0, exit  function: check_update
+Not Taint 0x40688b: mov rax, qword ptr [rip+0x20ba4e]	 mem: 0x6122e0	value: 0x7fd1e8935540
+Not Taint 0x406892: mov rcx, rax	value: 0x7fd1e8935540
+thread id: 0, enter function: fwrite@plt
+Not Taint 0x406c42: pop rbx	 mem: 0x7ffeaf7c7a10	value: 0x1abc080
+Not Taint 0x406c43: pop r12	 mem: 0x7ffeaf7c7a18	value: 0x1abc087
+thread id: 0, exit  function: validate
+thread: 0 [+ Reg <- Mem]	0x402d16: mov edx, dword ptr [rsp]	 addr: 0x7ffeaf7c7a30 value: (0x1abc087, 0x3)
+memory  :		src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3
+register EDX:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+thread: 0 [+ Reg <- Mem]	0x402d19: movzx r8d, byte ptr [rsp+0x8]	 addr: 0x7ffeaf7c7a38 value: (0x1abc087, 0x3)
+memory  :		src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3
+register R8D:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+Not Taint 0x402d1f: mov rcx, qword ptr [rsp+0x10]	 mem: 0x7ffeaf7c7a40	value: 0x1abc190
+thread: 0 [+ Reg <- Mem]	0x402d26: movzx r15d, word ptr [rsp+0x1c]	 addr: 0x7ffeaf7c7a4c value: (0x1abc088, 0x0)
+memory  :		src: 1abc088, size: 1, offset: 8, bigendian: 0, value: 0
+register R15D:	src: 1abc088, size: 1, offset: 8, bigendian: 0, value: 0, shift: 0
+
+thread: 0 [+ Reg <- Mem]	0x402d2c: movzx r12d, byte ptr [rsp+0x28]	 addr: 0x7ffeaf7c7a58 value: (0x1abc089, 0x2)
+memory  :		src: 1abc089, size: 1, offset: 9, bigendian: 0, value: 2
+register R12D:	src: 1abc089, size: 1, offset: 9, bigendian: 0, value: 2, shift: 0
+
+[USE RegImm]		0x402d32: shl r15d, 0x8 value: 0x0, opcode: 745, imm: 8
+register R15D:	src: 1abc088, size: 1, offset: 8, bigendian: 0, value: 0, shift: 1
+
+before
+register R12D:	src: 1abc089, size: 1, offset: 9, bigendian: 0, value: 2, shift: 0
+register R12D:	src: 1abc089, size: 1, offset: 9, bigendian: 0, value: 2, shift: 0
+register R15D:	src: 1abc088, size: 1, offset: 8, bigendian: 0, value: 0, shift: 1
+[USE RegReg]		0x402d36: add r12d, r15d value: 0x2, opcode: 8
+register R12D:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+register R12D:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+
+[USE RegImm]		0x402d39: cmp r8b, 0x17 value: 0x3, opcode: 99, imm: 23
+register R8B:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+thread: 0 [+ Reg <- Reg]	0x402d43: movzx eax, r8b value: (0x1abc087, 0x3)
+register R8B:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+register R8B:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+[USE RegImm]		0x402eb0: cmp edx, 0x4 value: 0x3, opcode: 99, imm: 4
+register EDX:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+Not Taint 0x402eb3: mov rdi, qword ptr [rcx+0x30]	 mem: 0x1abc1c0	value: 0x7fd1e7df1010
+thread: 0 [- Reg <- Mem]	0x402eb7: mov r8, qword ptr [rcx+0x38]	 addr: 0x1abc1c8
+register R8:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+thread: 0 [- Reg <- Mem]	0x402ec1: mov eax, dword ptr [rcx+0x1c]	 addr: 0x1abc1ac
+register EAX:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+Not Taint 0x402ec4: mov esi, dword ptr [rcx+0x18]	 mem: 0x1abc1a8	value: 0xffff
+thread: 0 [+ Reg <- Mem]	0x402ecc: movzx edx, byte ptr [rbx+rbp*1+0x3]	 addr: 0x1abc08a value: (0x1abc08a, 0x0)
+memory  :		src: 1abc08a, size: 1, offset: a, bigendian: 0, value: 0
+register EDX:	src: 1abc08a, size: 1, offset: a, bigendian: 0, value: 0, shift: 0
+
+thread: 0 [+ Reg <- Mem]	0x402ed1: movzx edi, byte ptr [rbx+rbp*1+0x4]	 addr: 0x1abc08b value: (0x1abc08b, 0x8)
+memory  :		src: 1abc08b, size: 1, offset: b, bigendian: 0, value: 8
+register EDI:	src: 1abc08b, size: 1, offset: b, bigendian: 0, value: 8, shift: 0
+
+[USE RegImm]		0x402ed6: shl edx, 0x8 value: 0x0, opcode: 745, imm: 8
+register EDX:	src: 1abc08a, size: 1, offset: a, bigendian: 0, value: 0, shift: 1
+
+before
+register EDX:	src: 1abc08a, size: 1, offset: a, bigendian: 0, value: 0, shift: 1
+register EDX:	src: 1abc08a, size: 1, offset: a, bigendian: 0, value: 0, shift: 1
+register EDI:	src: 1abc08b, size: 1, offset: b, bigendian: 0, value: 8, shift: 0
+[USE RegReg]		0x402ed9: add edx, edi value: 0x0, opcode: 8
+register EDX:	src: 1abc08a, size: 2, offset: a, bigendian: 1, value: 8, shift: 0
+register EDX:	src: 1abc08a, size: 2, offset: a, bigendian: 1, value: 8, shift: 0
+
+thread: 0 [DELETE Reg]	0x402edb : lea edi, ptr [rdx-0x1]
+register EDI:	src: 1abc08b, size: 1, offset: b, bigendian: 0, value: 8, shift: 0
+
+thread: 0 [+ Reg <- Reg]	0x402ee7: movzx r15d, r12w value: (0x1abc088, 0x2)
+register R12W:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+register R12W:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+
+thread: 0 [+ Reg <- Reg]	0x402eeb: mov ebx, r15d value: (0x1abc088, 0x2)
+register R15D:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+register R15D:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+
+[USE RegReg]		0x402eee: sub ebx, eax value: 0x2, opcode: 773
+register EBX:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+
+Not Taint 0x403461: mov rax, qword ptr [r14+0x30]	 mem: 0x1abc040	value: 0x40f2a0
+thread: 0 [DELETE Reg]	0x403465 : lea r12, ptr [rsp+0x40]
+register R12:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+
+thread: 0 [+ Mem <- Reg]	0x40346a: mov dword ptr [rsp+0x8], edx	 addr: 0x7ffeaf7c7a38 value: (0x1abc08a, 0x8)
+register EDX:	src: 1abc08a, size: 2, offset: a, bigendian: 1, value: 8, shift: 0
+memory  :		src: 1abc08a, size: 2, offset: a, bigendian: 1, value: 8
+
+thread: 0 [- Mem <- Reg]	0x40346e: mov qword ptr [rsp], r8	 addr: 0x7ffeaf7c7a30
+memory  :		src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3
+
+Not Taint 0x403477: mov rsi, r12	value: 0x7ffeaf7c7a70
+thread id: 0, enter function: _modbus_tcp_build_response_basis
+thread: 0 [+ Reg <- Mem]	0x40c7b0: mov eax, dword ptr [rdi+0x8]	 addr: 0x7ffeaf7c7a68 value: (0x1abc080, 0x111)
+memory  :		src: 1abc080, size: 2, offset: 0, bigendian: 1, value: 111
+register EAX:	src: 1abc080, size: 2, offset: 0, bigendian: 1, value: 111, shift: 0
+
+[USE RegImm]		0x40c7b3: sar eax, 0x8 value: 0x111, opcode: 710, imm: 8
+register EAX:	src: 1abc080, size: 1, offset: 0, bigendian: 1, value: 1, shift: 0
+
+thread: 0 [+ Mem <- Reg]	0x40c7b6: mov byte ptr [rsi], al	 addr: 0x7ffeaf7c7a70 value: (0x1abc080, 0x1)
+register AL:	src: 1abc080, size: 1, offset: 0, bigendian: 1, value: 1, shift: 0
+memory  :		src: 1abc080, size: 1, offset: 0, bigendian: 1, value: 1
+
+thread: 0 [+ Reg <- Mem]	0x40c7b8: mov eax, dword ptr [rdi+0x8]	 addr: 0x7ffeaf7c7a68 value: (0x1abc080, 0x111)
+memory  :		src: 1abc080, size: 2, offset: 0, bigendian: 1, value: 111
+register EAX:	src: 1abc080, size: 2, offset: 0, bigendian: 1, value: 111, shift: 0
+
+thread: 0 [+ Mem <- Reg]	0x40c7c3: mov byte ptr [rsi+0x1], al	 addr: 0x7ffeaf7c7a71 value: (0x1abc081, 0x11)
+register AL:	src: 1abc081, size: 1, offset: 1, bigendian: 1, value: 11, shift: 0
+memory  :		src: 1abc081, size: 1, offset: 1, bigendian: 1, value: 11
+
+thread: 0 [+ Reg <- Mem]	0x40c7c6: mov eax, dword ptr [rdi]	 addr: 0x7ffeaf7c7a60 value: (0x1abc086, 0x1)
+memory  :		src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1
+register EAX:	src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1, shift: 0
+
+thread: 0 [+ Mem <- Reg]	0x40c7c8: mov byte ptr [rsi+0x6], al	 addr: 0x7ffeaf7c7a76 value: (0x1abc086, 0x1)
+register AL:	src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1, shift: 0
+memory  :		src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1
+
+thread: 0 [+ Reg <- Mem]	0x40c7cb: mov eax, dword ptr [rdi+0x4]	 addr: 0x7ffeaf7c7a64 value: (0x1abc087, 0x3)
+memory  :		src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3
+register EAX:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+thread: 0 [+ Mem <- Reg]	0x40c7ce: mov byte ptr [rsi+0x7], al	 addr: 0x7ffeaf7c7a77 value: (0x1abc087, 0x3)
+register AL:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+memory  :		src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3
+
+thread: 0 [DELETE Reg]	0x40c7d1 : mov eax, 0x8
+register EAX:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+thread id: 0, exit  function: _modbus_tcp_build_response_basis
+thread: 0 [+ Reg <- Mem]	0x40347d: mov edx, dword ptr [rsp+0x8]	 addr: 0x7ffeaf7c7a38 value: (0x1abc08a, 0x8)
+memory  :		src: 1abc08a, size: 2, offset: a, bigendian: 1, value: 8
+register EDX:	src: 1abc08a, size: 2, offset: a, bigendian: 1, value: 8, shift: 0
+
+Not Taint 0x403481: movsxd rcx, eax	value: 0x8
+thread: 0 [DELETE Reg]	0x403484 : lea r15d, ptr [rax+0x1]
+register R15D:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+
+[USE RegReg]		0x403488: add edx, edx value: 0x8, opcode: 8
+register EDX:	src: 1abc08a, size: 2, offset: a, bigendian: 1, value: 8, shift: 0
+register EDX:	src: 1abc08a, size: 2, offset: a, bigendian: 1, value: 8, shift: 0
+
+[USE RegReg]		0x40348a: cmp ebx, ebp value: 0x2, opcode: 99
+register EBX:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+
+thread: 0 [+ Mem <- Reg]	0x40348c: mov byte ptr [rsp+rcx*1+0x40], dl	 addr: 0x7ffeaf7c7a78 value: (0x1abc08b, 0x10)
+register DL:	src: 1abc08b, size: 1, offset: b, bigendian: 1, value: 8, shift: 0
+memory  :		src: 1abc08b, size: 1, offset: b, bigendian: 1, value: 8
+
+Not Taint 0x403496: mov r8, qword ptr [rsp]	 mem: 0x7ffeaf7c7a30	value: 0x7fd1e8092010
+Not Taint 0x40349a: mov ecx, ebp	value: 0xa
+thread: 0 [+ Reg <- Reg]	0x40349c: movsxd rdx, ebx value: (0x1abc088, 0x2)
+register EBX:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+register EBX:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+
+[USE RegReg]		0x40349f: sub ecx, ebx value: 0xa, opcode: 773
+register EBX:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+
+thread: 0 [DELETE Reg]	0x4034a1 : lea rdx, ptr [r8+rdx*2]
+register RDX:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+
+Not Taint 0x4034aa: mov eax, r15d	value: 0x9
+Not Taint 0x4034b0: movzx esi, word ptr [rdx]	 mem: 0x7fd1e8092014	value: 0x0
+Not Taint 0x4034b3: movsxd rdi, eax	value: 0x9
+Not Taint 0x4034c0: movsxd rcx, ecx	value: 0xa
+Not Taint 0x4034c7: mov byte ptr [rsp+rdi*1+0x40], sil	mem: 0x7ffeaf7c7a79	value: 0x0
+Not Taint 0x4034cc: movzx esi, word ptr [rdx-0x2]	 mem: 0x7fd1e8092014	value: 0x0
+Not Taint 0x4034d3: mov byte ptr [rsp+rcx*1+0x40], sil	mem: 0x7ffeaf7c7a7a	value: 0x0
+Not Taint 0x4034b0: movzx esi, word ptr [rdx]	 mem: 0x7fd1e8092016	value: 0x0
+Not Taint 0x4034b3: movsxd rdi, eax	value: 0xb
+Not Taint 0x4034c0: movsxd rcx, ecx	value: 0xc
+Not Taint 0x4034c7: mov byte ptr [rsp+rdi*1+0x40], sil	mem: 0x7ffeaf7c7a7b	value: 0x0
+Not Taint 0x4034cc: movzx esi, word ptr [rdx-0x2]	 mem: 0x7fd1e8092016	value: 0x0
+Not Taint 0x4034d3: mov byte ptr [rsp+rcx*1+0x40], sil	mem: 0x7ffeaf7c7a7c	value: 0x0
+Not Taint 0x4034b0: movzx esi, word ptr [rdx]	 mem: 0x7fd1e8092018	value: 0x0
+Not Taint 0x4034b3: movsxd rdi, eax	value: 0xd
+Not Taint 0x4034c0: movsxd rcx, ecx	value: 0xe
+Not Taint 0x4034c7: mov byte ptr [rsp+rdi*1+0x40], sil	mem: 0x7ffeaf7c7a7d	value: 0x0
+Not Taint 0x4034cc: movzx esi, word ptr [rdx-0x2]	 mem: 0x7fd1e8092018	value: 0x0
+Not Taint 0x4034d3: mov byte ptr [rsp+rcx*1+0x40], sil	mem: 0x7ffeaf7c7a7e	value: 0x0
+Not Taint 0x4034b0: movzx esi, word ptr [rdx]	 mem: 0x7fd1e809201a	value: 0x0
+Not Taint 0x4034b3: movsxd rdi, eax	value: 0xf
+Not Taint 0x4034c0: movsxd rcx, ecx	value: 0x10
+Not Taint 0x4034c7: mov byte ptr [rsp+rdi*1+0x40], sil	mem: 0x7ffeaf7c7a7f	value: 0x0
+Not Taint 0x4034cc: movzx esi, word ptr [rdx-0x2]	 mem: 0x7fd1e809201a	value: 0x0
+Not Taint 0x4034d3: mov byte ptr [rsp+rcx*1+0x40], sil	mem: 0x7ffeaf7c7a80	value: 0x0
+Not Taint 0x4034b0: movzx esi, word ptr [rdx]	 mem: 0x7fd1e809201c	value: 0x0
+Not Taint 0x4034b3: movsxd rdi, eax	value: 0x11
+Not Taint 0x4034c0: movsxd rcx, ecx	value: 0x12
+Not Taint 0x4034c7: mov byte ptr [rsp+rdi*1+0x40], sil	mem: 0x7ffeaf7c7a81	value: 0x0
+Not Taint 0x4034cc: movzx esi, word ptr [rdx-0x2]	 mem: 0x7fd1e809201c	value: 0x0
+Not Taint 0x4034d3: mov byte ptr [rsp+rcx*1+0x40], sil	mem: 0x7ffeaf7c7a82	value: 0x0
+Not Taint 0x4034b0: movzx esi, word ptr [rdx]	 mem: 0x7fd1e809201e	value: 0x0
+Not Taint 0x4034b3: movsxd rdi, eax	value: 0x13
+Not Taint 0x4034c0: movsxd rcx, ecx	value: 0x14
+Not Taint 0x4034c7: mov byte ptr [rsp+rdi*1+0x40], sil	mem: 0x7ffeaf7c7a83	value: 0x0
+Not Taint 0x4034cc: movzx esi, word ptr [rdx-0x2]	 mem: 0x7fd1e809201e	value: 0x0
+Not Taint 0x4034d3: mov byte ptr [rsp+rcx*1+0x40], sil	mem: 0x7ffeaf7c7a84	value: 0x0
+Not Taint 0x4034b0: movzx esi, word ptr [rdx]	 mem: 0x7fd1e8092020	value: 0x0
+Not Taint 0x4034b3: movsxd rdi, eax	value: 0x15
+Not Taint 0x4034c0: movsxd rcx, ecx	value: 0x16
+Not Taint 0x4034c7: mov byte ptr [rsp+rdi*1+0x40], sil	mem: 0x7ffeaf7c7a85	value: 0x0
+Not Taint 0x4034cc: movzx esi, word ptr [rdx-0x2]	 mem: 0x7fd1e8092020	value: 0x0
+Not Taint 0x4034d3: mov byte ptr [rsp+rcx*1+0x40], sil	mem: 0x7ffeaf7c7a86	value: 0x0
+Not Taint 0x4034b0: movzx esi, word ptr [rdx]	 mem: 0x7fd1e8092022	value: 0x0
+Not Taint 0x4034b3: movsxd rdi, eax	value: 0x17
+Not Taint 0x4034c0: movsxd rcx, ecx	value: 0x18
+Not Taint 0x4034c7: mov byte ptr [rsp+rdi*1+0x40], sil	mem: 0x7ffeaf7c7a87	value: 0x0
+Not Taint 0x4034cc: movzx esi, word ptr [rdx-0x2]	 mem: 0x7fd1e8092022	value: 0x0
+Not Taint 0x4034d3: mov byte ptr [rsp+rcx*1+0x40], sil	mem: 0x7ffeaf7c7a88	value: 0x0
+[USE RegReg]		0x403158: test r13d, r13d value: 0x1, opcode: 787
+register R13D:	src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1, shift: 0
+register R13D:	src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1, shift: 0
+
+Not Taint 0x403161: mov edx, r15d	value: 0x19
+Not Taint 0x403164: mov rsi, r12	value: 0x7ffeaf7c7a70
+Not Taint 0x403167: mov rdi, r14	value: 0x1abc010
+thread id: 0, enter function: send_msg
+Not Taint 0x4029e0: push r14	mem: 0x7ffeaf7c7a20	value: 0x1abc010
+thread: 0 [+ Mem <- Reg]	0x4029e2: push r13	 addr: 0x7ffeaf7c7a18 value: (0x1abc086, 0x1)
+register R13:	src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1, shift: 0
+memory  :		src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1
+
+Not Taint 0x4029e4: push r12	mem: 0x7ffeaf7c7a10	value: 0x7ffeaf7c7a70
+Not Taint 0x4029e7: mov r12, rsi	value: 0x7ffeaf7c7a70
+thread: 0 [+ Mem <- Reg]	0x4029ea: push rbx	 addr: 0x7ffeaf7c7a00 value: (0x1abc088, 0x2)
+register RBX:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+memory  :		src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2
+
+thread: 0 [- Reg <- Reg]	0x4029eb: mov rbx, rdi
+register RBX:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+
+Not Taint 0x4029ee: mov esi, edx	value: 0x19
+Not Taint 0x4029f4: mov rax, qword ptr [rdi+0x30]	 mem: 0x1abc040	value: 0x40f2a0
+Not Taint 0x4029f8: mov rdi, r12	value: 0x7ffeaf7c7a70
+thread id: 0, enter function: _modbus_tcp_send_msg_pre
+Not Taint 0x40c7f3: mov eax, esi	value: 0x19
+Not Taint 0x40c7f5: mov ecx, edx	value: 0x13
+Not Taint 0x40c7f7: mov byte ptr [rdi+0x5], dl	mem: 0x7ffeaf7c7a75	value: 0x13
+Not Taint 0x40c7fd: mov byte ptr [rdi+0x4], cl	mem: 0x7ffeaf7c7a74	value: 0x0
+thread id: 0, exit  function: _modbus_tcp_send_msg_pre
+Not Taint 0x402a00: mov eax, dword ptr [rbx+0x8]	 mem: 0x1abc018	value: 0x1
+thread: 0 [- Reg <- Reg]	0x402a0e: mov r13, r12
+register R13:	src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1, shift: 0
+
+thread: 0 [+ Reg <- Mem]	0x402a20: movzx edx, byte ptr [r13]	 addr: 0x7ffeaf7c7a70 value: (0x1abc080, 0x1)
+memory  :		src: 1abc080, size: 1, offset: 0, bigendian: 1, value: 1
+register EDX:	src: 1abc080, size: 1, offset: 0, bigendian: 1, value: 1, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+thread: 0 [+ Reg <- Mem]	0x402a20: movzx edx, byte ptr [r13]	 addr: 0x7ffeaf7c7a71 value: (0x1abc081, 0x11)
+memory  :		src: 1abc081, size: 1, offset: 1, bigendian: 1, value: 11
+register EDX:	src: 1abc081, size: 1, offset: 1, bigendian: 1, value: 11, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+thread: 0 [- Reg <- Mem]	0x402a20: movzx edx, byte ptr [r13]	 addr: 0x7ffeaf7c7a72
+register EDX:	src: 1abc081, size: 1, offset: 1, bigendian: 1, value: 11, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a73	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a74	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a75	value: 0x13
+thread id: 0, enter function: __printf_chk@plt
+thread: 0 [+ Reg <- Mem]	0x402a20: movzx edx, byte ptr [r13]	 addr: 0x7ffeaf7c7a76 value: (0x1abc086, 0x1)
+memory  :		src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1
+register EDX:	src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+thread: 0 [+ Reg <- Mem]	0x402a20: movzx edx, byte ptr [r13]	 addr: 0x7ffeaf7c7a77 value: (0x1abc087, 0x3)
+memory  :		src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3
+register EDX:	src: 1abc087, size: 1, offset: 7, bigendian: 0, value: 3, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+thread: 0 [+ Reg <- Mem]	0x402a20: movzx edx, byte ptr [r13]	 addr: 0x7ffeaf7c7a78 value: (0x1abc08b, 0x10)
+memory  :		src: 1abc08b, size: 1, offset: b, bigendian: 1, value: 8
+register EDX:	src: 1abc08b, size: 1, offset: b, bigendian: 1, value: 8, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+thread: 0 [- Reg <- Mem]	0x402a20: movzx edx, byte ptr [r13]	 addr: 0x7ffeaf7c7a79
+register EDX:	src: 1abc08b, size: 1, offset: b, bigendian: 1, value: 8, shift: 0
+
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a7a	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a7b	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a7c	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a7d	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a7e	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a7f	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a80	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a81	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a82	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a83	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a84	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a85	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a86	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a87	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+Not Taint 0x402a20: movzx edx, byte ptr [r13]	 mem: 0x7ffeaf7c7a88	value: 0x0
+thread id: 0, enter function: __printf_chk@plt
+thread id: 0, enter function: putchar@plt
+Not Taint 0x402a49: mov rax, qword ptr [rbx+0x30]	 mem: 0x1abc040	value: 0x40f2a0
+Not Taint 0x402a4d: mov edx, ebp	value: 0x19
+Not Taint 0x402a4f: mov rsi, r12	value: 0x7ffeaf7c7a70
+Not Taint 0x402a52: mov rdi, rbx	value: 0x1abc010
+thread id: 0, enter function: _modbus_tcp_send
+Not Taint 0x40cd40: mov edi, dword ptr [rdi+0x4]	 mem: 0x1abc014	value: 0x4
+Not Taint 0x40cd43: movsxd rdx, edx	value: 0x19
+thread id: 0, enter function: send@plt
+Not Taint 0x402a5b: mov edx, eax	value: 0x19
+Not Taint 0x402a6b: mov eax, edx	value: 0x19
+thread: 0 [+ Reg <- Mem]	0x402a71: pop rbx	 addr: 0x7ffeaf7c7a00 value: (0x1abc088, 0x2)
+memory  :		src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2
+register RBX:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+
+Not Taint 0x402a73: pop r12	 mem: 0x7ffeaf7c7a10	value: 0x7ffeaf7c7a70
+thread: 0 [+ Reg <- Mem]	0x402a75: pop r13	 addr: 0x7ffeaf7c7a18 value: (0x1abc086, 0x1)
+memory  :		src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1
+register R13:	src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1, shift: 0
+
+Not Taint 0x402a77: pop r14	 mem: 0x7ffeaf7c7a20	value: 0x1abc010
+thread id: 0, exit  function: send_msg
+thread: 0 [- Reg <- Mem]	0x402d81: mov rbx, qword ptr [rsp+0x148]	 addr: 0x7ffeaf7c7b78
+register RBX:	src: 1abc088, size: 2, offset: 8, bigendian: 1, value: 2, shift: 0
+
+Not Taint 0x402d9f: pop rbx	 mem: 0x7ffeaf7c7b88	value: 0x7ffeaf7c7bd0
+Not Taint 0x402da1: pop r12	 mem: 0x7ffeaf7c7b98	value: 0x2
+thread: 0 [- Reg <- Mem]	0x402da3: pop r13	 addr: 0x7ffeaf7c7ba0
+register R13:	src: 1abc086, size: 1, offset: 6, bigendian: 0, value: 1, shift: 0
+
+Not Taint 0x402da5: pop r14	 mem: 0x7ffeaf7c7ba8	value: 0x2
+Not Taint 0x402da7: pop r15	 mem: 0x7ffeaf7c7bb0	value: 0x0
+thread id: 0, exit  function: modbus_reply
+Not Taint 0x40b2ff: mov dword ptr [rbp-0x16c], eax	mem: 0x7ffeaf7c7c04	value: 0x19
+Not Taint 0x40b3ac: mov eax, dword ptr [rbp-0x18c]	 mem: 0x7ffeaf7c7be4	value: 0x3
+Not Taint 0x40b3b2: mov edx, dword ptr [rbp-0x184]	 mem: 0x7ffeaf7c7bec	value: 0x4
+Not Taint 0x40b3ba: mov eax, edx	value: 0x1
+Not Taint 0x40af75: mov rax, qword ptr [rbp-0x140]	 mem: 0x7ffeaf7c7c30	value: 0x18
+Not Taint 0x40af7c: mov qword ptr [rbp-0xc0], rax	mem: 0x7ffeaf7c7cb0	value: 0x18
+Not Taint 0x40af83: mov rax, qword ptr [rbp-0x138]	 mem: 0x7ffeaf7c7c38	value: 0x0
+Not Taint 0x40af8a: mov qword ptr [rbp-0xb8], rax	mem: 0x7ffeaf7c7cb8	value: 0x0
+Not Taint 0x40af91: mov rax, qword ptr [rbp-0x130]	 mem: 0x7ffeaf7c7c40	value: 0x0
+Not Taint 0x40af98: mov qword ptr [rbp-0xb0], rax	mem: 0x7ffeaf7c7cc0	value: 0x0
+Not Taint 0x40af9f: mov rax, qword ptr [rbp-0x128]	 mem: 0x7ffeaf7c7c48	value: 0x0
+Not Taint 0x40afa6: mov qword ptr [rbp-0xa8], rax	mem: 0x7ffeaf7c7cc8	value: 0x0
+Not Taint 0x40afad: mov rax, qword ptr [rbp-0x120]	 mem: 0x7ffeaf7c7c50	value: 0x0
+Not Taint 0x40afb4: mov qword ptr [rbp-0xa0], rax	mem: 0x7ffeaf7c7cd0	value: 0x0
+Not Taint 0x40afbb: mov rax, qword ptr [rbp-0x118]	 mem: 0x7ffeaf7c7c58	value: 0x0
+Not Taint 0x40afc2: mov qword ptr [rbp-0x98], rax	mem: 0x7ffeaf7c7cd8	value: 0x0
+Not Taint 0x40afc9: mov rax, qword ptr [rbp-0x110]	 mem: 0x7ffeaf7c7c60	value: 0x0
+Not Taint 0x40afd0: mov qword ptr [rbp-0x90], rax	mem: 0x7ffeaf7c7ce0	value: 0x0
+Not Taint 0x40afd7: mov rax, qword ptr [rbp-0x108]	 mem: 0x7ffeaf7c7c68	value: 0x0
+Not Taint 0x40afde: mov qword ptr [rbp-0x88], rax	mem: 0x7ffeaf7c7ce8	value: 0x0
+Not Taint 0x40afe5: mov rax, qword ptr [rbp-0x100]	 mem: 0x7ffeaf7c7c70	value: 0x0
+Not Taint 0x40afec: mov qword ptr [rbp-0x80], rax	mem: 0x7ffeaf7c7cf0	value: 0x0
+Not Taint 0x40aff0: mov rax, qword ptr [rbp-0xf8]	 mem: 0x7ffeaf7c7c78	value: 0x0
+Not Taint 0x40aff7: mov qword ptr [rbp-0x78], rax	mem: 0x7ffeaf7c7cf8	value: 0x0
+Not Taint 0x40affb: mov rax, qword ptr [rbp-0xf0]	 mem: 0x7ffeaf7c7c80	value: 0x0
+Not Taint 0x40b002: mov qword ptr [rbp-0x70], rax	mem: 0x7ffeaf7c7d00	value: 0x0
+Not Taint 0x40b006: mov rax, qword ptr [rbp-0xe8]	 mem: 0x7ffeaf7c7c88	value: 0x0
+Not Taint 0x40b00d: mov qword ptr [rbp-0x68], rax	mem: 0x7ffeaf7c7d08	value: 0x0
+Not Taint 0x40b011: mov rax, qword ptr [rbp-0xe0]	 mem: 0x7ffeaf7c7c90	value: 0x0
+Not Taint 0x40b018: mov qword ptr [rbp-0x60], rax	mem: 0x7ffeaf7c7d10	value: 0x0
+Not Taint 0x40b01c: mov rax, qword ptr [rbp-0xd8]	 mem: 0x7ffeaf7c7c98	value: 0x0
+Not Taint 0x40b023: mov qword ptr [rbp-0x58], rax	mem: 0x7ffeaf7c7d18	value: 0x0
+Not Taint 0x40b027: mov rax, qword ptr [rbp-0xd0]	 mem: 0x7ffeaf7c7ca0	value: 0x0
+Not Taint 0x40b02e: mov qword ptr [rbp-0x50], rax	mem: 0x7ffeaf7c7d20	value: 0x0
+Not Taint 0x40b032: mov rax, qword ptr [rbp-0xc8]	 mem: 0x7ffeaf7c7ca8	value: 0x0
+Not Taint 0x40b039: mov qword ptr [rbp-0x48], rax	mem: 0x7ffeaf7c7d28	value: 0x0
+Not Taint 0x40b03d: mov eax, dword ptr [rbp-0x184]	 mem: 0x7ffeaf7c7bec	value: 0x4
+Not Taint 0x40b05d: mov rsi, rax	value: 0x7ffeaf7c7cb0
+thread id: 0, enter function: select@plt
+Not Taint 0x40b065: mov dword ptr [rbp-0x174], eax	mem: 0x7ffeaf7c7bfc	value: 0x1
+Not Taint 0x40b083: mov eax, dword ptr [rbp-0x18c]	 mem: 0x7ffeaf7c7be4	value: 0x3
+Not Taint 0x40b094: cdqe 	value: 0x0
+Not Taint 0x40b096: mov rsi, qword ptr [rbp+rax*8-0xc0]	 mem: 0x7ffeaf7c7cb0	value: 0x10
+Not Taint 0x40b09e: mov eax, dword ptr [rbp-0x18c]	 mem: 0x7ffeaf7c7be4	value: 0x3
+Not Taint 0x40b0a4: cdq 	value: 0x3
+Not Taint 0x40b0b4: mov ecx, eax	value: 0x3
+Not Taint 0x40b0b9: mov rax, rdx	value: 0x8
+Not Taint 0x40b3ac: mov eax, dword ptr [rbp-0x18c]	 mem: 0x7ffeaf7c7be4	value: 0x3
+Not Taint 0x40b3b2: mov edx, dword ptr [rbp-0x184]	 mem: 0x7ffeaf7c7bec	value: 0x4
+Not Taint 0x40b3ba: mov eax, edx	value: 0x1
+Not Taint 0x40b21c: mov rax, qword ptr [rbp-0x148]	 mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40b223: mov edx, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40b229: movsxd rdx, edx	value: 0x0
+Not Taint 0x40b22c: mov eax, dword ptr [rax+rdx*4]	 mem: 0x7ffeaf7c7bc0	value: 0x4
+Not Taint 0x40b238: mov rax, qword ptr [rbp-0x148]	 mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40b23f: mov edx, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40b245: movsxd rdx, edx	value: 0x0
+Not Taint 0x40b248: mov eax, dword ptr [rax+rdx*4]	 mem: 0x7ffeaf7c7bc0	value: 0x4
+Not Taint 0x40b256: cdqe 	value: 0x0
+Not Taint 0x40b258: mov rsi, qword ptr [rbp+rax*8-0xc0]	 mem: 0x7ffeaf7c7cb0	value: 0x10
+Not Taint 0x40b260: mov rax, qword ptr [rbp-0x148]	 mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40b267: mov edx, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40b26d: movsxd rdx, edx	value: 0x0
+Not Taint 0x40b270: mov eax, dword ptr [rax+rdx*4]	 mem: 0x7ffeaf7c7bc0	value: 0x4
+Not Taint 0x40b273: cdq 	value: 0x4
+Not Taint 0x40b283: mov ecx, eax	value: 0x4
+Not Taint 0x40b288: mov rax, rdx	value: 0x10
+Not Taint 0x40b297: mov rax, qword ptr [rbp-0x148]	 mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40b29e: mov edx, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40b2a4: movsxd rdx, edx	value: 0x0
+Not Taint 0x40b2a7: mov edx, dword ptr [rax+rdx*4]	 mem: 0x7ffeaf7c7bc0	value: 0x4
+Not Taint 0x40b2aa: mov rax, qword ptr [rbp-0x168]	 mem: 0x7ffeaf7c7c08	value: 0x1abc010
+Not Taint 0x40b2b1: mov dword ptr [rax+0x4], edx	mem: 0x1abc014	value: 0x4
+Not Taint 0x40b2b4: mov rdx, qword ptr [rbp-0x160]	 mem: 0x7ffeaf7c7c10	value: 0x1abc080
+Not Taint 0x40b2bb: mov rax, qword ptr [rbp-0x168]	 mem: 0x7ffeaf7c7c08	value: 0x1abc010
+Not Taint 0x40b2c2: mov rsi, rdx	value: 0x1abc080
+Not Taint 0x40b2c5: mov rdi, rax	value: 0x1abc010
+thread id: 0, enter function: modbus_receive
+Not Taint 0x402735: mov rax, qword ptr [rdi+0x30]	 mem: 0x1abc040	value: 0x40f2a0
+Not Taint 0x402739: mov rax, qword ptr [rax+0x40]	 mem: 0x40f2e0	value: 0x40cd30
+thread id: 0, enter function: _modbus_tcp_receive
+thread id: 0, enter function: _modbus_receive_msg
+Not Taint 0x4036f0: push r15	mem: 0x7ffeaf7c7bb0	value: 0x0
+Not Taint 0x4036f2: push r14	mem: 0x7ffeaf7c7ba8	value: 0x2
+Not Taint 0x4036f4: push r13	mem: 0x7ffeaf7c7ba0	value: 0x0
+Not Taint 0x4036f6: push r12	mem: 0x7ffeaf7c7b98	value: 0x2
+Not Taint 0x4036f8: mov r12, rdi	value: 0x1abc010
+Not Taint 0x4036fc: push rbx	mem: 0x7ffeaf7c7b88	value: 0x7ffeaf7c7bd0
+Not Taint 0x403704: mov r10d, dword ptr [rdi+0x8]	 mem: 0x1abc018	value: 0x1
+Not Taint 0x403708: mov rax, qword ptr fs:[0x28]	 mem: 0x7fd1e8310728	value: 0xba7b3145de915900
+Not Taint 0x403711: mov qword ptr [rsp+0xb8], rax	mem: 0x7ffeaf7c7b78	value: 0xba7b3145de915900
+Not Taint 0x40371b: mov qword ptr [rsp+0x10], rsi	mem: 0x7ffeaf7c7ad0	value: 0x1abc080
+Not Taint 0x403720: mov dword ptr [rsp+0x1c], edx	mem: 0x7ffeaf7c7adc	value: 0x0
+thread id: 0, enter function: puts@plt
+Not Taint 0x40374b: movsxd rdi, dword ptr [r12+0x4]	 mem: 0x1abc014	value: 0x4
+thread id: 0, enter function: __fdelt_chk@plt
+Not Taint 0x403755: mov edx, dword ptr [r12+0x4]	 mem: 0x1abc014	value: 0x4
+Not Taint 0x40375a: mov r9d, dword ptr [rsp+0x1c]	 mem: 0x7ffeaf7c7adc	value: 0x0
+Not Taint 0x403768: mov esi, edx	value: 0x4
+Not Taint 0x403785: mov rax, qword ptr [r12+0x30]	 mem: 0x1abc040	value: 0x40f2a0
+Not Taint 0x40378d: mov ecx, dword ptr [rax+0x4]	 mem: 0x40f2a4	value: 0x7
+Not Taint 0x4037d0: mov ecx, r13d	value: 0x8
+Not Taint 0x4037d3: mov rdx, qword ptr [rsp+0x8]	 mem: 0x7ffeaf7c7ac8	value: 0x0
+Not Taint 0x4037dd: mov rdi, r12	value: 0x1abc010
+thread id: 0, enter function: _modbus_tcp_select
+Not Taint 0x40c980: push r14	mem: 0x7ffeaf7c7ab0	value: 0x0
+Not Taint 0x40c982: push r13	mem: 0x7ffeaf7c7aa8	value: 0x8
+Not Taint 0x40c984: mov r13, rdx	value: 0x0
+Not Taint 0x40c987: push r12	mem: 0x7ffeaf7c7aa0	value: 0x1abc010
+Not Taint 0x40c990: push rbx	mem: 0x7ffeaf7c7a90	value: 0x7ffeaf7c7bd0
+Not Taint 0x40c991: mov rbx, rsi	value: 0x7ffeaf7c7af0
+Not Taint 0x40c994: mov edi, dword ptr [rdi+0x4]	 mem: 0x1abc014	value: 0x4
+Not Taint 0x40c9de: mov r8, r13	value: 0x0
+Not Taint 0x40c9e1: mov rsi, rbx	value: 0x7ffeaf7c7af0
+thread id: 0, enter function: select@plt
+Not Taint 0x40c9ec: mov r14d, eax	value: 0x1
+Not Taint 0x40ca24: pop rbx	 mem: 0x7ffeaf7c7a90	value: 0x7ffeaf7c7bd0
+Not Taint 0x40ca26: pop r12	 mem: 0x7ffeaf7c7aa0	value: 0x1abc010
+Not Taint 0x40ca28: pop r13	 mem: 0x7ffeaf7c7aa8	value: 0x8
+Not Taint 0x40ca2a: pop r14	 mem: 0x7ffeaf7c7ab0	value: 0x0
+thread id: 0, exit  function: _modbus_tcp_select
+Not Taint 0x4037ec: movsxd rbx, r14d	value: 0x0
+Not Taint 0x4037f4: mov rax, qword ptr [r12+0x30]	 mem: 0x1abc040	value: 0x40f2a0
+Not Taint 0x4037f9: mov edx, r13d	value: 0x8
+Not Taint 0x4037fc: mov rdi, r12	value: 0x1abc010
+Not Taint 0x4037ff: mov rsi, rbx	value: 0x1abc080
+thread id: 0, enter function: _modbus_tcp_recv
+Not Taint 0x40ca50: mov edi, dword ptr [rdi+0x4]	 mem: 0x1abc014	value: 0x4
+Not Taint 0x40ca53: movsxd rdx, edx	value: 0x8
+thread id: 0, enter function: recv@plt
+[TAINT]	 0x8 bytes tainted from 0x1abc080 to 0x1abc088 (via recv socket: 4)
+taint start: 1abc080, size: 0
+thread id: 0, enter function: __errno_location@plt
+Not Taint 0x40381b: mov rdi, r12	value: 0x1abc010
+thread id: 0, enter function: _error_print
+Not Taint 0x4021d0: mov eax, dword ptr [rdi+0x8]	 mem: 0x1abc018	value: 0x1
+Not Taint 0x4021e0: push rbx	mem: 0x7ffeaf7c7ab0	value: 0x1abc080
+Not Taint 0x4021e1: mov rbx, rsi	value: 0x40d92f
+thread id: 0, enter function: __errno_location@plt
+Not Taint 0x4021e9: mov edi, dword ptr [rax]	 mem: 0x7fd1e8310698	value: 0x68
+thread id: 0, enter function: modbus_strerror
+thread id: 0, enter function: strerror@plt
+Not Taint 0x4021f0: mov rdi, qword ptr [rip+0x2100e9]	 mem: 0x6122e0	value: 0x7fd1e8935540
+Not Taint 0x4021f7: mov rcx, rax	value: 0x7fd1e86fd624
+thread id: 0, enter function: __fprintf_chk@plt
+Not Taint 0x402210: mov rcx, rbx	value: 0x40d92f
+Not Taint 0x402213: mov rdi, qword ptr [rip+0x2100c6]	 mem: 0x6122e0	value: 0x7fd1e8935540
+Not Taint 0x40221f: pop rbx	 mem: 0x7ffeaf7c7ab0	value: 0x1abc080
+thread id: 0, enter function: __fprintf_chk@plt
+Not Taint 0x403857: mov rcx, qword ptr [rsp+0xb8]	 mem: 0x7ffeaf7c7b78	value: 0xba7b3145de915900
+Not Taint 0x403875: pop rbx	 mem: 0x7ffeaf7c7b88	value: 0x7ffeaf7c7bd0
+Not Taint 0x403877: pop r12	 mem: 0x7ffeaf7c7b98	value: 0x2
+Not Taint 0x403879: pop r13	 mem: 0x7ffeaf7c7ba0	value: 0x0
+Not Taint 0x40387b: pop r14	 mem: 0x7ffeaf7c7ba8	value: 0x2
+Not Taint 0x40387d: pop r15	 mem: 0x7ffeaf7c7bb0	value: 0x0
+thread id: 0, exit  function: _modbus_receive_msg
+Not Taint 0x40b2cd: mov dword ptr [rbp-0x16c], eax	mem: 0x7ffeaf7c7c04	value: 0xffffffff
+Not Taint 0x40b30a: mov rax, qword ptr [rbp-0x148]	 mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40b311: mov edx, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40b317: movsxd rdx, edx	value: 0x0
+Not Taint 0x40b31a: mov eax, dword ptr [rax+rdx*4]	 mem: 0x7ffeaf7c7bc0	value: 0x4
+Not Taint 0x40b328: mov esi, eax	value: 0x0
+Not Taint 0x40b32a: movsxd rax, esi	value: 0x0
+Not Taint 0x40b32d: mov rdi, qword ptr [rbp+rax*8-0x140]	 mem: 0x7ffeaf7c7c30	value: 0x18
+Not Taint 0x40b335: mov rax, qword ptr [rbp-0x148]	 mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40b33c: mov edx, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40b342: movsxd rdx, edx	value: 0x0
+Not Taint 0x40b345: mov eax, dword ptr [rax+rdx*4]	 mem: 0x7ffeaf7c7bc0	value: 0x4
+Not Taint 0x40b348: cdq 	value: 0x4
+Not Taint 0x40b358: mov ecx, eax	value: 0x4
+Not Taint 0x40b35d: mov rax, rdx	value: 0x10
+Not Taint 0x40b366: mov rdx, rdi	value: 0x8
+Not Taint 0x40b369: movsxd rax, esi	value: 0x0
+Not Taint 0x40b36c: mov qword ptr [rbp+rax*8-0x140], rdx	mem: 0x7ffeaf7c7c30	value: 0x8
+Not Taint 0x40b374: mov rax, qword ptr [rbp-0x148]	 mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40b37b: mov edx, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40b381: movsxd rdx, edx	value: 0x0
+Not Taint 0x40b384: mov eax, dword ptr [rax+rdx*4]	 mem: 0x7ffeaf7c7bc0	value: 0x4
+Not Taint 0x40b387: mov edi, eax	value: 0x4
+thread id: 0, enter function: close@plt
+Not Taint 0x40b38e: mov rax, qword ptr [rbp-0x148]	 mem: 0x7ffeaf7c7c28	value: 0x7ffeaf7c7bc0
+Not Taint 0x40b395: mov edx, dword ptr [rbp-0x188]	 mem: 0x7ffeaf7c7be8	value: 0x0
+Not Taint 0x40b39b: movsxd rdx, edx	value: 0x0
+Not Taint 0x40b3ac: mov eax, dword ptr [rbp-0x18c]	 mem: 0x7ffeaf7c7be4	value: 0x3
+Not Taint 0x40b3b2: mov edx, dword ptr [rbp-0x184]	 mem: 0x7ffeaf7c7bec	value: 0x4
+Not Taint 0x40b3ba: mov eax, edx	value: 0x1
+Not Taint 0x40af75: mov rax, qword ptr [rbp-0x140]	 mem: 0x7ffeaf7c7c30	value: 0x8
+Not Taint 0x40af7c: mov qword ptr [rbp-0xc0], rax	mem: 0x7ffeaf7c7cb0	value: 0x8
+Not Taint 0x40af83: mov rax, qword ptr [rbp-0x138]	 mem: 0x7ffeaf7c7c38	value: 0x0
+Not Taint 0x40af8a: mov qword ptr [rbp-0xb8], rax	mem: 0x7ffeaf7c7cb8	value: 0x0
+Not Taint 0x40af91: mov rax, qword ptr [rbp-0x130]	 mem: 0x7ffeaf7c7c40	value: 0x0
+Not Taint 0x40af98: mov qword ptr [rbp-0xb0], rax	mem: 0x7ffeaf7c7cc0	value: 0x0
+Not Taint 0x40af9f: mov rax, qword ptr [rbp-0x128]	 mem: 0x7ffeaf7c7c48	value: 0x0
+Not Taint 0x40afa6: mov qword ptr [rbp-0xa8], rax	mem: 0x7ffeaf7c7cc8	value: 0x0
+Not Taint 0x40afad: mov rax, qword ptr [rbp-0x120]	 mem: 0x7ffeaf7c7c50	value: 0x0
+Not Taint 0x40afb4: mov qword ptr [rbp-0xa0], rax	mem: 0x7ffeaf7c7cd0	value: 0x0
+Not Taint 0x40afbb: mov rax, qword ptr [rbp-0x118]	 mem: 0x7ffeaf7c7c58	value: 0x0
+Not Taint 0x40afc2: mov qword ptr [rbp-0x98], rax	mem: 0x7ffeaf7c7cd8	value: 0x0
+Not Taint 0x40afc9: mov rax, qword ptr [rbp-0x110]	 mem: 0x7ffeaf7c7c60	value: 0x0
+Not Taint 0x40afd0: mov qword ptr [rbp-0x90], rax	mem: 0x7ffeaf7c7ce0	value: 0x0
+Not Taint 0x40afd7: mov rax, qword ptr [rbp-0x108]	 mem: 0x7ffeaf7c7c68	value: 0x0
+Not Taint 0x40afde: mov qword ptr [rbp-0x88], rax	mem: 0x7ffeaf7c7ce8	value: 0x0
+Not Taint 0x40afe5: mov rax, qword ptr [rbp-0x100]	 mem: 0x7ffeaf7c7c70	value: 0x0
+Not Taint 0x40afec: mov qword ptr [rbp-0x80], rax	mem: 0x7ffeaf7c7cf0	value: 0x0
+Not Taint 0x40aff0: mov rax, qword ptr [rbp-0xf8]	 mem: 0x7ffeaf7c7c78	value: 0x0
+Not Taint 0x40aff7: mov qword ptr [rbp-0x78], rax	mem: 0x7ffeaf7c7cf8	value: 0x0
+Not Taint 0x40affb: mov rax, qword ptr [rbp-0xf0]	 mem: 0x7ffeaf7c7c80	value: 0x0
+Not Taint 0x40b002: mov qword ptr [rbp-0x70], rax	mem: 0x7ffeaf7c7d00	value: 0x0
+Not Taint 0x40b006: mov rax, qword ptr [rbp-0xe8]	 mem: 0x7ffeaf7c7c88	value: 0x0
+Not Taint 0x40b00d: mov qword ptr [rbp-0x68], rax	mem: 0x7ffeaf7c7d08	value: 0x0
+Not Taint 0x40b011: mov rax, qword ptr [rbp-0xe0]	 mem: 0x7ffeaf7c7c90	value: 0x0
+Not Taint 0x40b018: mov qword ptr [rbp-0x60], rax	mem: 0x7ffeaf7c7d10	value: 0x0
+Not Taint 0x40b01c: mov rax, qword ptr [rbp-0xd8]	 mem: 0x7ffeaf7c7c98	value: 0x0
+Not Taint 0x40b023: mov qword ptr [rbp-0x58], rax	mem: 0x7ffeaf7c7d18	value: 0x0
+Not Taint 0x40b027: mov rax, qword ptr [rbp-0xd0]	 mem: 0x7ffeaf7c7ca0	value: 0x0
+Not Taint 0x40b02e: mov qword ptr [rbp-0x50], rax	mem: 0x7ffeaf7c7d20	value: 0x0
+Not Taint 0x40b032: mov rax, qword ptr [rbp-0xc8]	 mem: 0x7ffeaf7c7ca8	value: 0x0
+Not Taint 0x40b039: mov qword ptr [rbp-0x48], rax	mem: 0x7ffeaf7c7d28	value: 0x0
+Not Taint 0x40b03d: mov eax, dword ptr [rbp-0x184]	 mem: 0x7ffeaf7c7bec	value: 0x4
+Not Taint 0x40b05d: mov rsi, rax	value: 0x7ffeaf7c7cb0
+thread id: 0, enter function: select@plt

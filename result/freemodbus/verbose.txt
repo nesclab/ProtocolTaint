@@ -1,0 +1,1944 @@
+image: /home/hao/share/protocol-test/protocols/freemodbus/demo/LINUXTCP/tcpmodbus
+sec: 
+sec: .interp
+sec: .note.ABI-tag
+sec: .note.gnu.build-id
+sec: .gnu.hash
+sec: .dynsym
+sec: .dynstr
+sec: .gnu.version
+sec: .gnu.version_r
+sec: .rela.dyn
+sec: .rela.plt
+sec: .init
+function _init	_init
+sec: .plt
+function recv@plt	recv@plt
+function pthread_create@plt	pthread_create@plt
+function __errno_location@plt	__errno_location@plt
+function puts@plt	puts@plt
+function __stack_chk_fail@plt	__stack_chk_fail@plt
+function htons@plt	htons@plt
+function send@plt	send@plt
+function printf@plt	printf@plt
+function __assert_fail@plt	__assert_fail@plt
+function htonl@plt	htonl@plt
+function memset@plt	memset@plt
+function close@plt	close@plt
+function __libc_start_main@plt	__libc_start_main@plt
+function getchar@plt	getchar@plt
+function fprintf@plt	fprintf@plt
+function memcpy@plt	memcpy@plt
+function select@plt	select@plt
+function pthread_mutex_unlock@plt	pthread_mutex_unlock@plt
+function listen@plt	listen@plt
+function bind@plt	bind@plt
+function accept@plt	accept@plt
+function fwrite@plt	fwrite@plt
+function pthread_mutex_lock@plt	pthread_mutex_lock@plt
+function usleep@plt	usleep@plt
+function socket@plt	socket@plt
+sec: .plt.got
+sec: .text
+function _start	_start
+function deregister_tm_clones	deregister_tm_clones
+function register_tm_clones	register_tm_clones
+function __do_global_dtors_aux	__do_global_dtors_aux
+function frame_dummy	frame_dummy
+function main	main
+function bCreatePollingThread	bCreatePollingThread
+function pvPollingThread	pvPollingThread
+function eGetPollingThreadState	eGetPollingThreadState
+function eSetPollingThreadState	eSetPollingThreadState
+function eMBRegInputCB	eMBRegInputCB
+function eMBRegHoldingCB	eMBRegHoldingCB
+function eMBRegCoilsCB	eMBRegCoilsCB
+function eMBRegDiscreteCB	eMBRegDiscreteCB
+function prvMBTCPPortAddressToString	prvMBTCPPortAddressToString
+function prvMBTCPPortFrameToString	prvMBTCPPortFrameToString
+function WsaError2String	WsaError2String
+function vMBPortLog	vMBPortLog
+function xMBPortEventInit	xMBPortEventInit
+function xMBPortEventPost	xMBPortEventPost
+function xMBPortEventGet	xMBPortEventGet
+function xMBTCPPortInit	xMBTCPPortInit
+function vMBTCPPortClose	vMBTCPPortClose
+function vMBTCPPortDisable	vMBTCPPortDisable
+function xMBPortTCPPool	xMBPortTCPPool
+function xMBTCPPortGetRequest	xMBTCPPortGetRequest
+function xMBTCPPortSendResponse	xMBTCPPortSendResponse
+function prvvMBPortReleaseClient	prvvMBPortReleaseClient
+function prvbMBPortAcceptClient	prvbMBPortAcceptClient
+function eMBInit	eMBInit
+function eMBTCPInit	eMBTCPInit
+function eMBRegisterCB	eMBRegisterCB
+function eMBClose	eMBClose
+function eMBEnable	eMBEnable
+function eMBDisable	eMBDisable
+function eMBPoll	eMBPoll
+function eMBTCPDoInit	eMBTCPDoInit
+function eMBTCPStart	eMBTCPStart
+function eMBTCPStop	eMBTCPStop
+function eMBTCPReceive	eMBTCPReceive
+function eMBTCPSend	eMBTCPSend
+function eMBFuncReadCoils	eMBFuncReadCoils
+function eMBFuncWriteCoil	eMBFuncWriteCoil
+function eMBFuncWriteMultipleCoils	eMBFuncWriteMultipleCoils
+function eMBFuncWriteHoldingRegister	eMBFuncWriteHoldingRegister
+function eMBFuncWriteMultipleHoldingRegister	eMBFuncWriteMultipleHoldingRegister
+function eMBFuncReadHoldingRegister	eMBFuncReadHoldingRegister
+function eMBFuncReadWriteMultipleHoldingRegister	eMBFuncReadWriteMultipleHoldingRegister
+function eMBFuncReadInputRegister	eMBFuncReadInputRegister
+function eMBSetSlaveID	eMBSetSlaveID
+function eMBFuncReportSlaveID	eMBFuncReportSlaveID
+function eMBFuncReadDiscreteInputs	eMBFuncReadDiscreteInputs
+function xMBUtilSetBits	xMBUtilSetBits
+function xMBUtilGetBits	xMBUtilGetBits
+function prveMBError2Exception	prveMBError2Exception
+function __libc_csu_init	__libc_csu_init
+function __libc_csu_fini	__libc_csu_fini
+sec: .fini
+function _fini	_fini
+sec: .rodata
+sec: .eh_frame_hdr
+sec: .eh_frame
+sec: .init_array
+sec: .fini_array
+sec: .jcr
+sec: .dynamic
+sec: .got
+sec: .got.plt
+sec: .data
+sec: .bss
+sec: .comment
+sec: .debug_aranges
+sec: .debug_info
+sec: .debug_abbrev
+sec: .debug_line
+sec: .debug_str
+sec: .shstrtab
+sec: .symtab
+sec: .strtab
+image: /lib64/ld-linux-x86-64.so.2
+image: [vdso]
+image: /home/hao/share/protocol-test/libx.so
+sec: 
+sec: .note.gnu.build-id
+sec: .gnu.hash
+sec: .dynsym
+sec: .dynstr
+sec: .gnu.version
+sec: .gnu.version_r
+sec: .rela.dyn
+sec: .rela.plt
+sec: .init
+function _init	_init
+sec: .plt
+function fprintf@plt	fprintf@plt
+function dlsym@plt	dlsym@plt
+sec: .plt.got
+sec: .text
+function deregister_tm_clones	deregister_tm_clones
+function register_tm_clones	register_tm_clones
+function __do_global_dtors_aux	__do_global_dtors_aux
+function frame_dummy	frame_dummy
+function memcpy	memcpy
+function memmove	memmove
+function read	read
+function send	send
+function recv	recv
+function sendto	sendto
+function recvfrom	recvfrom
+function sendmsg	sendmsg
+function recvmsg	recvmsg
+sec: .fini
+function _fini	_fini
+sec: .rodata
+sec: .eh_frame_hdr
+sec: .eh_frame
+sec: .init_array
+sec: .fini_array
+sec: .jcr
+sec: .dynamic
+sec: .got
+sec: .got.plt
+sec: .data
+sec: .bss
+sec: .comment
+sec: .shstrtab
+sec: .symtab
+sec: .strtab
+image: /lib/x86_64-linux-gnu/libpthread.so.0
+image: /lib/x86_64-linux-gnu/libc.so.6
+image: /lib/x86_64-linux-gnu/libdl.so.2
+_init: 1 7ffd214649a8 7ffd214649b8 7ffd214649b8	_init
+frame_dummy: 1 7ffd214649a8 7ffd214649b8 7ffd214649b8	frame_dummy
+register_tm_clones: 7f10c8dc1df8 7ffd214649a8 7ffd214649b8 7ffd214649b8	register_tm_clones
+_start: 7f10dc808168 1 7f10dc5f1ab0 7ffd214649b8	_start
+0x400c30: xor ebp, ebp
+0x400c32: mov r9, rdx  reg(12, 0)  reg(8, 7f10dc5f1ab0) 
+0x400c35: pop rsi  reg(4, 1) 
+0x400c36: mov rdx, rsp  reg(8, 7f10dc5f1ab0) 
+0x400c39: and rsp, 0xfffffffffffffff0
+0x400c3d: push rax  reg(10, 1c) 
+0x400c3e: push rsp
+0x400c3f: mov r8, 0x402fd0  reg(11, 7f10dc8086f8) 
+0x400c46: mov rcx, 0x402f60  reg(9, 7ffd214649b8) 
+0x400c4d: mov rdi, 0x400d26  reg(3, 7f10dc808168) 
+0x400c54: call 0x400b50
+__libc_start_main@plt: 400d26 1 7ffd214649a8 402f60	__libc_start_main@plt
+0x400b50: jmp qword ptr [rip+0x203522]
+0x400b56: push 0xc 
+0x400b5b: jmp 0x400a80
+__libc_csu_init: 1 7ffd214649a8 7ffd214649b8 0	__libc_csu_init
+0x402f60: push r15  reg(18, 0) 
+0x402f62: push r14  reg(17, 0) 
+0x402f64: mov r15d, edi  reg(82, 0)  reg(45, 1) 
+0x402f67: push r13  reg(16, 7ffd214649a0) 
+0x402f69: push r12  reg(15, 400c30) 
+0x402f6b: lea r12, ptr [rip+0x200e8e]  reg(15, 400c30) 
+0x402f72: push rbp
+0x402f73: lea rbp, ptr [rip+0x200e8e]
+0x402f7a: push rbx  reg(7, 0) 
+0x402f7b: mov r14, rsi  reg(17, 0)  reg(4, 7ffd214649a8) 
+0x402f7e: mov r13, rdx  reg(16, 7ffd214649a0)  reg(8, 7ffd214649b8) 
+0x402f81: sub rbp, r12
+0x402f84: sub rsp, 0x8
+0x402f88: sar rbp, 0x3
+0x402f8c: call 0x400a58
+_init: 1 7ffd214649a8 7ffd214649b8 0	_init
+0x400a58: sub rsp, 0x8
+0x400a5c: mov rax, qword ptr [rip+0x203595]  reg(10, 7f10c88eff38) 
+0x400a63: test rax, rax  reg(10, 0)  reg(10, 0) 
+0x400a66: jz 0x400a6d
+0x400a6d: add rsp, 0x8
+0x400a71: ret 
+0x402f91: test rbp, rbp
+0x402f94: jz 0x402fb6
+0x402f96: xor ebx, ebx  reg(53, 0)  reg(53, 0) 
+0x402f98: nop dword ptr [rax+rax*1], eax
+0x402fa0: mov rdx, r13  reg(8, 7ffd214649b8)  reg(16, 7ffd214649b8) 
+0x402fa3: mov rsi, r14  reg(4, 7ffd214649a8)  reg(17, 7ffd214649a8) 
+0x402fa6: mov edi, r15d  reg(45, 1)  reg(82, 1) 
+0x402fa9: call qword ptr [r12+rbx*8]
+frame_dummy: 1 7ffd214649a8 7ffd214649b8 0	frame_dummy
+0x400d00: mov edi, 0x603e10  reg(45, 1) 
+0x400d05: cmp qword ptr [rdi], 0x0  mem(603e10, 0) 
+0x400d09: jnz 0x400d10
+0x400d0b: jmp 0x400ca0
+register_tm_clones: 603e10 7ffd214649a8 7ffd214649b8 0	register_tm_clones
+0x400ca0: mov esi, 0x604260  reg(47, 7ffd214649a8) 
+0x400ca5: push rbp
+0x400ca6: sub rsi, 0x604260  reg(4, 604260) 
+0x400cad: sar rsi, 0x3  reg(4, 0) 
+0x400cb1: mov rbp, rsp
+0x400cb4: mov rax, rsi  reg(10, 0)  reg(4, 0) 
+0x400cb7: shr rax, 0x3f  reg(10, 0) 
+0x400cbb: add rsi, rax  reg(4, 0)  reg(10, 0) 
+0x400cbe: sar rsi, 0x1  reg(4, 0) 
+0x400cc1: jz 0x400cd8
+0x400cd8: pop rbp
+0x400cd9: ret 
+0x402fad: add rbx, 0x1  reg(7, 0) 
+0x402fb1: cmp rbx, rbp  reg(7, 1) 
+0x402fb4: jnz 0x402fa0
+0x402fb6: add rsp, 0x8
+0x402fba: pop rbx  reg(7, 1) 
+0x402fbb: pop rbp
+0x402fbc: pop r12  reg(15, 603e00) 
+0x402fbe: pop r13  reg(16, 7ffd214649b8) 
+0x402fc0: pop r14  reg(17, 7ffd214649a8) 
+0x402fc2: pop r15  reg(18, 1) 
+0x402fc4: ret 
+main: 1 7ffd214649a8 7ffd214649b8 0	main
+0x400d26: push rbp
+0x400d27: mov rbp, rsp
+0x400d2a: sub rsp, 0x20
+0x400d2e: mov dword ptr [rbp-0x14], edi  reg(45, 1)  mem(7ffd214648ac, 214649a000000000) 
+0x400d31: mov qword ptr [rbp-0x20], rsi  reg(4, 7ffd214649a8)  mem(7ffd214648a0, 402f60) 
+0x400d35: mov edi, 0x1f6  reg(45, 1) 
+0x400d3a: call 0x401b0a
+eMBTCPInit: 1f6 7ffd214649a8 7ffd214649b8 0	eMBTCPInit
+0x401b0a: push rbp
+0x401b0b: mov rbp, rsp
+0x401b0e: sub rsp, 0x20
+0x401b12: mov eax, edi  reg(56, 400d26)  reg(45, 1f6) 
+0x401b14: mov word ptr [rbp-0x14], ax  reg(29, 1f6)  mem(7ffd2146487c, 100000000) 
+0x401b18: mov dword ptr [rbp-0x4], 0x0  mem(7ffd2146488c, 214648c000000000) 
+0x401b1f: movzx eax, word ptr [rbp-0x14]  reg(56, 1f6) 
+0x401b23: mov edi, eax  reg(45, 1f6)  reg(56, 1f6) 
+0x401b25: call 0x401f93
+eMBTCPDoInit: 1f6 7ffd214649a8 7ffd214649b8 0	eMBTCPDoInit
+0x401f93: push rbp
+0x401f94: mov rbp, rsp
+0x401f97: sub rsp, 0x20
+0x401f9b: mov eax, edi  reg(56, 1f6)  reg(45, 1f6) 
+0x401f9d: mov word ptr [rbp-0x14], ax  reg(29, 1f6)  mem(7ffd2146484c, 0) 
+0x401fa1: mov dword ptr [rbp-0x4], 0x0  mem(7ffd2146485c, 2146489000000000) 
+0x401fa8: movzx eax, word ptr [rbp-0x14]  reg(56, 1f6) 
+0x401fac: mov edi, eax  reg(45, 1f6)  reg(56, 1f6) 
+0x401fae: call 0x401386
+xMBTCPPortInit: 1f6 7ffd214649a8 7ffd214649b8 0	xMBTCPPortInit
+0x401386: push rbp
+0x401387: mov rbp, rsp
+0x40138a: sub rsp, 0x40
+0x40138e: mov eax, edi  reg(56, 1f6)  reg(45, 1f6) 
+0x401390: mov word ptr [rbp-0x34], ax  reg(29, 1f6)  mem(7ffd214647fc, 2f2f2f2f00000000) 
+0x401394: mov rax, qword ptr fs:[0x28]  reg(10, 1f6) 
+0x40139d: mov qword ptr [rbp-0x8], rax  reg(10, 50de10c99fb74600)  mem(7ffd21464828, 0) 
+0x4013a1: xor eax, eax  reg(56, 50de10c99fb74600)  reg(56, 50de10c99fb74600) 
+0x4013a3: cmp word ptr [rbp-0x34], 0x0  mem(7ffd214647fc, 2f2f2f2f000001f6) 
+0x4013a8: jnz 0x4013b2
+0x4013b2: movzx eax, word ptr [rbp-0x34]  reg(56, 0) 
+0x4013b6: mov word ptr [rbp-0x2a], ax  reg(29, 1f6)  mem(7ffd21464806, 2f2f2f2f2f2f2f2f) 
+0x4013ba: lea rax, ptr [rbp-0x20]  reg(10, 1f6) 
+0x4013be: mov edx, 0x10  reg(54, 7ffd214649b8) 
+0x4013c3: mov esi, 0x0  reg(47, 7ffd214649a8) 
+0x4013c8: mov rdi, rax  reg(3, 1f6)  reg(10, 7ffd21464810) 
+0x4013cb: call 0x400b30
+memset@plt: 7ffd21464810 0 10 0	memset@plt
+0x400b30: jmp qword ptr [rip+0x203532]
+0x400b36: push 0xa 
+0x400b3b: jmp 0x400a80
+0x4013d0: mov word ptr [rbp-0x20], 0x2  mem(7ffd21464810, 0) 
+0x4013d6: mov edi, 0x0  reg(45, 7ffd21464810) 
+0x4013db: call 0x400b20
+htonl@plt: 0 7ffd21464820 10 0	htonl@plt
+0x400b20: jmp qword ptr [rip+0x20353a]
+0x400b26: push 0x9 
+0x400b2b: jmp 0x400a80
+0x4013e0: mov dword ptr [rbp-0x1c], eax  reg(56, 0)  mem(7ffd21464814, 0) 
+0x4013e3: movzx eax, word ptr [rbp-0x2a]  reg(56, 0) 
+0x4013e7: mov edi, eax  reg(45, 0)  reg(56, 1f6) 
+0x4013e9: call 0x400ae0
+htons@plt: 1f6 7ffd21464820 10 0	htons@plt
+0x400ae0: jmp qword ptr [rip+0x20355a]
+0x400ae6: push 0x5 
+0x400aeb: jmp 0x400a80
+0x4013ee: mov word ptr [rbp-0x1e], ax  reg(29, f601)  mem(7ffd21464812, 0) 
+0x4013f2: mov edx, 0x6  reg(54, 10) 
+0x4013f7: mov esi, 0x1  reg(47, 7ffd21464820) 
+0x4013fc: mov edi, 0x2  reg(45, 1f6) 
+0x401401: call 0x400c10
+socket@plt: 2 1 6 0	socket@plt
+0x400c10: jmp qword ptr [rip+0x2034c2]
+0x400c16: push 0x18 
+0x400c1b: jmp 0x400a80
+0x401406: mov dword ptr [rip+0x2031f8], eax  reg(56, 3)  mem(604604, 0) 
+0x40140c: mov eax, dword ptr [rip+0x2031f2]  reg(56, 3) 
+0x401412: cmp eax, 0xffffffff  reg(56, 3) 
+0x401415: jnz 0x40143f
+0x40143f: mov eax, dword ptr [rip+0x2031bf]  reg(56, 3) 
+0x401445: lea rcx, ptr [rbp-0x20]  reg(9, 0) 
+0x401449: mov edx, 0x10  reg(54, 6) 
+0x40144e: mov rsi, rcx  reg(4, 1)  reg(9, 7ffd21464810) 
+0x401451: mov edi, eax  reg(45, 2)  reg(56, 3) 
+0x401453: call 0x400bc0
+bind@plt: 3 7ffd21464810 10 7ffd21464810	bind@plt
+0x400bc0: jmp qword ptr [rip+0x2034ea]
+0x400bc6: push 0x13 
+0x400bcb: jmp 0x400a80
+0x401458: cmp eax, 0xffffffff  reg(56, 0) 
+0x40145b: jnz 0x401485
+0x401485: mov eax, dword ptr [rip+0x203179]  reg(56, 0) 
+0x40148b: mov esi, 0x5  reg(47, 7ffd21464810) 
+0x401490: mov edi, eax  reg(45, 3)  reg(56, 3) 
+0x401492: call 0x400bb0
+listen@plt: 3 5 10 7ffd21464810	listen@plt
+0x400bb0: jmp qword ptr [rip+0x2034f2]
+0x400bb6: push 0x12 
+0x400bbb: jmp 0x400a80
+0x401497: cmp eax, 0xffffffff  reg(56, 0) 
+0x40149a: jnz 0x4014c1
+0x4014c1: mov eax, 0x0  reg(56, 0) 
+0x4014c6: mov edx, 0x10  reg(54, 10) 
+0x4014cb: mov esi, 0x604400  reg(47, 5) 
+0x4014d0: mov rcx, rdx  reg(9, 7ffd21464810)  reg(8, 10) 
+0x4014d3: mov rdi, rsi  reg(3, 3)  reg(4, 604400) 
+0x4014d6: cld 
+0x4014d7: rep stosq qword ptr [rdi]
+0x4014d7: rep stosq qword ptr [rdi]
+0x4014d7: rep stosq qword ptr [rdi]
+0x4014d7: rep stosq qword ptr [rdi]
+0x4014d7: rep stosq qword ptr [rdi]
+0x4014d7: rep stosq qword ptr [rdi]
+0x4014d7: rep stosq qword ptr [rdi]
+0x4014d7: rep stosq qword ptr [rdi]
+0x4014d7: rep stosq qword ptr [rdi]
+0x4014d7: rep stosq qword ptr [rdi]
+0x4014d7: rep stosq qword ptr [rdi]
+0x4014d7: rep stosq qword ptr [rdi]
+0x4014d7: rep stosq qword ptr [rdi]
+0x4014d7: rep stosq qword ptr [rdi]
+0x4014d7: rep stosq qword ptr [rdi]
+0x4014d7: rep stosq qword ptr [rdi]
+0x4014da: mov eax, edi  reg(56, 0)  reg(45, 604480) 
+0x4014dc: mov edx, ecx  reg(54, 10)  reg(55, 0) 
+0x4014de: mov dword ptr [rbp-0x28], edx  reg(54, 0)  mem(7ffd21464808, 2f2f2f2f2f2f2f2f) 
+0x4014e1: mov dword ptr [rbp-0x24], eax  reg(56, 604480)  mem(7ffd2146480c, f60100022f2f2f2f) 
+0x4014e4: mov eax, dword ptr [rip+0x20311a]  reg(56, 604480) 
+0x4014ea: lea edx, ptr [rax+0x3f]  reg(54, 0) 
+0x4014ed: test eax, eax  reg(56, 3)  reg(56, 3) 
+0x4014f2: sar eax, 0x6  reg(56, 3) 
+0x4014f5: mov esi, eax  reg(47, 604400)  reg(56, 0) 
+0x4014f7: movsxd rax, esi  reg(10, 0)  reg(47, 0) 
+0x4014fa: mov rdi, qword ptr [rax*8+0x604400]  reg(3, 604480) 
+0x401502: mov eax, dword ptr [rip+0x2030fc]  reg(56, 0) 
+0x401508: cdq   reg(54, 42)  reg(56, 3) 
+0x401509: shr edx, 0x1a  reg(54, 0) 
+0x40150c: add eax, edx  reg(56, 3)  reg(54, 0) 
+0x40150e: and eax, 0x3f  reg(56, 3) 
+0x401511: sub eax, edx  reg(56, 3)  reg(54, 0) 
+0x401513: mov edx, 0x1  reg(54, 0) 
+0x401518: mov ecx, eax  reg(55, 0)  reg(56, 3) 
+0x40151a: shl rdx, cl  reg(8, 1)  reg(30, 3) 
+0x40151d: mov rax, rdx  reg(10, 3)  reg(8, 8) 
+0x401520: or rdi, rax  reg(3, 0)  reg(10, 8) 
+0x401523: mov rdx, rdi  reg(8, 8)  reg(3, 8) 
+0x401526: movsxd rax, esi  reg(10, 8)  reg(47, 0) 
+0x401529: mov qword ptr [rax*8+0x604400], rdx  reg(8, 8)  mem(604400, 0) 
+0x401531: mov eax, 0x1  reg(56, 0) 
+0x401536: mov rcx, qword ptr [rbp-0x8]  reg(9, 3) 
+0x40153a: xor rcx, qword ptr fs:[0x28]  reg(9, 50de10c99fb74600) 
+0x401543: jz 0x40154a
+0x40154a: leave   mem(7ffd21464830, 7ffd21464860) 
+0x40154b: ret 
+0x401fb3: test al, al  reg(27, 1)  reg(27, 1) 
+0x401fb5: jnz 0x401fbe
+0x401fbe: mov eax, dword ptr [rbp-0x4]  reg(56, 1) 
+0x401fc1: leave   mem(7ffd21464860, 7ffd21464890) 
+0x401fc2: ret 
+0x401b2a: mov dword ptr [rbp-0x4], eax  reg(56, 0)  mem(7ffd2146488c, 214648c000000000) 
+0x401b2d: cmp dword ptr [rbp-0x4], 0x0  mem(7ffd2146488c, 214648c000000000) 
+0x401b31: jz 0x401b3f
+0x401b3f: call 0x401317
+xMBPortEventInit: 8 0 8 0	xMBPortEventInit
+0x401317: push rbp
+0x401318: mov rbp, rsp
+0x40131b: mov byte ptr [rip+0x2030ce], 0x0  mem(6043f0, 0) 
+0x401322: mov eax, 0x1  reg(56, 0) 
+0x401327: pop rbp
+0x401328: ret 
+0x401b44: test al, al  reg(27, 1)  reg(27, 1) 
+0x401b46: jnz 0x401b51
+0x401b51: mov qword ptr [rip+0x202a44], 0x401fc3  mem(6045a0, 0) 
+0x401b5c: mov qword ptr [rip+0x202a41], 0x401fca  mem(6045a8, 0) 
+0x401b67: mov qword ptr [rip+0x202a3e], 0x401fd6  mem(6045b0, 0) 
+0x401b72: mov qword ptr [rip+0x202a1b], 0x402092  mem(604598, 0) 
+0x401b7d: mov qword ptr [rip+0x202a30], 0x40154c  mem(6045b8, 0) 
+0x401b88: mov byte ptr [rip+0x202a01], 0xff  mem(604590, 0) 
+0x401b8f: mov dword ptr [rip+0x2029fb], 0x2  mem(604594, 40209200000000) 
+0x401b99: mov dword ptr [rip+0x20259d], 0x1  mem(604140, 2) 
+0x401ba3: mov eax, dword ptr [rbp-0x4]  reg(56, 1) 
+0x401ba6: leave   mem(7ffd21464890, 7ffd214648c0) 
+0x401ba7: ret 
+0x400d3f: test eax, eax  reg(56, 0)  reg(56, 0) 
+0x400d41: jz 0x400d6d
+0x400d6d: mov edi, 0x0  reg(45, 8) 
+0x400d72: call 0x400fa6
+eSetPollingThreadState: 0 0 8 0	eSetPollingThreadState
+0x400fa6: push rbp
+0x400fa7: mov rbp, rsp
+0x400faa: sub rsp, 0x10
+0x400fae: mov dword ptr [rbp-0x4], edi  reg(45, 0)  mem(7ffd2146488c, 214648c000000000) 
+0x400fb1: mov edi, 0x6043c0  reg(45, 0) 
+0x400fb6: call 0x400bf0
+pthread_mutex_lock@plt: 6043c0 0 8 0	pthread_mutex_lock@plt
+0x400bf0: jmp qword ptr [rip+0x2034d2]
+0x400bf6: push 0x16 
+0x400bfb: jmp 0x400a80
+0x400fbb: mov eax, dword ptr [rbp-0x4]  reg(56, 0) 
+0x400fbe: mov dword ptr [rip+0x203424], eax  reg(56, 0)  mem(6043e8, 0) 
+0x400fc4: mov edi, 0x6043c0  reg(45, 1) 
+0x400fc9: call 0x400ba0
+pthread_mutex_unlock@plt: 6043c0 0 0 0	pthread_mutex_unlock@plt
+0x400ba0: jmp qword ptr [rip+0x2034fa]
+0x400ba6: push 0x11 
+0x400bab: jmp 0x400a80
+0x400fce: nop 
+0x400fcf: leave   mem(7ffd21464890, 7ffd214648c0) 
+0x400fd0: ret 
+0x400d77: mov edi, 0x403020  reg(45, 6043c0) 
+0x400d7c: call 0x400ac0
+puts@plt: 403020 0 6043c0 0	puts@plt
+0x400ac0: jmp qword ptr [rip+0x20356a]
+0x400ac6: push 0x3 
+0x400acb: jmp 0x400a80
+0x400d81: mov byte ptr [rbp-0x5], 0x0  mem(7ffd214648bb, 402f600000000000) 
+0x400d85: mov edi, 0x403044  reg(45, 1) 
+0x400d8a: mov eax, 0x0  reg(56, 24) 
+0x400d8f: call 0x400b00
+printf@plt: 403044 d57010 7f10c88ef780 fbad2a84	printf@plt
+0x400b00: jmp qword ptr [rip+0x20354a]
+0x400b06: push 0x7 
+0x400b0b: jmp 0x400a80
+0x400d94: call 0x400b60
+getchar@plt: 7ffd21464370 0 0 2	getchar@plt
+0x400b60: jmp qword ptr [rip+0x20351a]
+0x400b66: push 0xd 
+0x400b6b: jmp 0x400a80
+0x400d99: mov byte ptr [rbp-0x6], al  reg(27, 65)  mem(7ffd214648ba, 2f60000000000000) 
+0x400d9c: movsx eax, byte ptr [rbp-0x6]  reg(56, 65) 
+0x400da0: sub eax, 0x64  reg(56, 65) 
+0x400da3: cmp eax, 0xf  reg(56, 1) 
+0x400da6: jnbe 0x400e7c
+0x400dac: mov eax, eax  reg(56, 1)  reg(56, 1) 
+0x400dae: mov rax, qword ptr [rax*8+0x4031f8]  reg(10, 1) 
+0x400db6: jmp rax
+0x400dd0: call 0x400ec8
+bCreatePollingThread: 0 65 7f10c88ef790 d57420	bCreatePollingThread
+0x400ec8: push rbp
+0x400ec9: mov rbp, rsp
+0x400ecc: sub rsp, 0x20
+0x400ed0: mov rax, qword ptr fs:[0x28]  reg(10, 400dd0) 
+0x400ed9: mov qword ptr [rbp-0x8], rax  reg(10, 50de10c99fb74600)  mem(7ffd21464888, 7f10c859f255) 
+0x400edd: xor eax, eax  reg(56, 50de10c99fb74600)  reg(56, 50de10c99fb74600) 
+0x400edf: call 0x400f7c
+eGetPollingThreadState: 0 65 7f10c88ef790 d57420	eGetPollingThreadState
+0x400f7c: push rbp
+0x400f7d: mov rbp, rsp
+0x400f80: sub rsp, 0x10
+0x400f84: mov edi, 0x6043c0  reg(45, 0) 
+0x400f89: call 0x400bf0
+pthread_mutex_lock@plt: 6043c0 65 7f10c88ef790 d57420	pthread_mutex_lock@plt
+0x400bf0: jmp qword ptr [rip+0x2034d2]
+0x400f8e: mov eax, dword ptr [rip+0x203454]  reg(56, 0) 
+0x400f94: mov dword ptr [rbp-0x4], eax  reg(56, 0)  mem(7ffd2146485c, 2146489000007f10) 
+0x400f97: mov edi, 0x6043c0  reg(45, 1) 
+0x400f9c: call 0x400ba0
+pthread_mutex_unlock@plt: 6043c0 0 0 0	pthread_mutex_unlock@plt
+0x400ba0: jmp qword ptr [rip+0x2034fa]
+0x400fa1: mov eax, dword ptr [rbp-0x4]  reg(56, 0) 
+0x400fa4: leave   mem(7ffd21464860, 7ffd21464890) 
+0x400fa5: ret 
+0x400ee4: test eax, eax  reg(56, 0)  reg(56, 0) 
+0x400ee6: jnz 0x400f13
+0x400ee8: lea rax, ptr [rbp-0x10]  reg(10, 0) 
+0x400eec: mov ecx, 0x0  reg(55, 0) 
+0x400ef1: mov edx, 0x400f31  reg(54, 6043c0) 
+0x400ef6: mov esi, 0x0  reg(47, 0) 
+0x400efb: mov rdi, rax  reg(3, 6043c0)  reg(10, 7ffd21464880) 
+0x400efe: call 0x400aa0
+pthread_create@plt: 7ffd21464880 0 400f31 0	pthread_create@plt
+0x400aa0: jmp qword ptr [rip+0x20357a]
+0x400aa6: push 0x1 
+0x400aab: jmp 0x400a80
+0x400f03: test eax, eax  reg(56, 0)  reg(56, 0) 
+0x400f05: jz 0x400f0d
+pvPollingThread: 0 0 a47b4657dde07276 ffffffffffffffa8	pvPollingThread
+0x400f0d: mov byte ptr [rbp-0x11], 0x1  mem(7ffd2146487f, 7f10c7dbc70000) 
+0x400f31: push rbp
+0x400f32: mov rbp, rsp
+0x400f35: sub rsp, 0x10
+0x400f11: jmp 0x400f17
+0x400f39: mov qword ptr [rbp-0x8], rdi  reg(3, 0)  mem(7f10c7dbbf48, 7f10c8dee558) 
+0x400f3d: mov edi, 0x1  reg(45, 0) 
+0x400f42: call 0x400fa6
+0x400f17: movzx eax, byte ptr [rbp-0x11]  reg(56, 0) 
+eSetPollingThreadState: 1 0 a47b4657dde07276 ffffffffffffffa8	eSetPollingThreadState
+0x400f1b: mov rdx, qword ptr [rbp-0x8]  reg(8, 0) 
+0x400f1f: xor rdx, qword ptr fs:[0x28]  reg(8, 50de10c99fb74600) 
+0x400f28: jz 0x400f2f
+0x400fa6: push rbp
+0x400fa7: mov rbp, rsp
+0x400faa: sub rsp, 0x10
+0x400fae: mov dword ptr [rbp-0x4], edi  reg(45, 1)  mem(7f10c7dbbf2c, c7dbbf5000007f10) 
+0x400f2f: leave   reg(45, 1)  mem(7f10c7dbbf2c, c7dbbf5000007f10) 
+0x400f30: ret 
+0x400fb1: mov edi, 0x6043c0  reg(45, 1) 
+0x400fb6: call 0x400bf0
+pthread_mutex_lock@plt: 6043c0 0 a47b4657dde07276 ffffffffffffffa8	pthread_mutex_lock@plt
+0x400dd5: cmp al, 0x1  reg(27, 1) 
+0x400dd7: jz 0x400e99
+0x400bf0: jmp qword ptr [rip+0x2034d2]
+0x400fbb: mov eax, dword ptr [rbp-0x4]  reg(56, 0) 
+0x400e99: nop 
+0x400e9a: jmp 0x400ea7
+0x400fbe: mov dword ptr [rip+0x203424], eax  reg(56, 1)  mem(6043e8, 0) 
+0x400fc4: mov edi, 0x6043c0  reg(45, 1) 
+0x400fc9: call 0x400ba0
+pthread_mutex_unlock@plt: 6043c0 0 0 0	pthread_mutex_unlock@plt
+0x400ea7: cmp byte ptr [rbp-0x6], 0xa  mem(7ffd214648ba, 2f60000000000065) 
+0x400eab: jnz 0x400e9f
+0x400ba0: jmp qword ptr [rip+0x2034fa]
+0x400fce: nop 
+0x400fcf: leave   mem(7f10c7dbbf30, 7f10c7dbbf50) 
+0x400e9f: call 0x400b60
+getchar@plt: 3d0f00 7f10c7dbbff0 0 7f10c88f1a80	getchar@plt
+0x400fd0: ret 
+0x400b60: jmp qword ptr [rip+0x20351a]
+0x400f47: call 0x401d04
+0x400ea4: mov byte ptr [rbp-0x6], al  reg(27, a)  mem(7ffd214648ba, 2f60000000000065) 
+0x400ea7: cmp byte ptr [rbp-0x6], 0xa  mem(7ffd214648ba, 2f6000000000000a) 
+0x400eab: jnz 0x400e9f
+0x400ead: cmp byte ptr [rbp-0x5], 0x0  mem(7ffd214648bb, 402f600000000000) 
+0x400eb1: jz 0x400d85
+eMBEnable: 6043c0 0 6043c0 0	eMBEnable
+0x401d04: push rbp
+0x401d05: mov rbp, rsp
+0x401d08: sub rsp, 0x10
+0x401d0c: mov dword ptr [rbp-0x4], 0x0  mem(7f10c7dbbf2c, c7dbbf5000000001) 
+0x400d85: mov edi, 0x403044  mem(7f10c7dbbf2c, c7dbbf5000000001) 
+0x400d8a: mov eax, 0x0  reg(56, a) 
+0x400d8f: call 0x400b00
+0x401d13: mov eax, dword ptr [rip+0x202427]  reg(56, a) 
+printf@plt: 403044 a 7f10c88ef790 7f10c88f1a80	printf@plt
+0x401d19: cmp eax, 0x1  reg(56, 1) 
+0x401d1c: jnz 0x401d33
+0x401d1e: mov rax, qword ptr [rip+0x20287b]  reg(10, 1) 
+0x400b00: jmp qword ptr [rip+0x20354a]
+0x401d25: call rax
+0x400d94: call 0x400b60
+getchar@plt: 7ffd21464370 0 0 2	getchar@plt
+0x400b60: jmp qword ptr [rip+0x20351a]
+eMBTCPStart: 6043c0 0 6043c0 0	eMBTCPStart
+0x401fc3: push rbp
+0x401fc4: mov rbp, rsp
+0x401fc7: nop 
+0x401fc8: pop rbp
+0x401fc9: ret 
+0x401d27: mov dword ptr [rip+0x20240f], 0x0  mem(604140, 1) 
+0x401d31: jmp 0x401d3a
+0x401d3a: mov eax, dword ptr [rbp-0x4]  reg(56, 401fc3) 
+0x401d3d: leave   mem(7f10c7dbbf30, 7f10c7dbbf50) 
+0x401d3e: ret 
+0x400f4c: test eax, eax  reg(56, 0)  reg(56, 0) 
+0x400f4e: jnz 0x400f66
+0x400f50: call 0x401d8d
+eMBPoll: 6043c0 0 6043c0 0	eMBPoll
+0x401d8d: push rbp
+0x401d8e: mov rbp, rsp
+0x401d91: sub rsp, 0x20
+0x401d95: mov rax, qword ptr fs:[0x28]  reg(10, 0) 
+0x401d9e: mov qword ptr [rbp-0x8], rax  reg(10, 50de10c99fb74600)  mem(7f10c7dbbf28, c7dbc700) 
+0x401da2: xor eax, eax  reg(56, 50de10c99fb74600)  reg(56, 50de10c99fb74600) 
+0x401da4: mov dword ptr [rbp-0xc], 0x0  mem(7f10c7dbbf24, 9fb7460000007f10) 
+0x401dab: mov eax, dword ptr [rip+0x20238f]  reg(56, 0) 
+0x401db1: test eax, eax  reg(56, 0)  reg(56, 0) 
+0x401db3: jz 0x401dbf
+0x401dbf: lea rax, ptr [rbp-0x14]  reg(10, 0) 
+0x401dc3: mov rdi, rax  reg(3, 6043c0)  reg(10, 7f10c7dbbf1c) 
+0x401dc6: call 0x401347
+xMBPortEventGet: 7f10c7dbbf1c 0 6043c0 0	xMBPortEventGet
+0x401347: push rbp
+0x401348: mov rbp, rsp
+0x40134b: sub rsp, 0x20
+0x40134f: mov qword ptr [rbp-0x18], rdi  reg(3, 7f10c7dbbf1c)  mem(7f10c7dbbee8, 0) 
+0x401353: mov byte ptr [rbp-0x1], 0x0  mem(7f10c7dbbeff, 7f10c7dbbf3000) 
+0x401357: movzx eax, byte ptr [rip+0x203092]  reg(56, 7f10c7dbbf1c) 
+0x40135e: test al, al  reg(27, 0)  reg(27, 0) 
+0x401360: jz 0x40137b
+0x40137b: call 0x401592
+xMBPortTCPPool: 7f10c7dbbf1c 0 6043c0 0	xMBPortTCPPool
+0x401592: push rbp
+0x401593: mov rbp, rsp
+0x401596: sub rsp, 0xc0
+0x40159d: mov rax, qword ptr fs:[0x28]  reg(10, 0) 
+0x4015a6: mov qword ptr [rbp-0x8], rax  reg(10, 50de10c99fb74600)  mem(7f10c7dbbec8, 0) 
+0x4015aa: xor eax, eax  reg(56, 50de10c99fb74600)  reg(56, 50de10c99fb74600) 
+0x4015ac: mov qword ptr [rbp-0xa0], 0x0  mem(7f10c7dbbe30, 0) 
+0x4015b7: mov qword ptr [rbp-0x98], 0x1388  mem(7f10c7dbbe38, 0) 
+0x4015c2: mov eax, dword ptr [rip+0x202b58]  reg(56, 0) 
+0x4015c8: cmp eax, 0xffffffff  reg(56, ffffffff) 
+0x4015cb: jnz 0x40164c
+0x4015cd: mov eax, dword ptr [rip+0x203031]  reg(56, ffffffff) 
+0x4015d3: add eax, 0x1  reg(56, 3) 
+0x4015d6: mov r8d, 0x0  reg(61, 0) 
+0x4015dc: mov ecx, 0x0  reg(55, 0) 
+0x4015e1: mov edx, 0x0  reg(54, 6043c0) 
+0x4015e6: mov esi, 0x604400  reg(47, 0) 
+0x4015eb: mov edi, eax  reg(45, 7f10c7dbbf1c)  reg(56, 4) 
+0x4015ed: call 0x400b90
+select@plt: 4 604400 0 0	select@plt
+0x400b90: jmp qword ptr [rip+0x203502]
+0x400b96: push 0x10 
+0x400b9b: jmp 0x400a80
+0x4015f2: mov dword ptr [rbp-0xb0], eax  reg(56, 1)  mem(7f10c7dbbe20, 0) 
+0x4015f8: cmp dword ptr [rbp-0xb0], 0x0  mem(7f10c7dbbe20, 1) 
+0x4015ff: jns 0x401606
+0x401606: mov eax, dword ptr [rip+0x202ff8]  reg(56, 1) 
+0x40160c: lea edx, ptr [rax+0x3f]  reg(54, 1) 
+0x40160f: test eax, eax  reg(56, 3)  reg(56, 3) 
+0x401614: sar eax, 0x6  reg(56, 3) 
+0x401617: cdqe   reg(10, 0)  reg(56, 0) 
+0x401619: mov rsi, qword ptr [rax*8+0x604400]  reg(4, 604400) 
+0x401621: mov eax, dword ptr [rip+0x202fdd]  reg(56, 0) 
+0x401627: cdq   reg(54, 42)  reg(56, 3) 
+0x401628: shr edx, 0x1a  reg(54, 0) 
+0x40162b: add eax, edx  reg(56, 3)  reg(54, 0) 
+0x40162d: and eax, 0x3f  reg(56, 3) 
+0x401630: sub eax, edx  reg(56, 3)  reg(54, 0) 
+0x401632: mov edx, 0x1  reg(54, 0) 
+0x401637: mov ecx, eax  reg(55, 0)  reg(56, 3) 
+0x401639: shl rdx, cl  reg(8, 1)  reg(30, 3) 
+0x40163c: mov rax, rdx  reg(10, 3)  reg(8, 8) 
+0x40163f: and rax, rsi  reg(10, 8)  reg(4, 8) 
+0x401642: test rax, rax  reg(10, 8)  reg(10, 8) 
+0x401645: jz 0x40164c
+0x401647: call 0x401a09
+prvbMBPortAcceptClient: 0 8 8 3	prvbMBPortAcceptClient
+0x401a09: push rbp
+0x401a0a: mov rbp, rsp
+0x401a0d: sub rsp, 0x10
+0x401a11: mov eax, dword ptr [rip+0x202709]  reg(56, 8) 
+0x401a17: cmp eax, 0xffffffff  reg(56, ffffffff) 
+0x401a1a: jz 0x401a40
+0x401a40: mov eax, dword ptr [rip+0x202bbe]  reg(56, ffffffff) 
+0x401a46: mov edx, 0x0  reg(54, 8) 
+0x401a4b: mov esi, 0x0  reg(47, 8) 
+0x401a50: mov edi, eax  reg(45, 0)  reg(56, 3) 
+0x401a52: call 0x400bd0
+accept@plt: 3 0 0 3	accept@plt
+0x400bd0: jmp qword ptr [rip+0x2034e2]
+0x400bd6: push 0x14 
+0x400bdb: jmp 0x400a80
+0x401a57: mov dword ptr [rbp-0x4], eax  reg(56, 4)  mem(7f10c7dbbdfc, c7dbbed000007f10) 
+0x401a5a: cmp dword ptr [rbp-0x4], 0xffffffff  mem(7f10c7dbbdfc, c7dbbed000000004) 
+0x401a5e: jnz 0x401a66
+0x401a66: mov eax, dword ptr [rbp-0x4]  reg(56, 4) 
+0x401a69: mov dword ptr [rip+0x2026b1], eax  reg(56, 4)  mem(604120, ffffffff) 
+0x401a6f: mov word ptr [rip+0x202b10], 0x0  mem(604588, 0) 
+0x401a78: mov word ptr [rip+0x202b09], 0x7  mem(60458a, ff000000000000) 
+0x401a81: mov byte ptr [rbp-0x5], 0x1  mem(7f10c7dbbdfb, dbbed000000004c8) 
+0x401a85: movzx eax, byte ptr [rbp-0x5]  reg(56, 4) 
+0x401a89: leave   mem(7f10c7dbbe00, 7f10c7dbbed0) 
+0x401a8a: ret 
+0x40164c: mov eax, 0x0  reg(56, 1) 
+0x401651: mov ecx, 0x10  reg(55, 3) 
+0x401656: lea rdx, ptr [rbp-0x90]  reg(8, 4) 
+0x40165d: mov rdi, rdx  reg(3, 0)  reg(8, 7f10c7dbbe40) 
+0x401660: cld 
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401664: mov eax, edi  reg(56, 0)  reg(45, 7f10c7dbbec0) 
+0x401666: mov edx, ecx  reg(54, 7f10c7dbbe40)  reg(55, 0) 
+0x401668: mov dword ptr [rbp-0xac], edx  reg(54, 0)  mem(7f10c7dbbe24, 0) 
+0x40166e: mov dword ptr [rbp-0xa8], eax  reg(56, c7dbbec0)  mem(7f10c7dbbe28, 0) 
+0x401674: mov eax, dword ptr [rip+0x202aa6]  reg(56, c7dbbec0) 
+0x40167a: lea edx, ptr [rax+0x3f]  reg(54, 0) 
+0x40167d: test eax, eax  reg(56, 4)  reg(56, 4) 
+0x401682: sar eax, 0x6  reg(56, 4) 
+0x401685: mov esi, eax  reg(47, 0)  reg(56, 0) 
+0x401687: movsxd rax, esi  reg(10, 0)  reg(47, 0) 
+0x40168a: mov rdi, qword ptr [rbp+rax*8-0x90]  reg(3, 7f10c7dbbec0) 
+0x401692: mov eax, dword ptr [rip+0x202a88]  reg(56, 0) 
+0x401698: cdq   reg(54, 43)  reg(56, 4) 
+0x401699: shr edx, 0x1a  reg(54, 0) 
+0x40169c: add eax, edx  reg(56, 4)  reg(54, 0) 
+0x40169e: and eax, 0x3f  reg(56, 4) 
+0x4016a1: sub eax, edx  reg(56, 4)  reg(54, 0) 
+0x4016a3: mov edx, 0x1  reg(54, 0) 
+0x4016a8: mov ecx, eax  reg(55, 0)  reg(56, 4) 
+0x4016aa: shl rdx, cl  reg(8, 1)  reg(30, 4) 
+0x4016ad: mov rax, rdx  reg(10, 4)  reg(8, 10) 
+0x4016b0: or rdi, rax  reg(3, 0)  reg(10, 10) 
+0x4016b3: mov rdx, rdi  reg(8, 10)  reg(3, 10) 
+0x4016b6: movsxd rax, esi  reg(10, 10)  reg(47, 0) 
+0x4016b9: mov qword ptr [rbp+rax*8-0x90], rdx  reg(8, 10)  mem(7f10c7dbbe40, 0) 
+0x4016c1: mov eax, dword ptr [rip+0x202a59]  reg(56, 0) 
+0x4016c7: lea edi, ptr [rax+0x1]  reg(45, 10) 
+0x4016ca: lea rdx, ptr [rbp-0xa0]  reg(8, 10) 
+0x4016d1: lea rax, ptr [rbp-0x90]  reg(10, 4) 
+0x4016d8: mov r8, rdx  reg(11, 0)  reg(8, 7f10c7dbbe30) 
+0x4016db: mov ecx, 0x0  reg(55, 4) 
+0x4016e0: mov edx, 0x0  reg(54, 7f10c7dbbe30) 
+0x4016e5: mov rsi, rax  reg(4, 0)  reg(10, 7f10c7dbbe40) 
+0x4016e8: call 0x400b90
+select@plt: 5 7f10c7dbbe40 0 0	select@plt
+0x400b90: jmp qword ptr [rip+0x203502]
+0x4016ed: mov dword ptr [rbp-0xa4], eax  reg(56, 1)  mem(7f10c7dbbe2c, 0) 
+0x4016f3: cmp dword ptr [rbp-0xa4], 0xffffffff  mem(7f10c7dbbe2c, 1) 
+0x4016fa: jz 0x4018c2
+0x401700: cmp dword ptr [rbp-0xa4], 0x0  mem(7f10c7dbbe2c, 1) 
+0x401707: jz 0x4018c2
+0x40170d: cmp dword ptr [rbp-0xa4], 0x0  mem(7f10c7dbbe2c, 1) 
+0x401714: jle 0x40164c
+0x40171a: mov eax, dword ptr [rip+0x202a00]  reg(56, 1) 
+0x401720: lea edx, ptr [rax+0x3f]  reg(54, 1) 
+0x401723: test eax, eax  reg(56, 4)  reg(56, 4) 
+0x401728: sar eax, 0x6  reg(56, 4) 
+0x40172b: cdqe   reg(10, 0)  reg(56, 0) 
+0x40172d: mov rsi, qword ptr [rbp+rax*8-0x90]  reg(4, 7f10c7dbbe40) 
+0x401735: mov eax, dword ptr [rip+0x2029e5]  reg(56, 0) 
+0x40173b: cdq   reg(54, 43)  reg(56, 4) 
+0x40173c: shr edx, 0x1a  reg(54, 0) 
+0x40173f: add eax, edx  reg(56, 4)  reg(54, 0) 
+0x401741: and eax, 0x3f  reg(56, 4) 
+0x401744: sub eax, edx  reg(56, 4)  reg(54, 0) 
+0x401746: mov edx, 0x1  reg(54, 0) 
+0x40174b: mov ecx, eax  reg(55, 0)  reg(56, 4) 
+0x40174d: shl rdx, cl  reg(8, 1)  reg(30, 4) 
+0x401750: mov rax, rdx  reg(10, 4)  reg(8, 10) 
+0x401753: and rax, rsi  reg(10, 10)  reg(4, 10) 
+0x401756: test rax, rax  reg(10, 10)  reg(10, 10) 
+0x401759: jz 0x40164c
+0x40175f: movzx eax, word ptr [rip+0x202e24]  reg(56, 10) 
+0x401766: movzx edx, ax  reg(54, 10)  reg(29, 7) 
+0x401769: movzx eax, word ptr [rip+0x202e18]  reg(56, 7) 
+0x401770: movzx eax, ax  reg(56, 0)  reg(29, 0) 
+0x401773: cdqe   reg(10, 0)  reg(56, 0) 
+0x401775: lea rsi, ptr [rax+0x604480]  reg(4, 10) 
+0x40177c: mov eax, dword ptr [rip+0x20299e]  reg(56, 0) 
+0x401782: mov ecx, 0x0  reg(55, 4) 
+0x401787: mov edi, eax  reg(45, 0)  reg(56, 4) 
+0x401789: call 0x400a90
+recv@plt: 4 604480 7 0	recv@plt
+0x400a90: jmp qword ptr [rip+0x203582]
+0x400a96: push 0x0 
+0x400a9b: jmp 0x400a80
+recv: 4 604480 7 0	recv
+dlsym@plt: ffffffffffffffff 7f10c8bc0dc2 7 0	dlsym@plt
+fprintf@plt: 7f10c88ee540 7f10c8bc0dc8 4 604480	fprintf@plt
+0x40178e: mov dword ptr [rbp-0xa4], eax  reg(56, 7)  mem(7f10c7dbbe2c, 1) 
+0x401794: cmp dword ptr [rbp-0xa4], 0xffffffff  mem(7f10c7dbbe2c, 7) 
+0x40179b: jz 0x4017a6
+0x40179d: cmp dword ptr [rbp-0xa4], 0x0  mem(7f10c7dbbe2c, 7) 
+0x4017a4: jnz 0x4017c7
+0x4017c7: mov eax, dword ptr [rbp-0xa4]  reg(56, 7) 
+0x4017cd: mov edx, eax  reg(54, 0)  reg(56, 7) 
+0x4017cf: movzx eax, word ptr [rip+0x202db2]  reg(56, 7) 
+0x4017d6: add eax, edx  reg(56, 0)  reg(54, 7) 
+0x4017d8: mov word ptr [rip+0x202da9], ax  reg(29, 7)  mem(604588, 70000) 
+0x4017df: movzx eax, word ptr [rip+0x202da4]  reg(56, 7) 
+0x4017e6: mov edx, dword ptr [rbp-0xa4]  reg(54, 7) 
+0x4017ec: sub eax, edx  reg(56, 7)  reg(54, 7) 
+0x4017ee: mov word ptr [rip+0x202d95], ax  reg(29, 0)  mem(60458a, ff000000000007) 
+0x4017f5: movzx eax, word ptr [rip+0x202d8c]  reg(56, 0) 
+0x4017fc: cmp ax, 0x6  reg(29, 7) 
+0x401800: jbe 0x40164c
+0x401806: movzx eax, byte ptr [rip+0x202c77]  reg(56, 7) 
+0x40180d: movzx eax, al  reg(56, 0)  reg(27, 0) 
+0x401810: shl eax, 0x8  reg(56, 0) 
+0x401813: mov word ptr [rbp-0xb2], ax  reg(29, 0)  mem(7f10c7dbbe1e, 10000) 
+0x40181a: movzx eax, byte ptr [rip+0x202c64]  reg(56, 0) 
+0x401821: movzx eax, al  reg(56, 6)  reg(27, 6) 
+0x401824: or word ptr [rbp-0xb2], ax  reg(29, 6)  mem(7f10c7dbbe1e, 10000) 
+0x40182b: movzx eax, word ptr [rip+0x202d56]  reg(56, 6) 
+0x401832: movzx eax, ax  reg(56, 7)  reg(29, 7) 
+0x401835: movzx edx, word ptr [rbp-0xb2]  reg(54, 7) 
+0x40183c: add edx, 0x6  reg(54, 6) 
+0x40183f: cmp eax, edx  reg(56, 7)  reg(54, c) 
+0x401841: jnl 0x401864
+0x401843: movzx eax, word ptr [rip+0x202d3e]  reg(56, 7) 
+0x40184a: movzx edx, word ptr [rbp-0xb2]  reg(54, c) 
+0x401851: sub edx, eax  reg(54, 6)  reg(56, 7) 
+0x401853: mov eax, edx  reg(56, 7)  reg(54, ffffffff) 
+0x401855: add eax, 0x6  reg(56, ffffffff) 
+0x401858: mov word ptr [rip+0x202d2b], ax  reg(29, 5)  mem(60458a, ff000000000000) 
+0x40185f: jmp 0x40164c
+0x40164c: mov eax, 0x0  reg(56, 5) 
+0x401651: mov ecx, 0x10  reg(55, 1) 
+0x401656: lea rdx, ptr [rbp-0x90]  reg(8, ffffffff) 
+0x40165d: mov rdi, rdx  reg(3, 7f10c7db9610)  reg(8, 7f10c7dbbe40) 
+0x401660: cld 
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401664: mov eax, edi  reg(56, 0)  reg(45, 7f10c7dbbec0) 
+0x401666: mov edx, ecx  reg(54, 7f10c7dbbe40)  reg(55, 0) 
+0x401668: mov dword ptr [rbp-0xac], edx  reg(54, 0)  mem(7f10c7dbbe24, c7dbbec000000000) 
+0x40166e: mov dword ptr [rbp-0xa8], eax  reg(56, c7dbbec0)  mem(7f10c7dbbe28, 7c7dbbec0) 
+0x401674: mov eax, dword ptr [rip+0x202aa6]  reg(56, c7dbbec0) 
+0x40167a: lea edx, ptr [rax+0x3f]  reg(54, 0) 
+0x40167d: test eax, eax  reg(56, 4)  reg(56, 4) 
+0x401682: sar eax, 0x6  reg(56, 4) 
+0x401685: mov esi, eax  reg(47, 0)  reg(56, 0) 
+0x401687: movsxd rax, esi  reg(10, 0)  reg(47, 0) 
+0x40168a: mov rdi, qword ptr [rbp+rax*8-0x90]  reg(3, 7f10c7dbbec0) 
+0x401692: mov eax, dword ptr [rip+0x202a88]  reg(56, 0) 
+0x401698: cdq   reg(54, 43)  reg(56, 4) 
+0x401699: shr edx, 0x1a  reg(54, 0) 
+0x40169c: add eax, edx  reg(56, 4)  reg(54, 0) 
+0x40169e: and eax, 0x3f  reg(56, 4) 
+0x4016a1: sub eax, edx  reg(56, 4)  reg(54, 0) 
+0x4016a3: mov edx, 0x1  reg(54, 0) 
+0x4016a8: mov ecx, eax  reg(55, 0)  reg(56, 4) 
+0x4016aa: shl rdx, cl  reg(8, 1)  reg(30, 4) 
+0x4016ad: mov rax, rdx  reg(10, 4)  reg(8, 10) 
+0x4016b0: or rdi, rax  reg(3, 0)  reg(10, 10) 
+0x4016b3: mov rdx, rdi  reg(8, 10)  reg(3, 10) 
+0x4016b6: movsxd rax, esi  reg(10, 10)  reg(47, 0) 
+0x4016b9: mov qword ptr [rbp+rax*8-0x90], rdx  reg(8, 10)  mem(7f10c7dbbe40, 0) 
+0x4016c1: mov eax, dword ptr [rip+0x202a59]  reg(56, 0) 
+0x4016c7: lea edi, ptr [rax+0x1]  reg(45, 10) 
+0x4016ca: lea rdx, ptr [rbp-0xa0]  reg(8, 10) 
+0x4016d1: lea rax, ptr [rbp-0x90]  reg(10, 4) 
+0x4016d8: mov r8, rdx  reg(11, 7f10c7dbc700)  reg(8, 7f10c7dbbe30) 
+0x4016db: mov ecx, 0x0  reg(55, 4) 
+0x4016e0: mov edx, 0x0  reg(54, 7f10c7dbbe30) 
+0x4016e5: mov rsi, rax  reg(4, 0)  reg(10, 7f10c7dbbe40) 
+0x4016e8: call 0x400b90
+select@plt: 5 7f10c7dbbe40 0 0	select@plt
+0x400b90: jmp qword ptr [rip+0x203502]
+0x4016ed: mov dword ptr [rbp-0xa4], eax  reg(56, 1)  mem(7f10c7dbbe2c, 7) 
+0x4016f3: cmp dword ptr [rbp-0xa4], 0xffffffff  mem(7f10c7dbbe2c, 1) 
+0x4016fa: jz 0x4018c2
+0x401700: cmp dword ptr [rbp-0xa4], 0x0  mem(7f10c7dbbe2c, 1) 
+0x401707: jz 0x4018c2
+0x40170d: cmp dword ptr [rbp-0xa4], 0x0  mem(7f10c7dbbe2c, 1) 
+0x401714: jle 0x40164c
+0x40171a: mov eax, dword ptr [rip+0x202a00]  reg(56, 1) 
+0x401720: lea edx, ptr [rax+0x3f]  reg(54, 1) 
+0x401723: test eax, eax  reg(56, 4)  reg(56, 4) 
+0x401728: sar eax, 0x6  reg(56, 4) 
+0x40172b: cdqe   reg(10, 0)  reg(56, 0) 
+0x40172d: mov rsi, qword ptr [rbp+rax*8-0x90]  reg(4, 7f10c7dbbe40) 
+0x401735: mov eax, dword ptr [rip+0x2029e5]  reg(56, 0) 
+0x40173b: cdq   reg(54, 43)  reg(56, 4) 
+0x40173c: shr edx, 0x1a  reg(54, 0) 
+0x40173f: add eax, edx  reg(56, 4)  reg(54, 0) 
+0x401741: and eax, 0x3f  reg(56, 4) 
+0x401744: sub eax, edx  reg(56, 4)  reg(54, 0) 
+0x401746: mov edx, 0x1  reg(54, 0) 
+0x40174b: mov ecx, eax  reg(55, 0)  reg(56, 4) 
+0x40174d: shl rdx, cl  reg(8, 1)  reg(30, 4) 
+0x401750: mov rax, rdx  reg(10, 4)  reg(8, 10) 
+0x401753: and rax, rsi  reg(10, 10)  reg(4, 10) 
+0x401756: test rax, rax  reg(10, 10)  reg(10, 10) 
+0x401759: jz 0x40164c
+0x40175f: movzx eax, word ptr [rip+0x202e24]  reg(56, 10) 
+0x401766: movzx edx, ax  reg(54, 10)  reg(29, 5) 
+0x401769: movzx eax, word ptr [rip+0x202e18]  reg(56, 5) 
+0x401770: movzx eax, ax  reg(56, 7)  reg(29, 7) 
+0x401773: cdqe   reg(10, 7)  reg(56, 7) 
+0x401775: lea rsi, ptr [rax+0x604480]  reg(4, 10) 
+0x40177c: mov eax, dword ptr [rip+0x20299e]  reg(56, 7) 
+0x401782: mov ecx, 0x0  reg(55, 4) 
+0x401787: mov edi, eax  reg(45, 0)  reg(56, 4) 
+0x401789: call 0x400a90
+recv@plt: 4 604487 5 0	recv@plt
+0x400a90: jmp qword ptr [rip+0x203582]
+recv: 4 604487 5 0	recv
+dlsym@plt: ffffffffffffffff 7f10c8bc0dc2 5 0	dlsym@plt
+fprintf@plt: 7f10c88ee540 7f10c8bc0dc8 4 604487	fprintf@plt
+0x40178e: mov dword ptr [rbp-0xa4], eax  reg(56, 5)  mem(7f10c7dbbe2c, 1) 
+0x401794: cmp dword ptr [rbp-0xa4], 0xffffffff  mem(7f10c7dbbe2c, 5) 
+0x40179b: jz 0x4017a6
+0x40179d: cmp dword ptr [rbp-0xa4], 0x0  mem(7f10c7dbbe2c, 5) 
+0x4017a4: jnz 0x4017c7
+0x4017c7: mov eax, dword ptr [rbp-0xa4]  reg(56, 5) 
+0x4017cd: mov edx, eax  reg(54, 0)  reg(56, 5) 
+0x4017cf: movzx eax, word ptr [rip+0x202db2]  reg(56, 5) 
+0x4017d6: add eax, edx  reg(56, 7)  reg(54, 5) 
+0x4017d8: mov word ptr [rip+0x202da9], ax  reg(29, c)  mem(604588, 50007) 
+0x4017df: movzx eax, word ptr [rip+0x202da4]  reg(56, c) 
+0x4017e6: mov edx, dword ptr [rbp-0xa4]  reg(54, 5) 
+0x4017ec: sub eax, edx  reg(56, 5)  reg(54, 5) 
+0x4017ee: mov word ptr [rip+0x202d95], ax  reg(29, 0)  mem(60458a, ff000000000005) 
+0x4017f5: movzx eax, word ptr [rip+0x202d8c]  reg(56, 0) 
+0x4017fc: cmp ax, 0x6  reg(29, c) 
+0x401800: jbe 0x40164c
+0x401806: movzx eax, byte ptr [rip+0x202c77]  reg(56, c) 
+0x40180d: movzx eax, al  reg(56, 0)  reg(27, 0) 
+0x401810: shl eax, 0x8  reg(56, 0) 
+0x401813: mov word ptr [rbp-0xb2], ax  reg(29, 0)  mem(7f10c7dbbe1e, 10006) 
+0x40181a: movzx eax, byte ptr [rip+0x202c64]  reg(56, 0) 
+0x401821: movzx eax, al  reg(56, 6)  reg(27, 6) 
+0x401824: or word ptr [rbp-0xb2], ax  reg(29, 6)  mem(7f10c7dbbe1e, 10000) 
+0x40182b: movzx eax, word ptr [rip+0x202d56]  reg(56, 6) 
+0x401832: movzx eax, ax  reg(56, c)  reg(29, c) 
+0x401835: movzx edx, word ptr [rbp-0xb2]  reg(54, 5) 
+0x40183c: add edx, 0x6  reg(54, 6) 
+0x40183f: cmp eax, edx  reg(56, c)  reg(54, c) 
+0x401841: jnl 0x401864
+0x401864: movzx eax, word ptr [rip+0x202d1d]  reg(56, c) 
+0x40186b: movzx eax, ax  reg(56, c)  reg(29, c) 
+0x40186e: movzx edx, word ptr [rbp-0xb2]  reg(54, c) 
+0x401875: add edx, 0x6  reg(54, 6) 
+0x401878: cmp eax, edx  reg(56, c)  reg(54, c) 
+0x40187a: jnz 0x40188d
+0x40187c: mov edi, 0x1  reg(45, 7f10c7db9610) 
+0x401881: call 0x401329
+xMBPortEventPost: 1 0 c 1	xMBPortEventPost
+0x401329: push rbp
+0x40132a: mov rbp, rsp
+0x40132d: mov dword ptr [rbp-0x4], edi  reg(45, 1)  mem(7f10c7dbbdfc, c7dbbed000000000) 
+0x401330: mov byte ptr [rip+0x2030b9], 0x1  mem(6043f0, 0) 
+0x401337: mov eax, dword ptr [rbp-0x4]  reg(56, c) 
+0x40133a: mov dword ptr [rip+0x2030ac], eax  reg(56, 1)  mem(6043ec, 100000000) 
+0x401340: mov eax, 0x1  reg(56, 1) 
+0x401345: pop rbp
+0x401346: ret 
+0x401886: mov eax, 0x1  reg(56, 1) 
+0x40188b: jmp 0x4018c8
+0x4018c8: mov rsi, qword ptr [rbp-0x8]  reg(4, 0) 
+0x4018cc: xor rsi, qword ptr fs:[0x28]  reg(4, 50de10c99fb74600) 
+0x4018d5: jz 0x4018dc
+0x4018dc: leave   mem(7f10c7dbbed0, 7f10c7dbbf00) 
+0x4018dd: ret 
+0x401380: movzx eax, byte ptr [rbp-0x1]  reg(56, 1) 
+0x401384: leave   mem(7f10c7dbbf00, 7f10c7dbbf30) 
+0x401385: ret 
+0x401dcb: cmp al, 0x1  reg(27, 0) 
+0x401dcd: jnz 0x401f78
+0x401f78: mov eax, 0x0  reg(56, 0) 
+0x401f7d: mov rsi, qword ptr [rbp-0x8]  reg(4, 0) 
+0x401f81: xor rsi, qword ptr fs:[0x28]  reg(4, 50de10c99fb74600) 
+0x401f8a: jz 0x401f91
+0x401f91: leave   mem(7f10c7dbbf30, 7f10c7dbbf50) 
+0x401f92: ret 
+0x400f55: test eax, eax  reg(56, 0)  reg(56, 0) 
+0x400f57: jnz 0x400f65
+0x400f59: call 0x400f7c
+eGetPollingThreadState: 1 0 c 1	eGetPollingThreadState
+0x400f7c: push rbp
+0x400f7d: mov rbp, rsp
+0x400f80: sub rsp, 0x10
+0x400f84: mov edi, 0x6043c0  reg(45, 1) 
+0x400f89: call 0x400bf0
+pthread_mutex_lock@plt: 6043c0 0 c 1	pthread_mutex_lock@plt
+0x400bf0: jmp qword ptr [rip+0x2034d2]
+0x400f8e: mov eax, dword ptr [rip+0x203454]  reg(56, 0) 
+0x400f94: mov dword ptr [rbp-0x4], eax  reg(56, 1)  mem(7f10c7dbbf2c, c7dbbf5050de10c9) 
+0x400f97: mov edi, 0x6043c0  reg(45, 1) 
+0x400f9c: call 0x400ba0
+pthread_mutex_unlock@plt: 6043c0 0 0 0	pthread_mutex_unlock@plt
+0x400ba0: jmp qword ptr [rip+0x2034fa]
+0x400fa1: mov eax, dword ptr [rbp-0x4]  reg(56, 0) 
+0x400fa4: leave   mem(7f10c7dbbf30, 7f10c7dbbf50) 
+0x400fa5: ret 
+0x400f5e: cmp eax, 0x2  reg(56, 1) 
+0x400f61: jnz 0x400f50
+0x400f50: call 0x401d8d
+eMBPoll: 6043c0 0 6043c0 0	eMBPoll
+0x401d8d: push rbp
+0x401d8e: mov rbp, rsp
+0x401d91: sub rsp, 0x20
+0x401d95: mov rax, qword ptr fs:[0x28]  reg(10, 1) 
+0x401d9e: mov qword ptr [rbp-0x8], rax  reg(10, 50de10c99fb74600)  mem(7f10c7dbbf28, 19fb74600) 
+0x401da2: xor eax, eax  reg(56, 50de10c99fb74600)  reg(56, 50de10c99fb74600) 
+0x401da4: mov dword ptr [rbp-0xc], 0x0  mem(7f10c7dbbf24, 9fb7460000000000) 
+0x401dab: mov eax, dword ptr [rip+0x20238f]  reg(56, 0) 
+0x401db1: test eax, eax  reg(56, 0)  reg(56, 0) 
+0x401db3: jz 0x401dbf
+0x401dbf: lea rax, ptr [rbp-0x14]  reg(10, 0) 
+0x401dc3: mov rdi, rax  reg(3, 6043c0)  reg(10, 7f10c7dbbf1c) 
+0x401dc6: call 0x401347
+xMBPortEventGet: 7f10c7dbbf1c 0 6043c0 0	xMBPortEventGet
+0x401347: push rbp
+0x401348: mov rbp, rsp
+0x40134b: sub rsp, 0x20
+0x40134f: mov qword ptr [rbp-0x18], rdi  reg(3, 7f10c7dbbf1c)  mem(7f10c7dbbee8, 7f10c7dbbf1c) 
+0x401353: mov byte ptr [rbp-0x1], 0x0  mem(7f10c7dbbeff, 7f10c7dbbf3000) 
+0x401357: movzx eax, byte ptr [rip+0x203092]  reg(56, 7f10c7dbbf1c) 
+0x40135e: test al, al  reg(27, 1)  reg(27, 1) 
+0x401360: jz 0x40137b
+0x401362: mov edx, dword ptr [rip+0x203084]  reg(54, 6043c0) 
+0x401368: mov rax, qword ptr [rbp-0x18]  reg(10, 1) 
+0x40136c: mov dword ptr [rax], edx  reg(54, 1)  mem(7f10c7dbbf1c, c7dbbf7000000000) 
+0x40136e: mov byte ptr [rip+0x20307b], 0x0  mem(6043f0, 1) 
+0x401375: mov byte ptr [rbp-0x1], 0x1  mem(7f10c7dbbeff, 7f10c7dbbf3000) 
+0x401379: jmp 0x401380
+0x401380: movzx eax, byte ptr [rbp-0x1]  reg(56, 7f10c7dbbf1c) 
+0x401384: leave   mem(7f10c7dbbf00, 7f10c7dbbf30) 
+0x401385: ret 
+0x401dcb: cmp al, 0x1  reg(27, 1) 
+0x401dcd: jnz 0x401f78
+0x401dd3: mov eax, dword ptr [rbp-0x14]  reg(56, 1) 
+0x401dd6: cmp eax, 0x1  reg(56, 1) 
+0x401dd9: jz 0x401df1
+0x401df1: mov rax, qword ptr [rip+0x2027b8]  reg(10, 1) 
+0x401df8: mov edx, 0x6045d0  reg(54, 1) 
+0x401dfd: mov esi, 0x6045c8  reg(47, 0) 
+0x401e02: mov edi, 0x6045c0  reg(45, 7f10c7dbbf1c) 
+0x401e07: call rax
+eMBTCPReceive: 6045c0 6045c8 6045d0 0	eMBTCPReceive
+0x401fd6: push rbp
+0x401fd7: mov rbp, rsp
+0x401fda: sub rsp, 0x40
+0x401fde: mov qword ptr [rbp-0x28], rdi  reg(3, 6045c0)  mem(7f10c7dbbed8, 401380) 
+0x401fe2: mov qword ptr [rbp-0x30], rsi  reg(4, 6045c8)  mem(7f10c7dbbed0, 7f10c7dbbf00) 
+0x401fe6: mov qword ptr [rbp-0x38], rdx  reg(8, 6045d0)  mem(7f10c7dbbec8, 50de10c99fb74600) 
+0x401fea: mov rax, qword ptr fs:[0x28]  reg(10, 401fd6) 
+0x401ff3: mov qword ptr [rbp-0x8], rax  reg(10, 50de10c99fb74600)  mem(7f10c7dbbef8, 100000000000000) 
+0x401ff7: xor eax, eax  reg(56, 50de10c99fb74600)  reg(56, 50de10c99fb74600) 
+0x401ff9: mov dword ptr [rbp-0x14], 0x5  mem(7f10c7dbbeec, 7f10) 
+0x402000: lea rdx, ptr [rbp-0x18]  reg(8, 6045d0) 
+0x402004: lea rax, ptr [rbp-0x10]  reg(10, 0) 
+0x402008: mov rsi, rdx  reg(4, 6045c8)  reg(8, 7f10c7dbbee8) 
+0x40200b: mov rdi, rax  reg(3, 6045c0)  reg(10, 7f10c7dbbef0) 
+0x40200e: call 0x4018de
+xMBTCPPortGetRequest: 7f10c7dbbef0 7f10c7dbbee8 7f10c7dbbee8 0	xMBTCPPortGetRequest
+0x4018de: push rbp
+0x4018df: mov rbp, rsp
+0x4018e2: mov qword ptr [rbp-0x8], rdi  reg(3, 7f10c7dbbef0)  mem(7f10c7dbbea8, 0) 
+0x4018e6: mov qword ptr [rbp-0x10], rsi  reg(4, 7f10c7dbbee8)  mem(7f10c7dbbea0, 0) 
+0x4018ea: mov rax, qword ptr [rbp-0x8]  reg(10, 7f10c7dbbef0) 
+0x4018ee: mov qword ptr [rax], 0x604480  mem(7f10c7dbbef0, 0) 
+0x4018f5: movzx edx, word ptr [rip+0x202c8c]  reg(54, 7f10c7dbbee8) 
+0x4018fc: mov rax, qword ptr [rbp-0x10]  reg(10, 7f10c7dbbef0) 
+0x401900: mov word ptr [rax], dx  reg(35, c)  mem(7f10c7dbbee8, 5c7dbbf1c) 
+0x401903: mov word ptr [rip+0x202c7c], 0x0  mem(604588, c) 
+0x40190c: mov word ptr [rip+0x202c75], 0x7  mem(60458a, ff000000000000) 
+0x401915: mov eax, 0x1  reg(56, 7f10c7dbbee8) 
+0x40191a: pop rbp
+0x40191b: ret 
+0x402013: test al, al  reg(27, 1)  reg(27, 1) 
+0x402015: jz 0x402072
+0x402017: mov rax, qword ptr [rbp-0x10]  reg(10, 1) 
+0x40201b: add rax, 0x2  reg(10, 604480) 
+0x40201f: movzx eax, byte ptr [rax]  reg(56, 604482) 
+0x402022: movzx eax, al  reg(56, 0)  reg(27, 0) 
+0x402025: shl eax, 0x8  reg(56, 0) 
+0x402028: mov word ptr [rbp-0x16], ax  reg(29, 0)  mem(7f10c7dbbeea, 448000000005c7db) 
+0x40202c: mov rax, qword ptr [rbp-0x10]  reg(10, 0) 
+0x402030: add rax, 0x3  reg(10, 604480) 
+0x402034: movzx eax, byte ptr [rax]  reg(56, 604483) 
+0x402037: movzx eax, al  reg(56, 0)  reg(27, 0) 
+0x40203a: or word ptr [rbp-0x16], ax  reg(29, 0)  mem(7f10c7dbbeea, 4480000000050000) 
+0x40203e: cmp word ptr [rbp-0x16], 0x0  mem(7f10c7dbbeea, 4480000000050000) 
+0x402043: jnz 0x402079
+0x402045: mov rax, qword ptr [rbp-0x10]  reg(10, 0) 
+0x402049: lea rdx, ptr [rax+0x7]  reg(8, c) 
+0x40204d: mov rax, qword ptr [rbp-0x30]  reg(10, 604480) 
+0x402051: mov qword ptr [rax], rdx  reg(8, 604487)  mem(6045c8, 0) 
+0x402054: movzx eax, word ptr [rbp-0x18]  reg(56, 6045c8) 
+0x402058: lea edx, ptr [rax-0x7]  reg(54, 604487) 
+0x40205b: mov rax, qword ptr [rbp-0x38]  reg(10, c) 
+0x40205f: mov word ptr [rax], dx  reg(35, 5)  mem(6045d0, 0) 
+0x402062: mov dword ptr [rbp-0x14], 0x0  mem(7f10c7dbbeec, 60448000000005) 
+0x402069: mov rax, qword ptr [rbp-0x28]  reg(10, 6045d0) 
+0x40206d: mov byte ptr [rax], 0xff  mem(6045c0, 0) 
+0x402070: jmp 0x402079
+0x402079: mov eax, dword ptr [rbp-0x14]  reg(56, 6045c0) 
+0x40207c: mov rcx, qword ptr [rbp-0x8]  reg(9, 0) 
+0x402080: xor rcx, qword ptr fs:[0x28]  reg(9, 50de10c99fb74600) 
+0x402089: jz 0x402090
+0x402090: leave   mem(7f10c7dbbf00, 7f10c7dbbf30) 
+0x402091: ret 
+0x401e09: mov dword ptr [rbp-0xc], eax  reg(56, 0)  mem(7f10c7dbbf24, 9fb7460000000000) 
+0x401e0c: cmp dword ptr [rbp-0xc], 0x0  mem(7f10c7dbbf24, 9fb7460000000000) 
+0x401e10: jnz 0x401f74
+0x401e16: movzx edx, byte ptr [rip+0x2027a3]  reg(54, 5) 
+0x401e1d: movzx eax, byte ptr [rip+0x20276c]  reg(56, 0) 
+0x401e24: cmp dl, al  reg(33, ff)  reg(27, ff) 
+0x401e26: jz 0x401e37
+0x401e37: mov edi, 0x2  reg(45, 7f10c7dbbef0) 
+0x401e3c: call 0x401329
+xMBPortEventPost: 2 7f10c7dbbee8 ff 0	xMBPortEventPost
+0x401329: push rbp
+0x40132a: mov rbp, rsp
+0x40132d: mov dword ptr [rbp-0x4], edi  reg(45, 2)  mem(7f10c7dbbefc, c7dbbf3050de10c9) 
+0x401330: mov byte ptr [rip+0x2030b9], 0x1  mem(6043f0, 0) 
+0x401337: mov eax, dword ptr [rbp-0x4]  reg(56, ff) 
+0x40133a: mov dword ptr [rip+0x2030ac], eax  reg(56, 2)  mem(6043ec, 100000001) 
+0x401340: mov eax, 0x1  reg(56, 2) 
+0x401345: pop rbp
+0x401346: ret 
+0x401e41: jmp 0x401f74
+0x401f74: nop 
+0x401f75: jmp 0x401f78
+0x401f78: mov eax, 0x0  reg(56, 1) 
+0x401f7d: mov rsi, qword ptr [rbp-0x8]  reg(4, 7f10c7dbbee8) 
+0x401f81: xor rsi, qword ptr fs:[0x28]  reg(4, 50de10c99fb74600) 
+0x401f8a: jz 0x401f91
+0x401f91: leave   mem(7f10c7dbbf30, 7f10c7dbbf50) 
+0x401f92: ret 
+0x400f55: test eax, eax  reg(56, 0)  reg(56, 0) 
+0x400f57: jnz 0x400f65
+0x400f59: call 0x400f7c
+eGetPollingThreadState: 2 0 ff 0	eGetPollingThreadState
+0x400f7c: push rbp
+0x400f7d: mov rbp, rsp
+0x400f80: sub rsp, 0x10
+0x400f84: mov edi, 0x6043c0  reg(45, 2) 
+0x400f89: call 0x400bf0
+pthread_mutex_lock@plt: 6043c0 0 ff 0	pthread_mutex_lock@plt
+0x400bf0: jmp qword ptr [rip+0x2034d2]
+0x400f8e: mov eax, dword ptr [rip+0x203454]  reg(56, 0) 
+0x400f94: mov dword ptr [rbp-0x4], eax  reg(56, 1)  mem(7f10c7dbbf2c, c7dbbf5050de10c9) 
+0x400f97: mov edi, 0x6043c0  reg(45, 1) 
+0x400f9c: call 0x400ba0
+pthread_mutex_unlock@plt: 6043c0 0 0 0	pthread_mutex_unlock@plt
+0x400ba0: jmp qword ptr [rip+0x2034fa]
+0x400fa1: mov eax, dword ptr [rbp-0x4]  reg(56, 0) 
+0x400fa4: leave   mem(7f10c7dbbf30, 7f10c7dbbf50) 
+0x400fa5: ret 
+0x400f5e: cmp eax, 0x2  reg(56, 1) 
+0x400f61: jnz 0x400f50
+0x400f50: call 0x401d8d
+eMBPoll: 6043c0 0 6043c0 0	eMBPoll
+0x401d8d: push rbp
+0x401d8e: mov rbp, rsp
+0x401d91: sub rsp, 0x20
+0x401d95: mov rax, qword ptr fs:[0x28]  reg(10, 1) 
+0x401d9e: mov qword ptr [rbp-0x8], rax  reg(10, 50de10c99fb74600)  mem(7f10c7dbbf28, 19fb74600) 
+0x401da2: xor eax, eax  reg(56, 50de10c99fb74600)  reg(56, 50de10c99fb74600) 
+0x401da4: mov dword ptr [rbp-0xc], 0x0  mem(7f10c7dbbf24, 9fb7460000000000) 
+0x401dab: mov eax, dword ptr [rip+0x20238f]  reg(56, 0) 
+0x401db1: test eax, eax  reg(56, 0)  reg(56, 0) 
+0x401db3: jz 0x401dbf
+0x401dbf: lea rax, ptr [rbp-0x14]  reg(10, 0) 
+0x401dc3: mov rdi, rax  reg(3, 6043c0)  reg(10, 7f10c7dbbf1c) 
+0x401dc6: call 0x401347
+xMBPortEventGet: 7f10c7dbbf1c 0 6043c0 0	xMBPortEventGet
+0x401347: push rbp
+0x401348: mov rbp, rsp
+0x40134b: sub rsp, 0x20
+0x40134f: mov qword ptr [rbp-0x18], rdi  reg(3, 7f10c7dbbf1c)  mem(7f10c7dbbee8, c) 
+0x401353: mov byte ptr [rbp-0x1], 0x0  mem(7f10c7dbbeff, 7f10c7dbbf3000) 
+0x401357: movzx eax, byte ptr [rip+0x203092]  reg(56, 7f10c7dbbf1c) 
+0x40135e: test al, al  reg(27, 1)  reg(27, 1) 
+0x401360: jz 0x40137b
+0x401362: mov edx, dword ptr [rip+0x203084]  reg(54, 6043c0) 
+0x401368: mov rax, qword ptr [rbp-0x18]  reg(10, 1) 
+0x40136c: mov dword ptr [rax], edx  reg(54, 2)  mem(7f10c7dbbf1c, c7dbbf7000000000) 
+0x40136e: mov byte ptr [rip+0x20307b], 0x0  mem(6043f0, 1) 
+0x401375: mov byte ptr [rbp-0x1], 0x1  mem(7f10c7dbbeff, 7f10c7dbbf3000) 
+0x401379: jmp 0x401380
+0x401380: movzx eax, byte ptr [rbp-0x1]  reg(56, 7f10c7dbbf1c) 
+0x401384: leave   mem(7f10c7dbbf00, 7f10c7dbbf30) 
+0x401385: ret 
+0x401dcb: cmp al, 0x1  reg(27, 1) 
+0x401dcd: jnz 0x401f78
+0x401dd3: mov eax, dword ptr [rbp-0x14]  reg(56, 1) 
+0x401dd6: cmp eax, 0x1  reg(56, 2) 
+0x401dd9: jz 0x401df1
+0x401ddb: cmp eax, 0x1  reg(56, 2) 
+0x401dde: jb 0x401f71
+0x401de4: cmp eax, 0x2  reg(56, 2) 
+0x401de7: jz 0x401e46
+0x401e46: mov rax, qword ptr [rip+0x20277b]  reg(10, 2) 
+0x401e4d: movzx eax, byte ptr [rax]  reg(56, 604487) 
+0x401e50: mov byte ptr [rip+0x20277c], al  reg(27, 3)  mem(6045d2, 0) 
+0x401e56: mov dword ptr [rip+0x202774], 0x1  mem(6045d4, 0) 
+0x401e60: mov dword ptr [rbp-0x10], 0x0  mem(7f10c7dbbf20, c7dbbf70) 
+0x401e67: jmp 0x401ecb
+0x401ecb: cmp dword ptr [rbp-0x10], 0xf  mem(7f10c7dbbf20, 0) 
+0x401ecf: jle 0x401e69
+0x401e69: mov eax, dword ptr [rbp-0x10]  reg(56, 3) 
+0x401e6c: cdqe   reg(10, 0)  reg(56, 0) 
+0x401e6e: shl rax, 0x4  reg(10, 0) 
+0x401e72: add rax, 0x604160  reg(10, 0) 
+0x401e78: movzx eax, byte ptr [rax]  reg(56, 604160) 
+0x401e7b: test al, al  reg(27, 11)  reg(27, 11) 
+0x401e7d: jz 0x401ed3
+0x401e7f: mov eax, dword ptr [rbp-0x10]  reg(56, 11) 
+0x401e82: cdqe   reg(10, 0)  reg(56, 0) 
+0x401e84: shl rax, 0x4  reg(10, 0) 
+0x401e88: add rax, 0x604160  reg(10, 0) 
+0x401e8e: movzx edx, byte ptr [rax]  reg(54, 2) 
+0x401e91: movzx eax, byte ptr [rip+0x20273a]  reg(56, 604160) 
+0x401e98: cmp dl, al  reg(33, 11)  reg(27, 3) 
+0x401e9a: jnz 0x401ec7
+0x401ec7: add dword ptr [rbp-0x10], 0x1  mem(7f10c7dbbf20, 0) 
+0x401ecb: cmp dword ptr [rbp-0x10], 0xf  mem(7f10c7dbbf20, 1) 
+0x401ecf: jle 0x401e69
+0x401e69: mov eax, dword ptr [rbp-0x10]  reg(56, 3) 
+0x401e6c: cdqe   reg(10, 1)  reg(56, 1) 
+0x401e6e: shl rax, 0x4  reg(10, 1) 
+0x401e72: add rax, 0x604160  reg(10, 10) 
+0x401e78: movzx eax, byte ptr [rax]  reg(56, 604170) 
+0x401e7b: test al, al  reg(27, 4)  reg(27, 4) 
+0x401e7d: jz 0x401ed3
+0x401e7f: mov eax, dword ptr [rbp-0x10]  reg(56, 4) 
+0x401e82: cdqe   reg(10, 1)  reg(56, 1) 
+0x401e84: shl rax, 0x4  reg(10, 1) 
+0x401e88: add rax, 0x604160  reg(10, 10) 
+0x401e8e: movzx edx, byte ptr [rax]  reg(54, 11) 
+0x401e91: movzx eax, byte ptr [rip+0x20273a]  reg(56, 604170) 
+0x401e98: cmp dl, al  reg(33, 4)  reg(27, 3) 
+0x401e9a: jnz 0x401ec7
+0x401ec7: add dword ptr [rbp-0x10], 0x1  mem(7f10c7dbbf20, 1) 
+0x401ecb: cmp dword ptr [rbp-0x10], 0xf  mem(7f10c7dbbf20, 2) 
+0x401ecf: jle 0x401e69
+0x401e69: mov eax, dword ptr [rbp-0x10]  reg(56, 3) 
+0x401e6c: cdqe   reg(10, 2)  reg(56, 2) 
+0x401e6e: shl rax, 0x4  reg(10, 2) 
+0x401e72: add rax, 0x604160  reg(10, 20) 
+0x401e78: movzx eax, byte ptr [rax]  reg(56, 604180) 
+0x401e7b: test al, al  reg(27, 3)  reg(27, 3) 
+0x401e7d: jz 0x401ed3
+0x401e7f: mov eax, dword ptr [rbp-0x10]  reg(56, 3) 
+0x401e82: cdqe   reg(10, 2)  reg(56, 2) 
+0x401e84: shl rax, 0x4  reg(10, 2) 
+0x401e88: add rax, 0x604160  reg(10, 20) 
+0x401e8e: movzx edx, byte ptr [rax]  reg(54, 4) 
+0x401e91: movzx eax, byte ptr [rip+0x20273a]  reg(56, 604180) 
+0x401e98: cmp dl, al  reg(33, 3)  reg(27, 3) 
+0x401e9a: jnz 0x401ec7
+0x401e9c: mov eax, dword ptr [rbp-0x10]  reg(56, 3) 
+0x401e9f: cdqe   reg(10, 2)  reg(56, 2) 
+0x401ea1: shl rax, 0x4  reg(10, 2) 
+0x401ea5: add rax, 0x604168  reg(10, 20) 
+0x401eab: mov rax, qword ptr [rax]  reg(10, 604188) 
+0x401eae: mov rdx, qword ptr [rip+0x202713]  reg(8, 3) 
+0x401eb5: mov esi, 0x6045d0  reg(47, 0) 
+0x401eba: mov rdi, rdx  reg(3, 7f10c7dbbf1c)  reg(8, 604487) 
+0x401ebd: call rax
+eMBFuncReadHoldingRegister: 604487 6045d0 604487 0	eMBFuncReadHoldingRegister
+0x402638: push rbp
+0x402639: mov rbp, rsp
+0x40263c: sub rsp, 0x30
+0x402640: mov qword ptr [rbp-0x28], rdi  reg(3, 604487)  mem(7f10c7dbbed8, 6045c0) 
+0x402644: mov qword ptr [rbp-0x30], rsi  reg(4, 6045d0)  mem(7f10c7dbbed0, 6045c8) 
+0x402648: mov dword ptr [rbp-0x10], 0x0  mem(7f10c7dbbef0, 604480) 
+0x40264f: mov rax, qword ptr [rbp-0x30]  reg(10, 402638) 
+0x402653: movzx eax, word ptr [rax]  reg(56, 6045d0) 
+0x402656: cmp ax, 0x5  reg(29, 5) 
+0x40265a: jnz 0x402777
+0x402660: mov rax, qword ptr [rbp-0x28]  reg(10, 5) 
+0x402664: add rax, 0x1  reg(10, 604487) 
+0x402668: movzx eax, byte ptr [rax]  reg(56, 604488) 
+0x40266b: movzx eax, al  reg(56, 0)  reg(27, 0) 
+0x40266e: shl eax, 0x8  reg(56, 0) 
+0x402671: mov word ptr [rbp-0x14], ax  reg(29, 0)  mem(7f10c7dbbeec, 7f10) 
+0x402675: mov rax, qword ptr [rbp-0x28]  reg(10, 0) 
+0x402679: add rax, 0x2  reg(10, 604487) 
+0x40267d: movzx eax, byte ptr [rax]  reg(56, 604489) 
+0x402680: movzx eax, al  reg(56, 2)  reg(27, 2) 
+0x402683: or word ptr [rbp-0x14], ax  reg(29, 2)  mem(7f10c7dbbeec, 0) 
+0x402687: movzx eax, word ptr [rbp-0x14]  reg(56, 2) 
+0x40268b: add eax, 0x1  reg(56, 2) 
+0x40268e: mov word ptr [rbp-0x14], ax  reg(29, 3)  mem(7f10c7dbbeec, 2) 
+0x402692: mov rax, qword ptr [rbp-0x28]  reg(10, 3) 
+0x402696: add rax, 0x3  reg(10, 604487) 
+0x40269a: movzx eax, byte ptr [rax]  reg(56, 60448a) 
+0x40269d: movzx eax, al  reg(56, 0)  reg(27, 0) 
+0x4026a0: shl eax, 0x8  reg(56, 0) 
+0x4026a3: mov word ptr [rbp-0x12], ax  reg(29, 0)  mem(7f10c7dbbeee, 0) 
+0x4026a7: mov rax, qword ptr [rbp-0x28]  reg(10, 0) 
+0x4026ab: add rax, 0x4  reg(10, 604487) 
+0x4026af: movzx eax, byte ptr [rax]  reg(56, 60448b) 
+0x4026b2: movzx eax, al  reg(56, 8)  reg(27, 8) 
+0x4026b5: or word ptr [rbp-0x12], ax  reg(29, 8)  mem(7f10c7dbbeee, 0) 
+0x4026b9: cmp word ptr [rbp-0x12], 0x0  mem(7f10c7dbbeee, 8) 
+0x4026be: jz 0x40276e
+0x4026c4: cmp word ptr [rbp-0x12], 0x7d  mem(7f10c7dbbeee, 8) 
+0x4026c9: jnbe 0x40276e
+0x4026cf: mov rax, qword ptr [rbp-0x28]  reg(10, 8) 
+0x4026d3: mov qword ptr [rbp-0x8], rax  reg(10, 604487)  mem(7f10c7dbbef8, 10000029fb74600) 
+0x4026d7: mov rax, qword ptr [rbp-0x30]  reg(10, 604487) 
+0x4026db: mov word ptr [rax], 0x0  mem(6045d0, 100030005) 
+0x4026e0: mov rax, qword ptr [rbp-0x8]  reg(10, 6045d0) 
+0x4026e4: lea rdx, ptr [rax+0x1]  reg(8, 604487) 
+0x4026e8: mov qword ptr [rbp-0x8], rdx  reg(8, 604488)  mem(7f10c7dbbef8, 604487) 
+0x4026ec: mov byte ptr [rax], 0x3  mem(604487, 800020003) 
+0x4026ef: mov rax, qword ptr [rbp-0x30]  reg(10, 604487) 
+0x4026f3: movzx eax, word ptr [rax]  reg(56, 6045d0) 
+0x4026f6: lea edx, ptr [rax+0x1]  reg(54, 604488) 
+0x4026f9: mov rax, qword ptr [rbp-0x30]  reg(10, 0) 
+0x4026fd: mov word ptr [rax], dx  reg(35, 1)  mem(6045d0, 100030000) 
+0x402700: mov rax, qword ptr [rbp-0x8]  reg(10, 6045d0) 
+0x402704: lea rdx, ptr [rax+0x1]  reg(8, 1) 
+0x402708: mov qword ptr [rbp-0x8], rdx  reg(8, 604489)  mem(7f10c7dbbef8, 604488) 
+0x40270c: movzx edx, word ptr [rbp-0x12]  reg(54, 604489) 
+0x402710: add edx, edx  reg(54, 8)  reg(54, 8) 
+0x402712: mov byte ptr [rax], dl  reg(33, 10)  mem(604488, 8000200) 
+0x402714: mov rax, qword ptr [rbp-0x30]  reg(10, 604488) 
+0x402718: movzx eax, word ptr [rax]  reg(56, 6045d0) 
+0x40271b: lea edx, ptr [rax+0x1]  reg(54, 10) 
+0x40271e: mov rax, qword ptr [rbp-0x30]  reg(10, 1) 
+0x402722: mov word ptr [rax], dx  reg(35, 2)  mem(6045d0, 100030001) 
+0x402725: movzx edx, word ptr [rbp-0x12]  reg(54, 2) 
+0x402729: movzx esi, word ptr [rbp-0x14]  reg(47, 6045d0) 
+0x40272d: mov rax, qword ptr [rbp-0x8]  reg(10, 6045d0) 
+0x402731: mov ecx, 0x0  reg(55, 0) 
+0x402736: mov rdi, rax  reg(3, 604487)  reg(10, 604489) 
+0x402739: call 0x40107c
+eMBRegHoldingCB: 604489 3 8 0	eMBRegHoldingCB
+0x40107c: push rbp
+0x40107d: mov rbp, rsp
+0x401080: mov qword ptr [rbp-0x18], rdi  reg(3, 604489)  mem(7f10c7dbbea8, 7f10c7dbbef0) 
+0x401084: mov eax, edx  reg(56, 604489)  reg(54, 8) 
+0x401086: mov dword ptr [rbp-0x24], ecx  reg(55, 0)  mem(7f10c7dbbe9c, c7dbbee800000000) 
+0x401089: mov word ptr [rbp-0x1c], si  reg(40, 3)  mem(7f10c7dbbea4, 60448900007f10) 
+0x40108d: mov word ptr [rbp-0x20], ax  reg(29, 8)  mem(7f10c7dbbea0, 3c7dbbee8) 
+0x401091: mov dword ptr [rbp-0x8], 0x0  mem(7f10c7dbbeb8, 402013) 
+0x401098: movzx edx, word ptr [rbp-0x1c]  reg(54, 8) 
+0x40109c: movzx eax, word ptr [rbp-0x20]  reg(56, 8) 
+0x4010a0: add eax, edx  reg(56, 8)  reg(54, 3) 
+0x4010a2: cmp eax, 0x82  reg(56, b) 
+0x4010a7: jnle 0x401195
+0x4010ad: movzx edx, word ptr [rbp-0x1c]  reg(54, 3) 
+0x4010b1: movzx eax, word ptr [rip+0x2031d0]  reg(56, b) 
+0x4010b8: movzx eax, ax  reg(56, 0)  reg(29, 0) 
+0x4010bb: sub edx, eax  reg(54, 3)  reg(56, 0) 
+0x4010bd: mov eax, edx  reg(56, 0)  reg(54, 3) 
+0x4010bf: mov dword ptr [rbp-0x4], eax  reg(56, 3)  mem(7f10c7dbbebc, c7dbbf0000000000) 
+0x4010c2: mov eax, dword ptr [rbp-0x24]  reg(56, 3) 
+0x4010c5: test eax, eax  reg(56, 0)  reg(56, 0) 
+0x4010c7: jz 0x401122
+0x401122: cmp word ptr [rbp-0x20], 0x0  mem(7f10c7dbbea0, 3c7db0008) 
+0x401127: jnz 0x4010d7
+0x4010d7: mov rax, qword ptr [rbp-0x18]  reg(10, 0) 
+0x4010db: lea rdx, ptr [rax+0x1]  reg(8, 3) 
+0x4010df: mov qword ptr [rbp-0x18], rdx  reg(8, 60448a)  mem(7f10c7dbbea8, 604489) 
+0x4010e3: mov edx, dword ptr [rbp-0x4]  reg(54, 60448a) 
+0x4010e6: movsxd rdx, edx  reg(8, 3)  reg(54, 3) 
+0x4010e9: movzx edx, word ptr [rdx+rdx*1+0x6042a0]  reg(54, 3) 
+0x4010f1: shr dx, 0x8  reg(35, 0) 
+0x4010f5: mov byte ptr [rax], dl  reg(33, 0)  mem(604489, 80002) 
+0x4010f7: mov rax, qword ptr [rbp-0x18]  reg(10, 604489) 
+0x4010fb: lea rdx, ptr [rax+0x1]  reg(8, 0) 
+0x4010ff: mov qword ptr [rbp-0x18], rdx  reg(8, 60448b)  mem(7f10c7dbbea8, 60448a) 
+0x401103: mov edx, dword ptr [rbp-0x4]  reg(54, 60448b) 
+0x401106: movsxd rdx, edx  reg(8, 3)  reg(54, 3) 
+0x401109: movzx edx, word ptr [rdx+rdx*1+0x6042a0]  reg(54, 3) 
+0x401111: mov byte ptr [rax], dl  reg(33, 0)  mem(60448a, 800) 
+0x401113: add dword ptr [rbp-0x4], 0x1  mem(7f10c7dbbebc, c7dbbf0000000003) 
+0x401117: movzx eax, word ptr [rbp-0x20]  reg(56, 60448a) 
+0x40111b: sub eax, 0x1  reg(56, 8) 
+0x40111e: mov word ptr [rbp-0x20], ax  reg(29, 7)  mem(7f10c7dbbea0, 3c7db0008) 
+0x401122: cmp word ptr [rbp-0x20], 0x0  mem(7f10c7dbbea0, 3c7db0007) 
+0x401127: jnz 0x4010d7
+0x4010d7: mov rax, qword ptr [rbp-0x18]  reg(10, 7) 
+0x4010db: lea rdx, ptr [rax+0x1]  reg(8, 0) 
+0x4010df: mov qword ptr [rbp-0x18], rdx  reg(8, 60448c)  mem(7f10c7dbbea8, 60448b) 
+0x4010e3: mov edx, dword ptr [rbp-0x4]  reg(54, 60448c) 
+0x4010e6: movsxd rdx, edx  reg(8, 4)  reg(54, 4) 
+0x4010e9: movzx edx, word ptr [rdx+rdx*1+0x6042a0]  reg(54, 4) 
+0x4010f1: shr dx, 0x8  reg(35, 0) 
+0x4010f5: mov byte ptr [rax], dl  reg(33, 0)  mem(60448b, 8) 
+0x4010f7: mov rax, qword ptr [rbp-0x18]  reg(10, 60448b) 
+0x4010fb: lea rdx, ptr [rax+0x1]  reg(8, 0) 
+0x4010ff: mov qword ptr [rbp-0x18], rdx  reg(8, 60448d)  mem(7f10c7dbbea8, 60448c) 
+0x401103: mov edx, dword ptr [rbp-0x4]  reg(54, 60448d) 
+0x401106: movsxd rdx, edx  reg(8, 4)  reg(54, 4) 
+0x401109: movzx edx, word ptr [rdx+rdx*1+0x6042a0]  reg(54, 4) 
+0x401111: mov byte ptr [rax], dl  reg(33, 0)  mem(60448c, 0) 
+0x401113: add dword ptr [rbp-0x4], 0x1  mem(7f10c7dbbebc, c7dbbf0000000004) 
+0x401117: movzx eax, word ptr [rbp-0x20]  reg(56, 60448c) 
+0x40111b: sub eax, 0x1  reg(56, 7) 
+0x40111e: mov word ptr [rbp-0x20], ax  reg(29, 6)  mem(7f10c7dbbea0, 3c7db0007) 
+0x401122: cmp word ptr [rbp-0x20], 0x0  mem(7f10c7dbbea0, 3c7db0006) 
+0x401127: jnz 0x4010d7
+0x4010d7: mov rax, qword ptr [rbp-0x18]  reg(10, 6) 
+0x4010db: lea rdx, ptr [rax+0x1]  reg(8, 0) 
+0x4010df: mov qword ptr [rbp-0x18], rdx  reg(8, 60448e)  mem(7f10c7dbbea8, 60448d) 
+0x4010e3: mov edx, dword ptr [rbp-0x4]  reg(54, 60448e) 
+0x4010e6: movsxd rdx, edx  reg(8, 5)  reg(54, 5) 
+0x4010e9: movzx edx, word ptr [rdx+rdx*1+0x6042a0]  reg(54, 5) 
+0x4010f1: shr dx, 0x8  reg(35, 0) 
+0x4010f5: mov byte ptr [rax], dl  reg(33, 0)  mem(60448d, 0) 
+0x4010f7: mov rax, qword ptr [rbp-0x18]  reg(10, 60448d) 
+0x4010fb: lea rdx, ptr [rax+0x1]  reg(8, 0) 
+0x4010ff: mov qword ptr [rbp-0x18], rdx  reg(8, 60448f)  mem(7f10c7dbbea8, 60448e) 
+0x401103: mov edx, dword ptr [rbp-0x4]  reg(54, 60448f) 
+0x401106: movsxd rdx, edx  reg(8, 5)  reg(54, 5) 
+0x401109: movzx edx, word ptr [rdx+rdx*1+0x6042a0]  reg(54, 5) 
+0x401111: mov byte ptr [rax], dl  reg(33, 0)  mem(60448e, 0) 
+0x401113: add dword ptr [rbp-0x4], 0x1  mem(7f10c7dbbebc, c7dbbf0000000005) 
+0x401117: movzx eax, word ptr [rbp-0x20]  reg(56, 60448e) 
+0x40111b: sub eax, 0x1  reg(56, 6) 
+0x40111e: mov word ptr [rbp-0x20], ax  reg(29, 5)  mem(7f10c7dbbea0, 3c7db0006) 
+0x401122: cmp word ptr [rbp-0x20], 0x0  mem(7f10c7dbbea0, 3c7db0005) 
+0x401127: jnz 0x4010d7
+0x4010d7: mov rax, qword ptr [rbp-0x18]  reg(10, 5) 
+0x4010db: lea rdx, ptr [rax+0x1]  reg(8, 0) 
+0x4010df: mov qword ptr [rbp-0x18], rdx  reg(8, 604490)  mem(7f10c7dbbea8, 60448f) 
+0x4010e3: mov edx, dword ptr [rbp-0x4]  reg(54, 604490) 
+0x4010e6: movsxd rdx, edx  reg(8, 6)  reg(54, 6) 
+0x4010e9: movzx edx, word ptr [rdx+rdx*1+0x6042a0]  reg(54, 6) 
+0x4010f1: shr dx, 0x8  reg(35, 0) 
+0x4010f5: mov byte ptr [rax], dl  reg(33, 0)  mem(60448f, 0) 
+0x4010f7: mov rax, qword ptr [rbp-0x18]  reg(10, 60448f) 
+0x4010fb: lea rdx, ptr [rax+0x1]  reg(8, 0) 
+0x4010ff: mov qword ptr [rbp-0x18], rdx  reg(8, 604491)  mem(7f10c7dbbea8, 604490) 
+0x401103: mov edx, dword ptr [rbp-0x4]  reg(54, 604491) 
+0x401106: movsxd rdx, edx  reg(8, 6)  reg(54, 6) 
+0x401109: movzx edx, word ptr [rdx+rdx*1+0x6042a0]  reg(54, 6) 
+0x401111: mov byte ptr [rax], dl  reg(33, 0)  mem(604490, 0) 
+0x401113: add dword ptr [rbp-0x4], 0x1  mem(7f10c7dbbebc, c7dbbf0000000006) 
+0x401117: movzx eax, word ptr [rbp-0x20]  reg(56, 604490) 
+0x40111b: sub eax, 0x1  reg(56, 5) 
+0x40111e: mov word ptr [rbp-0x20], ax  reg(29, 4)  mem(7f10c7dbbea0, 3c7db0005) 
+0x401122: cmp word ptr [rbp-0x20], 0x0  mem(7f10c7dbbea0, 3c7db0004) 
+0x401127: jnz 0x4010d7
+0x4010d7: mov rax, qword ptr [rbp-0x18]  reg(10, 4) 
+0x4010db: lea rdx, ptr [rax+0x1]  reg(8, 0) 
+0x4010df: mov qword ptr [rbp-0x18], rdx  reg(8, 604492)  mem(7f10c7dbbea8, 604491) 
+0x4010e3: mov edx, dword ptr [rbp-0x4]  reg(54, 604492) 
+0x4010e6: movsxd rdx, edx  reg(8, 7)  reg(54, 7) 
+0x4010e9: movzx edx, word ptr [rdx+rdx*1+0x6042a0]  reg(54, 7) 
+0x4010f1: shr dx, 0x8  reg(35, 0) 
+0x4010f5: mov byte ptr [rax], dl  reg(33, 0)  mem(604491, 0) 
+0x4010f7: mov rax, qword ptr [rbp-0x18]  reg(10, 604491) 
+0x4010fb: lea rdx, ptr [rax+0x1]  reg(8, 0) 
+0x4010ff: mov qword ptr [rbp-0x18], rdx  reg(8, 604493)  mem(7f10c7dbbea8, 604492) 
+0x401103: mov edx, dword ptr [rbp-0x4]  reg(54, 604493) 
+0x401106: movsxd rdx, edx  reg(8, 7)  reg(54, 7) 
+0x401109: movzx edx, word ptr [rdx+rdx*1+0x6042a0]  reg(54, 7) 
+0x401111: mov byte ptr [rax], dl  reg(33, 0)  mem(604492, 0) 
+0x401113: add dword ptr [rbp-0x4], 0x1  mem(7f10c7dbbebc, c7dbbf0000000007) 
+0x401117: movzx eax, word ptr [rbp-0x20]  reg(56, 604492) 
+0x40111b: sub eax, 0x1  reg(56, 4) 
+0x40111e: mov word ptr [rbp-0x20], ax  reg(29, 3)  mem(7f10c7dbbea0, 3c7db0004) 
+0x401122: cmp word ptr [rbp-0x20], 0x0  mem(7f10c7dbbea0, 3c7db0003) 
+0x401127: jnz 0x4010d7
+0x4010d7: mov rax, qword ptr [rbp-0x18]  reg(10, 3) 
+0x4010db: lea rdx, ptr [rax+0x1]  reg(8, 0) 
+0x4010df: mov qword ptr [rbp-0x18], rdx  reg(8, 604494)  mem(7f10c7dbbea8, 604493) 
+0x4010e3: mov edx, dword ptr [rbp-0x4]  reg(54, 604494) 
+0x4010e6: movsxd rdx, edx  reg(8, 8)  reg(54, 8) 
+0x4010e9: movzx edx, word ptr [rdx+rdx*1+0x6042a0]  reg(54, 8) 
+0x4010f1: shr dx, 0x8  reg(35, 0) 
+0x4010f5: mov byte ptr [rax], dl  reg(33, 0)  mem(604493, 0) 
+0x4010f7: mov rax, qword ptr [rbp-0x18]  reg(10, 604493) 
+0x4010fb: lea rdx, ptr [rax+0x1]  reg(8, 0) 
+0x4010ff: mov qword ptr [rbp-0x18], rdx  reg(8, 604495)  mem(7f10c7dbbea8, 604494) 
+0x401103: mov edx, dword ptr [rbp-0x4]  reg(54, 604495) 
+0x401106: movsxd rdx, edx  reg(8, 8)  reg(54, 8) 
+0x401109: movzx edx, word ptr [rdx+rdx*1+0x6042a0]  reg(54, 8) 
+0x401111: mov byte ptr [rax], dl  reg(33, 0)  mem(604494, 0) 
+0x401113: add dword ptr [rbp-0x4], 0x1  mem(7f10c7dbbebc, c7dbbf0000000008) 
+0x401117: movzx eax, word ptr [rbp-0x20]  reg(56, 604494) 
+0x40111b: sub eax, 0x1  reg(56, 3) 
+0x40111e: mov word ptr [rbp-0x20], ax  reg(29, 2)  mem(7f10c7dbbea0, 3c7db0003) 
+0x401122: cmp word ptr [rbp-0x20], 0x0  mem(7f10c7dbbea0, 3c7db0002) 
+0x401127: jnz 0x4010d7
+0x4010d7: mov rax, qword ptr [rbp-0x18]  reg(10, 2) 
+0x4010db: lea rdx, ptr [rax+0x1]  reg(8, 0) 
+0x4010df: mov qword ptr [rbp-0x18], rdx  reg(8, 604496)  mem(7f10c7dbbea8, 604495) 
+0x4010e3: mov edx, dword ptr [rbp-0x4]  reg(54, 604496) 
+0x4010e6: movsxd rdx, edx  reg(8, 9)  reg(54, 9) 
+0x4010e9: movzx edx, word ptr [rdx+rdx*1+0x6042a0]  reg(54, 9) 
+0x4010f1: shr dx, 0x8  reg(35, 0) 
+0x4010f5: mov byte ptr [rax], dl  reg(33, 0)  mem(604495, 0) 
+0x4010f7: mov rax, qword ptr [rbp-0x18]  reg(10, 604495) 
+0x4010fb: lea rdx, ptr [rax+0x1]  reg(8, 0) 
+0x4010ff: mov qword ptr [rbp-0x18], rdx  reg(8, 604497)  mem(7f10c7dbbea8, 604496) 
+0x401103: mov edx, dword ptr [rbp-0x4]  reg(54, 604497) 
+0x401106: movsxd rdx, edx  reg(8, 9)  reg(54, 9) 
+0x401109: movzx edx, word ptr [rdx+rdx*1+0x6042a0]  reg(54, 9) 
+0x401111: mov byte ptr [rax], dl  reg(33, 0)  mem(604496, 0) 
+0x401113: add dword ptr [rbp-0x4], 0x1  mem(7f10c7dbbebc, c7dbbf0000000009) 
+0x401117: movzx eax, word ptr [rbp-0x20]  reg(56, 604496) 
+0x40111b: sub eax, 0x1  reg(56, 2) 
+0x40111e: mov word ptr [rbp-0x20], ax  reg(29, 1)  mem(7f10c7dbbea0, 3c7db0002) 
+0x401122: cmp word ptr [rbp-0x20], 0x0  mem(7f10c7dbbea0, 3c7db0001) 
+0x401127: jnz 0x4010d7
+0x4010d7: mov rax, qword ptr [rbp-0x18]  reg(10, 1) 
+0x4010db: lea rdx, ptr [rax+0x1]  reg(8, 0) 
+0x4010df: mov qword ptr [rbp-0x18], rdx  reg(8, 604498)  mem(7f10c7dbbea8, 604497) 
+0x4010e3: mov edx, dword ptr [rbp-0x4]  reg(54, 604498) 
+0x4010e6: movsxd rdx, edx  reg(8, a)  reg(54, a) 
+0x4010e9: movzx edx, word ptr [rdx+rdx*1+0x6042a0]  reg(54, a) 
+0x4010f1: shr dx, 0x8  reg(35, 0) 
+0x4010f5: mov byte ptr [rax], dl  reg(33, 0)  mem(604497, 0) 
+0x4010f7: mov rax, qword ptr [rbp-0x18]  reg(10, 604497) 
+0x4010fb: lea rdx, ptr [rax+0x1]  reg(8, 0) 
+0x4010ff: mov qword ptr [rbp-0x18], rdx  reg(8, 604499)  mem(7f10c7dbbea8, 604498) 
+0x401103: mov edx, dword ptr [rbp-0x4]  reg(54, 604499) 
+0x401106: movsxd rdx, edx  reg(8, a)  reg(54, a) 
+0x401109: movzx edx, word ptr [rdx+rdx*1+0x6042a0]  reg(54, a) 
+0x401111: mov byte ptr [rax], dl  reg(33, 0)  mem(604498, 0) 
+0x401113: add dword ptr [rbp-0x4], 0x1  mem(7f10c7dbbebc, c7dbbf000000000a) 
+0x401117: movzx eax, word ptr [rbp-0x20]  reg(56, 604498) 
+0x40111b: sub eax, 0x1  reg(56, 1) 
+0x40111e: mov word ptr [rbp-0x20], ax  reg(29, 0)  mem(7f10c7dbbea0, 3c7db0001) 
+0x401122: cmp word ptr [rbp-0x20], 0x0  mem(7f10c7dbbea0, 3c7db0000) 
+0x401127: jnz 0x4010d7
+0x401129: jmp 0x40119c
+0x40119c: mov eax, dword ptr [rbp-0x8]  reg(56, 0) 
+0x40119f: pop rbp
+0x4011a0: ret 
+0x40273e: mov dword ptr [rbp-0xc], eax  reg(56, 0)  mem(7f10c7dbbef4, 60448900000000) 
+0x402741: cmp dword ptr [rbp-0xc], 0x0  mem(7f10c7dbbef4, 60448900000000) 
+0x402745: jz 0x402756
+0x402756: mov rax, qword ptr [rbp-0x30]  reg(10, 0) 
+0x40275a: movzx eax, word ptr [rax]  reg(56, 6045d0) 
+0x40275d: movzx edx, word ptr [rbp-0x12]  reg(54, 0) 
+0x402761: add edx, edx  reg(54, 8)  reg(54, 8) 
+0x402763: add edx, eax  reg(54, 10)  reg(56, 2) 
+0x402765: mov rax, qword ptr [rbp-0x30]  reg(10, 2) 
+0x402769: mov word ptr [rax], dx  reg(35, 12)  mem(6045d0, 100030002) 
+0x40276c: jmp 0x40277e
+0x40277e: mov eax, dword ptr [rbp-0x10]  reg(56, 6045d0) 
+0x402781: leave   mem(7f10c7dbbf00, 7f10c7dbbf30) 
+0x402782: ret 
+0x401ebf: mov dword ptr [rip+0x20270f], eax  reg(56, 0)  mem(6045d4, 1) 
+0x401ec5: jmp 0x401ed4
+0x401ed4: movzx eax, byte ptr [rip+0x2026e5]  reg(56, 0) 
+0x401edb: test al, al  reg(27, ff)  reg(27, ff) 
+0x401edd: jz 0x401f77
+0x401ee3: mov eax, dword ptr [rip+0x2026eb]  reg(56, ff) 
+0x401ee9: test eax, eax  reg(56, 0)  reg(56, 0) 
+0x401eeb: jz 0x401f46
+0x401f46: mov rax, qword ptr [rip+0x20264b]  reg(10, 0) 
+0x401f4d: movzx edx, word ptr [rip+0x20267c]  reg(54, 12) 
+0x401f54: movzx edx, dx  reg(54, 12)  reg(35, 12) 
+0x401f57: mov rsi, qword ptr [rip+0x20266a]  reg(4, 3) 
+0x401f5e: movzx ecx, byte ptr [rip+0x20262b]  reg(55, 0) 
+0x401f65: movzx ecx, cl  reg(55, ff)  reg(30, ff) 
+0x401f68: mov edi, ecx  reg(45, 604489)  reg(55, ff) 
+0x401f6a: call rax
+eMBTCPSend: ff 604487 12 ff	eMBTCPSend
+0x402092: push rbp
+0x402093: mov rbp, rsp
+0x402096: sub rsp, 0x20
+0x40209a: mov ecx, edi  reg(55, ff)  reg(45, ff) 
+0x40209c: mov qword ptr [rbp-0x20], rsi  reg(4, 604487)  mem(7f10c7dbbee0, 0) 
+0x4020a0: mov eax, edx  reg(56, 402092)  reg(54, 12) 
+0x4020a2: mov byte ptr [rbp-0x14], cl  reg(30, ff)  mem(7f10c7dbbeec, 80003) 
+0x4020a5: mov word ptr [rbp-0x18], ax  reg(29, 12)  mem(7f10c7dbbee8, 800ffc7dbbf1c) 
+0x4020a9: mov dword ptr [rbp-0xc], 0x0  mem(7f10c7dbbef4, 60448900000000) 
+0x4020b0: mov rax, qword ptr [rbp-0x20]  reg(10, 12) 
+0x4020b4: sub rax, 0x7  reg(10, 604487) 
+0x4020b8: mov qword ptr [rbp-0x8], rax  reg(10, 604480)  mem(7f10c7dbbef8, 604489) 
+0x4020bc: movzx eax, word ptr [rbp-0x18]  reg(56, 604480) 
+0x4020c0: add eax, 0x7  reg(56, 12) 
+0x4020c3: mov word ptr [rbp-0xe], ax  reg(29, 19)  mem(7f10c7dbbef2, 4480000000000000) 
+0x4020c7: mov rax, qword ptr [rbp-0x8]  reg(10, 19) 
+0x4020cb: add rax, 0x4  reg(10, 604480) 
+0x4020cf: movzx edx, word ptr [rbp-0x18]  reg(54, 12) 
+0x4020d3: add edx, 0x1  reg(54, 12) 
+0x4020d6: sar edx, 0x8  reg(54, 13) 
+0x4020d9: mov byte ptr [rax], dl  reg(33, 0)  mem(604484, 1003010600) 
+0x4020db: mov rax, qword ptr [rbp-0x8]  reg(10, 604484) 
+0x4020df: add rax, 0x5  reg(10, 604480) 
+0x4020e3: movzx edx, word ptr [rbp-0x18]  reg(54, 0) 
+0x4020e7: add edx, 0x1  reg(54, 12) 
+0x4020ea: mov byte ptr [rax], dl  reg(33, 13)  mem(604485, 10030106) 
+0x4020ec: movzx edx, word ptr [rbp-0xe]  reg(54, 13) 
+0x4020f0: mov rax, qword ptr [rbp-0x8]  reg(10, 604485) 
+0x4020f4: mov esi, edx  reg(47, 604487)  reg(54, 19) 
+0x4020f6: mov rdi, rax  reg(3, ff)  reg(10, 604480) 
+0x4020f9: call 0x40191c
+xMBTCPPortSendResponse: 604480 19 19 ff	xMBTCPPortSendResponse
+0x40191c: push rbp
+0x40191d: mov rbp, rsp
+0x401920: sub rsp, 0x20
+0x401924: mov qword ptr [rbp-0x18], rdi  reg(3, 604480)  mem(7f10c7dbbeb8, b00000000) 
+0x401928: mov eax, esi  reg(56, 604480)  reg(47, 19) 
+0x40192a: mov word ptr [rbp-0x1c], ax  reg(29, 19)  mem(7f10c7dbbeb4, 60448000007f10) 
+0x40192e: mov byte ptr [rbp-0xd], 0x0  mem(7f10c7dbbec3, 40273e00007f10c7) 
+0x401932: mov byte ptr [rbp-0xe], 0x0  mem(7f10c7dbbec2, 273e00007f1000db) 
+0x401936: mov dword ptr [rbp-0xc], 0x0  mem(7f10c7dbbec4, 40273e00007f10) 
+0x40193d: mov dword ptr [rbp-0x8], 0x3e8  mem(7f10c7dbbec8, 40273e) 
+0x401944: movzx eax, word ptr [rbp-0x1c]  reg(56, 19) 
+0x401948: sub eax, dword ptr [rbp-0xc]  reg(56, 19) 
+0x40194b: movsxd rdx, eax  reg(8, 19)  reg(56, 19) 
+0x40194e: mov eax, dword ptr [rbp-0xc]  reg(56, 19) 
+0x401951: movsxd rcx, eax  reg(9, ff)  reg(56, 0) 
+0x401954: mov rax, qword ptr [rbp-0x18]  reg(10, 0) 
+0x401958: lea rsi, ptr [rcx+rax*1]  reg(4, 19) 
+0x40195c: mov eax, dword ptr [rip+0x2027be]  reg(56, 604480) 
+0x401962: mov ecx, 0x0  reg(55, 0) 
+0x401967: mov edi, eax  reg(45, 604480)  reg(56, 4) 
+0x401969: call 0x400af0
+send@plt: 4 604480 19 0	send@plt
+0x400af0: jmp qword ptr [rip+0x203552]
+0x400af6: push 0x6 
+0x400afb: jmp 0x400a80
+send: 4 604480 19 0	send
+dlsym@plt: ffffffffffffffff 7f10c8bc0d76 19 0	dlsym@plt
+fprintf@plt: 7f10c88ee540 7f10c8bc0d80 4 604480	fprintf@plt
+0x40196e: mov dword ptr [rbp-0x4], eax  reg(56, 19)  mem(7f10c7dbbecc, c7dbbf0000000000) 
+0x401971: mov eax, dword ptr [rbp-0x4]  reg(56, 19) 
+0x401974: cmp eax, 0xffffffff  reg(56, 19) 
+0x401977: jz 0x40197f
+0x401979: test eax, eax  reg(56, 19)  reg(56, 19) 
+0x40197b: jz 0x40199b
+0x40197d: jmp 0x4019a6
+0x4019a6: mov eax, dword ptr [rbp-0x4]  reg(56, 19) 
+0x4019a9: add dword ptr [rbp-0xc], eax  reg(56, 19)  mem(7f10c7dbbec4, 3e800000000) 
+0x4019ac: nop 
+0x4019ad: movzx eax, word ptr [rbp-0x1c]  reg(56, 19) 
+0x4019b1: cmp eax, dword ptr [rbp-0xc]  reg(56, 19) 
+0x4019b4: jz 0x4019bc
+0x4019bc: movzx eax, word ptr [rbp-0x1c]  reg(56, 19) 
+0x4019c0: cmp eax, dword ptr [rbp-0xc]  reg(56, 19) 
+0x4019c3: setz al  reg(27, 19) 
+0x4019c6: mov byte ptr [rbp-0xd], al  reg(27, 1)  mem(7f10c7dbbec3, 3e80000001900) 
+0x4019c9: movzx eax, byte ptr [rbp-0xd]  reg(56, 1) 
+0x4019cd: leave   mem(7f10c7dbbed0, 7f10c7dbbf00) 
+0x4019ce: ret 
+0x4020fe: test al, al  reg(27, 1)  reg(27, 1) 
+0x402100: jnz 0x402109
+0x402109: mov eax, dword ptr [rbp-0xc]  reg(56, 1) 
+0x40210c: leave   mem(7f10c7dbbf00, 7f10c7dbbf30) 
+0x40210d: ret 
+0x401f6c: mov dword ptr [rbp-0xc], eax  reg(56, 0)  mem(7f10c7dbbf24, 9fb7460000000000) 
+0x401f6f: jmp 0x401f77
+0x401f77: nop 
+0x401f78: mov eax, 0x0  reg(56, 0) 
+0x401f7d: mov rsi, qword ptr [rbp-0x8]  reg(4, 0) 
+0x401f81: xor rsi, qword ptr fs:[0x28]  reg(4, 50de10c99fb74600) 
+0x401f8a: jz 0x401f91
+0x401f91: leave   mem(7f10c7dbbf30, 7f10c7dbbf50) 
+0x401f92: ret 
+0x400f55: test eax, eax  reg(56, 0)  reg(56, 0) 
+0x400f57: jnz 0x400f65
+0x400f59: call 0x400f7c
+eGetPollingThreadState: 7f10c7db96b0 0 0 1	eGetPollingThreadState
+0x400f7c: push rbp
+0x400f7d: mov rbp, rsp
+0x400f80: sub rsp, 0x10
+0x400f84: mov edi, 0x6043c0  reg(45, 7f10c7db96b0) 
+0x400f89: call 0x400bf0
+pthread_mutex_lock@plt: 6043c0 0 0 1	pthread_mutex_lock@plt
+0x400bf0: jmp qword ptr [rip+0x2034d2]
+0x400f8e: mov eax, dword ptr [rip+0x203454]  reg(56, 0) 
+0x400f94: mov dword ptr [rbp-0x4], eax  reg(56, 1)  mem(7f10c7dbbf2c, c7dbbf5050de10c9) 
+0x400f97: mov edi, 0x6043c0  reg(45, 1) 
+0x400f9c: call 0x400ba0
+pthread_mutex_unlock@plt: 6043c0 0 0 0	pthread_mutex_unlock@plt
+0x400ba0: jmp qword ptr [rip+0x2034fa]
+0x400fa1: mov eax, dword ptr [rbp-0x4]  reg(56, 0) 
+0x400fa4: leave   mem(7f10c7dbbf30, 7f10c7dbbf50) 
+0x400fa5: ret 
+0x400f5e: cmp eax, 0x2  reg(56, 1) 
+0x400f61: jnz 0x400f50
+0x400f50: call 0x401d8d
+eMBPoll: 6043c0 0 6043c0 0	eMBPoll
+0x401d8d: push rbp
+0x401d8e: mov rbp, rsp
+0x401d91: sub rsp, 0x20
+0x401d95: mov rax, qword ptr fs:[0x28]  reg(10, 1) 
+0x401d9e: mov qword ptr [rbp-0x8], rax  reg(10, 50de10c99fb74600)  mem(7f10c7dbbf28, 19fb74600) 
+0x401da2: xor eax, eax  reg(56, 50de10c99fb74600)  reg(56, 50de10c99fb74600) 
+0x401da4: mov dword ptr [rbp-0xc], 0x0  mem(7f10c7dbbf24, 9fb7460000000000) 
+0x401dab: mov eax, dword ptr [rip+0x20238f]  reg(56, 0) 
+0x401db1: test eax, eax  reg(56, 0)  reg(56, 0) 
+0x401db3: jz 0x401dbf
+0x401dbf: lea rax, ptr [rbp-0x14]  reg(10, 0) 
+0x401dc3: mov rdi, rax  reg(3, 6043c0)  reg(10, 7f10c7dbbf1c) 
+0x401dc6: call 0x401347
+xMBPortEventGet: 7f10c7dbbf1c 0 6043c0 0	xMBPortEventGet
+0x401347: push rbp
+0x401348: mov rbp, rsp
+0x40134b: sub rsp, 0x20
+0x40134f: mov qword ptr [rbp-0x18], rdi  reg(3, 7f10c7dbbf1c)  mem(7f10c7dbbee8, 800ffc7db0012) 
+0x401353: mov byte ptr [rbp-0x1], 0x0  mem(7f10c7dbbeff, 7f10c7dbbf3000) 
+0x401357: movzx eax, byte ptr [rip+0x203092]  reg(56, 7f10c7dbbf1c) 
+0x40135e: test al, al  reg(27, 0)  reg(27, 0) 
+0x401360: jz 0x40137b
+0x40137b: call 0x401592
+xMBPortTCPPool: 7f10c7dbbf1c 0 6043c0 0	xMBPortTCPPool
+0x401592: push rbp
+0x401593: mov rbp, rsp
+0x401596: sub rsp, 0xc0
+0x40159d: mov rax, qword ptr fs:[0x28]  reg(10, 0) 
+0x4015a6: mov qword ptr [rbp-0x8], rax  reg(10, 50de10c99fb74600)  mem(7f10c7dbbec8, 19000003e8) 
+0x4015aa: xor eax, eax  reg(56, 50de10c99fb74600)  reg(56, 50de10c99fb74600) 
+0x4015ac: mov qword ptr [rbp-0xa0], 0x0  mem(7f10c7dbbe30, ffffffffffffffff) 
+0x4015b7: mov qword ptr [rbp-0x98], 0x1388  mem(7f10c7dbbe38, 19) 
+0x4015c2: mov eax, dword ptr [rip+0x202b58]  reg(56, 0) 
+0x4015c8: cmp eax, 0xffffffff  reg(56, 4) 
+0x4015cb: jnz 0x40164c
+0x40164c: mov eax, 0x0  reg(56, 4) 
+0x401651: mov ecx, 0x10  reg(55, 0) 
+0x401656: lea rdx, ptr [rbp-0x90]  reg(8, 6043c0) 
+0x40165d: mov rdi, rdx  reg(3, 7f10c7dbbf1c)  reg(8, 7f10c7dbbe40) 
+0x401660: cld 
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401661: rep stosq qword ptr [rdi]
+0x401664: mov eax, edi  reg(56, 0)  reg(45, 7f10c7dbbec0) 
+0x401666: mov edx, ecx  reg(54, 7f10c7dbbe40)  reg(55, 0) 
+0x401668: mov dword ptr [rbp-0xac], edx  reg(54, 0)  mem(7f10c7dbbe24, c8924a1300000000) 
+0x40166e: mov dword ptr [rbp-0xa8], eax  reg(56, c7dbbec0)  mem(7f10c7dbbe28, 7f10c8924a13) 
+0x401674: mov eax, dword ptr [rip+0x202aa6]  reg(56, c7dbbec0) 
+0x40167a: lea edx, ptr [rax+0x3f]  reg(54, 0) 
+0x40167d: test eax, eax  reg(56, 4)  reg(56, 4) 
+0x401682: sar eax, 0x6  reg(56, 4) 
+0x401685: mov esi, eax  reg(47, 0)  reg(56, 0) 
+0x401687: movsxd rax, esi  reg(10, 0)  reg(47, 0) 
+0x40168a: mov rdi, qword ptr [rbp+rax*8-0x90]  reg(3, 7f10c7dbbec0) 
+0x401692: mov eax, dword ptr [rip+0x202a88]  reg(56, 0) 
+0x401698: cdq   reg(54, 43)  reg(56, 4) 
+0x401699: shr edx, 0x1a  reg(54, 0) 
+0x40169c: add eax, edx  reg(56, 4)  reg(54, 0) 
+0x40169e: and eax, 0x3f  reg(56, 4) 
+0x4016a1: sub eax, edx  reg(56, 4)  reg(54, 0) 
+0x4016a3: mov edx, 0x1  reg(54, 0) 
+0x4016a8: mov ecx, eax  reg(55, 0)  reg(56, 4) 
+0x4016aa: shl rdx, cl  reg(8, 1)  reg(30, 4) 
+0x4016ad: mov rax, rdx  reg(10, 4)  reg(8, 10) 
+0x4016b0: or rdi, rax  reg(3, 0)  reg(10, 10) 
+0x4016b3: mov rdx, rdi  reg(8, 10)  reg(3, 10) 
+0x4016b6: movsxd rax, esi  reg(10, 10)  reg(47, 0) 
+0x4016b9: mov qword ptr [rbp+rax*8-0x90], rdx  reg(8, 10)  mem(7f10c7dbbe40, 0) 
+0x4016c1: mov eax, dword ptr [rip+0x202a59]  reg(56, 0) 
+0x4016c7: lea edi, ptr [rax+0x1]  reg(45, 10) 
+0x4016ca: lea rdx, ptr [rbp-0xa0]  reg(8, 10) 
+0x4016d1: lea rax, ptr [rbp-0x90]  reg(10, 4) 
+0x4016d8: mov r8, rdx  reg(11, 0)  reg(8, 7f10c7dbbe30) 
+0x4016db: mov ecx, 0x0  reg(55, 4) 
+0x4016e0: mov edx, 0x0  reg(54, 7f10c7dbbe30) 
+0x4016e5: mov rsi, rax  reg(4, 0)  reg(10, 7f10c7dbbe40) 
+0x4016e8: call 0x400b90
+select@plt: 5 7f10c7dbbe40 0 0	select@plt
+0x400b90: jmp qword ptr [rip+0x203502]
+0x4016ed: mov dword ptr [rbp-0xa4], eax  reg(56, 1)  mem(7f10c7dbbe2c, 7f10) 
+0x4016f3: cmp dword ptr [rbp-0xa4], 0xffffffff  mem(7f10c7dbbe2c, 1) 
+0x4016fa: jz 0x4018c2
+0x401700: cmp dword ptr [rbp-0xa4], 0x0  mem(7f10c7dbbe2c, 1) 
+0x401707: jz 0x4018c2
+0x40170d: cmp dword ptr [rbp-0xa4], 0x0  mem(7f10c7dbbe2c, 1) 
+0x401714: jle 0x40164c
+0x40171a: mov eax, dword ptr [rip+0x202a00]  reg(56, 1) 
+0x401720: lea edx, ptr [rax+0x3f]  reg(54, 1) 
+0x401723: test eax, eax  reg(56, 4)  reg(56, 4) 
+0x401728: sar eax, 0x6  reg(56, 4) 
+0x40172b: cdqe   reg(10, 0)  reg(56, 0) 
+0x40172d: mov rsi, qword ptr [rbp+rax*8-0x90]  reg(4, 7f10c7dbbe40) 
+0x401735: mov eax, dword ptr [rip+0x2029e5]  reg(56, 0) 
+0x40173b: cdq   reg(54, 43)  reg(56, 4) 
+0x40173c: shr edx, 0x1a  reg(54, 0) 
+0x40173f: add eax, edx  reg(56, 4)  reg(54, 0) 
+0x401741: and eax, 0x3f  reg(56, 4) 
+0x401744: sub eax, edx  reg(56, 4)  reg(54, 0) 
+0x401746: mov edx, 0x1  reg(54, 0) 
+0x40174b: mov ecx, eax  reg(55, 0)  reg(56, 4) 
+0x40174d: shl rdx, cl  reg(8, 1)  reg(30, 4) 
+0x401750: mov rax, rdx  reg(10, 4)  reg(8, 10) 
+0x401753: and rax, rsi  reg(10, 10)  reg(4, 10) 
+0x401756: test rax, rax  reg(10, 10)  reg(10, 10) 
+0x401759: jz 0x40164c
+0x40175f: movzx eax, word ptr [rip+0x202e24]  reg(56, 10) 
+0x401766: movzx edx, ax  reg(54, 10)  reg(29, 7) 
+0x401769: movzx eax, word ptr [rip+0x202e18]  reg(56, 7) 
+0x401770: movzx eax, ax  reg(56, 0)  reg(29, 0) 
+0x401773: cdqe   reg(10, 0)  reg(56, 0) 
+0x401775: lea rsi, ptr [rax+0x604480]  reg(4, 10) 
+0x40177c: mov eax, dword ptr [rip+0x20299e]  reg(56, 0) 
+0x401782: mov ecx, 0x0  reg(55, 4) 
+0x401787: mov edi, eax  reg(45, 0)  reg(56, 4) 
+0x401789: call 0x400a90
+recv@plt: 4 604480 7 0	recv@plt
+0x400a90: jmp qword ptr [rip+0x203582]
+recv: 4 604480 7 0	recv
+dlsym@plt: ffffffffffffffff 7f10c8bc0dc2 7 0	dlsym@plt
+fprintf@plt: 7f10c88ee540 7f10c8bc0dc8 4 604480	fprintf@plt
+0x40178e: mov dword ptr [rbp-0xa4], eax  reg(56, 0)  mem(7f10c7dbbe2c, 1) 
+0x401794: cmp dword ptr [rbp-0xa4], 0xffffffff  mem(7f10c7dbbe2c, 0) 
+0x40179b: jz 0x4017a6
+0x40179d: cmp dword ptr [rbp-0xa4], 0x0  mem(7f10c7dbbe2c, 0) 
+0x4017a4: jnz 0x4017c7
+0x4017a6: mov eax, dword ptr [rip+0x202974]  reg(56, 0) 
+0x4017ac: mov edi, eax  reg(45, 7f10c7db9610)  reg(56, 4) 
+0x4017ae: call 0x400b40
+close@plt: 4 0 0 1	close@plt
+0x400b40: jmp qword ptr [rip+0x20352a]
+0x400b46: push 0xb 
+0x400b4b: jmp 0x400a80
+0x4017b3: mov dword ptr [rip+0x202963], 0xffffffff  mem(604120, 4) 
+0x4017bd: mov eax, 0x1  reg(56, 0) 
+0x4017c2: jmp 0x4018c8
+0x4018c8: mov rsi, qword ptr [rbp-0x8]  reg(4, 0) 
+0x4018cc: xor rsi, qword ptr fs:[0x28]  reg(4, 50de10c99fb74600) 
+0x4018d5: jz 0x4018dc
+0x4018dc: leave   mem(7f10c7dbbed0, 7f10c7dbbf00) 
+0x4018dd: ret 
+0x401380: movzx eax, byte ptr [rbp-0x1]  reg(56, 1) 
+0x401384: leave   mem(7f10c7dbbf00, 7f10c7dbbf30) 
+0x401385: ret 
+0x401dcb: cmp al, 0x1  reg(27, 0) 
+0x401dcd: jnz 0x401f78
+0x401f78: mov eax, 0x0  reg(56, 0) 
+0x401f7d: mov rsi, qword ptr [rbp-0x8]  reg(4, 0) 
+0x401f81: xor rsi, qword ptr fs:[0x28]  reg(4, 50de10c99fb74600) 
+0x401f8a: jz 0x401f91
+0x401f91: leave   mem(7f10c7dbbf30, 7f10c7dbbf50) 
+0x401f92: ret 
+0x400f55: test eax, eax  reg(56, 0)  reg(56, 0) 
+0x400f57: jnz 0x400f65
+0x400f59: call 0x400f7c
+eGetPollingThreadState: 0 0 0 1	eGetPollingThreadState
+0x400f7c: push rbp
+0x400f7d: mov rbp, rsp
+0x400f80: sub rsp, 0x10
+0x400f84: mov edi, 0x6043c0  reg(45, 0) 
+0x400f89: call 0x400bf0
+pthread_mutex_lock@plt: 6043c0 0 0 1	pthread_mutex_lock@plt
+0x400bf0: jmp qword ptr [rip+0x2034d2]
+0x400f8e: mov eax, dword ptr [rip+0x203454]  reg(56, 0) 
+0x400f94: mov dword ptr [rbp-0x4], eax  reg(56, 1)  mem(7f10c7dbbf2c, c7dbbf5050de10c9) 
+0x400f97: mov edi, 0x6043c0  reg(45, 1) 
+0x400f9c: call 0x400ba0
+pthread_mutex_unlock@plt: 6043c0 0 0 0	pthread_mutex_unlock@plt
+0x400ba0: jmp qword ptr [rip+0x2034fa]
+0x400fa1: mov eax, dword ptr [rbp-0x4]  reg(56, 0) 
+0x400fa4: leave   mem(7f10c7dbbf30, 7f10c7dbbf50) 
+0x400fa5: ret 
+0x400f5e: cmp eax, 0x2  reg(56, 1) 
+0x400f61: jnz 0x400f50
+0x400f50: call 0x401d8d
+eMBPoll: 6043c0 0 6043c0 0	eMBPoll
+0x401d8d: push rbp
+0x401d8e: mov rbp, rsp
+0x401d91: sub rsp, 0x20
+0x401d95: mov rax, qword ptr fs:[0x28]  reg(10, 1) 
+0x401d9e: mov qword ptr [rbp-0x8], rax  reg(10, 50de10c99fb74600)  mem(7f10c7dbbf28, 19fb74600) 
+0x401da2: xor eax, eax  reg(56, 50de10c99fb74600)  reg(56, 50de10c99fb74600) 
+0x401da4: mov dword ptr [rbp-0xc], 0x0  mem(7f10c7dbbf24, 9fb7460000000000) 
+0x401dab: mov eax, dword ptr [rip+0x20238f]  reg(56, 0) 
+0x401db1: test eax, eax  reg(56, 0)  reg(56, 0) 
+0x401db3: jz 0x401dbf
+0x401dbf: lea rax, ptr [rbp-0x14]  reg(10, 0) 
+0x401dc3: mov rdi, rax  reg(3, 6043c0)  reg(10, 7f10c7dbbf1c) 
+0x401dc6: call 0x401347
+xMBPortEventGet: 7f10c7dbbf1c 0 6043c0 0	xMBPortEventGet
+0x401347: push rbp
+0x401348: mov rbp, rsp
+0x40134b: sub rsp, 0x20
+0x40134f: mov qword ptr [rbp-0x18], rdi  reg(3, 7f10c7dbbf1c)  mem(7f10c7dbbee8, 7f10c7dbbf1c) 
+0x401353: mov byte ptr [rbp-0x1], 0x0  mem(7f10c7dbbeff, 7f10c7dbbf3000) 
+0x401357: movzx eax, byte ptr [rip+0x203092]  reg(56, 7f10c7dbbf1c) 
+0x40135e: test al, al  reg(27, 0)  reg(27, 0) 
+0x401360: jz 0x40137b
+0x40137b: call 0x401592
+xMBPortTCPPool: 7f10c7dbbf1c 0 6043c0 0	xMBPortTCPPool
+0x401592: push rbp
+0x401593: mov rbp, rsp
+0x401596: sub rsp, 0xc0
+0x40159d: mov rax, qword ptr fs:[0x28]  reg(10, 0) 
+0x4015a6: mov qword ptr [rbp-0x8], rax  reg(10, 50de10c99fb74600)  mem(7f10c7dbbec8, 50de10c99fb74600) 
+0x4015aa: xor eax, eax  reg(56, 50de10c99fb74600)  reg(56, 50de10c99fb74600) 
+0x4015ac: mov qword ptr [rbp-0xa0], 0x0  mem(7f10c7dbbe30, 0) 
+0x4015b7: mov qword ptr [rbp-0x98], 0x1388  mem(7f10c7dbbe38, 137c) 
+0x4015c2: mov eax, dword ptr [rip+0x202b58]  reg(56, 0) 
+0x4015c8: cmp eax, 0xffffffff  reg(56, ffffffff) 
+0x4015cb: jnz 0x40164c
+0x4015cd: mov eax, dword ptr [rip+0x203031]  reg(56, ffffffff) 
+0x4015d3: add eax, 0x1  reg(56, 3) 
+0x4015d6: mov r8d, 0x0  reg(61, 0) 
+0x4015dc: mov ecx, 0x0  reg(55, 0) 
+0x4015e1: mov edx, 0x0  reg(54, 6043c0) 
+0x4015e6: mov esi, 0x604400  reg(47, 0) 
+0x4015eb: mov edi, eax  reg(45, 7f10c7dbbf1c)  reg(56, 4) 
+0x4015ed: call 0x400b90
+select@plt: 4 604400 0 0	select@plt
+0x400b90: jmp qword ptr [rip+0x203502]

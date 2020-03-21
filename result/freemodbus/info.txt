@@ -1,0 +1,637 @@
+Function	0	enter	main	(400d26,400ec7,7f28daeb6830)
+Trace 0x400d26: push rbp	7ffe83465a70	8	402f60	-1
+Trace 0x400d2e: mov dword ptr [rbp-0x14], edi	7ffe83465a5c	4	1	-1
+Trace 0x400d31: mov qword ptr [rbp-0x20], rsi	7ffe83465a50	8	7ffe83465b58	-1
+Function	0	enter	eMBTCPInit	(401b0a,401ba7,400d3f)
+Trace 0x401b0a: push rbp	7ffe83465a40	8	7ffe83465a70	-1
+Trace 0x401b14: mov word ptr [rbp-0x14], ax	7ffe83465a2c	2	1f6	-1
+Trace 0x401b18: mov dword ptr [rbp-0x4], 0x0	7ffe83465a3c	4	-2
+Function	0	enter	eMBTCPDoInit	(401f93,401fc2,401b2a)
+Trace 0x401f93: push rbp	7ffe83465a10	8	7ffe83465a40	-1
+Trace 0x401f9d: mov word ptr [rbp-0x14], ax	7ffe834659fc	2	1f6	-1
+Trace 0x401fa1: mov dword ptr [rbp-0x4], 0x0	7ffe83465a0c	4	-2
+Function	0	enter	xMBTCPPortInit	(401386,40154b,401fb3)
+Trace 0x401386: push rbp	7ffe834659e0	8	7ffe83465a10	-1
+Trace 0x401390: mov word ptr [rbp-0x34], ax	7ffe834659ac	2	1f6	-1
+Trace 0x40139d: mov qword ptr [rbp-0x8], rax	7ffe834659d8	8	c004a6135f36b300	-1
+Trace 0x4013b6: mov word ptr [rbp-0x2a], ax	7ffe834659b6	2	1f6	-1
+Function	0	enter	memset@plt	(400b30,400b3b,4013d0)
+Trace 0x400b36: push 0xa	7ffe83465990	8	-2
+Trace 0x4013d0: mov word ptr [rbp-0x20], 0x2	7ffe834659c0	2	-2
+Function	0	enter	htonl@plt	(400b20,400b2b,4013e0)
+Trace 0x400b26: push 0x9	7ffe83465990	8	-2
+Trace 0x4013e0: mov dword ptr [rbp-0x1c], eax	7ffe834659c4	4	0	-1
+Function	0	enter	htons@plt	(400ae0,400aeb,4013ee)
+Trace 0x400ae6: push 0x5	7ffe83465990	8	-2
+Trace 0x4013ee: mov word ptr [rbp-0x1e], ax	7ffe834659c2	2	f601	-1
+Function	0	enter	socket@plt	(400c10,400c1b,401406)
+Trace 0x400c16: push 0x18	7ffe83465990	8	-2
+Trace 0x401406: mov dword ptr [rip+0x2031f8], eax	604604	4	3	-1
+Function	0	enter	bind@plt	(400bc0,400bcb,401458)
+Trace 0x400bc6: push 0x13	7ffe83465990	8	-2
+Function	0	enter	listen@plt	(400bb0,400bbb,401497)
+Trace 0x400bb6: push 0x12	7ffe83465990	8	-2
+LOOP	4014d7	3
+Trace 0x4014de: mov dword ptr [rbp-0x28], edx	7ffe834659b8	4	0	-1
+Trace 0x4014e1: mov dword ptr [rbp-0x24], eax	7ffe834659bc	4	604480	-1
+Trace 0x401529: mov qword ptr [rax*8+0x604400], rdx	604400	8	8	-1
+Function	0	exit 	xMBTCPPortInit
+Function	0	exit 	eMBTCPDoInit
+Trace 0x401b2a: mov dword ptr [rbp-0x4], eax	7ffe83465a3c	4	0	-1
+Function	0	enter	xMBPortEventInit	(401317,401328,401b44)
+Trace 0x401317: push rbp	7ffe83465a10	8	7ffe83465a40	-1
+Trace 0x40131b: mov byte ptr [rip+0x2030ce], 0x0	6043f0	1	-2
+Function	0	exit 	xMBPortEventInit
+Trace 0x401b51: mov qword ptr [rip+0x202a44], 0x401fc3	6045a0	8	-2
+Trace 0x401b5c: mov qword ptr [rip+0x202a41], 0x401fca	6045a8	8	-2
+Trace 0x401b67: mov qword ptr [rip+0x202a3e], 0x401fd6	6045b0	8	-2
+Trace 0x401b72: mov qword ptr [rip+0x202a1b], 0x402092	604598	8	-2
+Trace 0x401b7d: mov qword ptr [rip+0x202a30], 0x40154c	6045b8	8	-2
+Trace 0x401b88: mov byte ptr [rip+0x202a01], 0xff	604590	1	-2
+Trace 0x401b8f: mov dword ptr [rip+0x2029fb], 0x2	604594	4	-2
+Trace 0x401b99: mov dword ptr [rip+0x20259d], 0x1	604140	4	-2
+Function	0	exit 	eMBTCPInit
+Function	0	enter	eSetPollingThreadState	(400fa6,400fd0,400d77)
+Trace 0x400fa6: push rbp	7ffe83465a40	8	7ffe83465a70	-1
+Trace 0x400fae: mov dword ptr [rbp-0x4], edi	7ffe83465a3c	4	0	-1
+Function	0	enter	pthread_mutex_lock@plt	(400bf0,400bfb,400fbb)
+Trace 0x400bf6: push 0x16	7ffe83465a20	8	-2
+Trace 0x400fbe: mov dword ptr [rip+0x203424], eax	6043e8	4	0	-1
+Function	0	enter	pthread_mutex_unlock@plt	(400ba0,400bab,400fce)
+Trace 0x400ba6: push 0x11	7ffe83465a20	8	-2
+Function	0	exit 	eSetPollingThreadState
+Function	0	enter	puts@plt	(400ac0,400acb,400d81)
+Trace 0x400ac6: push 0x3	7ffe83465a40	8	-2
+Trace 0x400d81: mov byte ptr [rbp-0x5], 0x0	7ffe83465a6b	1	-2
+Function	0	enter	printf@plt	(400b00,400b0b,400d94)
+Trace 0x400b06: push 0x7	7ffe83465a40	8	-2
+Function	0	enter	getchar@plt	(400b60,400b6b,400d99)
+Trace 0x400b66: push 0xd	7ffe83465a40	8	-2
+Trace 0x400d99: mov byte ptr [rbp-0x6], al	7ffe83465a6a	1	65	-1
+Function	0	enter	bCreatePollingThread	(400ec8,400f30,400dd5)
+Trace 0x400ec8: push rbp	7ffe83465a40	8	7ffe83465a70	-1
+Trace 0x400ed9: mov qword ptr [rbp-0x8], rax	7ffe83465a38	8	c004a6135f36b300	-1
+Function	0	enter	eGetPollingThreadState	(400f7c,400fa5,400ee4)
+Trace 0x400f7c: push rbp	7ffe83465a10	8	7ffe83465a40	-1
+Function	0	enter	pthread_mutex_lock@plt	(400bf0,400bfb,400f8e)
+Trace 0x400f94: mov dword ptr [rbp-0x4], eax	7ffe83465a0c	4	0	-1
+Function	0	enter	pthread_mutex_unlock@plt	(400ba0,400bab,400fa1)
+Function	0	exit 	eGetPollingThreadState
+Function	0	enter	pthread_create@plt	(400aa0,400aab,400f03)
+Trace 0x400aa6: push 0x1	7ffe83465a10	8	-2
+Function	1	enter	pvPollingThread	(400f31,400f7b,7f28db2886ba)
+Trace 0x400f0d: mov byte ptr [rbp-0x11], 0x1	7ffe83465a2f	1	-2
+Trace 0x400f31: push rbp	7f28da72af50	8	0	-1
+Trace 0x400f39: mov qword ptr [rbp-0x8], rdi	7f28da72af48	8	0	-1
+Function	1	enter	eSetPollingThreadState	(400fa6,400fd0,400f47)
+Trace 0x400fa6: push rbp	7f28da72af30	8	7f28da72af50	-1
+Function	0	exit 	bCreatePollingThread
+Trace 0x400fae: mov dword ptr [rbp-0x4], edi	7f28da72af2c	4	1	-1
+Function	1	enter	pthread_mutex_lock@plt	(400bf0,400bfb,400fbb)
+Trace 0x400fbe: mov dword ptr [rip+0x203424], eax	6043e8	4	1	-1
+Function	1	enter	pthread_mutex_unlock@plt	(400ba0,400bab,400fce)
+Function	1	exit 	eSetPollingThreadState
+Function	0	enter	getchar@plt	(400b60,400b6b,400ea4)
+Function	1	enter	eMBEnable	(401d04,401d3e,400f4c)
+Trace 0x401d04: push rbp	7f28da72af30	8	7f28da72af50	-1
+Trace 0x401d0c: mov dword ptr [rbp-0x4], 0x0	7f28da72af2c	4	-2
+Trace 0x400ea4: mov byte ptr [rbp-0x6], al	7ffe83465a6a	1	a	-1
+LOOP	400ea4	9
+LOOP	400d85	f
+Function	1	enter	eMBTCPStart	(401fc3,401fc9,401d27)
+Function	0	enter	printf@plt	(400b00,400b0b,400d94)
+Trace 0x401fc3: push rbp	7f28da72af10	8	7f28da72af30	-1
+LOOP	400d94	5
+Function	1	exit 	eMBTCPStart
+Function	0	enter	getchar@plt	(400b60,400b6b,400d99)
+Trace 0x401d27: mov dword ptr [rip+0x20240f], 0x0	604140	4	-2
+Function	1	exit 	eMBEnable
+Function	1	enter	eMBPoll	(401d8d,401f92,400f55)
+Trace 0x401d8d: push rbp	7f28da72af30	8	7f28da72af50	-1
+Trace 0x401d9e: mov qword ptr [rbp-0x8], rax	7f28da72af28	8	c004a6135f36b300	-1
+Trace 0x401da4: mov dword ptr [rbp-0xc], 0x0	7f28da72af24	4	-2
+Function	1	enter	xMBPortEventGet	(401347,401385,401dcb)
+Trace 0x401347: push rbp	7f28da72af00	8	7f28da72af30	-1
+Trace 0x40134f: mov qword ptr [rbp-0x18], rdi	7f28da72aee8	8	7f28da72af1c	-1
+Trace 0x401353: mov byte ptr [rbp-0x1], 0x0	7f28da72aeff	1	-2
+Function	1	enter	xMBPortTCPPool	(401592,4018dd,401380)
+Trace 0x401592: push rbp	7f28da72aed0	8	7f28da72af00	-1
+Trace 0x4015a6: mov qword ptr [rbp-0x8], rax	7f28da72aec8	8	c004a6135f36b300	-1
+Trace 0x4015ac: mov qword ptr [rbp-0xa0], 0x0	7f28da72ae30	8	-2
+Trace 0x4015b7: mov qword ptr [rbp-0x98], 0x1388	7f28da72ae38	8	-2
+Function	1	enter	select@plt	(400b90,400b9b,4015f2)
+Trace 0x400b96: push 0x10	7f28da72ae00	8	-2
+Trace 0x4015f2: mov dword ptr [rbp-0xb0], eax	7f28da72ae20	4	1	-1
+Function	1	enter	prvbMBPortAcceptClient	(401a09,401a8a,40164c)
+Trace 0x401a09: push rbp	7f28da72ae00	8	7f28da72aed0	-1
+Function	1	enter	accept@plt	(400bd0,400bdb,401a57)
+Trace 0x400bd6: push 0x14	7f28da72ade0	8	-2
+Trace 0x401a57: mov dword ptr [rbp-0x4], eax	7f28da72adfc	4	4	-1
+Trace 0x401a69: mov dword ptr [rip+0x2026b1], eax	604120	4	4	-1
+Trace 0x401a6f: mov word ptr [rip+0x202b10], 0x0	604588	2	-2
+Trace 0x401a78: mov word ptr [rip+0x202b09], 0x7	60458a	2	-2
+Trace 0x401a81: mov byte ptr [rbp-0x5], 0x1	7f28da72adfb	1	-2
+Function	1	exit 	prvbMBPortAcceptClient
+LOOP	401661	3
+Trace 0x401668: mov dword ptr [rbp-0xac], edx	7f28da72ae24	4	0	-1
+Trace 0x40166e: mov dword ptr [rbp-0xa8], eax	7f28da72ae28	4	da72aec0	-1
+Trace 0x4016b9: mov qword ptr [rbp+rax*8-0x90], rdx	7f28da72ae40	8	10	-1
+Function	1	enter	select@plt	(400b90,400b9b,4016ed)
+Trace 0x4016ed: mov dword ptr [rbp-0xa4], eax	7f28da72ae2c	4	1	-1
+Function	1	enter	recv@plt	(400a90,400a9b,40178e)
+Trace 0x400a96: push 0x0	7f28da72ae00	8	-2
+Taint	(0x604480, 7)
+Trace 0x40178e: mov dword ptr [rbp-0xa4], eax	7f28da72ae2c	4	7	-1
+Trace 0x4017d8: mov word ptr [rip+0x202da9], ax	604588	2	7	-1
+Trace 0x4017ee: mov word ptr [rip+0x202d95], ax	60458a	2	0	-1
+Instruction 0x401806: movzx eax, byte ptr [rip+0x202c77]	1	4	0x604484	0x0
+Instruction 0x40180d: movzx eax, al	1	4	0x604484	0x0
+Instruction 0x401810: shl eax, 0x8	1	4	0x0
+Trace 0x401813: mov word ptr [rbp-0xb2], ax	7f28da72ae1e	2	0	4
+Memory:	Taint	addr:7f28da72ae1e	src:604484	offset:4	size:1	bigendian:0
+Instruction 0x401813: mov word ptr [rbp-0xb2], ax	1	4	0x604484	0x0
+Instruction 0x40181a: movzx eax, byte ptr [rip+0x202c64]	1	5	0x604485	0x6
+Instruction 0x401821: movzx eax, al	1	5	0x604485	0x6
+Instruction 0x401824: or word ptr [rbp-0xb2], ax	1	;5	0x0;0x6
+Memory:	Taint	addr:7f28da72ae1e	src:604484	offset:4	size:2	bigendian:1
+Instruction 0x401824: or word ptr [rbp-0xb2], ax	1	4,5	0x0
+Instruction 0x401835: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x604484	0x6
+Instruction 0x40183c: add edx, 0x6	1	4,5	0x6
+Instruction 0x40183f: cmp eax, edx	1	;4,5	0x7;0xc
+Instruction 0x40184a: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x604484	0x6
+Instruction 0x401851: sub edx, eax	1	4,5	0x6;0x7
+Instruction 0x401853: mov eax, edx	1	4,5	0x604484	0xffffffff
+Instruction 0x401855: add eax, 0x6	1	4,5	0xffffffff
+Trace 0x401858: mov word ptr [rip+0x202d2b], ax	60458a	2	5	4
+Memory:	Taint	addr:60458a	src:604484	offset:4	size:2	bigendian:1
+Instruction 0x401858: mov word ptr [rip+0x202d2b], ax	1	4,5	0x604484	0x5
+LOOP	40164c	18
+LOOP	401664	89
+Trace 0x401668: mov dword ptr [rbp-0xac], edx	7f28da72ae24	4	0	-1
+Trace 0x40166e: mov dword ptr [rbp-0xa8], eax	7f28da72ae28	4	da72aec0	-1
+Trace 0x4016b9: mov qword ptr [rbp+rax*8-0x90], rdx	7f28da72ae40	8	10	-1
+Function	1	enter	select@plt	(400b90,400b9b,4016ed)
+Trace 0x4016ed: mov dword ptr [rbp-0xa4], eax	7f28da72ae2c	4	1	-1
+LOOP	4016ed	13
+LOOP	401700	d
+LOOP	40170d	d
+LOOP	40171a	45
+Instruction 0x40175f: movzx eax, word ptr [rip+0x202e24]	1	4,5	0x604484	0x5
+LOOP	40175f	2f
+Instruction 0x401766: movzx edx, ax	1	4,5	0x604484	0x5
+Function	1	enter	recv@plt	(400a90,400a9b,40178e)
+LENGTH	4,5
+Taint	(0x604487, 5)
+Trace 0x40178e: mov dword ptr [rbp-0xa4], eax	7f28da72ae2c	4	5	-1
+LOOP	40178e	f
+LOOP	40179d	9
+LOOP	4017c7	3f
+Trace 0x4017d8: mov word ptr [rip+0x202da9], ax	604588	2	c	-1
+Instruction 0x4017df: movzx eax, word ptr [rip+0x202da4]	1	4,5	0x604484	0x5
+Instruction 0x4017ec: sub eax, edx	1	4,5	0x5;0x5
+Trace 0x4017ee: mov word ptr [rip+0x202d95], ax	60458a	2	0	4
+Memory:	Taint	addr:60458a	src:604484	offset:4	size:2	bigendian:1
+Instruction 0x4017ee: mov word ptr [rip+0x202d95], ax	1	4,5	0x604484	0x0
+Instruction 0x401806: movzx eax, byte ptr [rip+0x202c77]	1	4	0x604484	0x0
+LOOP	401806	3d
+Instruction 0x40180d: movzx eax, al	1	4	0x604484	0x0
+Instruction 0x401810: shl eax, 0x8	1	4	0x0
+Trace 0x401813: mov word ptr [rbp-0xb2], ax	7f28da72ae1e	2	0	4
+Memory:	Taint	addr:7f28da72ae1e	src:604484	offset:4	size:1	bigendian:0
+Instruction 0x401813: mov word ptr [rbp-0xb2], ax	1	4	0x604484	0x0
+Instruction 0x40181a: movzx eax, byte ptr [rip+0x202c64]	1	5	0x604485	0x6
+Instruction 0x401821: movzx eax, al	1	5	0x604485	0x6
+Instruction 0x401824: or word ptr [rbp-0xb2], ax	1	;5	0x0;0x6
+Memory:	Taint	addr:7f28da72ae1e	src:604484	offset:4	size:2	bigendian:1
+Instruction 0x401824: or word ptr [rbp-0xb2], ax	1	4,5	0x0
+Instruction 0x401835: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x604484	0x6
+Instruction 0x40183c: add edx, 0x6	1	4,5	0x6
+Instruction 0x40183f: cmp eax, edx	1	;4,5	0xc;0xc
+Instruction 0x40186e: movzx edx, word ptr [rbp-0xb2]	1	4,5	0x604484	0x6
+Instruction 0x401875: add edx, 0x6	1	4,5	0x6
+Instruction 0x401878: cmp eax, edx	1	;4,5	0xc;0xc
+Function	1	enter	xMBPortEventPost	(401329,401346,401886)
+Trace 0x401329: push rbp	7f28da72ae00	8	7f28da72aed0	-1
+Trace 0x40132d: mov dword ptr [rbp-0x4], edi	7f28da72adfc	4	1	-1
+Trace 0x401330: mov byte ptr [rip+0x2030b9], 0x1	6043f0	1	-2
+Trace 0x40133a: mov dword ptr [rip+0x2030ac], eax	6043ec	4	1	-1
+Function	1	exit 	xMBPortEventPost
+Function	1	exit 	xMBPortTCPPool
+Function	1	exit 	xMBPortEventGet
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(400f7c,400fa5,400f5e)
+Trace 0x400f7c: push rbp	7f28da72af30	8	7f28da72af50	-1
+Function	1	enter	pthread_mutex_lock@plt	(400bf0,400bfb,400f8e)
+Trace 0x400f94: mov dword ptr [rbp-0x4], eax	7f28da72af2c	4	1	-1
+Function	1	enter	pthread_mutex_unlock@plt	(400ba0,400bab,400fa1)
+Function	1	exit 	eGetPollingThreadState
+LOOP	400f50	5
+Function	1	enter	eMBPoll	(401d8d,401f92,400f55)
+Trace 0x401d8d: push rbp	7f28da72af30	8	7f28da72af50	-1
+Trace 0x401d9e: mov qword ptr [rbp-0x8], rax	7f28da72af28	8	c004a6135f36b300	-1
+Trace 0x401da4: mov dword ptr [rbp-0xc], 0x0	7f28da72af24	4	-2
+Function	1	enter	xMBPortEventGet	(401347,401385,401dcb)
+Trace 0x401347: push rbp	7f28da72af00	8	7f28da72af30	-1
+Trace 0x40134f: mov qword ptr [rbp-0x18], rdi	7f28da72aee8	8	7f28da72af1c	-1
+Trace 0x401353: mov byte ptr [rbp-0x1], 0x0	7f28da72aeff	1	-2
+Trace 0x40136c: mov dword ptr [rax], edx	7f28da72af1c	4	1	-1
+Trace 0x40136e: mov byte ptr [rip+0x20307b], 0x0	6043f0	1	-2
+Trace 0x401375: mov byte ptr [rbp-0x1], 0x1	7f28da72aeff	1	-2
+Function	1	exit 	xMBPortEventGet
+Function	1	enter	eMBTCPReceive	(401fd6,402091,401e09)
+Trace 0x401fd6: push rbp	7f28da72af00	8	7f28da72af30	-1
+Trace 0x401fde: mov qword ptr [rbp-0x28], rdi	7f28da72aed8	8	6045c0	-1
+Trace 0x401fe2: mov qword ptr [rbp-0x30], rsi	7f28da72aed0	8	6045c8	-1
+Trace 0x401fe6: mov qword ptr [rbp-0x38], rdx	7f28da72aec8	8	6045d0	-1
+Trace 0x401ff3: mov qword ptr [rbp-0x8], rax	7f28da72aef8	8	c004a6135f36b300	-1
+Trace 0x401ff9: mov dword ptr [rbp-0x14], 0x5	7f28da72aeec	4	-2
+Function	1	enter	xMBTCPPortGetRequest	(4018de,40191b,402013)
+Trace 0x4018de: push rbp	7f28da72aeb0	8	7f28da72af00	-1
+Trace 0x4018e2: mov qword ptr [rbp-0x8], rdi	7f28da72aea8	8	7f28da72aef0	-1
+Trace 0x4018e6: mov qword ptr [rbp-0x10], rsi	7f28da72aea0	8	7f28da72aee8	-1
+Trace 0x4018ee: mov qword ptr [rax], 0x604480	7f28da72aef0	8	-2
+Trace 0x401900: mov word ptr [rax], dx	7f28da72aee8	2	c	-1
+Trace 0x401903: mov word ptr [rip+0x202c7c], 0x0	604588	2	-2
+Trace 0x40190c: mov word ptr [rip+0x202c75], 0x7	60458a	2	-2
+Memory:	Untaint	addr:60458a	src:604484	offset:4	size:2	bigendian:1
+Function	1	exit 	xMBTCPPortGetRequest
+Instruction 0x40201f: movzx eax, byte ptr [rax]	1	2	0x604482	0x0
+Instruction 0x402022: movzx eax, al	1	2	0x604482	0x0
+Instruction 0x402025: shl eax, 0x8	1	2	0x0
+Trace 0x402028: mov word ptr [rbp-0x16], ax	7f28da72aeea	2	0	2
+Memory:	Taint	addr:7f28da72aeea	src:604482	offset:2	size:1	bigendian:0
+Instruction 0x402028: mov word ptr [rbp-0x16], ax	1	2	0x604482	0x0
+Instruction 0x402034: movzx eax, byte ptr [rax]	1	3	0x604483	0x0
+Instruction 0x402037: movzx eax, al	1	3	0x604483	0x0
+Instruction 0x40203a: or word ptr [rbp-0x16], ax	1	;3	0x0;0x0
+Memory:	Taint	addr:7f28da72aeea	src:604482	offset:2	size:2	bigendian:1
+Instruction 0x40203a: or word ptr [rbp-0x16], ax	1	2,3	0x0
+Instruction 0x40203e: cmp word ptr [rbp-0x16], 0x0	1	2,3	0x0
+Trace 0x402051: mov qword ptr [rax], rdx	6045c8	8	604487	-1
+Trace 0x40205f: mov word ptr [rax], dx	6045d0	2	5	-1
+Trace 0x402062: mov dword ptr [rbp-0x14], 0x0	7f28da72aeec	4	-2
+Trace 0x40206d: mov byte ptr [rax], 0xff	6045c0	1	-2
+Function	1	exit 	eMBTCPReceive
+Trace 0x401e09: mov dword ptr [rbp-0xc], eax	7f28da72af24	4	0	-1
+Function	1	enter	xMBPortEventPost	(401329,401346,401e41)
+Trace 0x401329: push rbp	7f28da72af00	8	7f28da72af30	-1
+Trace 0x40132d: mov dword ptr [rbp-0x4], edi	7f28da72aefc	4	2	-1
+Trace 0x401330: mov byte ptr [rip+0x2030b9], 0x1	6043f0	1	-2
+Trace 0x40133a: mov dword ptr [rip+0x2030ac], eax	6043ec	4	2	-1
+Function	1	exit 	xMBPortEventPost
+Function	1	exit 	eMBPoll
+LOOP	400f55	4
+LOOP	400f59	5
+Function	1	enter	eGetPollingThreadState	(400f7c,400fa5,400f5e)
+Trace 0x400f7c: push rbp	7f28da72af30	8	7f28da72af50	-1
+Function	1	enter	pthread_mutex_lock@plt	(400bf0,400bfb,400f8e)
+Trace 0x400f94: mov dword ptr [rbp-0x4], eax	7f28da72af2c	4	1	-1
+Function	1	enter	pthread_mutex_unlock@plt	(400ba0,400bab,400fa1)
+Function	1	exit 	eGetPollingThreadState
+LOOP	400f5e	5
+Function	1	enter	eMBPoll	(401d8d,401f92,400f55)
+Trace 0x401d8d: push rbp	7f28da72af30	8	7f28da72af50	-1
+Trace 0x401d9e: mov qword ptr [rbp-0x8], rax	7f28da72af28	8	c004a6135f36b300	-1
+Trace 0x401da4: mov dword ptr [rbp-0xc], 0x0	7f28da72af24	4	-2
+Function	1	enter	xMBPortEventGet	(401347,401385,401dcb)
+Trace 0x401347: push rbp	7f28da72af00	8	7f28da72af30	-1
+Trace 0x40134f: mov qword ptr [rbp-0x18], rdi	7f28da72aee8	8	7f28da72af1c	-1
+Trace 0x401353: mov byte ptr [rbp-0x1], 0x0	7f28da72aeff	1	-2
+Trace 0x40136c: mov dword ptr [rax], edx	7f28da72af1c	4	2	-1
+Trace 0x40136e: mov byte ptr [rip+0x20307b], 0x0	6043f0	1	-2
+Trace 0x401375: mov byte ptr [rbp-0x1], 0x1	7f28da72aeff	1	-2
+Function	1	exit 	xMBPortEventGet
+Instruction 0x401e4d: movzx eax, byte ptr [rax]	1	7	0x604487	0x3
+Trace 0x401e50: mov byte ptr [rip+0x20277c], al	6045d2	1	3	7
+Memory:	Taint	addr:6045d2	src:604487	offset:7	size:1	bigendian:0
+Instruction 0x401e50: mov byte ptr [rip+0x20277c], al	1	7	0x604487	0x3
+Trace 0x401e56: mov dword ptr [rip+0x202774], 0x1	6045d4	4	-2
+Trace 0x401e60: mov dword ptr [rbp-0x10], 0x0	7f28da72af20	4	-2
+Instruction 0x401e91: movzx eax, byte ptr [rip+0x20273a]	1	7	0x604487	0x3
+Instruction 0x401e98: cmp dl, al	1	;7	0x11;0x3
+LOOP	401ec7	a
+LOOP	401e69	16
+LOOP	401e7f	1d
+Instruction 0x401e91: movzx eax, byte ptr [rip+0x20273a]	1	7	0x604487	0x3
+Instruction 0x401e98: cmp dl, al	1	;7	0x4;0x3
+Instruction 0x401e91: movzx eax, byte ptr [rip+0x20273a]	1	7	0x604487	0x3
+Instruction 0x401e98: cmp dl, al	1	;7	0x3;0x3
+Function	1	enter	eMBFuncReadHoldingRegister	(402638,402782,401ebf)
+Trace 0x402638: push rbp	7f28da72af00	8	7f28da72af30	-1
+Trace 0x402640: mov qword ptr [rbp-0x28], rdi	7f28da72aed8	8	604487	-1
+Trace 0x402644: mov qword ptr [rbp-0x30], rsi	7f28da72aed0	8	6045d0	-1
+Trace 0x402648: mov dword ptr [rbp-0x10], 0x0	7f28da72aef0	4	-2
+Instruction 0x402668: movzx eax, byte ptr [rax]	1	8	0x604488	0x0
+Instruction 0x40266b: movzx eax, al	1	8	0x604488	0x0
+Instruction 0x40266e: shl eax, 0x8	1	8	0x0
+Trace 0x402671: mov word ptr [rbp-0x14], ax	7f28da72aeec	2	0	8
+Memory:	Taint	addr:7f28da72aeec	src:604488	offset:8	size:1	bigendian:0
+Instruction 0x402671: mov word ptr [rbp-0x14], ax	1	8	0x604488	0x0
+Instruction 0x40267d: movzx eax, byte ptr [rax]	1	9	0x604489	0x2
+Instruction 0x402680: movzx eax, al	1	9	0x604489	0x2
+Instruction 0x402683: or word ptr [rbp-0x14], ax	1	;9	0x0;0x2
+Memory:	Taint	addr:7f28da72aeec	src:604488	offset:8	size:2	bigendian:1
+Instruction 0x402683: or word ptr [rbp-0x14], ax	1	8,9	0x0
+Instruction 0x402687: movzx eax, word ptr [rbp-0x14]	1	8,9	0x604488	0x2
+Instruction 0x40268b: add eax, 0x1	1	8,9	0x2
+Trace 0x40268e: mov word ptr [rbp-0x14], ax	7f28da72aeec	2	3	8
+Memory:	Taint	addr:7f28da72aeec	src:604488	offset:8	size:2	bigendian:1
+Instruction 0x40268e: mov word ptr [rbp-0x14], ax	1	8,9	0x604488	0x3
+Instruction 0x40269a: movzx eax, byte ptr [rax]	1	10	0x60448a	0x0
+Instruction 0x40269d: movzx eax, al	1	10	0x60448a	0x0
+Instruction 0x4026a0: shl eax, 0x8	1	10	0x0
+Trace 0x4026a3: mov word ptr [rbp-0x12], ax	7f28da72aeee	2	0	10
+Memory:	Taint	addr:7f28da72aeee	src:60448a	offset:a	size:1	bigendian:0
+Instruction 0x4026a3: mov word ptr [rbp-0x12], ax	1	10	0x60448a	0x0
+Instruction 0x4026af: movzx eax, byte ptr [rax]	1	11	0x60448b	0x8
+Instruction 0x4026b2: movzx eax, al	1	11	0x60448b	0x8
+Instruction 0x4026b5: or word ptr [rbp-0x12], ax	1	;11	0x0;0x8
+Memory:	Taint	addr:7f28da72aeee	src:60448a	offset:a	size:2	bigendian:1
+Instruction 0x4026b5: or word ptr [rbp-0x12], ax	1	10,11	0x0
+Instruction 0x4026b9: cmp word ptr [rbp-0x12], 0x0	1	10,11	0x8
+Instruction 0x4026c4: cmp word ptr [rbp-0x12], 0x7d	1	10,11	0x8
+Trace 0x4026d3: mov qword ptr [rbp-0x8], rax	7f28da72aef8	8	604487	-1
+Trace 0x4026db: mov word ptr [rax], 0x0	6045d0	2	-2
+Trace 0x4026e8: mov qword ptr [rbp-0x8], rdx	7f28da72aef8	8	604488	-1
+Trace 0x4026ec: mov byte ptr [rax], 0x3	604487	1	-2
+Memory:	Untaint	addr:604487	src:604487	offset:7	size:1	bigendian:0
+Trace 0x4026fd: mov word ptr [rax], dx	6045d0	2	1	-1
+Trace 0x402708: mov qword ptr [rbp-0x8], rdx	7f28da72aef8	8	604489	-1
+Instruction 0x40270c: movzx edx, word ptr [rbp-0x12]	1	10,11	0x60448a	0x8
+Instruction 0x402710: add edx, edx	1	;10,11	0x8;0x8
+Trace 0x402712: mov byte ptr [rax], dl	604488	1	10	11
+Memory:	Taint	addr:604488	src:60448b	offset:b	size:1	bigendian:1
+Instruction 0x402712: mov byte ptr [rax], dl	1	11	0x60448b	0x10
+Trace 0x402722: mov word ptr [rax], dx	6045d0	2	2	-1
+Instruction 0x402725: movzx edx, word ptr [rbp-0x12]	1	10,11	0x60448a	0x8
+Instruction 0x402729: movzx esi, word ptr [rbp-0x14]	1	8,9	0x604488	0x3
+Function	1	enter	eMBRegHoldingCB	(40107c,4011a0,40273e)
+Trace 0x40107c: push rbp	7f28da72aec0	8	7f28da72af00	-1
+Trace 0x401080: mov qword ptr [rbp-0x18], rdi	7f28da72aea8	8	604489	-1
+Instruction 0x401084: mov eax, edx	1	10,11	0x60448a	0x8
+Trace 0x401086: mov dword ptr [rbp-0x24], ecx	7f28da72ae9c	4	0	-1
+Trace 0x401089: mov word ptr [rbp-0x1c], si	7f28da72aea4	2	3	8
+Memory:	Taint	addr:7f28da72aea4	src:604488	offset:8	size:2	bigendian:1
+Instruction 0x401089: mov word ptr [rbp-0x1c], si	1	8,9	0x604488	0x3
+Trace 0x40108d: mov word ptr [rbp-0x20], ax	7f28da72aea0	2	8	10
+Memory:	Taint	addr:7f28da72aea0	src:60448a	offset:a	size:2	bigendian:1
+Instruction 0x40108d: mov word ptr [rbp-0x20], ax	1	10,11	0x60448a	0x8
+Trace 0x401091: mov dword ptr [rbp-0x8], 0x0	7f28da72aeb8	4	-2
+Instruction 0x401098: movzx edx, word ptr [rbp-0x1c]	1	8,9	0x604488	0x3
+Instruction 0x40109c: movzx eax, word ptr [rbp-0x20]	1	10,11	0x60448a	0x8
+Instruction 0x4010a0: add eax, edx	1	;8,9	0x8;0x3
+Instruction 0x4010a2: cmp eax, 0x82	1	10,11	0xb
+Instruction 0x4010ad: movzx edx, word ptr [rbp-0x1c]	1	8,9	0x604488	0x3
+Instruction 0x4010bb: sub edx, eax	1	8,9	0x3;0x0
+Instruction 0x4010bd: mov eax, edx	1	8,9	0x604488	0x3
+Trace 0x4010bf: mov dword ptr [rbp-0x4], eax	7f28da72aebc	4	3	8
+Memory:	Taint	addr:7f28da72aebc	src:604488	offset:8	size:2	bigendian:1
+Instruction 0x4010bf: mov dword ptr [rbp-0x4], eax	1	8,9	0x604488	0x3
+Instruction 0x401122: cmp word ptr [rbp-0x20], 0x0	1	10,11	0x8
+LOOP	4010d7	52
+Trace 0x4010df: mov qword ptr [rbp-0x18], rdx	7f28da72aea8	8	60448a	-1
+Instruction 0x4010e3: mov edx, dword ptr [rbp-0x4]	1	8,9	0x604488	0x3
+Instruction 0x4010e6: movsxd rdx, edx	1	8,9	0x604488	0x3
+Trace 0x4010f5: mov byte ptr [rax], dl	604489	1	0	-1
+Memory:	Untaint	addr:604489	src:604489	offset:9	size:1	bigendian:0
+Trace 0x4010ff: mov qword ptr [rbp-0x18], rdx	7f28da72aea8	8	60448b	-1
+Instruction 0x401103: mov edx, dword ptr [rbp-0x4]	1	8,9	0x604488	0x3
+Instruction 0x401106: movsxd rdx, edx	1	8,9	0x604488	0x3
+Trace 0x401111: mov byte ptr [rax], dl	60448a	1	0	-1
+Memory:	Untaint	addr:60448a	src:60448a	offset:a	size:1	bigendian:0
+Instruction 0x401113: add dword ptr [rbp-0x4], 0x1	1	8,9	0x3
+Instruction 0x401117: movzx eax, word ptr [rbp-0x20]	1	10,11	0x60448a	0x8
+Instruction 0x40111b: sub eax, 0x1	1	10,11	0x8
+Trace 0x40111e: mov word ptr [rbp-0x20], ax	7f28da72aea0	2	7	10
+Memory:	Taint	addr:7f28da72aea0	src:60448a	offset:a	size:2	bigendian:1
+Instruction 0x40111e: mov word ptr [rbp-0x20], ax	1	10,11	0x60448a	0x7
+Instruction 0x401122: cmp word ptr [rbp-0x20], 0x0	1	10,11	0x7
+Trace 0x4010df: mov qword ptr [rbp-0x18], rdx	7f28da72aea8	8	60448c	-1
+Instruction 0x4010e3: mov edx, dword ptr [rbp-0x4]	1	8,9	0x604488	0x4
+Instruction 0x4010e6: movsxd rdx, edx	1	8,9	0x604488	0x4
+Trace 0x4010f5: mov byte ptr [rax], dl	60448b	1	0	-1
+Memory:	Untaint	addr:60448b	src:60448b	offset:b	size:1	bigendian:0
+Trace 0x4010ff: mov qword ptr [rbp-0x18], rdx	7f28da72aea8	8	60448d	-1
+Instruction 0x401103: mov edx, dword ptr [rbp-0x4]	1	8,9	0x604488	0x4
+Instruction 0x401106: movsxd rdx, edx	1	8,9	0x604488	0x4
+Trace 0x401111: mov byte ptr [rax], dl	60448c	1	0	-1
+Instruction 0x401113: add dword ptr [rbp-0x4], 0x1	1	8,9	0x4
+Instruction 0x401117: movzx eax, word ptr [rbp-0x20]	1	10,11	0x60448a	0x7
+Instruction 0x40111b: sub eax, 0x1	1	10,11	0x7
+Trace 0x40111e: mov word ptr [rbp-0x20], ax	7f28da72aea0	2	6	10
+Memory:	Taint	addr:7f28da72aea0	src:60448a	offset:a	size:2	bigendian:1
+Instruction 0x40111e: mov word ptr [rbp-0x20], ax	1	10,11	0x60448a	0x6
+Instruction 0x401122: cmp word ptr [rbp-0x20], 0x0	1	10,11	0x6
+Trace 0x4010df: mov qword ptr [rbp-0x18], rdx	7f28da72aea8	8	60448e	-1
+Instruction 0x4010e3: mov edx, dword ptr [rbp-0x4]	1	8,9	0x604488	0x5
+Instruction 0x4010e6: movsxd rdx, edx	1	8,9	0x604488	0x5
+Trace 0x4010f5: mov byte ptr [rax], dl	60448d	1	0	-1
+Trace 0x4010ff: mov qword ptr [rbp-0x18], rdx	7f28da72aea8	8	60448f	-1
+Instruction 0x401103: mov edx, dword ptr [rbp-0x4]	1	8,9	0x604488	0x5
+Instruction 0x401106: movsxd rdx, edx	1	8,9	0x604488	0x5
+Trace 0x401111: mov byte ptr [rax], dl	60448e	1	0	-1
+Instruction 0x401113: add dword ptr [rbp-0x4], 0x1	1	8,9	0x5
+Instruction 0x401117: movzx eax, word ptr [rbp-0x20]	1	10,11	0x60448a	0x6
+Instruction 0x40111b: sub eax, 0x1	1	10,11	0x6
+Trace 0x40111e: mov word ptr [rbp-0x20], ax	7f28da72aea0	2	5	10
+Memory:	Taint	addr:7f28da72aea0	src:60448a	offset:a	size:2	bigendian:1
+Instruction 0x40111e: mov word ptr [rbp-0x20], ax	1	10,11	0x60448a	0x5
+Instruction 0x401122: cmp word ptr [rbp-0x20], 0x0	1	10,11	0x5
+Trace 0x4010df: mov qword ptr [rbp-0x18], rdx	7f28da72aea8	8	604490	-1
+Instruction 0x4010e3: mov edx, dword ptr [rbp-0x4]	1	8,9	0x604488	0x6
+Instruction 0x4010e6: movsxd rdx, edx	1	8,9	0x604488	0x6
+Trace 0x4010f5: mov byte ptr [rax], dl	60448f	1	0	-1
+Trace 0x4010ff: mov qword ptr [rbp-0x18], rdx	7f28da72aea8	8	604491	-1
+Instruction 0x401103: mov edx, dword ptr [rbp-0x4]	1	8,9	0x604488	0x6
+Instruction 0x401106: movsxd rdx, edx	1	8,9	0x604488	0x6
+Trace 0x401111: mov byte ptr [rax], dl	604490	1	0	-1
+Instruction 0x401113: add dword ptr [rbp-0x4], 0x1	1	8,9	0x6
+Instruction 0x401117: movzx eax, word ptr [rbp-0x20]	1	10,11	0x60448a	0x5
+Instruction 0x40111b: sub eax, 0x1	1	10,11	0x5
+Trace 0x40111e: mov word ptr [rbp-0x20], ax	7f28da72aea0	2	4	10
+Memory:	Taint	addr:7f28da72aea0	src:60448a	offset:a	size:2	bigendian:1
+Instruction 0x40111e: mov word ptr [rbp-0x20], ax	1	10,11	0x60448a	0x4
+Instruction 0x401122: cmp word ptr [rbp-0x20], 0x0	1	10,11	0x4
+Trace 0x4010df: mov qword ptr [rbp-0x18], rdx	7f28da72aea8	8	604492	-1
+Instruction 0x4010e3: mov edx, dword ptr [rbp-0x4]	1	8,9	0x604488	0x7
+Instruction 0x4010e6: movsxd rdx, edx	1	8,9	0x604488	0x7
+Trace 0x4010f5: mov byte ptr [rax], dl	604491	1	0	-1
+Trace 0x4010ff: mov qword ptr [rbp-0x18], rdx	7f28da72aea8	8	604493	-1
+Instruction 0x401103: mov edx, dword ptr [rbp-0x4]	1	8,9	0x604488	0x7
+Instruction 0x401106: movsxd rdx, edx	1	8,9	0x604488	0x7
+Trace 0x401111: mov byte ptr [rax], dl	604492	1	0	-1
+Instruction 0x401113: add dword ptr [rbp-0x4], 0x1	1	8,9	0x7
+Instruction 0x401117: movzx eax, word ptr [rbp-0x20]	1	10,11	0x60448a	0x4
+Instruction 0x40111b: sub eax, 0x1	1	10,11	0x4
+Trace 0x40111e: mov word ptr [rbp-0x20], ax	7f28da72aea0	2	3	10
+Memory:	Taint	addr:7f28da72aea0	src:60448a	offset:a	size:2	bigendian:1
+Instruction 0x40111e: mov word ptr [rbp-0x20], ax	1	10,11	0x60448a	0x3
+Instruction 0x401122: cmp word ptr [rbp-0x20], 0x0	1	10,11	0x3
+Trace 0x4010df: mov qword ptr [rbp-0x18], rdx	7f28da72aea8	8	604494	-1
+Instruction 0x4010e3: mov edx, dword ptr [rbp-0x4]	1	8,9	0x604488	0x8
+Instruction 0x4010e6: movsxd rdx, edx	1	8,9	0x604488	0x8
+Trace 0x4010f5: mov byte ptr [rax], dl	604493	1	0	-1
+Trace 0x4010ff: mov qword ptr [rbp-0x18], rdx	7f28da72aea8	8	604495	-1
+Instruction 0x401103: mov edx, dword ptr [rbp-0x4]	1	8,9	0x604488	0x8
+Instruction 0x401106: movsxd rdx, edx	1	8,9	0x604488	0x8
+Trace 0x401111: mov byte ptr [rax], dl	604494	1	0	-1
+Instruction 0x401113: add dword ptr [rbp-0x4], 0x1	1	8,9	0x8
+Instruction 0x401117: movzx eax, word ptr [rbp-0x20]	1	10,11	0x60448a	0x3
+Instruction 0x40111b: sub eax, 0x1	1	10,11	0x3
+Trace 0x40111e: mov word ptr [rbp-0x20], ax	7f28da72aea0	2	2	10
+Memory:	Taint	addr:7f28da72aea0	src:60448a	offset:a	size:2	bigendian:1
+Instruction 0x40111e: mov word ptr [rbp-0x20], ax	1	10,11	0x60448a	0x2
+Instruction 0x401122: cmp word ptr [rbp-0x20], 0x0	1	10,11	0x2
+Trace 0x4010df: mov qword ptr [rbp-0x18], rdx	7f28da72aea8	8	604496	-1
+Instruction 0x4010e3: mov edx, dword ptr [rbp-0x4]	1	8,9	0x604488	0x9
+Instruction 0x4010e6: movsxd rdx, edx	1	8,9	0x604488	0x9
+Trace 0x4010f5: mov byte ptr [rax], dl	604495	1	0	-1
+Trace 0x4010ff: mov qword ptr [rbp-0x18], rdx	7f28da72aea8	8	604497	-1
+Instruction 0x401103: mov edx, dword ptr [rbp-0x4]	1	8,9	0x604488	0x9
+Instruction 0x401106: movsxd rdx, edx	1	8,9	0x604488	0x9
+Trace 0x401111: mov byte ptr [rax], dl	604496	1	0	-1
+Instruction 0x401113: add dword ptr [rbp-0x4], 0x1	1	8,9	0x9
+Instruction 0x401117: movzx eax, word ptr [rbp-0x20]	1	10,11	0x60448a	0x2
+Instruction 0x40111b: sub eax, 0x1	1	10,11	0x2
+Trace 0x40111e: mov word ptr [rbp-0x20], ax	7f28da72aea0	2	1	10
+Memory:	Taint	addr:7f28da72aea0	src:60448a	offset:a	size:2	bigendian:1
+Instruction 0x40111e: mov word ptr [rbp-0x20], ax	1	10,11	0x60448a	0x1
+Instruction 0x401122: cmp word ptr [rbp-0x20], 0x0	1	10,11	0x1
+Trace 0x4010df: mov qword ptr [rbp-0x18], rdx	7f28da72aea8	8	604498	-1
+Instruction 0x4010e3: mov edx, dword ptr [rbp-0x4]	1	8,9	0x604488	0xa
+Instruction 0x4010e6: movsxd rdx, edx	1	8,9	0x604488	0xa
+Trace 0x4010f5: mov byte ptr [rax], dl	604497	1	0	-1
+Trace 0x4010ff: mov qword ptr [rbp-0x18], rdx	7f28da72aea8	8	604499	-1
+Instruction 0x401103: mov edx, dword ptr [rbp-0x4]	1	8,9	0x604488	0xa
+Instruction 0x401106: movsxd rdx, edx	1	8,9	0x604488	0xa
+Trace 0x401111: mov byte ptr [rax], dl	604498	1	0	-1
+Instruction 0x401113: add dword ptr [rbp-0x4], 0x1	1	8,9	0xa
+Instruction 0x401117: movzx eax, word ptr [rbp-0x20]	1	10,11	0x60448a	0x1
+Instruction 0x40111b: sub eax, 0x1	1	10,11	0x1
+Trace 0x40111e: mov word ptr [rbp-0x20], ax	7f28da72aea0	2	0	10
+Memory:	Taint	addr:7f28da72aea0	src:60448a	offset:a	size:2	bigendian:1
+Instruction 0x40111e: mov word ptr [rbp-0x20], ax	1	10,11	0x60448a	0x0
+Instruction 0x401122: cmp word ptr [rbp-0x20], 0x0	1	10,11	0x0
+Function	1	exit 	eMBRegHoldingCB
+Trace 0x40273e: mov dword ptr [rbp-0xc], eax	7f28da72aef4	4	0	-1
+Instruction 0x40275d: movzx edx, word ptr [rbp-0x12]	1	10,11	0x60448a	0x8
+Instruction 0x402761: add edx, edx	1	;10,11	0x8;0x8
+Instruction 0x402763: add edx, eax	1	10,11	0x10;0x2
+Trace 0x402769: mov word ptr [rax], dx	6045d0	2	12	10
+Memory:	Taint	addr:6045d0	src:60448a	offset:a	size:2	bigendian:1
+Instruction 0x402769: mov word ptr [rax], dx	1	10,11	0x60448a	0x12
+Function	1	exit 	eMBFuncReadHoldingRegister
+Trace 0x401ebf: mov dword ptr [rip+0x20270f], eax	6045d4	4	0	-1
+Instruction 0x401f4d: movzx edx, word ptr [rip+0x20267c]	1	10,11	0x60448a	0x12
+Instruction 0x401f54: movzx edx, dx	1	10,11	0x60448a	0x12
+Function	1	enter	eMBTCPSend	(402092,40210d,401f6c)
+Trace 0x402092: push rbp	7f28da72af00	8	7f28da72af30	-1
+Trace 0x40209c: mov qword ptr [rbp-0x20], rsi	7f28da72aee0	8	604487	-1
+Instruction 0x4020a0: mov eax, edx	1	10,11	0x60448a	0x12
+Trace 0x4020a2: mov byte ptr [rbp-0x14], cl	7f28da72aeec	1	ff	-1
+Memory:	Untaint	addr:7f28da72aeec	src:604488	offset:8	size:2	bigendian:1
+Trace 0x4020a5: mov word ptr [rbp-0x18], ax	7f28da72aee8	2	12	10
+Memory:	Taint	addr:7f28da72aee8	src:60448a	offset:a	size:2	bigendian:1
+Instruction 0x4020a5: mov word ptr [rbp-0x18], ax	1	10,11	0x60448a	0x12
+Trace 0x4020a9: mov dword ptr [rbp-0xc], 0x0	7f28da72aef4	4	-2
+Trace 0x4020b8: mov qword ptr [rbp-0x8], rax	7f28da72aef8	8	604480	-1
+Instruction 0x4020bc: movzx eax, word ptr [rbp-0x18]	1	10,11	0x60448a	0x12
+Instruction 0x4020c0: add eax, 0x7	1	10,11	0x12
+Trace 0x4020c3: mov word ptr [rbp-0xe], ax	7f28da72aef2	2	19	10
+Memory:	Taint	addr:7f28da72aef2	src:60448a	offset:a	size:2	bigendian:1
+Instruction 0x4020c3: mov word ptr [rbp-0xe], ax	1	10,11	0x60448a	0x19
+Instruction 0x4020cf: movzx edx, word ptr [rbp-0x18]	1	10,11	0x60448a	0x12
+Instruction 0x4020d3: add edx, 0x1	1	10,11	0x12
+Instruction 0x4020d6: sar edx, 0x8	1	10	0x13
+Trace 0x4020d9: mov byte ptr [rax], dl	604484	1	0	10
+Memory:	Taint	addr:604484	src:60448a	offset:a	size:1	bigendian:1
+Instruction 0x4020d9: mov byte ptr [rax], dl	1	10	0x60448a	0x0
+Instruction 0x4020e3: movzx edx, word ptr [rbp-0x18]	1	10,11	0x60448a	0x12
+Instruction 0x4020e7: add edx, 0x1	1	10,11	0x12
+Trace 0x4020ea: mov byte ptr [rax], dl	604485	1	13	11
+Memory:	Taint	addr:604485	src:60448b	offset:b	size:1	bigendian:1
+Instruction 0x4020ea: mov byte ptr [rax], dl	1	11	0x60448b	0x13
+Instruction 0x4020ec: movzx edx, word ptr [rbp-0xe]	1	10,11	0x60448a	0x19
+Instruction 0x4020f4: mov esi, edx	1	10,11	0x60448a	0x19
+Function	1	enter	xMBTCPPortSendResponse	(40191c,4019ce,4020fe)
+Trace 0x40191c: push rbp	7f28da72aed0	8	7f28da72af00	-1
+Trace 0x401924: mov qword ptr [rbp-0x18], rdi	7f28da72aeb8	8	604480	-1
+Instruction 0x401928: mov eax, esi	1	10,11	0x60448a	0x19
+Trace 0x40192a: mov word ptr [rbp-0x1c], ax	7f28da72aeb4	2	19	10
+Memory:	Taint	addr:7f28da72aeb4	src:60448a	offset:a	size:2	bigendian:1
+Instruction 0x40192a: mov word ptr [rbp-0x1c], ax	1	10,11	0x60448a	0x19
+Trace 0x40192e: mov byte ptr [rbp-0xd], 0x0	7f28da72aec3	1	-2
+Trace 0x401932: mov byte ptr [rbp-0xe], 0x0	7f28da72aec2	1	-2
+Trace 0x401936: mov dword ptr [rbp-0xc], 0x0	7f28da72aec4	4	-2
+Trace 0x40193d: mov dword ptr [rbp-0x8], 0x3e8	7f28da72aec8	4	-2
+Instruction 0x401944: movzx eax, word ptr [rbp-0x1c]	1	10,11	0x60448a	0x19
+Instruction 0x401948: sub eax, dword ptr [rbp-0xc]	1	10,11	0x19;0x0
+Instruction 0x40194b: movsxd rdx, eax	1	10,11	0x60448a	0x19
+Function	1	enter	send@plt	(400af0,400afb,40196e)
+Trace 0x400af6: push 0x6	7f28da72aea0	8	-2
+Memory:	Untaint	addr:7f28da72aea0	src:60448a	offset:a	size:2	bigendian:1
+Trace Address (send) :	604480	25	25
+Trace 0x40196e: mov dword ptr [rbp-0x4], eax	7f28da72aecc	4	19	-1
+Instruction 0x4019ad: movzx eax, word ptr [rbp-0x1c]	1	10,11	0x60448a	0x19
+Instruction 0x4019b1: cmp eax, dword ptr [rbp-0xc]	1	10,11	0x19;0x19
+Instruction 0x4019bc: movzx eax, word ptr [rbp-0x1c]	1	10,11	0x60448a	0x19
+Instruction 0x4019c0: cmp eax, dword ptr [rbp-0xc]	1	10,11	0x19;0x19
+Trace 0x4019c6: mov byte ptr [rbp-0xd], al	7f28da72aec3	1	1	-1
+Function	1	exit 	xMBTCPPortSendResponse
+Function	1	exit 	eMBTCPSend
+Trace 0x401f6c: mov dword ptr [rbp-0xc], eax	7f28da72af24	4	0	-1
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(400f7c,400fa5,400f5e)
+Trace 0x400f7c: push rbp	7f28da72af30	8	7f28da72af50	-1
+Function	1	enter	pthread_mutex_lock@plt	(400bf0,400bfb,400f8e)
+Trace 0x400f94: mov dword ptr [rbp-0x4], eax	7f28da72af2c	4	1	-1
+Function	1	enter	pthread_mutex_unlock@plt	(400ba0,400bab,400fa1)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(401d8d,401f92,400f55)
+Trace 0x401d8d: push rbp	7f28da72af30	8	7f28da72af50	-1
+Trace 0x401d9e: mov qword ptr [rbp-0x8], rax	7f28da72af28	8	c004a6135f36b300	-1
+Trace 0x401da4: mov dword ptr [rbp-0xc], 0x0	7f28da72af24	4	-2
+Function	1	enter	xMBPortEventGet	(401347,401385,401dcb)
+Trace 0x401347: push rbp	7f28da72af00	8	7f28da72af30	-1
+Trace 0x40134f: mov qword ptr [rbp-0x18], rdi	7f28da72aee8	8	7f28da72af1c	-1
+Memory:	Untaint	addr:7f28da72aee8	src:60448a	offset:a	size:2	bigendian:1
+Trace 0x401353: mov byte ptr [rbp-0x1], 0x0	7f28da72aeff	1	-2
+Function	1	enter	xMBPortTCPPool	(401592,4018dd,401380)
+Trace 0x401592: push rbp	7f28da72aed0	8	7f28da72af00	-1
+Trace 0x4015a6: mov qword ptr [rbp-0x8], rax	7f28da72aec8	8	c004a6135f36b300	-1
+Trace 0x4015ac: mov qword ptr [rbp-0xa0], 0x0	7f28da72ae30	8	-2
+Trace 0x4015b7: mov qword ptr [rbp-0x98], 0x1388	7f28da72ae38	8	-2
+Trace 0x401668: mov dword ptr [rbp-0xac], edx	7f28da72ae24	4	0	-1
+Trace 0x40166e: mov dword ptr [rbp-0xa8], eax	7f28da72ae28	4	da72aec0	-1
+Trace 0x4016b9: mov qword ptr [rbp+rax*8-0x90], rdx	7f28da72ae40	8	10	-1
+Function	1	enter	select@plt	(400b90,400b9b,4016ed)
+Trace 0x4016ed: mov dword ptr [rbp-0xa4], eax	7f28da72ae2c	4	1	-1
+Function	1	enter	recv@plt	(400a90,400a9b,40178e)
+Taint	(0x604480, 0)
+Trace 0x40178e: mov dword ptr [rbp-0xa4], eax	7f28da72ae2c	4	0	-1
+Function	1	enter	close@plt	(400b40,400b4b,4017b3)
+Trace 0x400b46: push 0xb	7f28da72ae00	8	-2
+Trace 0x4017b3: mov dword ptr [rip+0x202963], 0xffffffff	604120	4	-2
+Function	1	exit 	xMBPortTCPPool
+Function	1	exit 	xMBPortEventGet
+Function	1	exit 	eMBPoll
+Function	1	enter	eGetPollingThreadState	(400f7c,400fa5,400f5e)
+Trace 0x400f7c: push rbp	7f28da72af30	8	7f28da72af50	-1
+Function	1	enter	pthread_mutex_lock@plt	(400bf0,400bfb,400f8e)
+Trace 0x400f94: mov dword ptr [rbp-0x4], eax	7f28da72af2c	4	1	-1
+Function	1	enter	pthread_mutex_unlock@plt	(400ba0,400bab,400fa1)
+Function	1	exit 	eGetPollingThreadState
+Function	1	enter	eMBPoll	(401d8d,401f92,400f55)
+Trace 0x401d8d: push rbp	7f28da72af30	8	7f28da72af50	-1
+Trace 0x401d9e: mov qword ptr [rbp-0x8], rax	7f28da72af28	8	c004a6135f36b300	-1
+Trace 0x401da4: mov dword ptr [rbp-0xc], 0x0	7f28da72af24	4	-2
+Function	1	enter	xMBPortEventGet	(401347,401385,401dcb)
+Trace 0x401347: push rbp	7f28da72af00	8	7f28da72af30	-1
+Trace 0x40134f: mov qword ptr [rbp-0x18], rdi	7f28da72aee8	8	7f28da72af1c	-1
+Trace 0x401353: mov byte ptr [rbp-0x1], 0x0	7f28da72aeff	1	-2
+Function	1	enter	xMBPortTCPPool	(401592,4018dd,401380)
+Trace 0x401592: push rbp	7f28da72aed0	8	7f28da72af00	-1
+Trace 0x4015a6: mov qword ptr [rbp-0x8], rax	7f28da72aec8	8	c004a6135f36b300	-1
+Trace 0x4015ac: mov qword ptr [rbp-0xa0], 0x0	7f28da72ae30	8	-2
+Trace 0x4015b7: mov qword ptr [rbp-0x98], 0x1388	7f28da72ae38	8	-2
+Function	1	enter	select@plt	(400b90,400b9b,4015f2)

@@ -1,0 +1,238 @@
+Function	0	enter	main	(40ad06,40b3f8,7fd1e8590830)
+Function	0	enter	modbus_new_tcp	(40d410,40d51d,40ad4b)
+Function	0	enter	malloc@plt	(401820,40182b,40d42a)
+Function	0	enter	_modbus_init_common	(402760,40279b,40d43e)
+Function	0	exit 	_modbus_init_common
+Function	0	enter	malloc@plt	(401820,40182b,40d456)
+Function	0	enter	strlcpy	(404b30,404b71,40d47c)
+Function	0	exit 	strlcpy
+Function	0	exit 	modbus_new_tcp
+Function	0	enter	malloc@plt	(401820,40182b,40ad5c)
+Function	0	enter	modbus_set_debug	(404910,404933,40ad77)
+Function	0	exit 	modbus_set_debug
+Function	0	enter	modbus_mapping_new_start_address	(404940,404ab9,40ada3)
+Function	0	enter	malloc@plt	(401820,40182b,40496a)
+Function	0	enter	calloc@plt	(401760,40176b,404a41)
+Function	0	enter	calloc@plt	(401760,40176b,404a6c)
+Function	0	enter	calloc@plt	(401760,40176b,404a98)
+Function	0	enter	calloc@plt	(401760,40176b,404a09)
+Function	0	exit 	modbus_mapping_new_start_address
+Function	0	enter	modbus_tcp_listen	(40cf50,40d07f,40ae97)
+Function	0	enter	socket@plt	(4019b0,4019bb,40cf96)
+Function	0	enter	setsockopt@plt	(4015d0,4015db,40cfbd)
+Function	0	enter	bind@plt	(401890,40189b,40d01c)
+Function	0	enter	listen@plt	(401850,40185b,40d02d)
+Function	0	exit 	modbus_tcp_listen
+Function	0	enter	select@plt	(401800,40180b,40b065)
+Function	0	enter	modbus_tcp_accept	(40d2d0,40d36f,40b0e1)
+Function	0	enter	accept@plt	(401910,40191b,40d309)
+Function	0	enter	inet_ntoa@plt	(401600,40160b,40d339)
+Function	0	enter	__printf_chk@plt	(401880,40188b,40d34d)
+Function	0	enter	malloc@plt	(401820,40182b,7fd1e85dd1d5)
+Function	0	exit 	modbus_tcp_accept
+Function	0	enter	select@plt	(401800,40180b,40b065)
+Function	0	enter	modbus_receive	(402730,402758,40b2cd)
+Function	0	enter	_modbus_tcp_receive	(40cd30,40cd32,40b2cd)
+Function	0	enter	_modbus_receive_msg	(4036f0,403c0e,40b2cd)
+Function	0	enter	puts@plt	(4015a0,4015ab,40373b)
+Function	0	enter	__fdelt_chk@plt	(401690,40169b,403755)
+Function	0	enter	_modbus_tcp_select	(40c980,40ca4c,4037e3)
+Function	0	enter	select@plt	(401800,40180b,40c9e9)
+Function	0	exit 	_modbus_tcp_select
+Function	0	enter	_modbus_tcp_recv	(40ca50,40ca58,403805)
+Function	0	enter	recv@plt	(401530,40153b,403805)
+Taint	(0x1abc080, 8)
+Instruction 0x4038a0: movzx edx, byte ptr [rbx+r15*1]	0	0	0x1abc080	0x1
+Function	0	enter	__printf_chk@plt	(401880,40188b,4038ba)
+Instruction 0x4038a0: movzx edx, byte ptr [rbx+r15*1]	0	1	0x1abc081	0x11
+Function	0	enter	__printf_chk@plt	(401880,40188b,4038ba)
+Instruction 0x4038a0: movzx edx, byte ptr [rbx+r15*1]	0	2	0x1abc082	0x0
+Function	0	enter	__printf_chk@plt	(401880,40188b,4038ba)
+Instruction 0x4038a0: movzx edx, byte ptr [rbx+r15*1]	0	3	0x1abc083	0x0
+Function	0	enter	__printf_chk@plt	(401880,40188b,4038ba)
+Instruction 0x4038a0: movzx edx, byte ptr [rbx+r15*1]	0	4	0x1abc084	0x0
+Function	0	enter	__printf_chk@plt	(401880,40188b,4038ba)
+Instruction 0x4038a0: movzx edx, byte ptr [rbx+r15*1]	0	5	0x1abc085	0x6
+Function	0	enter	__printf_chk@plt	(401880,40188b,4038ba)
+Instruction 0x4038a0: movzx edx, byte ptr [rbx+r15*1]	0	6	0x1abc086	0x1
+Function	0	enter	__printf_chk@plt	(401880,40188b,4038ba)
+Instruction 0x4038a0: movzx edx, byte ptr [rbx+r15*1]	0	7	0x1abc087	0x3
+Function	0	enter	__printf_chk@plt	(401880,40188b,4038ba)
+Instruction 0x403a30: movzx ecx, byte ptr [rdi+rcx*1]	0	7	0x1abc087	0x3
+Instruction 0x403a3c: movzx esi, cl	0	7	0x1abc087	0x3
+Instruction 0x403a3f: cmp esi, 0x6	0	7	0x3
+Function	0	enter	_modbus_tcp_select	(40c980,40ca4c,4037e3)
+Function	0	enter	select@plt	(401800,40180b,40c9e9)
+Function	0	exit 	_modbus_tcp_select
+Function	0	enter	_modbus_tcp_recv	(40ca50,40ca58,403805)
+Function	0	enter	recv@plt	(401530,40153b,403805)
+Taint	(0x1abc088, 4)
+Instruction 0x4038a0: movzx edx, byte ptr [rbx+r15*1]	0	8	0x1abc088	0x0
+Function	0	enter	__printf_chk@plt	(401880,40188b,4038ba)
+Instruction 0x4038a0: movzx edx, byte ptr [rbx+r15*1]	0	9	0x1abc089	0x2
+Function	0	enter	__printf_chk@plt	(401880,40188b,4038ba)
+Instruction 0x4038a0: movzx edx, byte ptr [rbx+r15*1]	0	10	0x1abc08a	0x0
+Function	0	enter	__printf_chk@plt	(401880,40188b,4038ba)
+Instruction 0x4038a0: movzx edx, byte ptr [rbx+r15*1]	0	11	0x1abc08b	0x8
+Function	0	enter	__printf_chk@plt	(401880,40188b,4038ba)
+Instruction 0x40391e: movzx ecx, byte ptr [rdi+rcx*1]	0	7	0x1abc087	0x3
+Instruction 0x403a70: cmp cl, 0xf	0	7	0x3
+Function	0	enter	putchar@plt	(401540,40154b,403b96)
+Function	0	enter	_modbus_tcp_check_integrity	(40c810,40c812,4038fc)
+Function	0	exit 	_modbus_tcp_check_integrity
+Function	0	exit 	_modbus_receive_msg
+Function	0	enter	modbus_reply	(402c80,403626,40b2ff)
+Instruction 0x402cc4: movzx edi, byte ptr [rsi+rbp*1+0x1]	0	8	0x1abc088	0x0
+Instruction 0x402ccd: movzx r13d, byte ptr [rsi+rbp*1-0x1]	0	6	0x1abc086	0x1
+Instruction 0x402cd3: movzx edx, byte ptr [r12]	0	7	0x1abc087	0x3
+Memory:	Taint	addr:7ffeaf7c7a4c	src:1abc088	offset:8	size:1	bigendian:0
+Instruction 0x402cd8: mov byte ptr [rsp+0x1c], dil	0	8	0x1abc088	0x0
+Instruction 0x402cdd: movzx edi, byte ptr [rsi+rbp*1+0x2]	0	9	0x1abc089	0x2
+Memory:	Taint	addr:7ffeaf7c7a60	src:1abc086	offset:6	size:1	bigendian:0
+Instruction 0x402ce7: mov dword ptr [rsp+0x30], r13d	0	6	0x1abc086	0x1
+Memory:	Taint	addr:7ffeaf7c7a38	src:1abc087	offset:7	size:1	bigendian:0
+Instruction 0x402cec: mov byte ptr [rsp+0x8], dl	0	7	0x1abc087	0x3
+Memory:	Taint	addr:7ffeaf7c7a64	src:1abc087	offset:7	size:1	bigendian:0
+Instruction 0x402cf0: mov dword ptr [rsp+0x34], edx	0	7	0x1abc087	0x3
+Memory:	Taint	addr:7ffeaf7c7a30	src:1abc087	offset:7	size:1	bigendian:0
+Instruction 0x402cf4: mov dword ptr [rsp], edx	0	7	0x1abc087	0x3
+Memory:	Taint	addr:7ffeaf7c7a58	src:1abc089	offset:9	size:1	bigendian:0
+Instruction 0x402cf7: mov byte ptr [rsp+0x28], dil	0	9	0x1abc089	0x2
+Function	0	enter	_modbus_tcp_prepare_response_tid	(40c7e0,40c7ec,402d02)
+Instruction 0x40c7e0: movzx eax, byte ptr [rdi]	0	0	0x1abc080	0x1
+Instruction 0x40c7e3: movzx edx, byte ptr [rdi+0x1]	0	1	0x1abc081	0x11
+Instruction 0x40c7e7: shl eax, 0x8	0	0	0x1
+Instruction 0x40c7ea: add eax, edx	0	0	0x100
+Instruction 0x40c7ea: add eax, edx	0	1	0x11
+Instruction 0x40c7ea: add eax, edx	0	0,1	0x100
+Function	0	exit 	_modbus_tcp_prepare_response_tid
+Memory:	Taint	addr:7ffeaf7c7a68	src:1abc080	offset:0	size:2	bigendian:1
+Instruction 0x402d09: mov dword ptr [rsp+0x38], eax	0	0,1	0x1abc080	0x111
+Function	0	enter	validate	(406861,406c46,402d14)
+Function	0	enter	validate_init	(406701,406729,40687d)
+Function	0	enter	init_func_mem	(404bcf,404cb5,406723)
+Function	0	enter	memset@plt	(4016f0,4016fb,404beb)
+Function	0	enter	memset@plt	(4016f0,4016fb,404bff)
+Function	0	exit 	init_func_mem
+Function	0	exit 	validate_init
+Function	0	enter	check_update	(40672a,406860,406887)
+Function	0	enter	fopen@plt	(4018d0,4018db,406752)
+Function	0	enter	malloc@plt	(401820,40182b,7fd1e85ddcdd)
+Function	0	enter	free@plt	(401520,40152b,7fd1e85ddd5d)
+Function	0	exit 	check_update
+Function	0	enter	fwrite@plt	(401940,40194b,4068a9)
+Function	0	exit 	validate
+Instruction 0x402d16: mov edx, dword ptr [rsp]	0	7	0x1abc087	0x3
+Instruction 0x402d19: movzx r8d, byte ptr [rsp+0x8]	0	7	0x1abc087	0x3
+Instruction 0x402d26: movzx r15d, word ptr [rsp+0x1c]	0	8	0x1abc088	0x0
+Instruction 0x402d2c: movzx r12d, byte ptr [rsp+0x28]	0	9	0x1abc089	0x2
+Instruction 0x402d32: shl r15d, 0x8	0	8	0x0
+Instruction 0x402d36: add r12d, r15d	0	9	0x2
+Instruction 0x402d36: add r12d, r15d	0	8	0x0
+Instruction 0x402d36: add r12d, r15d	0	8,9	0x2
+Instruction 0x402d39: cmp r8b, 0x17	0	7	0x3
+Instruction 0x402d43: movzx eax, r8b	0	7	0x1abc087	0x3
+Instruction 0x402eb0: cmp edx, 0x4	0	7	0x3
+Instruction 0x402ecc: movzx edx, byte ptr [rbx+rbp*1+0x3]	0	10	0x1abc08a	0x0
+Instruction 0x402ed1: movzx edi, byte ptr [rbx+rbp*1+0x4]	0	11	0x1abc08b	0x8
+Instruction 0x402ed6: shl edx, 0x8	0	10	0x0
+Instruction 0x402ed9: add edx, edi	0	10	0x0
+Instruction 0x402ed9: add edx, edi	0	11	0x8
+Instruction 0x402ed9: add edx, edi	0	10,11	0x0
+Instruction 0x402ee7: movzx r15d, r12w	0	8,9	0x1abc088	0x2
+Instruction 0x402eeb: mov ebx, r15d	0	8,9	0x1abc088	0x2
+Instruction 0x402eee: sub ebx, eax	0	8,9	0x2
+Memory:	Taint	addr:7ffeaf7c7a38	src:1abc08a	offset:a	size:2	bigendian:1
+Instruction 0x40346a: mov dword ptr [rsp+0x8], edx	0	10,11	0x1abc08a	0x8
+Memory:	Untaint	addr:7ffeaf7c7a30	src:1abc087	offset:7	size:1	bigendian:0
+Function	0	enter	_modbus_tcp_build_response_basis	(40c7b0,40c7d6,40347d)
+Instruction 0x40c7b0: mov eax, dword ptr [rdi+0x8]	0	0,1	0x1abc080	0x111
+Instruction 0x40c7b3: sar eax, 0x8	0	0	0x111
+Memory:	Taint	addr:7ffeaf7c7a70	src:1abc080	offset:0	size:1	bigendian:1
+Instruction 0x40c7b6: mov byte ptr [rsi], al	0	0	0x1abc080	0x1
+Instruction 0x40c7b8: mov eax, dword ptr [rdi+0x8]	0	0,1	0x1abc080	0x111
+Memory:	Taint	addr:7ffeaf7c7a71	src:1abc081	offset:1	size:1	bigendian:1
+Instruction 0x40c7c3: mov byte ptr [rsi+0x1], al	0	1	0x1abc081	0x11
+Instruction 0x40c7c6: mov eax, dword ptr [rdi]	0	6	0x1abc086	0x1
+Memory:	Taint	addr:7ffeaf7c7a76	src:1abc086	offset:6	size:1	bigendian:0
+Instruction 0x40c7c8: mov byte ptr [rsi+0x6], al	0	6	0x1abc086	0x1
+Instruction 0x40c7cb: mov eax, dword ptr [rdi+0x4]	0	7	0x1abc087	0x3
+Memory:	Taint	addr:7ffeaf7c7a77	src:1abc087	offset:7	size:1	bigendian:0
+Instruction 0x40c7ce: mov byte ptr [rsi+0x7], al	0	7	0x1abc087	0x3
+Function	0	exit 	_modbus_tcp_build_response_basis
+Instruction 0x40347d: mov edx, dword ptr [rsp+0x8]	0	10,11	0x1abc08a	0x8
+Instruction 0x403488: add edx, edx	0	10,11	0x8
+Instruction 0x403488: add edx, edx	0	10,11	0x8
+Instruction 0x40348a: cmp ebx, ebp	0	8,9	0x2
+Memory:	Taint	addr:7ffeaf7c7a78	src:1abc08b	offset:b	size:1	bigendian:1
+Instruction 0x40348c: mov byte ptr [rsp+rcx*1+0x40], dl	0	11	0x1abc08b	0x10
+Instruction 0x40349c: movsxd rdx, ebx	0	8,9	0x1abc088	0x2
+Instruction 0x40349f: sub ecx, ebx	0	8,9	0x2
+Instruction 0x403158: test r13d, r13d	0	6	0x1
+Instruction 0x403158: test r13d, r13d	0	6	0x1
+Function	0	enter	send_msg	(4029e0,402b20,40316f)
+Memory:	Taint	addr:7ffeaf7c7a18	src:1abc086	offset:6	size:1	bigendian:0
+Instruction 0x4029e2: push r13	0	6	0x1abc086	0x1
+Memory:	Taint	addr:7ffeaf7c7a00	src:1abc088	offset:8	size:2	bigendian:1
+Instruction 0x4029ea: push rbx	0	8,9	0x1abc088	0x2
+Function	0	enter	_modbus_tcp_send_msg_pre	(40c7f0,40c800,4029fe)
+Function	0	exit 	_modbus_tcp_send_msg_pre
+Instruction 0x402a20: movzx edx, byte ptr [r13]	0	0	0x1abc080	0x1
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Instruction 0x402a20: movzx edx, byte ptr [r13]	0	1	0x1abc081	0x11
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Instruction 0x402a20: movzx edx, byte ptr [r13]	0	6	0x1abc086	0x1
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Instruction 0x402a20: movzx edx, byte ptr [r13]	0	7	0x1abc087	0x3
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Instruction 0x402a20: movzx edx, byte ptr [r13]	0	11	0x1abc08b	0x10
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	__printf_chk@plt	(401880,40188b,402a3a)
+Function	0	enter	putchar@plt	(401540,40154b,402a49)
+Function	0	enter	_modbus_tcp_send	(40cd40,40cd4b,402a58)
+Function	0	enter	send@plt	(401660,40166b,402a58)
+Instruction 0x402a71: pop rbx	0	8,9	0x1abc088	0x2
+Instruction 0x402a75: pop r13	0	6	0x1abc086	0x1
+Function	0	exit 	send_msg
+Function	0	exit 	modbus_reply
+Function	0	enter	select@plt	(401800,40180b,40b065)
+Function	0	enter	modbus_receive	(402730,402758,40b2cd)
+Function	0	enter	_modbus_tcp_receive	(40cd30,40cd32,40b2cd)
+Function	0	enter	_modbus_receive_msg	(4036f0,403c0e,40b2cd)
+Function	0	enter	puts@plt	(4015a0,4015ab,40373b)
+Function	0	enter	__fdelt_chk@plt	(401690,40169b,403755)
+Function	0	enter	_modbus_tcp_select	(40c980,40ca4c,4037e3)
+Function	0	enter	select@plt	(401800,40180b,40c9e9)
+Function	0	exit 	_modbus_tcp_select
+Function	0	enter	_modbus_tcp_recv	(40ca50,40ca58,403805)
+Function	0	enter	recv@plt	(401530,40153b,403805)
+Taint	(0x1abc080, 0)
+Function	0	enter	__errno_location@plt	(401570,40157b,403810)
+Function	0	enter	_error_print	(4021d0,40223d,403823)
+Function	0	enter	__errno_location@plt	(401570,40157b,4021e9)
+Function	0	enter	modbus_strerror	(4020b0,4021c0,4021f0)
+Function	0	enter	strerror@plt	(401980,40198b,4021f0)
+Function	0	enter	__fprintf_chk@plt	(401950,40195b,40220b)
+Function	0	enter	__fprintf_chk@plt	(401950,40195b,403823)
+Function	0	exit 	_modbus_receive_msg
+Function	0	enter	close@plt	(401710,40171b,40b38e)
+Function	0	enter	select@plt	(401800,40180b,40b065)
