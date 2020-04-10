@@ -230,7 +230,7 @@ class Memory {
             return memories[addr];
         }
         if (init) {
-            // MemT e; // fuck
+            // MemT e;
             memories[addr] = MemT();
             return memories[addr];
         }
