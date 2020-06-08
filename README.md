@@ -178,10 +178,16 @@ git clone --recursive https://github.com/automatak/dnp3.git
 mv dnp3 automatak && cd automatak
 mkdir build && cd build
 cmake .. && make install
-cd ../../
-./automatak/build/outstation-demo
+cd ../cpp/examples/outstation/
 ```
 
+main.cpp need to be modified. In line 76 : IPEndPoint("127.0.0.1", 4999), which is the configuration of IP address and port.
+
+```
+cmake .
+make
+./outstation-demo
+```
 
 
 #### snap7
