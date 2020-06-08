@@ -178,10 +178,8 @@ git clone --recursive https://github.com/automatak/dnp3.git
 mv dnp3 automatak && cd automatak
 mkdir build && cd build
 cmake .. && make install
-cd ../cpp/examples/outstation && cmake .
-make
 cd ../../
-./automatak/cpp/examples/outstation/outstation-demo
+./automatak/build/outstation-demo
 ```
 
 
