@@ -130,7 +130,6 @@ It is interesting that we found the test with modbus message `\x01\x11\x00\x00\x
 
 ```
 usRegCount = ( USHORT )( pucFrame[MB_PDU_FUNC_READ_REGCNT_OFF + 1] );
-
 ```
 it should be
 
