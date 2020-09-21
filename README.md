@@ -126,6 +126,18 @@ $(BIN): $(OBJS) $(NOLINK_OBJS) $(CC) $(LDFLAGS) $(OBJS) $(LDLIBS) -o $@
 $(BIN): $(OBJS) $(NOLINK_OBJS) $(CC) $(OBJS) $(LDLIBS) -o $@ $(LDFLAGS)
 ```
 
+It is interesting that we found the test with modbus message `\x01\x11\x00\x00\x00\x06\x01\x03\x00\x02\x00\x08` didn't come out with the right result, even with an offset as 65535, but after a deep inspection we figured it out that in /modbus/functions/mbfuncholding.c : line 185
+
+```
+usRegCount = ( USHORT )( pucFrame[MB_PDU_FUNC_READ_REGCNT_OFF + 1] );
+
+```
+it should be
+
+```
+usRegCount |= ( USHORT )( pucFrame[MB_PDU_FUNC_READ_REGCNT_OFF + 1] );
+```
+Modifying and making, we now have the right result XD
 
 
 #### gec-dnp3
