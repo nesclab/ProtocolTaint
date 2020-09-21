@@ -29,7 +29,7 @@ pin -t obj-intel64/inscount0.so -- /bin/ls
 cat inscount.out
 ```
 
-There may be some error at the step `pin -t obj-intel64/inscount0.so -- /bin/ls` because pin-3.2 is designed for Kernel 3.X and Ubuntu 16.04 's Kernel is 4.15. To bypass the kernel check, the command should be modified to `pin -t obj-intel64/inscount0.so -- /bin/ls`. If the pin is successfully set up, you will see the count number in terminal. 
+There may be some error at the step `pin -t obj-intel64/inscount0.so -- /bin/ls` because pin-3.2 is designed for Kernel 3.X and Ubuntu 16.04 's Kernel is 4.15. To bypass the kernel check, the command should be modified to `pin -ifeellucky -t obj-intel64/inscount0.so -- /bin/ls`. If the pin is successfully set up, you will see the count number in terminal. 
 
 ```
 git clone https://github.com/nesclab/ProtocolTaint.git
