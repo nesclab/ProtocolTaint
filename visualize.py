@@ -284,6 +284,8 @@ for line in lines:
             readv = read
         elif content[3].count(';') > 0:
             writev, readv = content[3].split(';')
+        else:
+            readv = content[3]
         if assembly.startswith("cmp"):
             data = data.strip(';')
             if data not in cmplog:
